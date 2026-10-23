@@ -2,17 +2,19 @@
 
 The archive includes a complete static website and a [GitHub Actions deployment workflow](../.github/workflows/pages.yml). No external map service, build framework, API key or paid hosting plan is required for this public repository.
 
+**The site is live at [ding-ding-projects.github.io/go-bus-history-maps](https://ding-ding-projects.github.io/go-bus-history-maps/).** The [first deployment](https://github.com/Ding-Ding-Projects/go-bus-history-maps/actions/runs/40028694022) succeeded on 23 October 2026. The live homepage, search, route 52 historical map and representative PDF/CSV downloads were verified after deployment. The initial-activation instructions below are for setting up a new copy or restoring a disabled Pages configuration.
+
 ## Initial activation
 
 A repository administrator or maintainer needs to select **Settings → Pages → Build and deployment → Source → GitHub Actions** once. The normal workflow token can deploy an enabled site; it cannot create the initial Pages configuration.
 
 If a workflow ran before activation and stopped at **Configure Pages**, rerun that workflow after selecting GitHub Actions. Otherwise, the next push to `main` starts deployment. The workflow also supports **Actions → Deploy GO Bus History Maps → Run workflow**.
 
-The expected project URL is:
+The project URL is:
 
 **https://ding-ding-projects.github.io/go-bus-history-maps/**
 
-The deployment is live only when the workflow succeeds and the URL serves the archive. The URL above is a deployment target, not evidence of a successful deployment by itself.
+For subsequent updates, a successful deployment requires both a successful workflow and the expected content at the public URL.
 
 ## What gets published
 

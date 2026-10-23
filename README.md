@@ -6,6 +6,7 @@ A source-backed archive of GO bus routes, organized numerically. Each route fold
 
 ## Browse the archive
 
+- **[Explore the live website](https://ding-ding-projects.github.io/go-bus-history-maps/)** — search the route collection, choose a dated map and follow its ordered stops.
 - **[Download the illustrated PDF guide](pdfs/GO-Bus-History-Guide.pdf)** — map examples, reading instructions and an index of all route PDFs.
 - **[Route index](#routes-in-numerical-order)** — open a route to read its history and view the SVG maps directly on GitHub.
 - **[Coverage by route](docs/COVERAGE.md)** — see which dates, versions and historical locations are established.
@@ -14,6 +15,8 @@ A source-backed archive of GO bus routes, organized numerically. Each route fold
 - **[Route 52](routes/52/README.md)** includes the twenty documentary corridor reconstructions from the original route-history project, as well as four original GTFS snapshots.
 
 Each route and named legacy corridor also has a PDF for reading or printing, with its sourced history, dated maps, numbered stop lists and navigation bookmarks. Use the **PDF** column in the route index below. Older versions preserve the original timing-point or major-stop limits; a PDF does not add undocumented roadside stops.
+
+[![The live GO Bus History Atlas homepage](docs/images/go-atlas-live-1792791902826.jpg)](https://ding-ding-projects.github.io/go-bus-history-maps/)
 
 ## What is included
 
@@ -57,7 +60,7 @@ Unknown historical locations remain in their correct stop sequence with blank co
 
 ## Open the interactive maps
 
-The website has a searchable route catalog, a geographic network overview, interactive maps by evidence date and branch, ordered stop lists, sourced chronologies, and direct PDF downloads. It is prepared for GitHub Pages at **https://ding-ding-projects.github.io/go-bus-history-maps/**. The [deployment workflow](.github/workflows/pages.yml) publishes the site after changes to `main`; initial activation is described in [GitHub Pages setup](docs/PUBLISHING.md).
+The website has a searchable route catalog, a geographic network overview, interactive maps by evidence date and branch, ordered stop lists, sourced chronologies, and direct PDF downloads. **[Open the live GitHub Pages website](https://ding-ding-projects.github.io/go-bus-history-maps/).** The [deployment workflow](.github/workflows/pages.yml) publishes the site after changes to `main`; maintenance and setup are described in [GitHub Pages publishing](docs/PUBLISHING.md).
 
 GitHub also renders the README pages, CSV tables and SVG files directly. To run the same website locally, download or clone the repository, open a terminal in its folder, and run:
 

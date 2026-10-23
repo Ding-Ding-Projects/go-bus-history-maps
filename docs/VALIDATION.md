@@ -40,6 +40,10 @@ After the visual redesign, an independent static audit checked all 63 content pa
 
 A separate HTTP check mounted the site beneath `/go-bus-history-maps/`, matching the GitHub Pages project path. All 537 unique page, asset, route-data, snapshot and download targets returned HTTP 200; HTML, CSS, JSON, SVG and PDF responses had their expected content types. The deployment workflow's staged file scope includes the network graphic, favicon, 404 page, documentation and every PDF, while excluding Git history and research scripts. These local checks establish path compatibility; the release process separately verifies the live deployment.
 
+## Live GitHub Pages deployment
+
+The [first Pages deployment](https://github.com/Ding-Ding-Projects/go-bus-history-maps/actions/runs/40028694022) succeeded on 23 October 2026. The [public homepage](https://ding-ding-projects.github.io/go-bus-history-maps/) loaded all 60 route cards; searching for 52 returned the correct family. The featured 2017 route 52 link loaded its historical map, nine ordered major stops and 15 history entries. The guide PDF, route 52 PDF, route 40 PDF and route 52 CSV returned HTTP 200 with the expected content types and hashes identical to the local files. All 1,112 repository files in the website commit were independently checked against their published Git object hashes.
+
 ## Illustrated PDFs
 
 The collection contains 62 route and legacy volumes, totaling 2,472 pages, plus an eight-page illustrated reader's guide. [The PDF manifest](../data/pdf-manifest.json) records each route file's page count, size and exact pattern-to-page index.
