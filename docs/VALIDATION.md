@@ -36,6 +36,10 @@ The local viewer was exercised in Chromium at desktop width and at a 390-pixel p
 
 SVG map files and page layouts were also visually inspected. The application loads its assets and data locally and makes no map-tile or analytics requests. GitHub's HTML file view is not a running deployment; the README explains how to open the interactive viewer through a local HTTP server.
 
+After the visual redesign, an independent static audit checked all 63 content pages plus the custom 404 page. All 1,326 local links, asset references and fragment targets resolved to existing files or page anchors. The 60 numbered families remain numerically sorted, their catalog counts sum to 1,428 patterns, and both legacy corridors remain separate. All 63 PDFs are linked, including the 62 route and legacy volumes and the illustrated guide. The featured route 52 link selects the existing `52-p2017` pattern in the historical dataset, documented on 2 September 2017. JavaScript syntax validation passed.
+
+A separate HTTP check mounted the site beneath `/go-bus-history-maps/`, matching the GitHub Pages project path. All 537 unique page, asset, route-data, snapshot and download targets returned HTTP 200; HTML, CSS, JSON, SVG and PDF responses had their expected content types. The deployment workflow's staged file scope includes the network graphic, favicon, 404 page, documentation and every PDF, while excluding Git history and research scripts. These local checks establish path compatibility; the release process separately verifies the live deployment.
+
 ## Illustrated PDFs
 
 The collection contains 62 route and legacy volumes, totaling 2,472 pages, plus an eight-page illustrated reader's guide. [The PDF manifest](../data/pdf-manifest.json) records each route file's page count, size and exact pattern-to-page index.

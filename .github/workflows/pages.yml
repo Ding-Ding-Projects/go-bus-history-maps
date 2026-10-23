@@ -1,0 +1,56 @@
+name: Deploy GO Bus History Maps
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the archive
+        uses: actions/checkout@v4
+
+      # Enable Pages once in repository Settings > Pages > GitHub Actions.
+      # The workflow token can deploy an existing site but cannot create it.
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Stage the published site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          cp index.html .nojekyll _site/
+          for directory in assets data routes legacy pdfs docs; do
+            if [[ -d "$directory" ]]; then
+              cp -a "$directory" "_site/$directory"
+            fi
+          done
+          for file in README.md LICENSE LICENSE.md CREDITS.md 404.html; do
+            if [[ -f "$file" ]]; then
+              cp "$file" _site/
+            fi
+          done
+
+      - name: Upload the site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

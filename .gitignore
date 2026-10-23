@@ -3,6 +3,7 @@ __pycache__/
 .DS_Store
 .cache/
 node_modules/
+_site/
 qa-output/
 tmp/
 *.zip

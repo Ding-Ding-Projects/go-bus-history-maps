@@ -185,18 +185,74 @@ def schematic_svg(title, subtitle, pattern):
 
 
 def route_html(route):
-    pdf_filename = f"route-{str(route).zfill(2)}-history.pdf" if str(route).isdigit() else f"{route}-history.pdf"
+    is_numeric = str(route).isdigit()
+    pdf_filename = f"route-{str(route).zfill(2)}-history.pdf" if is_numeric else f"{route}-history.pdf"
+    route_label = f"Route {route}" if is_numeric else "Named legacy corridor"
+    number_label = route if is_numeric else "LOCAL"
+    legacy_class = "" if is_numeric else " is-legacy"
+    repo_folder = f"routes/{str(route).zfill(2)}" if is_numeric else f"legacy/{route}"
     return f'''<!doctype html>
-<html lang="en" data-root="../../" data-route="{route}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>GO {route} · Route history</title><link rel="stylesheet" href="../../assets/style.css"><script defer src="../../assets/map.js"></script></head><body><div class="shell">
-<header class="topbar"><a class="brand" href="../../index.html">GO bus <span>history maps</span></a><a href="README.md">Read route folder ↗</a></header>
-<main><section class="route-hero"><div class="eyebrow"><a href="../../index.html">All routes</a> / Route {route} / <span id="route-status"></span></div><div class="route-heading"><span class="number" id="route-number">{route}</span><div><h1 id="route-title">Loading route history…</h1><p class="lede" id="route-description"></p><nav class="route-links"><a href="{pdf_filename}" download><strong>Download history PDF ↓</strong></a><a href="#history">History</a><a href="#source-heading">Sources</a><a href="stops.csv" download>Stop lists CSV ↓</a><a href="maps.geojson" download>Map data GeoJSON ↓</a><a href="archive-sources.json">Timetable archive</a></nav></div></div></section>
-<div id="app-status" class="loading" role="status">Loading original route data…</div>
-<section class="map-workspace" aria-label="Historical route map"><div class="map-controls"><div class="field"><label for="version">1 · Choose the evidence date</label><select id="version"></select></div><div class="field"><label for="pattern">2 · Choose a branch and direction</label><select id="pattern"></select></div></div>
-<div class="map-grid"><div class="map-panel"><div class="map-heading"><b id="pattern-heading"></b><span id="pattern-dates"></span></div><svg id="map" class="map-canvas" viewBox="0 0 1000 570" tabindex="0" aria-label="Geographic route map. Drag to pan. Use plus, minus, or zero to zoom or reset."></svg><div class="map-tools"><button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><button id="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><button id="fit-map" title="Fit route" aria-label="Fit route">⌂</button></div><div class="map-caption"><div id="map-note"></div><div class="source-links" id="pattern-source"></div><p id="map-description">Numbers connect the markers to the ordered list. Click a marker to find its stop. Solid lines follow supplied or reconstructed corridors; dashed lines connect stop areas schematically.</p></div></div><aside class="stops-panel" aria-label="Ordered stops"><div class="stops-title"><strong id="stop-count">Stop sequence</strong></div><ol class="stop-list" id="stops"></ol></aside></div></section>
-<details id="service-detail" hidden><summary>Exact service dates in the selected GTFS pattern</summary><p id="service-dates"></p></details>
-<div class="route-bottom"><section id="history"><h2>Route history</h2><ol id="timeline" class="timeline"></ol></section><aside><section class="gaps"><h3>What the evidence covers</h3><ul id="gaps"></ul><a href="../../docs/METHODOLOGY.md">How the maps were made</a></section><h2 id="source-heading" style="margin-top:28px">Sources</h2><ol id="sources" class="source-list"></ol></aside></div></main>
-<footer class="footer"><nav><a href="../../index.html">All route histories</a><a href="../../docs/COVERAGE.md">Coverage</a><a href="../../docs/SOURCES.md">Attribution</a></nav><p>{LEGEND}</p><p>Ontario municipality geometry: Ontario Ministry of Natural Resources, Open Government Licence – Ontario. Historical stop areas do not establish the location of an old bus platform. This is an independent history archive, not a live trip planner.</p></footer></div></body></html>\n'''
-
+<html lang="en" data-root="../../" data-route="{route}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the documented history, dated maps, branches and ordered stops of {route_label}. Original sources and a complete route-history PDF accompany the map.">
+  <meta name="theme-color" content="#16392e">
+  <title>{route_label} · GO Bus History Atlas</title>
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <script defer src="../../assets/map.js"></script>
+</head>
+<body class="route-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="../../index.html" aria-label="GO Bus History Atlas home"><span class="brand-mark" aria-hidden="true">GO<span>↗</span></span><span class="brand-name">BUS HISTORY<span>THE INDEPENDENT ATLAS</span></span></a>
+      <nav class="topnav" aria-label="Main navigation"><a class="nav-all-routes" href="../../index.html#route-directory">All routes</a><a href="../../index.html#reading-the-atlas">Reading the maps</a><a class="nav-download" href="../../pdfs/GO-Bus-History-Guide.pdf">PDF guide <span aria-hidden="true">↓</span></a><a class="nav-github" href="https://github.com/Ding-Ding-Projects/go-bus-history-maps" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main-content">
+      <section class="route-hero{legacy_class}" aria-labelledby="route-title">
+        <div class="breadcrumbs"><a href="../../index.html#route-directory">The route collection</a><span class="separator" aria-hidden="true">/</span><span>{route_label}</span><span class="separator" aria-hidden="true">/</span><span id="route-status" class="badge"></span></div>
+        <div class="route-heading">
+          <span class="number" id="route-number">{number_label}</span>
+          <div><h1 id="route-title">Opening this route’s history…</h1><p class="lede" id="route-description"></p>
+            <div class="route-actions"><a class="button button-dark" href="{pdf_filename}">Read the route PDF <span aria-hidden="true">↓</span></a><a class="text-link" href="#map-explorer">Explore the map <span aria-hidden="true">↗</span></a><a class="text-link" href="#history">Read the history</a><a class="text-link" href="#source-heading">Original sources</a></div>
+            <div class="route-facts"><span><strong id="detail-pattern-count">—</strong> documented patterns</span><span><strong id="detail-evidence-count">—</strong> <span id="detail-evidence-label">original feed captures</span></span><span><strong id="detail-history-count">—</strong> history entries</span></div>
+          </div>
+        </div>
+      </section>
+      <div id="app-status" class="loading" role="status">Opening the original route evidence…</div>
+      <noscript><p class="notice">The interactive map needs JavaScript. The <a href="{pdf_filename}">route PDF</a> includes its sourced history, maps and numbered stops.</p></noscript>
+      <section class="route-explorer" id="map-explorer" aria-labelledby="explorer-title">
+        <div class="section-heading"><div><div class="eyebrow">01 / FOLLOW A DOCUMENTED VERSION</div><h2 id="explorer-title">A route, in its time.</h2></div><p>Choose an evidence date, then a branch and direction. The map and numbered stop list follow your selection.</p></div>
+        <div class="map-workspace" aria-label="Historical route map">
+          <div class="map-controls"><div class="field"><label for="version"><span class="step" aria-hidden="true">1</span> Choose the evidence date</label><select id="version"></select></div><div class="field"><label for="pattern"><span class="step" aria-hidden="true">2</span> Choose a branch &amp; direction</label><select id="pattern"></select></div></div>
+          <div class="map-grid">
+            <div class="map-panel">
+              <div class="map-heading"><span class="map-evidence" id="map-evidence">Original evidence</span><b id="pattern-heading"></b><span id="pattern-dates"></span></div>
+              <div class="map-drawing"><svg id="map" class="map-canvas" viewBox="0 0 1000 570" tabindex="0" aria-label="Geographic route map. Drag to pan. Use plus, minus, or zero to zoom or reset." aria-describedby="map-description"></svg><span class="map-orientation" aria-hidden="true">N<span>↑</span></span><div class="map-tools"><button id="zoom-in" type="button" title="Zoom in" aria-label="Zoom in">+</button><button id="zoom-out" type="button" title="Zoom out" aria-label="Zoom out">−</button><button id="fit-map" type="button" title="Show the whole route" aria-label="Reset map to the whole route">↺</button></div></div>
+              <div class="map-caption"><div id="map-note"></div><div class="source-links" id="pattern-source"></div><p id="map-description">Numbers connect map markers to the ordered list. Select a marker to find its stop. Drag the map to pan, or use the zoom controls for a closer look.</p></div>
+            </div>
+            <aside class="stops-panel" aria-label="Ordered stops"><div class="stops-title"><div class="eyebrow">THE JOURNEY, IN ORDER</div><strong id="stop-count">Stop sequence</strong><p>Numbers match the markers on the map.</p></div><ol class="stop-list" id="stops"></ol></aside>
+          </div>
+        </div>
+        <div class="map-reading-note"><span><i aria-hidden="true"></i> Supplied or explicitly reconstructed corridor</span><span><i class="dash" aria-hidden="true"></i> Schematic stop connections</span><span>Historical stop areas do not establish old bus bays.</span></div>
+        <details id="service-detail" class="service-detail" hidden><summary>Exact scheduled dates in this source capture</summary><p id="service-dates"></p></details>
+      </section>
+      <section class="route-downloads" aria-labelledby="route-download-title"><div><h3 id="route-download-title">Keep exploring, your way.</h3><p>Read the illustrated volume or work with the documented stops and map data.</p></div><nav aria-label="Route downloads"><a href="{pdf_filename}">History PDF ↓</a><a href="stops.csv" download>Stop lists CSV ↓</a><a href="maps.geojson" download>Map data GeoJSON ↓</a><a href="https://github.com/Ding-Ding-Projects/go-bus-history-maps/tree/main/{repo_folder}" target="_blank" rel="noopener noreferrer">Route folder ↗</a></nav></section>
+      <div class="route-bottom">
+        <section id="history"><div class="eyebrow">02 / THE DOCUMENTED HISTORY</div><h2>The story of this route.</h2><ol id="timeline" class="timeline"></ol></section>
+        <aside><section class="gaps"><h3>What the evidence covers</h3><ul id="gaps"></ul><a href="https://github.com/Ding-Ding-Projects/go-bus-history-maps/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">How the maps were made ↗</a></section><section class="sources-section" aria-labelledby="source-heading"><div class="eyebrow">BACK TO THE ORIGINALS</div><h2 id="source-heading">Sources &amp; references.</h2><ol id="sources" class="source-list"></ol><a class="source-archive" href="archive-sources.json">Related timetable archive links ↓</a></section></aside>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-top"><a class="brand" href="../../index.html"><span class="brand-mark" aria-hidden="true">GO<span>↗</span></span><span class="brand-name">BUS HISTORY<span>THE INDEPENDENT ATLAS</span></span></a><p>A region in motion.<br>A record worth keeping.</p></div>
+      <nav aria-label="Footer navigation"><a href="../../index.html#route-directory">All route histories</a><a href="../../pdfs/GO-Bus-History-Guide.pdf">Illustrated PDF guide ↓</a><a href="https://github.com/Ding-Ding-Projects/go-bus-history-maps/blob/main/docs/COVERAGE.md">Coverage &amp; research gaps ↗</a><a href="https://github.com/Ding-Ding-Projects/go-bus-history-maps/blob/main/docs/SOURCES.md">Sources &amp; attribution ↗</a></nav>
+      <div class="footer-fine"><p>{LEGEND}</p><p>Basemap: Ontario Ministry of Natural Resources, Open Government Licence – Ontario. Historical stop areas do not establish the location of an old bus platform. This is an independent history archive, not a live trip planner.</p><p>Research edition: 23 October 2026. A capture date identifies the archived source; the selected pattern carries its documented or scheduled operating dates.</p></div>
+    </footer>
+  </div>
+</body>
+</html>\n'''
 
 def build_legacy(research_dir, locations, aliases, land, unlocated):
     source = research_dir / "legacy-corridors.json"

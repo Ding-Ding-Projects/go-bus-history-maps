@@ -57,7 +57,9 @@ Unknown historical locations remain in their correct stop sequence with blank co
 
 ## Open the interactive maps
 
-GitHub renders the README pages, CSV tables and SVG files directly. To use the interactive HTML viewer, download or clone the repository, open a terminal in its folder, and run:
+The website has a searchable route catalog, a geographic network overview, interactive maps by evidence date and branch, ordered stop lists, sourced chronologies, and direct PDF downloads. It is prepared for GitHub Pages at **https://ding-ding-projects.github.io/go-bus-history-maps/**. The [deployment workflow](.github/workflows/pages.yml) publishes the site after changes to `main`; initial activation is described in [GitHub Pages setup](docs/PUBLISHING.md).
+
+GitHub also renders the README pages, CSV tables and SVG files directly. To run the same website locally, download or clone the repository, open a terminal in its folder, and run:
 
 ```sh
 python -m http.server 8000
@@ -65,7 +67,7 @@ python -m http.server 8000
 
 Open **http://localhost:8000** in your browser. Choose a route, an evidence date, and a branch/direction. The ordered stop list follows the chosen pattern. Opening the HTML directly with `file://` can prevent the browser from loading its JSON data.
 
-The viewer needs no package installation, external map tiles, API keys or JavaScript framework. This contribution does not configure public website hosting.
+The viewer needs no package installation, external map tiles, API keys or JavaScript framework. All site paths are relative so route maps and downloads work under the GitHub Pages project path.
 
 ## Routes in numerical order
 
