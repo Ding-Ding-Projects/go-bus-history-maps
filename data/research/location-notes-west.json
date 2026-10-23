@@ -1,0 +1,26 @@
+{
+  "alias_count": 69,
+  "unmatched_from_parent_list": [
+    "Bolton, Albion Vaughan / Industrial",
+    "Bramalea City Centre Terminal",
+    "Bramalea City Centre Terminal, Clark Boulevard",
+    "Malton, Airport / Derry",
+    "Milton, Main / Martin",
+    "Niagara-on-the-Lake",
+    "Orangeville Carpool Lot, Broadway / Highway 10",
+    "Orangeville Park & Ride, Townline / Green",
+    "Rockwood, Alma / Main",
+    "Shoppers World, Hurontario / Bartley Bull",
+    "Toronto, Dixon / Martin Grove",
+    "Georgetown, Main / Wesleyan"
+  ],
+  "notes": [
+    "No inferred match for the old Bramalea City Centre terminal on Clark Boulevard; modern Central Park Drive terminal is a different site.",
+    "No forced match for Orangeville Townline/Green versus the later Townline/Mill lot, or Broadway/Highway10 versus BuenaVista.",
+    "Unlocated street intersections are retained as named historical timepoints.",
+    "All alias coordinate objects distinguish reference stop area from a verified historical bay.",
+    "Cambridge locations additionally use official Region of Waterloo station data and the original 2017 GRT map.",
+    "Route17 manual versions now specify University of Waterloo Terminal to avoid automatic matching to the former Davis Centre stop.",
+    "Georgetown Main/Wesleyan is a newly retained, still unlocated timepoint on verified trip31831."
+  ]
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "id": "42-2004-bolton",
+    "label": "York Mills–Bolton weekday route",
+    "date": "2004-09-04",
+    "branch": "42 (Bolton)",
+    "direction": "northbound",
+    "stops": [
+      {
+        "name": "York Mills GO Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Etobicoke North GO",
+        "lat": 43.7066917,
+        "lon": -79.565712,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Etobicoke North GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hwy. 27 @ Humber College Blvd.",
+        "lat": 43.7303085,
+        "lon": -79.6012726,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hwy. 27  @ Humber College Blvd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Rutherford Rd. @ Vaughan Mills Rd.",
+        "lat": 43.8132133,
+        "lon": -79.6167603,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Rutherford Rd.  @ Vaughan Mills Rd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Islington Ave. @ Nashville Rd. — Kleinburg",
+        "lat": 43.844368,
+        "lon": -79.6291428,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Islington Ave.  @ Nashville Rd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "King Rd. @ Hwy. 27 — Nobleton",
+        "lat": 43.902181,
+        "lon": -79.6527003,
+        "location_source": "https://www.openstreetmap.org/node/252357617",
+        "accuracy": "published junction reference; historic platform unverified",
+        "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+      },
+      {
+        "name": "King St. @ Humber Lea Rd. — Bolton",
+        "lat": 43.8823891,
+        "lon": -79.7349701,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "King St. E.  @  Humber Lea Rd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Queen St. @ Queensgate Blvd. — Bolton",
+        "lat": 43.8689957,
+        "lon": -79.7231979,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Regional Rd. 50  @ Queensgate Blvd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Albion-Vaughan Rd. @ Industrial Rd. — Bolton",
+        "lat": 43.8616011,
+        "lon": -79.7033731,
+        "location_source": "https://www.openstreetmap.org/node/391885340",
+        "accuracy": "published junction reference; historic platform unverified",
+        "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf"
+    ],
+    "notes": "Ordered major bus timing points from the original. Excludes Union Station, which is a train connection shown in the shared table. Route identity is corroborated by the April 2008 renumbering notice.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4064636,
+          43.745079
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.565712,
+          43.7066917
+        ],
+        [
+          -79.6012726,
+          43.7303085
+        ],
+        [
+          -79.6167603,
+          43.8132133
+        ],
+        [
+          -79.6291428,
+          43.844368
+        ],
+        [
+          -79.6527003,
+          43.902181
+        ],
+        [
+          -79.7349701,
+          43.8823891
+        ],
+        [
+          -79.7231979,
+          43.8689957
+        ],
+        [
+          -79.7033731,
+          43.8616011
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major bus timing points from the original. Excludes Union Station, which is a train connection shown in the shared table. Route identity is corroborated by the April 2008 renumbering notice."
+  }
+]

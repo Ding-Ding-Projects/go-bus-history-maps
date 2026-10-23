@@ -1,0 +1,230 @@
+[
+  {
+    "route": "11",
+    "pattern": "11-2012-notl",
+    "stop": "Niagara-on-the-Lake",
+    "source": "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html"
+  },
+  {
+    "route": "21",
+    "pattern": "21-2007-local",
+    "stop": "Milton, Main / Martin",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+  },
+  {
+    "route": "21",
+    "pattern": "21-2007-express",
+    "stop": "Milton, Main / Martin",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+  },
+  {
+    "route": "27",
+    "pattern": "27-2008-finch",
+    "stop": "Milton, Main / Martin",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+  },
+  {
+    "route": "27",
+    "pattern": "27-2008-york-mills",
+    "stop": "Milton, Main / Martin",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+  },
+  {
+    "route": "31",
+    "pattern": "31-2013-brampton",
+    "stop": "Shoppers World, Hurontario / Bartley Bull",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+  },
+  {
+    "route": "31",
+    "pattern": "31-2007-corridor",
+    "stop": "Shoppers World, Hurontario / Bartley Bull",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+  },
+  {
+    "route": "31",
+    "pattern": "31-2007-corridor",
+    "stop": "Georgetown, Main / Wesleyan",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+  },
+  {
+    "route": "31",
+    "pattern": "31-2007-corridor",
+    "stop": "Rockwood, Alma / Main",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+  },
+  {
+    "route": "32",
+    "pattern": "32-2006",
+    "stop": "Bramalea City Centre Terminal, Clark Boulevard",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf"
+  },
+  {
+    "route": "33",
+    "pattern": "33-2007",
+    "stop": "Rockwood, Alma / Main",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+  },
+  {
+    "route": "34",
+    "pattern": "34-2012-brampton",
+    "stop": "Malton, Airport / Derry",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+  },
+  {
+    "route": "34",
+    "pattern": "34-2012-brampton",
+    "stop": "Toronto, Dixon / Martin Grove",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+  },
+  {
+    "route": "37",
+    "pattern": "37-2009-main",
+    "stop": "Orangeville Park & Ride, Townline / Green",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+  },
+  {
+    "route": "37",
+    "pattern": "37-2009-main",
+    "stop": "Orangeville Carpool Lot, Broadway / Highway 10",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+  },
+  {
+    "route": "37",
+    "pattern": "37-2009-bramalea",
+    "stop": "Orangeville Park & Ride, Townline / Green",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+  },
+  {
+    "route": "37",
+    "pattern": "37-2009-bramalea",
+    "stop": "Orangeville Carpool Lot, Broadway / Highway 10",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+  },
+  {
+    "route": "37",
+    "pattern": "37-2009-bramalea",
+    "stop": "Bramalea City Centre Terminal",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+  },
+  {
+    "route": "38",
+    "pattern": "38-2008-highway27",
+    "stop": "Bolton, Albion Vaughan / Industrial",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+  },
+  {
+    "route": "61",
+    "pattern": "61-2005-leslie",
+    "stop": "Leslie St / Highway 401",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+  },
+  {
+    "route": "62",
+    "pattern": "62-2004-langstaff",
+    "stop": "Langstaff GO — north lot",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html"
+  },
+  {
+    "route": "68",
+    "pattern": "68-2009-main",
+    "stop": "Barrie St / John St — Bradford",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+  },
+  {
+    "route": "68",
+    "pattern": "68-2009-a",
+    "stop": "Barrie St / John St — Bradford",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+  },
+  {
+    "route": "69",
+    "pattern": "69-2008-main",
+    "stop": "Queensville — Leslie St / Queensville Sdrd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+  },
+  {
+    "route": "69",
+    "pattern": "69-2008-a",
+    "stop": "Queensville — Leslie St / Queensville Sdrd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+  },
+  {
+    "route": "69",
+    "pattern": "69-2008-b",
+    "stop": "Queensville — Leslie St / Queensville Sdrd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+  },
+  {
+    "route": "69",
+    "pattern": "69-2008-c",
+    "stop": "Queensville — Leslie St / Queensville Sdrd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+  },
+  {
+    "route": "71",
+    "pattern": "71-2006-main",
+    "stop": "Stouffville — Tenth Line / Bethesda Rd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+  },
+  {
+    "route": "71",
+    "pattern": "71-2006-uxbridge-connector",
+    "stop": "Stouffville — Tenth Line / Bethesda Rd",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+  },
+  {
+    "route": "94",
+    "pattern": "94-2007-hwy2",
+    "stop": "Ajax GO Bus Terminal — Harwood Ave",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2008-12-03-table-94-pickering-mississauga.pdf"
+  },
+  {
+    "corridor": "bayview",
+    "pattern": "bayview-2003-north",
+    "stop": "Richmond Hill — S. Taylor Mills (historical timing point; location unresolved)",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html"
+  },
+  {
+    "corridor": "bayview",
+    "pattern": "bayview-2003-north",
+    "stop": "Richmond Hill — Bayview Plaza (historical terminus; location unresolved)",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html"
+  },
+  {
+    "corridor": "bayview",
+    "pattern": "bayview-2003-south",
+    "stop": "Richmond Hill — Bayview Plaza (historical terminus; location unresolved)",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day6-page1.html"
+  },
+  {
+    "corridor": "yonge-c",
+    "pattern": "yonge-c-2003-north",
+    "stop": "Yonge St. @ Major Mackenzie Dr.",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-01-04-table-52-oshawa-oakville-dir1-day1-page1.html"
+  },
+  {
+    "corridor": "yonge-c",
+    "pattern": "yonge-c-2003-north",
+    "stop": "Bernard Terminal",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-01-04-table-52-oshawa-oakville-dir1-day1-page1.html"
+  },
+  {
+    "corridor": "yonge-c",
+    "pattern": "yonge-c-2003-south",
+    "stop": "Bernard Terminal",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+  },
+  {
+    "corridor": "yonge-c",
+    "pattern": "yonge-c-2003-south",
+    "stop": "Yonge St. @ Major Mackenzie Dr.",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+  },
+  {
+    "corridor": "yonge-c",
+    "pattern": "yonge-c-2003-harding",
+    "stop": "Yonge St. @ Major Mackenzie Dr.",
+    "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+  }
+]

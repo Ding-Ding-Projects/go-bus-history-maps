@@ -1,0 +1,330 @@
+[
+  {
+    "roads": [
+      "Bayview Avenue",
+      "John Street"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 446455831,
+        "lat": 43.8185932,
+        "lon": -79.4010266
+      },
+      {
+        "type": "node",
+        "id": 446455868,
+        "lat": 43.8186862,
+        "lon": -79.401049
+      },
+      {
+        "type": "node",
+        "id": 446455925,
+        "lat": 43.8185664,
+        "lon": -79.4011785
+      },
+      {
+        "type": "node",
+        "id": 446455927,
+        "lat": 43.8186592,
+        "lon": -79.4012005
+      }
+    ],
+    "lon": -79.40111365,
+    "lat": 43.81862625,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/446455831",
+      "https://www.openstreetmap.org/node/446455868",
+      "https://www.openstreetmap.org/node/446455925",
+      "https://www.openstreetmap.org/node/446455927"
+    ]
+  },
+  {
+    "roads": [
+      "Bayview Avenue",
+      "16th Avenue"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 7431146578,
+        "lat": 43.8577292,
+        "lon": -79.4110816
+      },
+      {
+        "type": "node",
+        "id": 7431146579,
+        "lat": 43.8578398,
+        "lon": -79.4111083
+      },
+      {
+        "type": "node",
+        "id": 7431146580,
+        "lat": 43.8578759,
+        "lon": -79.410954
+      },
+      {
+        "type": "node",
+        "id": 7431146581,
+        "lat": 43.8577628,
+        "lon": -79.4109293
+      }
+    ],
+    "lon": -79.4110183,
+    "lat": 43.857801925000004,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/7431146578",
+      "https://www.openstreetmap.org/node/7431146579",
+      "https://www.openstreetmap.org/node/7431146580",
+      "https://www.openstreetmap.org/node/7431146581"
+    ]
+  },
+  {
+    "roads": [
+      "Bayview Avenue",
+      "Major Mackenzie Drive East"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 441928821,
+        "lat": 43.8760617,
+        "lon": -79.4155351
+      },
+      {
+        "type": "node",
+        "id": 441928825,
+        "lat": 43.8759569,
+        "lon": -79.4155119
+      },
+      {
+        "type": "node",
+        "id": 441928832,
+        "lat": 43.8760915,
+        "lon": -79.4153651
+      },
+      {
+        "type": "node",
+        "id": 441928855,
+        "lat": 43.8759853,
+        "lon": -79.4153423
+      }
+    ],
+    "lon": -79.4154386,
+    "lat": 43.87602385,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/441928821",
+      "https://www.openstreetmap.org/node/441928825",
+      "https://www.openstreetmap.org/node/441928832",
+      "https://www.openstreetmap.org/node/441928855"
+    ]
+  },
+  {
+    "roads": [
+      "Yonge Street",
+      "Royal Orchard Boulevard"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 446426147,
+        "lat": 43.8228234,
+        "lon": -79.4258805
+      },
+      {
+        "type": "node",
+        "id": 446426153,
+        "lat": 43.8227889,
+        "lon": -79.4260508
+      }
+    ],
+    "lon": -79.42596565,
+    "lat": 43.82280615,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/446426147",
+      "https://www.openstreetmap.org/node/446426153"
+    ]
+  },
+  {
+    "roads": [
+      "Yonge Street",
+      "Garden Avenue"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 88576277,
+        "lat": 43.8392451,
+        "lon": -79.4298021
+      },
+      {
+        "type": "node",
+        "id": 88576415,
+        "lat": 43.8391377,
+        "lon": -79.4297868
+      }
+    ],
+    "lon": -79.42979445,
+    "lat": 43.839191400000004,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/88576277",
+      "https://www.openstreetmap.org/node/88576415"
+    ]
+  },
+  {
+    "roads": [
+      "Yonge Street",
+      "Baif Boulevard"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 304966148,
+        "lat": 43.8584281,
+        "lon": -79.4343842
+      }
+    ],
+    "lon": -79.4343842,
+    "lat": 43.8584281,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/304966148"
+    ]
+  },
+  {
+    "roads": [
+      "Yonge Street",
+      "Steeles Avenue East"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 414435853,
+        "lat": 43.7981067,
+        "lon": -79.419985
+      },
+      {
+        "type": "node",
+        "id": 432729722,
+        "lat": 43.798,
+        "lon": -79.4199525
+      }
+    ],
+    "lon": -79.41996875,
+    "lat": 43.79805335,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/414435853",
+      "https://www.openstreetmap.org/node/432729722"
+    ]
+  },
+  {
+    "roads": [
+      "Yonge Street",
+      "Bernard Avenue"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 9498549716,
+        "lat": 43.8949321,
+        "lon": -79.4425743
+      },
+      {
+        "type": "node",
+        "id": 9498564118,
+        "lat": 43.8947708,
+        "lon": -79.4427726
+      },
+      {
+        "type": "node",
+        "id": 9498564119,
+        "lat": 43.8948116,
+        "lon": -79.4425535
+      }
+    ],
+    "lon": -79.44263346666666,
+    "lat": 43.894838166666666,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/9498549716",
+      "https://www.openstreetmap.org/node/9498564118",
+      "https://www.openstreetmap.org/node/9498564119"
+    ]
+  },
+  {
+    "roads": [
+      "Liverpool Road",
+      "Kingston Road"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 379765489,
+        "lat": 43.8356083,
+        "lon": -79.0905264
+      },
+      {
+        "type": "node",
+        "id": 379765542,
+        "lat": 43.8356809,
+        "lon": -79.0904035
+      },
+      {
+        "type": "node",
+        "id": 1005045027,
+        "lat": 43.8358081,
+        "lon": -79.0904662
+      },
+      {
+        "type": "node",
+        "id": 1005045032,
+        "lat": 43.8357278,
+        "lon": -79.0905834
+      }
+    ],
+    "lon": -79.09049487499999,
+    "lat": 43.835706275,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/379765489",
+      "https://www.openstreetmap.org/node/379765542",
+      "https://www.openstreetmap.org/node/1005045027",
+      "https://www.openstreetmap.org/node/1005045032"
+    ]
+  },
+  {
+    "roads": [
+      "King Road",
+      "Highway 27"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 252357617,
+        "lat": 43.902181,
+        "lon": -79.6527003
+      }
+    ],
+    "lon": -79.6527003,
+    "lat": 43.902181,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/252357617"
+    ]
+  },
+  {
+    "roads": [
+      "Albion-Vaughan Road",
+      "Industrial Road"
+    ],
+    "nodes": [
+      {
+        "type": "node",
+        "id": 391885340,
+        "lat": 43.8616011,
+        "lon": -79.7033731
+      }
+    ],
+    "lon": -79.7033731,
+    "lat": 43.8616011,
+    "source_urls": [
+      "https://www.openstreetmap.org/node/391885340"
+    ]
+  }
+]

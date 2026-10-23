@@ -1,0 +1,68 @@
+{
+  "route": "17",
+  "name": "Waterloo / Hamilton",
+  "status": "current",
+  "description": "A Waterloo–Kitchener–Guelph–Hamilton connection with a later seasonal Burlington branch.",
+  "timeline": [
+    {
+      "date": "2023-04-08",
+      "event": "The launch timetable took effect, with weekday service beginning the following Monday.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-hamilton/2023-04-08-table-17-waterloo-hamilton.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-10",
+      "event": "The new hourly weekday Waterloo–Hamilton route began.",
+      "sources": [
+        "https://www.gotransit.com/en/blog/april-service-changes",
+        "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-"
+      ]
+    },
+    {
+      "date": "2025-04-05",
+      "event": "Seasonal weekend branch 17B began Waterloo–Burlington service for Niagara connections; its announced season ended 24 August.",
+      "sources": [
+        "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-hamilton/2023-04-08-table-17-waterloo-hamilton.pdf",
+      "title": "GO Waterloo / Hamilton table 17, effective 8 April 2023; weekday service began 10 April",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.gotransit.com/en/blog/april-service-changes",
+      "title": "GO Transit: April service changes, published 14 April 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+      "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+      "type": "official"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips",
+      "title": "Metrolinx: April GO service changes to include new Kitchener line trips, March 2025",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Summer 17B may be absent from autumn GTFS snapshots.",
+    "Any later seasonal revival requires independent dates.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

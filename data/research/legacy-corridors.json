@@ -1,0 +1,261 @@
+[
+  {
+    "id": "bayview",
+    "name": "Bayview GO Bus Service",
+    "description": "A local GO corridor along Bayview Avenue between Toronto and Richmond Hill, initially operated under contract by Travelways and later directly by GO. The surviving 2003 timetable calls it Bayview GO Bus Service and labels the sheet Table 58; that table number is not asserted as a modern public GO route number. It had a separate local fare and transfer arrangement from most GO commuter routes.",
+    "timeline": [
+      {
+        "date": "1972-01",
+        "event": "The Richmond Hill–Toronto corridor via Bayview begins under Travelways operation for GO. Early service also reaches downtown Toronto.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "1974",
+        "event": "Bayview service gains the regional terminal at Finch subway station as a Toronto connection.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "1984-01-28",
+        "event": "GO takes direct operation of the former Travelways Bayview and Uxbridge corridors and hires its first bus drivers.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "by 2003-06-28",
+        "event": "The original local schedule links Finch and Richmond Hill via Bayview, John, Highway 7, 16th Avenue and Major Mackenzie. The northbound sheet also times S. Taylor Mills before Bayview Plaza; the southbound sheet does not.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day6-page1.html"
+        ]
+      },
+      {
+        "date": "2003-08-30",
+        "event": "GO’s Bayview and Yonge C services transfer to York Region Transit. The TTS retrospective gives August 30 and says initial routing and service levels were retained; the Bayview successor is YRT 91.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml",
+          "https://transittoronto.ca/regional/2702.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "bayview-2003-north",
+        "label": "Finch–Richmond Hill northbound timing points",
+        "date": "2003-06-28",
+        "branch": "Bayview",
+        "direction": "northbound",
+        "stops": [
+          "Finch GO Bus Terminal",
+          "Bayview Ave. @ John St.",
+          "Bayview Ave. @ Hwy. 7",
+          "Bayview Ave. @ 16th Ave.",
+          "Bayview Ave. @ Major Mackenzie Dr.",
+          "Richmond Hill — S. Taylor Mills (historical timing point; location unresolved)",
+          "Richmond Hill — Bayview Plaza (historical terminus; location unresolved)"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html"
+        ],
+        "notes": "This is the exact order of the published timing rows, including both northern arrival points. The historical Taylor Mills point and Bayview Plaza have not been assigned coordinates. Intermediate local stops are not exhaustively listed."
+      },
+      {
+        "id": "bayview-2003-south",
+        "label": "Richmond Hill–Finch southbound timing points",
+        "date": "2003-06-28",
+        "branch": "Bayview",
+        "direction": "southbound",
+        "stops": [
+          "Richmond Hill — Bayview Plaza (historical terminus; location unresolved)",
+          "Bayview Ave. @ Major Mackenzie Dr.",
+          "Bayview Ave. @ 16th Ave.",
+          "Bayview Ave. @ Hwy. 7",
+          "Bayview Ave. @ John St.",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day6-page1.html",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day7-page1.html"
+        ],
+        "notes": "Saturday/Canada Day and Sunday originals have the same timing-point sequence. The Saturday service is generally half-hourly in the displayed portion; Sunday is generally hourly. S. Taylor Mills is not a timing row in these southbound sheets. Map as a schematic, not a surveyed historic road trace."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html",
+        "title": "Original GO Bayview Table 58, effective June 28, 2003, weekday northbound",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day6-page1.html",
+        "title": "Original GO Bayview Table 58, effective June 28, 2003, Saturday/Canada Day southbound",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day7-page1.html",
+        "title": "Original GO Bayview Table 58, effective June 28, 2003, Sunday southbound",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "Toronto Transportation Society / Transit Toronto: 50 Years of GO Transit Bus Operations",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/regional/2702.shtml",
+        "title": "Transit Toronto: A Brief History of Public Transit in York Region",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "No original early-1970s timetable has been recovered here, so the downtown-era all-stop pattern is not reconstructed.",
+      "The exact historical Bayview Plaza and S. Taylor Mills bus-stop locations remain unresolved; do not substitute a modern business with the same name.",
+      "The August 30, 2003 takeover day is from a detailed secondary retrospective; the original 2003 schedule directly establishes the service shortly before transfer.",
+      "Table 58 is a source identifier, not evidence that this should be filed as contemporary GO route 58."
+    ]
+  },
+  {
+    "id": "yonge-c",
+    "name": "Yonge C / North Yonge Local GO Bus Service",
+    "description": "GO’s local Yonge Street service between Finch and Richmond Hill, descended from the TTC’s North Yonge route. Its surviving 2003 schedule is Table 52 and is unrelated to the later Oshawa/York University route 52. It used local fares and accepted local-transit transfers, while prohibiting journeys entirely at or south of Steeles.",
+    "timeline": [
+      {
+        "date": "1976-11-28",
+        "event": "GO replaces the TTC’s North Yonge service with local Yonge C from Finch to Richmond Heights Plaza. The detailed TTC history gives November 27, 1976 as its final operating day; the GO retrospective gives November 28 for the transfer.",
+        "sources": [
+          "https://transittoronto.ca/bus/routes/59-north-yonge-.shtml",
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "by 2003-01-04",
+        "event": "The original northbound timetable shows Finch–Steeles–Royal Orchard–Garden–Baif–Harding–Major Mackenzie–Bernard Terminal. Table 52 here is Yonge C, not the later Highway 407 East table.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-01-04-table-52-oshawa-oakville-dir1-day1-page1.html"
+        ]
+      },
+      {
+        "date": "by 2003-06-28",
+        "event": "Southbound weekday service includes both Bernard Terminal departures and extra Harding starters. The latter are timed at Harding, then Major Mackenzie, then Harding again before continuing south.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+        ]
+      },
+      {
+        "date": "2003-08-30",
+        "event": "The Yonge C local operation transfers from GO to York Region Transit along with Bayview; the local Yonge successor is associated with YRT 99. The separate Newmarket B service remains GO-operated at this point.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml",
+          "https://transittoronto.ca/regional/2702.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "yonge-c-2003-north",
+        "label": "Finch–Bernard local timing points",
+        "date": "2003-01-04",
+        "branch": "Yonge C",
+        "direction": "northbound",
+        "stops": [
+          "Finch GO Bus Terminal",
+          "Yonge St. @ Steeles Ave.",
+          "Yonge St. @ Royal Orchard Blvd.",
+          "Yonge St. @ Garden Ave.",
+          "Yonge St. @ Baif Blvd.",
+          "Yonge St. @ Harding Blvd.",
+          "Yonge St. @ Major Mackenzie Dr.",
+          "Bernard Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-01-04-table-52-oshawa-oakville-dir1-day1-page1.html"
+        ],
+        "notes": "Ordered major timing points from the original. This was local service and made intermediate stops not individually printed in the timetable."
+      },
+      {
+        "id": "yonge-c-2003-south",
+        "label": "Bernard–Finch local timing points",
+        "date": "2003-06-28",
+        "branch": "Yonge C",
+        "direction": "southbound",
+        "stops": [
+          "Bernard Terminal",
+          "Yonge St. @ Major Mackenzie Dr.",
+          "Yonge St. @ Harding Blvd.",
+          "Yonge St. @ Baif Blvd.",
+          "Yonge St. @ Garden Ave.",
+          "Yonge St. @ Royal Orchard Blvd.",
+          "Yonge St. @ Steeles Ave.",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+        ],
+        "notes": "Bernard-origin columns pass through the initial special Harding row; their first Harding stop follows Major Mackenzie."
+      },
+      {
+        "id": "yonge-c-2003-harding",
+        "label": "Harding-origin southbound short working",
+        "date": "2003-06-28",
+        "branch": "Yonge C — Harding short working",
+        "direction": "southbound",
+        "stops": [
+          "Yonge St. @ Harding Blvd.",
+          "Yonge St. @ Major Mackenzie Dr.",
+          "Yonge St. @ Harding Blvd.",
+          "Yonge St. @ Baif Blvd.",
+          "Yonge St. @ Garden Ave.",
+          "Yonge St. @ Royal Orchard Blvd.",
+          "Yonge St. @ Steeles Ave.",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html"
+        ],
+        "notes": "The original explicitly times a starter at Harding (e.g. 06:25), Major Mackenzie (06:27), then Harding again (06:28). The duplicate stop is intentional and documents the printed sequence; the precise loop streets are not established and must not be invented."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-01-04-table-52-oshawa-oakville-dir1-day1-page1.html",
+        "title": "Original GO Yonge C Table 52, effective January 4, 2003, weekday northbound",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2003-06-28-table-52-oshawa-oakville-dir0-day1-page1.html",
+        "title": "Original GO Yonge C Table 52, effective June 28, 2003, weekday southbound including Harding starters",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/bus/routes/59-north-yonge-.shtml",
+        "title": "Transit Toronto: 59 North Yonge detailed history (last TTC operating date November 27, 1976)",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "Toronto Transportation Society / Transit Toronto: 50 Years of GO Transit Bus Operations",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/regional/2702.shtml",
+        "title": "Transit Toronto: A Brief History of Public Transit in York Region",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The move from Richmond Heights Plaza to Bernard Terminal is bounded by the original 2003 snapshot but its exact date has not been established here.",
+      "The precise streets used by the Harding starter loop are not mapped; only its printed timing-point sequence is retained.",
+      "Some secondary page headings or summary bullets say 1977, but their detailed dated entry and the dedicated GO history agree on November 27/28, 1976; the detailed entries are used.",
+      "This is a named legacy corridor, not a predecessor geography of modern GO route 52. Newmarket B and its eventual route62 designation are documented separately."
+    ]
+  }
+]

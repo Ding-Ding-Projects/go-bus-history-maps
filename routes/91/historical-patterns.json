@@ -1,0 +1,83 @@
+[
+  {
+    "id": "91-2008-main",
+    "label": "Newcastle–Bowmanville–Oshawa express",
+    "date": "2008-08-30",
+    "branch": "91",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Newcastle — Highway 2 / Mill St",
+        "lat": 43.9174702,
+        "lon": -78.5888287,
+        "location_source": "https://www.openstreetmap.org/node/392163460",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining King Avenue East (way 54118119); King Avenue West (way 319213021); Mill Street North (way 34191099); Mill Street South (way 34192991), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+      },
+      {
+        "name": "Bowmanville — King St / Liberty St",
+        "lat": 43.9107056,
+        "lon": -78.6806183,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00157, named King St. E.  @  Liberty St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Bowmanville GO Park & Ride — Prince William Blvd",
+        "lat": 43.9078712,
+        "lon": -78.7046204,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00306, named Prince William Blvd. @ Clarington Blvd. GO Park & Ride. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Bowmanville — Waverley Rd / Baseline Rd",
+        "lat": 43.8975792,
+        "lon": -78.6905899,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00155, named Waverly Rd.  @ Baseline Rd.. Historical direction-specific platform has not been established. Original 2016 GO stop spells Waverly. This is the Baseline Road intersection, not the different stop at Durham Road 57/Waverley Road."
+      },
+      {
+        "name": "Oshawa GO — Thornton Rd / Bloor St",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00159, named Oshawa GO Bus. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+    ],
+    "notes": "The bus bypasses Courtice and downtown Oshawa; the Lakeshore East train continuation is not part of route 91.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.5888287,
+          43.9174702
+        ],
+        [
+          -78.6806183,
+          43.9107056
+        ],
+        [
+          -78.7046204,
+          43.9078712
+        ],
+        [
+          -78.6905899,
+          43.8975792
+        ],
+        [
+          -78.88585,
+          43.870909
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The bus bypasses Courtice and downtown Oshawa; the Lakeshore East train continuation is not part of route 91."
+  }
+]

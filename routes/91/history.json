@@ -1,0 +1,52 @@
+{
+  "route": "91",
+  "name": "Newcastle–Oshawa express",
+  "status": "discontinued",
+  "description": "Express feeder from Newcastle and Bowmanville to Oshawa GO, complementing the slower route 90 local bus. It was replaced by route 88A in the 2020 restructuring.",
+  "timeline": [
+    {
+      "date": "2008-08-30",
+      "event": "The original timetable distinguishes Newcastle–Bowmanville–Oshawa express 91 from local route 90.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+      ]
+    },
+    {
+      "date": "by 2016-01",
+      "event": "The original GTFS still contains route 91 and its Newcastle pattern.",
+      "sources": [
+        "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+      ]
+    },
+    {
+      "date": "2020-09-04",
+      "event": "Last day of route 91. The replacement weekday 88A began with the September schedule changes.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf",
+      "title": "GO Lakeshore East Table 09, printed effective August 30, 2008; includes bus routes 90/91",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+      "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "Later Newcastle local circulation differs from the simple 2008 timing-point diagram; the 2016 GTFS supplies its full stop sequence.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

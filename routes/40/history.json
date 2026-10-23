@@ -1,0 +1,132 @@
+{
+  "route": "40",
+  "name": "Hamilton / Richmond Hill (formerly Pearson Airport Express)",
+  "status": "current",
+  "description": "An airport express that began between Square One, Pearson and Richmond Hill Centre, became a two-terminal Pearson–Richmond Hill shuttle, and later expanded west to Hamilton. Its history includes short express branches and, in 2026, Humber and Unionville service.",
+  "timeline": [
+    {
+      "date": "2008-04-26",
+      "event": "Route 40 begins with half-hourly Square One–Pearson service; alternate trips continue to Richmond Hill Centre, giving that segment hourly service.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "by 2010-02-01",
+      "event": "The original timetable documents an hourly Square One–Pearson–Richmond Hill pattern seven days a week.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-01-01",
+      "event": "The route has been shortened to Pearson Terminal 1–Richmond Hill Centre; Square One is absent from the effective January 1 timetable.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "Route 40 expands to Hamilton and takes over the former 47J Hamilton–Square One express service; GO’s ridership report gives this exact date.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2017-12-30",
+      "event": "Highway 407 Bus Terminal opens. The January 2019 route 40 timetable confirms the new terminal, Dixie and Renforth as main-route stops.",
+      "sources": [
+        "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+      ]
+    },
+    {
+      "date": "by 2019-01-05",
+      "event": "40A runs Hamilton–Square One express, bypassing Trafalgar/407; 40B provides a Richmond Hill Centre–Pearson short express that bypasses Highway 407 terminal.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "event": "The timetable includes 40H and 40M via Humber Polytechnic North Campus, with 40M continuing to Unionville. Dundas/407 is also on the main route by this snapshot. This change accompanies the withdrawal of routes 54 and 66.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf",
+      "title": "GO route 40 timetable, internally effective February 1, 2010 (archived February 5)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf",
+      "title": "GO route 40 timetable, internally effective January 1, 2011 (archived October 27)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "GO Transit ridership report, September 2016, footnote 9 (agency original mirrored by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+      "title": "Metrolinx Capital Projects quarterly report, March 8, 2018: Highway 407 Bus Terminal opening",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf",
+      "title": "GO route 40 timetable, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf",
+      "title": "GO route 40 timetable, effective January 3, 2026",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments",
+      "title": "Metrolinx: Holiday GO Transit service adjustments; January 3, 2026 changes",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+      "type": "secondary"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The exact date of the initial Square One withdrawal has not been located; January 1, 2011 is the verified timetable snapshot.",
+    "The exact first dates of Dixie, Renforth, Dundas/407 and each express suffix require additional change notices. Current and historical GTFS snapshots supply additional full-stop patterns.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

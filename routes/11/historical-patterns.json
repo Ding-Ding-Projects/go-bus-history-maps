@@ -1,0 +1,44 @@
+[
+  {
+    "id": "11-2012-notl",
+    "label": "Original seasonal Niagara-on-the-Lake shuttle",
+    "date": "2012-06-23",
+    "branch": "11",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "St. Catharines VIA / GO rail station",
+        "lat": 43.147624,
+        "lon": -79.254912,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02401 (St. Catharines GO Bus); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "St. Catharines GO Bus",
+        "location_reference_date": "2022-03-08"
+      },
+      {
+        "name": "Niagara-on-the-Lake",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html",
+      "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Endpoint-only reconstruction. The exact Niagara-on-the-Lake curb location and intermediate stops are unverified.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.254912,
+          43.147624
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Endpoint-only reconstruction. The exact Niagara-on-the-Lake curb location and intermediate stops are unverified. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  }
+]

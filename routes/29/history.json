@@ -1,0 +1,108 @@
+{
+  "route": "29",
+  "name": "Guelph / Mississauga",
+  "status": "current",
+  "description": "A Guelph–Highway 401–Mississauga corridor formerly reaching Cooksville, later centered on Square One and extended to Kipling.",
+  "timeline": [
+    {
+      "date": "2007-09-03",
+      "event": "The federal/provincial launch release announced University of Guelph–Aberfoyle–Square One–Cooksville service for 3 September. The route 29 number is independently documented by 2008.",
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html"
+      ]
+    },
+    {
+      "date": "2008-04-28",
+      "event": "Additional weekday trips increased the University of Guelph–Cooksville route toward hourly service.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2009-09-05",
+      "event": "The original table retains Cooksville GO as the Mississauga endpoint.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2010-01-02-table-29-guelph-mississauga.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The table runs Guelph Central–University–Aberfoyle–Square One with Regional Road 25 and Transitway timepoints.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2019-01-05-table-29-guelph-mississauga.pdf"
+      ]
+    },
+    {
+      "date": "2021-09-04",
+      "event": "Route 29 extended to Renforth/Kipling; a university–Square One Friday/Sunday express pilot was announced.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network"
+      ]
+    },
+    {
+      "date": "2024-08-31",
+      "event": "Branch 29A added an express University of Guelph–Square One connection.",
+      "sources": [
+        "https://www.metrolinx.com/en/news/go-bus-schedule-changes-coming-aug-31"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html",
+      "title": "Transport Canada: GO Transit expands bus service to the University of Guelph, 29 August 2007",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto: GO Transit changes start April 26, published 22 April 2008",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2010-01-02-table-29-guelph-mississauga.pdf",
+      "title": "GO table 29, printed effective 5 September 2009 (filename dated 2 January 2010)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2019-01-05-table-29-guelph-mississauga.pdf",
+      "title": "GO Guelph / Mississauga table 29, effective 5 January 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network",
+      "title": "Metrolinx announces increased weekday service across GO network, 26 August 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/news/go-bus-schedule-changes-coming-aug-31",
+      "title": "Metrolinx: GO bus schedule changes coming Aug. 31, 2024",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The launch release describes the corridor without a route number; the number 29 is independently documented by the April 2008 service-change notice.",
+    "Dates when Cooksville was removed and Guelph Central added need intervening timetables.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

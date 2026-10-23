@@ -1,0 +1,2553 @@
+[
+  {
+    "route": "11",
+    "name": "Brock University; formerly Niagara-on-the-Lake seasonal shuttle",
+    "status": "current",
+    "description": "The number has two distinct documented uses: a seasonal St. Catharines–Niagara-on-the-Lake train shuttle in the 2010 s, and the Brock University corridor renumbered from 18K in 2024.",
+    "timeline": [
+      {
+        "date": "2012-06-23",
+        "event": "The new St. Catharines rail station–Niagara-on-the-Lake shuttle began its first summer season, running through 3 September.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html"
+        ]
+      },
+      {
+        "date": "2012-09-04",
+        "event": "GO identified the seasonal Niagara-on-the-Lake shuttle as route 11 when announcing the end of its 2012 season.",
+        "sources": [
+          "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html"
+        ]
+      },
+      {
+        "date": "2016",
+        "event": "Seasonal route 11 Niagara-on-the-Lake train-meet service remained documented.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2021-09-07",
+        "event": "Predecessor 18K began weekday service to Brock University from the Hamilton corridor.",
+        "sources": [
+          "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "Brock University branch 18K was renumbered 11 in the April reorganization.",
+        "sources": [
+          "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/"
+        ]
+      },
+      {
+        "date": "2024-08-31",
+        "event": "The original Lakeshore West booklet confirms the new route 11 number.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2024-08-31-table-01-lakeshore-west.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "11-2012-notl",
+        "label": "Original seasonal Niagara-on-the-Lake shuttle",
+        "date": "2012-06-23",
+        "branch": "11",
+        "direction": "Eastbound",
+        "stops": [
+          "St. Catharines VIA / GO rail station",
+          "Niagara-on-the-Lake"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html",
+          "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Endpoint-only reconstruction. The exact Niagara-on-the-Lake curb location and intermediate stops are unverified."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html",
+        "title": "GO Transit release: Take the GO Train to Niagara this Victoria Day weekend, 4 May 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html",
+        "title": "GO Transit release: McMaster service resumes and summer Niagara service ends, August 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/",
+        "title": "Brock University: GO Transit bus service coming to Brock, August 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/",
+        "title": "Sean Marshall: A review of Metrolinx’s April 2024 service changes",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2024-08-31-table-01-lakeshore-west.pdf",
+        "title": "GO Lakeshore West table 01, effective 31 August 2024, including route 11",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The last season and withdrawal date of the old Niagara-on-the-Lake shuttle are unknown.",
+      "The old shuttle and the later Brock route are separate eras, not one continuous alignment.",
+      "The April 2024 renumbering date is from a contemporary secondary account; the new number is independently confirmed in the original August timetable."
+    ]
+  },
+  {
+    "route": "12",
+    "name": "Niagara Falls / Burlington",
+    "status": "current",
+    "description": "A Niagara–Lakeshore rail feeder developed from Burlington–Stoney Creek service, subsequently extended to Niagara Falls with express and short-turn variants.",
+    "timeline": [
+      {
+        "date": "2008-06-28",
+        "event": "Route 12 began between Burlington GO and Stoney Creek; Ontario later confirmed the June 2008 launch.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml",
+          "https://news.ontario.ca/m/5355"
+        ]
+      },
+      {
+        "date": "2009-09-05",
+        "event": "Year-round Niagara Falls–Burlington service began via St. Catharines, Grimsby and Stoney Creek.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/go-looks-at-new-niagara-rail-service-expansion-538999061.html"
+        ]
+      },
+      {
+        "date": "2009-10-31",
+        "event": "The original table shows the full Niagara Falls VIA–Burlington route via Fairview Mall and Nash / Barton.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2010-01-02-table-12-niagara-falls-toronto.pdf"
+        ]
+      },
+      {
+        "date": "2011-09-03",
+        "event": "The timetable documents Friday express 12B toward Niagara Falls and 12D from St. Catharines toward Burlington.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "The table serves Niagara College’s Niagara-on-the-Lake campus, Beamsville and Confederation GO; 12C trips were also increased.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2023-04-08-table-12-niagara-falls-toronto.pdf",
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "12-2009-main",
+        "label": "Niagara Falls–Burlington via Fairview Mall",
+        "date": "2009-10-31",
+        "branch": "12",
+        "direction": "Toward Burlington",
+        "stops": [
+          "Niagara Falls VIA station, Bridge / Erie",
+          "Niagara Falls, Stanley / Highway 420",
+          "St. Catharines Fairview Mall, YMCA Drive",
+          "Grimsby Park & Ride",
+          "Stoney Creek, Nash / Barton",
+          "Burlington GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2010-01-02-table-12-niagara-falls-toronto.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "12-2011-express",
+        "label": "Friday Niagara Falls express",
+        "date": "2011-09-03",
+        "branch": "12B",
+        "direction": "Toward Niagara Falls",
+        "stops": [
+          "Burlington GO",
+          "Niagara Falls, Stanley / Highway 420",
+          "Niagara Falls VIA station, Bridge / Erie"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. This snapshot establishes the pattern, not its introduction date."
+      },
+      {
+        "id": "12-2011-stc-express",
+        "label": "Friday St. Catharines express",
+        "date": "2011-09-03",
+        "branch": "12D",
+        "direction": "Toward Burlington",
+        "stops": [
+          "St. Catharines Fairview Mall, YMCA Drive",
+          "Burlington GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://news.ontario.ca/m/5355",
+        "title": "Ontario: GO Transit service expansions, 3 April 2009; records June 2008 Stoney Creek bus launch",
+        "type": "official"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/go-looks-at-new-niagara-rail-service-expansion-538999061.html",
+        "title": "GO Transit release: GO looks at new Niagara rail service expansion, 17 December 2009",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2010-01-02-table-12-niagara-falls-toronto.pdf",
+        "title": "GO table 12, printed effective 31 October 2009 (filename dated 2 January 2010)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf",
+        "title": "GO table 12, printed effective 3 September 2011 (filename dated 3 June 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2023-04-08-table-12-niagara-falls-toronto.pdf",
+        "title": "GO Niagara Falls / Toronto table 12, effective 8 April 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The archive’s 2011 table 13 Niagara Falls / Toronto document is train-only, not evidence of a separate bus route 13.",
+      "Dates of every park-and-ride relocation and lettered-branch introduction remain incomplete."
+    ]
+  },
+  {
+    "route": "15",
+    "name": "Brantford / Aldershot; formerly McMaster / Burlington",
+    "status": "current",
+    "description": "The McMaster–Lakeshore rail feeder evolved into the Brantford corridor and later gained a Six Nations and Mississaugas of the Credit extension.",
+    "timeline": [
+      {
+        "date": "2006-12-30",
+        "event": "Route-15 trip series directly connect McMaster University with Burlington GO in the original Lakeshore table.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+        ]
+      },
+      {
+        "date": "2013-04-06",
+        "event": "The booklet explicitly identifies routes 15 and 18, preserving the McMaster feeder identity.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2013-04-06-table-01-lakeshore-west.pdf"
+        ]
+      },
+      {
+        "date": "2016-09-03",
+        "event": "Route 15 was extended west from McMaster to Brantford.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2016",
+        "event": "The Brantford launch plan provided weekday and weekend service to Aldershot GO via McMaster.",
+        "sources": [
+          "https://news.ontario.ca/opo/en/2016/04/ontario-expanding-go-bus-service-to-brantford.html"
+        ]
+      },
+      {
+        "date": "by 2020-07-19",
+        "event": "The archived table includes Brantford Bus Terminal, Wayne Gretzky / Henry, McMaster Innovation Park, McMaster and Aldershot.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brantford-burlington/2020-07-19-table-15-brantford-burlington.pdf"
+        ]
+      },
+      {
+        "date": "2025-04-05",
+        "event": "Branch 15B began serving Six Nations and Mississaugas of the Credit, with three daily trips each way.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/new-go-bus-connection-for-first-nations"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "15-2006-mcmaster",
+        "label": "McMaster–Burlington feeder",
+        "date": "2006-12-30",
+        "branch": "15",
+        "direction": "Eastbound",
+        "stops": [
+          "McMaster University",
+          "Burlington GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The old Burlington endpoint must not be silently replaced by Aldershot."
+      },
+      {
+        "id": "15-2020-brantford",
+        "label": "Brantford–Aldershot corridor",
+        "date": "by 2020-07-19",
+        "branch": "15",
+        "direction": "Eastbound",
+        "stops": [
+          "Brantford Bus Terminal",
+          "Brantford, Wayne Gretzky Parkway / Henry Street",
+          "McMaster Innovation Park",
+          "McMaster University",
+          "Aldershot GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brantford-burlington/2020-07-19-table-15-brantford-burlington.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Archive snapshot date used because the extracted copy does not establish a printed effective cover date."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf",
+        "title": "GO Lakeshore West table 01, printed effective 30 December 2006 (filename dated 13 May 2007)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2013-04-06-table-01-lakeshore-west.pdf",
+        "title": "GO Lakeshore West table 01, effective 6 April 2013, routes 15 and 18",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://news.ontario.ca/opo/en/2016/04/ontario-expanding-go-bus-service-to-brantford.html",
+        "title": "Ontario expanding GO bus service to Brantford, 27 April 2016",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brantford-burlington/2020-07-19-table-15-brantford-burlington.pdf",
+        "title": "GO Brantford / Burlington table 15, archive snapshot dated 19 July 2020",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/new-go-bus-connection-for-first-nations",
+        "title": "Metrolinx: New GO bus connection for First Nations, 17 March 2025",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The date when the eastern terminus changed from Burlington to Aldershot remains unverified.",
+      "Use a dated GTFS extraction for the full 15B curb-stop sequence; the launch article names places but is not a complete ordered stop table."
+    ]
+  },
+  {
+    "route": "16",
+    "name": "Hamilton / Toronto Express",
+    "status": "current",
+    "description": "The Hamilton–Union express has QEW bus predecessors; numbered route 16 is firmly documented in original early-2000 s schedules.",
+    "timeline": [
+      {
+        "date": "1970–1971",
+        "event": "Hamilton–Toronto highway express operation transitioned from Gray Coach into GO during GO’s first bus-service year.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "1979",
+        "event": "The Hamilton express adopted a Gardiner / University Avenue downtown approach.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "1996-04-27",
+        "event": "Hamilton bus service moved into the new Hamilton GO Centre.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2004-09-04",
+        "event": "Route 16 is documented between Hamilton GO Centre and Union with direction-specific Hamilton street stops.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The timetable retains Hamilton GO Centre and Union as the express terminal pair.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2019-01-05-table-16-hamilton-toronto-express.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "16-2004-east",
+        "label": "Hamilton–Union express eastbound",
+        "date": "2004-09-04",
+        "branch": "16",
+        "direction": "Eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Hamilton, King / Dundurn",
+          "Union Station bus terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "16-2004-west",
+        "label": "Hamilton–Union express westbound",
+        "date": "2004-09-04",
+        "branch": "16",
+        "direction": "Westbound",
+        "stops": [
+          "Union Station bus terminal",
+          "Hamilton, Main / Longwood",
+          "Hamilton GO Centre"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. King / Dundurn and Main / Longwood are direction-specific timepoints."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf",
+        "title": "GO table 16, pages dated 4 September 2004 and 30 April 2005 (filename dated 13 May 2007)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2019-01-05-table-16-hamilton-toronto-express.pdf",
+        "title": "GO Hamilton / Toronto Express table 16, effective 5 January 2019",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The first use of number 16 is unknown; the 1970 s entries describe the corridor rather than prove that number.",
+      "Union’s historical and current bus terminals need date-specific coordinates."
+    ]
+  },
+  {
+    "route": "17",
+    "name": "Waterloo / Hamilton",
+    "status": "current",
+    "description": "A Waterloo–Kitchener–Guelph–Hamilton connection with a later seasonal Burlington branch.",
+    "timeline": [
+      {
+        "date": "2023-04-08",
+        "event": "The launch timetable took effect, with weekday service beginning the following Monday.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-hamilton/2023-04-08-table-17-waterloo-hamilton.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-10",
+        "event": "The new hourly weekday Waterloo–Hamilton route began.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes",
+          "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-"
+        ]
+      },
+      {
+        "date": "2025-04-05",
+        "event": "Seasonal weekend branch 17B began Waterloo–Burlington service for Niagara connections; its announced season ended 24 August.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "17-2023-main",
+        "label": "Original Waterloo–Hamilton route",
+        "date": "2023-04-10",
+        "branch": "17",
+        "direction": "Southbound",
+        "stops": [
+          "University of Waterloo Terminal",
+          "Wilfrid Laurier University",
+          "Kitchener, Victoria / Frederick",
+          "Guelph Central GO",
+          "University of Guelph",
+          "Guelph, Gordon / Stone",
+          "Aberfoyle, Brock / McLean",
+          "Aldershot GO",
+          "McMaster University",
+          "Hamilton GO Centre"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-hamilton/2023-04-08-table-17-waterloo-hamilton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The original Kitchener timepoint is Victoria / Frederick, not a stop inside Kitchener GO."
+      },
+      {
+        "id": "17-2025-summer",
+        "label": "Seasonal Waterloo–Burlington branch",
+        "date": "2025-04-05 to 2025-08-24",
+        "branch": "17B",
+        "direction": "Southbound",
+        "stops": [
+          "University of Waterloo Terminal",
+          "Wilfrid Laurier University",
+          "Kitchener GO",
+          "Burlington GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Weekend seasonal branch; named announcement stops. It does not follow the main Guelph–Hamilton corridor."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-hamilton/2023-04-08-table-17-waterloo-hamilton.pdf",
+        "title": "GO Waterloo / Hamilton table 17, effective 8 April 2023; weekday service began 10 April",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+        "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips",
+        "title": "Metrolinx: April GO service changes to include new Kitchener line trips, March 2025",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Summer 17B may be absent from autumn GTFS snapshots.",
+      "Any later seasonal revival requires independent dates."
+    ]
+  },
+  {
+    "route": "18",
+    "name": "Lakeshore West",
+    "status": "current",
+    "description": "A Lakeshore train-connection and rail-replacement family, including Hamilton–Aldershot–Burlington feeders and selected through trips to Union. Former Brock branch 18K became route 11.",
+    "timeline": [
+      {
+        "date": "1970-09-08",
+        "event": "GO’s first Lakeshore West feeder connected Oakville and Hamilton via Burlington.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2006-12-30",
+        "event": "The original table documents Hamilton feeders and early route-18 trip series through to Union.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+        ]
+      },
+      {
+        "date": "2013-04-06",
+        "event": "Routes 15 and 18 are explicitly identified in the Lakeshore West booklet.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2013-04-06-table-01-lakeshore-west.pdf"
+        ]
+      },
+      {
+        "date": "2021-09-07",
+        "event": "Weekday 18K extended the Hamilton corridor to Brock University via Niagara communities.",
+        "sources": [
+          "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/",
+          "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "Brock branch 18K was renumbered 11.",
+        "sources": [
+          "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "18-2006-feeder",
+        "label": "Hamilton–Burlington train connection",
+        "date": "2006-12-30",
+        "branch": "18",
+        "direction": "Eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Hamilton, King / Dundurn",
+          "Aldershot GO",
+          "Burlington GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "18-2006-early",
+        "label": "Early through bus to Union",
+        "date": "2006-12-30",
+        "branch": "18",
+        "direction": "Eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Hamilton, King / Dundurn",
+          "Aldershot GO",
+          "Burlington GO",
+          "Oakville GO",
+          "Clarkson GO",
+          "Port Credit GO",
+          "Union Station bus terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 18020. Do not generalize this stopping pattern to every route-18 trip."
+      },
+      {
+        "id": "18-2022-brock",
+        "label": "Brock branch before route 11 renumbering",
+        "date": "by 2022-03-08",
+        "branch": "18K",
+        "direction": "Eastbound",
+        "stops": [
+          "Aldershot GO",
+          "Hamilton GO Centre",
+          "West Harbour GO",
+          "Centennial Parkway North / QEW Park & Ride",
+          "Grimsby Park & Ride",
+          "Beamsville",
+          "St. Catharines GO",
+          "Brock University"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip"
+        ],
+        "notes": "Selected major stops from the 2022 archived GTFS; not an exhaustive curb-stop list. Schematic geometry. The feed covers 27 January–1 April 2022. The separate launch event is September 2021; do not silently backdate every 2022 stop to opening day."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf",
+        "title": "GO Lakeshore West table 01, printed effective 30 December 2006 (filename dated 13 May 2007)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2013-04-06-table-01-lakeshore-west.pdf",
+        "title": "GO Lakeshore West table 01, effective 6 April 2013, routes 15 and 18",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/",
+        "title": "Brock University: GO Transit bus service coming to Brock, August 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network",
+        "title": "Metrolinx announces increased weekday service across GO network, 26 August 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/",
+        "title": "Sean Marshall: A review of Metrolinx’s April 2024 service changes",
+        "type": "secondary"
+      },
+      {
+        "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "title": "GO Transit GTFS archived 8 March 2022; feed valid 27 January–1 April 2022",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The 1970 table code 1 is not evidence that the bus was then numbered 18.",
+      "Temporary construction variants are not all captured by these selected documents."
+    ]
+  },
+  {
+    "route": "19",
+    "name": "Mississauga / North York",
+    "status": "current",
+    "description": "The former Oakville–Square One–North York through service was shortened at Square One in 2016. Its historical North York branches include Finch and York Mills.",
+    "timeline": [
+      {
+        "date": "2006-02-04",
+        "event": "The timetable shows weekday Oakville–Square One–North York buses including Finch-bound service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2007-05-13-table-19-mississauga-north-york.pdf"
+        ]
+      },
+      {
+        "date": "2011-12-31",
+        "event": "The printed table still includes the Oakville extension.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2012-06-14-table-19-mississauga-north-york.pdf"
+        ]
+      },
+      {
+        "date": "2016-04-02",
+        "event": "Weekend service was introduced.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2016-09-06",
+        "event": "The Square One–Oakville portion was discontinued.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "19-2006-oakville",
+        "label": "Oakville–Square One–Finch",
+        "date": "2006-02-04",
+        "branch": "19",
+        "direction": "Eastbound",
+        "stops": [
+          "Oakville GO",
+          "Mississauga, Eglinton / Erin Mills Parkway",
+          "Square One",
+          "Toronto, Keele / Highway 401",
+          "Yorkdale GO Bus Terminal",
+          "Yonge / Sheppard",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2007-05-13-table-19-mississauga-north-york.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected Finch-bound timepoints. A York Mills column elsewhere in the table does not establish that these trips stopped there."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2007-05-13-table-19-mississauga-north-york.pdf",
+        "title": "GO table 19, printed effective 4 February 2006 (filename dated 13 May 2007)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2012-06-14-table-19-mississauga-north-york.pdf",
+        "title": "GO table 19, printed effective 31 December 2011 (filename dated 14 June 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Individual branch dates and later Transitway stop changes need more contemporary notices.",
+      "Do not project the later Square One terminus backward into the Oakville era."
+    ]
+  },
+  {
+    "route": "20",
+    "name": "Milton / Oakville",
+    "status": "discontinued",
+    "description": "A former weekday Milton–Oakville Lakeshore connection, distinct from the old Hamilton route 22 and the route 22 introduced in 2024.",
+    "timeline": [
+      {
+        "date": "2008-06-28",
+        "event": "GO introduced a Milton–Bronte GO connection, an earlier corridor configuration.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2009-09-05",
+        "event": "Route 20 connects Milton GO with Oakville GO via Bronte Road / Highway 407 and Sheridan College.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The table also includes Trafalgar Road / Highway 407 and lists ten weekday trips each way.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2019-06-29",
+        "event": "Route 20 was withdrawn in the June changes.",
+        "sources": [
+          "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "20-2009",
+        "label": "Milton–Oakville via Bronte Road",
+        "date": "2009-09-05",
+        "branch": "20",
+        "direction": "Southbound",
+        "stops": [
+          "Milton GO",
+          "Bronte Road / Highway 407 Park & Ride",
+          "Sheridan College, Oakville",
+          "Oakville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "20-2019",
+        "label": "Milton–Oakville with Trafalgar park-and-ride",
+        "date": "2019-01-05",
+        "branch": "20",
+        "direction": "Southbound",
+        "stops": [
+          "Milton GO",
+          "Bronte Road / Highway 407 Park & Ride",
+          "Trafalgar Road / Highway 407 Park & Ride",
+          "Sheridan College, Oakville",
+          "Oakville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The bus rows are weekday-only; a generic Daily cover is not proof of weekend route 20 service."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf",
+        "title": "GO table 20, printed effective 5 September 2009 (filename dated 5 February 2010)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf",
+        "title": "GO Milton / Oakville table 20, effective 5 January 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service",
+        "title": "Ontario NDP statement reproducing June 2019 route-withdrawal information; used only for service dates",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The number used at the June 2008 Milton–Bronte launch is not established.",
+      "The June 2019 withdrawal date is from contemporary secondary reporting; an archived original GO notice would improve the record."
+    ]
+  },
+  {
+    "route": "21",
+    "name": "Milton",
+    "status": "current",
+    "description": "The Milton rail corridor’s bus family has included local and express Union services, many short turns, and a 2023–2024 daytime network connecting to Lakeshore trains.",
+    "timeline": [
+      {
+        "date": "1976-02-15",
+        "event": "GO took over the Milton–Streetsville–Union corridor from Gray Coach.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "1981-10-26",
+        "event": "Milton trains began, changing the role of parallel buses.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2007-09-01",
+        "event": "The route-21 series includes both local Milton–Union buses and faster Meadowvale–Union patterns.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+        ]
+      },
+      {
+        "date": "2014-04-05",
+        "event": "The map documents branches 21A/B/C/D/E/F/G/H/J/K/L/M/N/P/R/T/V.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2014-04-05-table-21-milton.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Daytime 21A/B/C were reorganized toward Oakville, Clarkson and Port Credit; some early and late route 21 buses still served Union.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf",
+          "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "Regular Union service returned; the Milton–Oakville branch became route 22.",
+        "sources": [
+          "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2024-04-27-table-21-milton.pdf",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "21-2007-local",
+        "label": "Milton–Union local pattern",
+        "date": "2007-09-01",
+        "branch": "21",
+        "direction": "Eastbound",
+        "stops": [
+          "Milton, Main / Martin",
+          "Milton GO",
+          "Derry / Winston Churchill",
+          "Meadowvale Town Centre",
+          "Meadowvale GO",
+          "Streetsville GO",
+          "Erindale GO",
+          "Square One",
+          "Cooksville GO",
+          "Dixie GO",
+          "Union Station bus terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21930. Lisgar and Kipling are table columns but are not served by this trip."
+      },
+      {
+        "id": "21-2007-express",
+        "label": "Milton–Meadowvale–Union express",
+        "date": "2007-09-01",
+        "branch": "21",
+        "direction": "Eastbound",
+        "stops": [
+          "Milton, Main / Martin",
+          "Milton GO",
+          "Derry / Winston Churchill",
+          "Meadowvale Town Centre",
+          "Meadowvale GO",
+          "Union Station bus terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21320; this table prints no branch letter."
+      },
+      {
+        "id": "21-2023-oakville",
+        "label": "Daytime Milton–Oakville connection",
+        "date": "2023-04-08",
+        "branch": "21A",
+        "direction": "Southbound",
+        "stops": [
+          "Milton GO",
+          "Trafalgar Road / Highway 407 Park & Ride",
+          "Sheridan College, Oakville",
+          "Oakville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Replaced by route 22 in April 2024. Direct Union buses elsewhere in this booklet are separate patterns."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf",
+        "title": "GO Milton table 21, printed effective 1 September 2007 (filename dated 11 September)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2014-04-05-table-21-milton.pdf",
+        "title": "GO Milton table 21, effective 5 April 2014",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf",
+        "title": "GO Milton table 21, effective 8 April 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+        "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+        "type": "official"
+      },
+      {
+        "url": "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+        "title": "GO Transit: Route 21 service updates — return to Union and introduction of route 22",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2024-04-27-table-21-milton.pdf",
+        "title": "GO Milton table 21, effective 27 April 2024",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf",
+        "title": "GO table 22, printed effective 27 and 28 April 2024 (filename dated 22 April)",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The 1976 takeover does not establish when number 21 was adopted.",
+      "A map must not combine every short turn into one imagined through trip.",
+      "Dates for all intervening branch introductions and withdrawals are not established."
+    ]
+  },
+  {
+    "route": "22",
+    "name": "Milton / Oakville; formerly Hamilton / Meadowvale Business Park",
+    "status": "current",
+    "description": "Two unrelated uses are documented: a Hamilton–Meadowvale commuter bus in 2009 and the Milton–Oakville service introduced in 2024 from 21A.",
+    "timeline": [
+      {
+        "date": "2009-01-03",
+        "event": "Route 22 links Hamilton GO with Meadowvale Business Park via Aldershot and Burlington’s Dundas / Highway 407 lot, one weekday trip each way.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2009-02-19-table-22-milton-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "Number 22 was introduced for the Milton–Oakville corridor formerly 21A.",
+        "sources": [
+          "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2024-04-29",
+        "event": "The new timetable’s first weekday lists seven trips each way, generally two-hourly outside the morning.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "22-2009-hamilton",
+        "label": "Earlier route 22: Hamilton–Meadowvale",
+        "date": "2009-01-03",
+        "branch": "22",
+        "direction": "Eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Hamilton, King / Dundurn",
+          "Aldershot GO",
+          "Dundas Street / Highway 407 Park & Ride, Burlington",
+          "Meadowvale Business Park, Syntex / Financial"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2009-02-19-table-22-milton-oakville.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Reverse service uses Hamilton Main / Longwood. The archive filename incorrectly labels this document Milton–Oakville."
+      },
+      {
+        "id": "22-2024-milton",
+        "label": "Reused route 22: Milton–Oakville",
+        "date": "2024-04-27",
+        "branch": "22",
+        "direction": "Southbound",
+        "stops": [
+          "Milton GO",
+          "Trafalgar Road / Highway 407 Park & Ride",
+          "Sheridan College, Oakville",
+          "Oakville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Cover effective April 27/28; the bus table is weekday-only, so Monday April 29 was its first scheduled operating day in this issue."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2009-02-19-table-22-milton-oakville.pdf",
+        "title": "GO routes 22 Hamilton / Meadowvale Business Park and 29 Guelph / Mississauga; 22 printed effective 3 January 2009 (archive filename mislabels family and date)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+        "title": "GO Transit: Route 21 service updates — return to Union and introduction of route 22",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf",
+        "title": "GO table 22, printed effective 27 and 28 April 2024 (filename dated 22 April)",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The old Hamilton–Meadowvale route’s introduction and withdrawal dates are unknown.",
+      "Numerical reuse is not evidence of continuous service.",
+      "The later extension to Regional Road 25 / Highway 401 needs a contemporary date."
+    ]
+  },
+  {
+    "route": "24",
+    "name": "Cambridge / Milton",
+    "status": "discontinued",
+    "description": "A commuter Cambridge–Milton route designed around Milton GO train connections.",
+    "timeline": [
+      {
+        "date": "2016-04-29",
+        "event": "Ontario announced twelve weekday trips: four morning trips toward Milton and eight afternoon/evening returns.",
+        "sources": [
+          "https://news.ontario.ca/en/release/36715/ontario-adding-twelve-weekday-go-bus-trips-between-cambridge-and-milton"
+        ]
+      },
+      {
+        "date": "2016-09-06",
+        "event": "Route 24 began operation.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The table lists Ainslie and Cambridge Centre terminals, the Hespeler corridor, Regional Road 25 / Highway 401 and Milton GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/cambridge-milton/2019-01-05-table-24-cambridge-milton.pdf"
+        ]
+      },
+      {
+        "date": "2019-06-29",
+        "event": "Route 24 was withdrawn.",
+        "sources": [
+          "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "24-2019-east",
+        "label": "Cambridge–Milton train connection",
+        "date": "2019-01-05",
+        "branch": "24",
+        "direction": "Eastbound",
+        "stops": [
+          "Cambridge Bus Terminal, Ainslie Street",
+          "Cambridge Centre Bus Terminal",
+          "Cambridge, Hespeler / Pinebush",
+          "Regional Road 25 / Highway 401 Park & Ride",
+          "Milton GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/cambridge-milton/2019-01-05-table-24-cambridge-milton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The westbound Hespeler timepoint is at Eagle Street. Union is a separate train connection, not part of this bus route."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://news.ontario.ca/en/release/36715/ontario-adding-twelve-weekday-go-bus-trips-between-cambridge-and-milton",
+        "title": "Ontario adding twelve weekday GO bus trips between Cambridge and Milton, 29 April 2016",
+        "type": "official"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/cambridge-milton/2019-01-05-table-24-cambridge-milton.pdf",
+        "title": "GO Cambridge / Milton table 24, effective 5 January 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service",
+        "title": "Ontario NDP statement reproducing June 2019 route-withdrawal information; used only for service dates",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "Opening-day stops may differ from the 2019 snapshot.",
+      "The June 2019 withdrawal date relies on contemporary secondary reporting pending an original GO notice."
+    ]
+  },
+  {
+    "route": "25",
+    "name": "Waterloo / Mississauga",
+    "status": "current",
+    "description": "The Waterloo–Kitchener–Cambridge corridor launched with Square One and Milton connections and later gained campus express, transitway and seasonal shopping variants.",
+    "timeline": [
+      {
+        "date": "2009-10-31",
+        "event": "GO began Waterloo / Kitchener / Cambridge service to Square One with a Milton train-connection branch.",
+        "sources": [
+          "https://news.ontario.ca/mto/en/2009/10/go-bus-service-coming-to-kitchener-waterloo-and-cambridge.html",
+          "https://news.ontario.ca/en/release/9607/go-buses-arrive-in-kitchener-waterloo-and-cambridge"
+        ]
+      },
+      {
+        "date": "2009-10-31",
+        "event": "The launch table identifies route 25 and Milton-bound 25A.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2019-04-06",
+        "event": "The published family includes 25B,25C,25D and 25F as well as 25.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2019-04-06-table-25-waterloo-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Seasonal weekend/holiday outlet-shopping service on 25L returned.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      },
+      {
+        "date": "2025-04-05",
+        "event": "Seasonal weekend 25K began Toronto Premium Outlets–Kipling service via Square One, Dixie and Renforth, through 24 August.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "25-2009-main",
+        "label": "Launch route to Square One",
+        "date": "2009-10-31",
+        "branch": "25",
+        "direction": "Eastbound",
+        "stops": [
+          "University of Waterloo, Davis Centre",
+          "Wilfrid Laurier University, University / Hazel",
+          "Kitchener Bus Terminal, Charles / Ontario",
+          "Cambridge SmartCentres, Hespeler / Highway 401",
+          "Aberfoyle Park & Ride, Brock / Highway 401",
+          "Regional Road 25 / Highway 401 Park & Ride",
+          "Square One"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "25-2009-milton",
+        "label": "Launch Milton train connection",
+        "date": "2009-10-31",
+        "branch": "25A",
+        "direction": "Eastbound",
+        "stops": [
+          "University of Waterloo, Davis Centre",
+          "Wilfrid Laurier University, University / Hazel",
+          "Kitchener Bus Terminal, Charles / Ontario",
+          "Cambridge SmartCentres, Hespeler / Highway 401",
+          "Aberfoyle Park & Ride, Brock / Highway 401",
+          "Regional Road 25 / Highway 401 Park & Ride",
+          "Milton GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "25-2025-seasonal-kipling",
+        "label": "Seasonal shopping branch to Kipling",
+        "date": "2025-04-05 to 2025-08-24",
+        "branch": "25K",
+        "direction": "Eastbound",
+        "stops": [
+          "Toronto Premium Outlets",
+          "Square One",
+          "Dixie Transitway Station",
+          "Renforth Transitway Station",
+          "Kipling GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Seasonal weekend operation, not a Waterloo through trip without separate evidence."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://news.ontario.ca/mto/en/2009/10/go-bus-service-coming-to-kitchener-waterloo-and-cambridge.html",
+        "title": "Ontario: GO bus service coming to Kitchener-Waterloo and Cambridge, 8 October 2009",
+        "type": "official"
+      },
+      {
+        "url": "https://news.ontario.ca/en/release/9607/go-buses-arrive-in-kitchener-waterloo-and-cambridge",
+        "title": "Ontario: GO buses arrive in Kitchener-Waterloo and Cambridge, 30 October 2009",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf",
+        "title": "GO table 25, printed effective 31 October 2009 (filename dated 22 November)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2019-04-06-table-25-waterloo-mississauga.pdf",
+        "title": "GO Waterloo / Mississauga table 25, effective 6 April 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips",
+        "title": "Metrolinx: April GO service changes to include new Kitchener line trips, March 2025",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Complete branch introduction dates remain unverified.",
+      "Davis Centre, Charles Street and Cambridge SmartCentres are historical stop locations and should not be moved to newer terminals.",
+      "Seasonal variants may be absent from autumn GTFS."
+    ]
+  },
+  {
+    "route": "27",
+    "name": "Milton / North York",
+    "status": "current",
+    "description": "A Milton/Meadowvale–North York family with historical Finch and York Mills variants and selected Meadowvale Business Park trips.",
+    "timeline": [
+      {
+        "date": "1977-01-05",
+        "event": "GO added a Milton / Streetsville–York Mills service, an early corridor predecessor.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2008-06-28",
+        "event": "The table documents 27 and 27A/B/D/E/F serving distinct Finch, York Mills and Meadowvale patterns.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+        ]
+      },
+      {
+        "date": "2016-04-02",
+        "event": "Weekend service was added.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The table uses Milton GO and Derry / Ninth Line in place of the older Main / Martin and Derry / Winston Churchill timepoints.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2019-01-05-table-27-milton-north-york.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "27-2008-finch",
+        "label": "Milton–Finch main branch",
+        "date": "2008-06-28",
+        "branch": "27",
+        "direction": "Eastbound",
+        "stops": [
+          "Milton, Main / Martin",
+          "Milton GO",
+          "Milton, Thompson / Derry",
+          "Meadowvale, Derry / Winston Churchill",
+          "Meadowvale Town Centre, Aquitaine",
+          "Meadowvale GO",
+          "Erin Mills Parkway / Mississauga Road",
+          "Toronto, Keele / Highway 401",
+          "Yorkdale GO Bus Terminal",
+          "Yonge / Sheppard",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "27-2008-york-mills",
+        "label": "Milton–York Mills branch",
+        "date": "2008-06-28",
+        "branch": "27B",
+        "direction": "Eastbound",
+        "stops": [
+          "Milton, Main / Martin",
+          "Milton GO",
+          "Milton, Thompson / Derry",
+          "Meadowvale, Derry / Winston Churchill",
+          "Meadowvale Town Centre, Aquitaine",
+          "Meadowvale GO",
+          "Erin Mills Parkway / Mississauga Road",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. This branch skips Keele, Yorkdale, Sheppard and Finch; their columns must not be inserted into its stop list."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf",
+        "title": "GO table 27, printed effective 28 June 2008 (filename dated 3 December)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2019-01-05-table-27-milton-north-york.pdf",
+        "title": "GO Milton / North York table 27, effective 5 January 2019",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The number 27 adoption date is unknown.",
+      "The 2008 business-park variants 27A/E/F are documented but not individually reconstructed here; dated GTFS can supplement them."
+    ]
+  },
+  {
+    "route": "29",
+    "name": "Guelph / Mississauga",
+    "status": "current",
+    "description": "A Guelph–Highway 401–Mississauga corridor formerly reaching Cooksville, later centered on Square One and extended to Kipling.",
+    "timeline": [
+      {
+        "date": "2007-09-03",
+        "event": "The federal/provincial launch release announced University of Guelph–Aberfoyle–Square One–Cooksville service for 3 September. The route 29 number is independently documented by 2008.",
+        "sources": [
+          "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html"
+        ]
+      },
+      {
+        "date": "2008-04-28",
+        "event": "Additional weekday trips increased the University of Guelph–Cooksville route toward hourly service.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2009-09-05",
+        "event": "The original table retains Cooksville GO as the Mississauga endpoint.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2010-01-02-table-29-guelph-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The table runs Guelph Central–University–Aberfoyle–Square One with Regional Road 25 and Transitway timepoints.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2019-01-05-table-29-guelph-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2021-09-04",
+        "event": "Route 29 extended to Renforth/Kipling; a university–Square One Friday/Sunday express pilot was announced.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network"
+        ]
+      },
+      {
+        "date": "2024-08-31",
+        "event": "Branch 29A added an express University of Guelph–Square One connection.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/go-bus-schedule-changes-coming-aug-31"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "29-2009-cooksville",
+        "label": "University of Guelph–Cooksville",
+        "date": "2009-09-05",
+        "branch": "29",
+        "direction": "Eastbound",
+        "stops": [
+          "University of Guelph",
+          "Aberfoyle Park & Ride",
+          "Square One",
+          "Cooksville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2010-01-02-table-29-guelph-mississauga.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "29-2019-transitway",
+        "label": "Guelph Central–Square One via Transitway",
+        "date": "2019-01-05",
+        "branch": "29",
+        "direction": "Eastbound",
+        "stops": [
+          "Guelph Central GO",
+          "University of Guelph",
+          "Aberfoyle, Brock / McLean",
+          "Regional Road 25 / Highway 401 Park & Ride",
+          "Winston Churchill Transitway Station",
+          "Erin Mills Transitway Station",
+          "Square One"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2019-01-05-table-29-guelph-mississauga.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html",
+        "title": "Transport Canada: GO Transit expands bus service to the University of Guelph, 29 August 2007",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto: GO Transit changes start April 26, published 22 April 2008",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2010-01-02-table-29-guelph-mississauga.pdf",
+        "title": "GO table 29, printed effective 5 September 2009 (filename dated 2 January 2010)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/guelph-mississauga/2019-01-05-table-29-guelph-mississauga.pdf",
+        "title": "GO Guelph / Mississauga table 29, effective 5 January 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network",
+        "title": "Metrolinx announces increased weekday service across GO network, 26 August 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/go-bus-schedule-changes-coming-aug-31",
+        "title": "Metrolinx: GO bus schedule changes coming Aug. 31, 2024",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The launch release describes the corridor without a route number; the number 29 is independently documented by the April 2008 service-change notice.",
+      "Dates when Cooksville was removed and Guelph Central added need intervening timetables."
+    ]
+  },
+  {
+    "route": "30",
+    "name": "Kitchener / Vaughan; formerly Kitchener / Bramalea",
+    "status": "current",
+    "description": "A Kitchener–Bramalea train-connection express that gained all-day/weekend service and Waterloo university connections.",
+    "timeline": [
+      {
+        "date": "by 2013-04-06",
+        "event": "Route 30 already appears with one weekday morning eastbound trip and three westbound train meets.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2016-09-06",
+        "event": "Weekday counter-peak and off-peak service was added.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2016-09-26",
+        "event": "Ontario described expanded all-day Kitchener–Bramalea express service alongside Highway 401 bus-shoulder improvements.",
+        "sources": [
+          "https://news.ontario.ca/mto/en/2016/09/ontario-adding-go-bus-by-pass-shoulders-on-highway-401.html"
+        ]
+      },
+      {
+        "date": "2021-09-04",
+        "event": "The route extended from Kitchener GO to Waterloo and Laurier universities.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Weekend service was added for connections to new weekend Kitchener-line trains.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "30-2013-west",
+        "label": "Early Bramalea–Kitchener train connection",
+        "date": "2013-04-06",
+        "branch": "30",
+        "direction": "Westbound",
+        "stops": [
+          "Bramalea GO",
+          "Kitchener GO, Weber / Victoria",
+          "Kitchener Bus Terminal, Charles / Ontario"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Visually verified westbound sequence: Bramalea 15:00, Kitchener GO16:10, Charles Street 16:15. The morning eastbound trip starts at Kitchener GO; do not infer a Charles Street pickup."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+        "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://news.ontario.ca/mto/en/2016/09/ontario-adding-go-bus-by-pass-shoulders-on-highway-401.html",
+        "title": "Ontario adding GO bus by-pass shoulders on Highway 401, 26 September 2016",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/metrolinx-announces-increased-weekday-service-across-go-network",
+        "title": "Metrolinx announces increased weekday service across GO network, 26 August 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Route 30 existed by 2013; the 2016 expansion was not its launch.",
+      "Initial introduction and later Highway 407-terminal extension dates need primary notices.",
+      "Kitchener GO and Charles Street terminal are distinct places."
+    ]
+  },
+  {
+    "route": "31",
+    "name": "Guelph / Toronto",
+    "status": "current",
+    "description": "The Georgetown/Kitchener corridor’s Union bus family combines multiple local/express lengths, with coverage changing as trains expanded.",
+    "timeline": [
+      {
+        "date": "2007-09-01",
+        "event": "Route 31 trip series link Union, Brampton, Georgetown, Acton, Rockwood and Guelph in several patterns.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2013-04-06",
+        "event": "The Kitchener booklet separates 30/31/33/39 and documents many 31 variants.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "Midday 31 train-bus service was removed as Kitchener midday trains expanded.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Weekend 31 service was replaced by trains and local bus connections on other routes.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "31-2013-brampton",
+        "label": "Union–Brampton local branch",
+        "date": "2013-04-06",
+        "branch": "31H",
+        "direction": "Westbound",
+        "stops": [
+          "Union Station bus terminal",
+          "Malton GO",
+          "Bramalea GO",
+          "Brampton, Steeles / Rutherford",
+          "Shoppers World, Hurontario / Bartley Bull",
+          "Brampton GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Example trip 31061. Bloor, Weston and EtobicokeNorth are rail columns skipped by this bus."
+      },
+      {
+        "id": "31-2007-corridor",
+        "label": "Union–Guelph evening through bus",
+        "date": "2007-04-28",
+        "branch": "31",
+        "direction": "Westbound",
+        "stops": [
+          "Union Station bus terminal",
+          "Brampton, Steeles / Rutherford",
+          "Shoppers World, Hurontario / Bartley Bull",
+          "Brampton GO",
+          "Brampton, Hurontario / Bovaird",
+          "Mount Pleasant GO",
+          "Norval",
+          "Georgetown Market",
+          "Georgetown GO",
+          "Georgetown, Main / Wesleyan",
+          "Acton, Main / Mill",
+          "Rockwood, Alma / Main",
+          "Guelph Bus Terminal, Macdonell / Carden"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+        ],
+        "notes": "Selected published timepoints, not an exhaustive curb-stop list. Schematic connectors do not establish roads taken. Actual weekday trip 31831 departed Union at 20:30 and reached Guelph at 22:25; it skipped Malton and Bramalea. Printed westbound page effective 28 April 2007."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf",
+        "title": "GO Georgetown table 31, routes 31 / 33, pages dated 28 April and 1 September 2007 (archive family later renamed Kitchener)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+        "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Number 31’s initial adoption date is unknown.",
+      "Train-connection columns must not be treated as bus stops.",
+      "A schedule-effective Saturday may differ from the first weekday of replacement trains."
+    ]
+  },
+  {
+    "route": "32",
+    "name": "Brampton Trinity Common / North York",
+    "status": "current",
+    "description": "The Trinity Common–North York family joined Brampton terminals to the Yonge Street corridor using Highway 407. Its Richmond Hill-area stop was Langstaff / Yonge, not Richmond Hill Centre.",
+    "timeline": [
+      {
+        "date": "2006-10-28",
+        "event": "The table connects Hurontario / Bovaird and Trinity Common through Bramalea to Langstaff / Yonge, Finch and Sheppard.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "Service moved from Dixie Road to Highway 410, removing the local Dixie stops.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The table includes Williams Parkway/Highway 410 and York Mills, plus a Bramalea Transit Terminal branch.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2019-01-05-table-32-brampton-trinity-common-north-york.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "32-2006",
+        "label": "Trinity Common–North York via Bramalea",
+        "date": "2006-10-28",
+        "branch": "32",
+        "direction": "Eastbound",
+        "stops": [
+          "Brampton, Hurontario / Bovaird",
+          "Trinity Common Terminal",
+          "Bramalea City Centre Terminal, Clark Boulevard",
+          "Bramalea GO",
+          "Langstaff Road / Yonge Street",
+          "Finch GO Bus Terminal",
+          "Yonge / Sheppard"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The older Clark Boulevard and newer Central Park terminals need distinct historical coordinates. Langstaff / Yonge is an on-street stop, not Richmond Hill Centre."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf",
+        "title": "GO table 32, printed effective 28 October 2006 (filename dated 5 February 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2019-01-05-table-32-brampton-trinity-common-north-york.pdf",
+        "title": "GO Brampton Trinity Common / North York table 32, effective 5 January 2019",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The initial launch date is unknown.",
+      "Dates when York Mills was added and later removed need contemporary notices.",
+      "The 2019 cover’s Highway 401 typo must not relocate the actual Williams Parkway/Highway 410 interchange."
+    ]
+  },
+  {
+    "route": "33",
+    "name": "Guelph / North York",
+    "status": "current",
+    "description": "A Guelph–Georgetown–Brampton–North York local corridor, historically terminating at York Mills and sharing portions with 31.",
+    "timeline": [
+      {
+        "date": "1976-02-15",
+        "event": "GO introduced a Georgetown–Brampton–Malton–York Mills corridor, a predecessor of later numbered routes.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2007-09-01",
+        "event": "Route 33 trip series link Guelph and Georgetown with Yorkdale/York Mills.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2013-04-06",
+        "event": "The family includes Guelph Central, the University of Guelph and Acton GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "Hourly weekday off-peak service was added.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Weekend service was added for train connections at Mount Pleasant.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "33-2007",
+        "label": "Guelph–York Mills via Georgetown",
+        "date": "2007-09-01",
+        "branch": "33",
+        "direction": "Eastbound",
+        "stops": [
+          "Guelph Bus Terminal, Macdonell / Carden",
+          "Rockwood, Alma / Main",
+          "Acton, Main / Mill",
+          "Georgetown GO",
+          "Georgetown Market",
+          "Norval",
+          "Mount Pleasant GO",
+          "Brampton GO",
+          "Shoppers World",
+          "Brampton, Steeles / Rutherford",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Major timepoints only; university extensions and short turns are separate patterns."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf",
+        "title": "GO Georgetown table 31, routes 31 / 33, pages dated 28 April and 1 September 2007 (archive family later renamed Kitchener)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+        "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The 1976 predecessor does not prove the 33 number was then used.",
+      "Guelph/Acton terminal-relocation dates need primary notices.",
+      "Weekend short turns should be taken from dated GTFS, not inferred from the full weekday route."
+    ]
+  },
+  {
+    "route": "34",
+    "name": "Pearson Airport / North York; formerly Brampton local",
+    "status": "discontinued",
+    "description": "Before 2015,34 joined Brampton, Malton and Pearson with North York. It became Pearson–Finch before being absorbed into 94.",
+    "timeline": [
+      {
+        "date": "2012-09-01",
+        "event": "The combined timetable identifies 34 as Brampton–Bramalea–Malton–Pearson–North York.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "34 became Pearson–Yorkdale–Finch, dropping Brampton, Malton and York Mills.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The original 34 table confirms its Pearson–Finch configuration.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "34 and 94 merged into expanded 94, ending the separate 34 number.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+          "https://www.gotransit.com/en/blog/april-service-changes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "34-2012-brampton",
+        "label": "Brampton–Pearson–York Mills local",
+        "date": "2012-09-01",
+        "branch": "34",
+        "direction": "Eastbound",
+        "stops": [
+          "Brampton GO",
+          "Bramalea Transit Terminal, Central Park Drive",
+          "Bramalea GO",
+          "Malton, Airport / Derry",
+          "Pearson Airport Terminal 1",
+          "Toronto, Dixon / Martin Grove",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected main-route timepoints, not every short turn."
+      },
+      {
+        "id": "34-2019-finch",
+        "label": "Pearson–Finch after 2015",
+        "date": "2019-01-05",
+        "branch": "34",
+        "direction": "Eastbound",
+        "stops": [
+          "Pearson Airport Terminal 1",
+          "Yorkdale GO Bus Terminal",
+          "Yonge / Sheppard",
+          "Finch GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+        "title": "GO Brampton Local / Highway 27 and Highway 427 Express table 34, effective 1 September 2012, routes 34 / 35 / 36",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+        "title": "GO Pearson Airport / North York table 34, effective 5 January 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+        "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+        "type": "official"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit: April service changes, published 14 April 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The initial 34 launch date is unknown.",
+      "The 2015 change removed the Brampton section; it was not merely a name change.",
+      "Use full original tables or GTFS for minor/direction-specific stops."
+    ]
+  },
+  {
+    "route": "35",
+    "name": "Union Pearson Express replacement; formerly Brampton / Highway 27",
+    "status": "special",
+    "description": "The old regular 35 ran Brampton–Humber College–North York until 2015. Contemporary 35B/35C feed entries are UP Express replacement services, a separate reuse.",
+    "timeline": [
+      {
+        "date": "2012-09-01",
+        "event": "The Brampton table identifies 35 via Humber College toward North York.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "The regular Brampton/Highway 27 route 35 was discontinued.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "35-2012-humber",
+        "label": "Former Brampton–Humber College–North York",
+        "date": "2012-09-01",
+        "branch": "35",
+        "direction": "Eastbound",
+        "stops": [
+          "Brampton GO",
+          "Bramalea Transit Terminal, Central Park Drive",
+          "Bramalea GO",
+          "Mississauga, Finch / Darcel",
+          "Humber College Boulevard, west of Highway 27",
+          "Highway 27 / Rexdale",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. This old route is unrelated to the later UP Express replacement patterns."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+        "title": "GO Brampton Local / Highway 27 and Highway 427 Express table 34, effective 1 September 2012, routes 34 / 35 / 36",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The old 35 introduction date is unknown.",
+      "Modern 35B/35C patterns belong to dated GTFS; their presence does not establish a permanent conventional daily route.",
+      "The first date of number 35’s modern reuse remains unverified."
+    ]
+  },
+  {
+    "route": "36",
+    "name": "Brampton / North York Express",
+    "status": "current",
+    "description": "The express member of the former combined 34/35/36 Brampton family, expanded to all-day, seven-day service in 2015.",
+    "timeline": [
+      {
+        "date": "2012-09-01",
+        "event": "The Brampton table identifies 36 and Bramalea express short turns.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "36 expanded from peak-only to all-day bidirectional service, seven days weekly.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "A standalone Brampton/North York booklet documents the reorganized 36 family.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-north-york/2019-01-05-table-36-brampton-north-york.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "36-2012-bramalea-express",
+        "label": "Bramalea–North York express short turn",
+        "date": "2012-09-01",
+        "branch": "36B",
+        "direction": "Eastbound",
+        "stops": [
+          "Bramalea Transit Terminal, Central Park Drive",
+          "Bramalea GO",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Do not extend this 36B trip to Brampton GO simply because that terminal occurs in other rows."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+        "title": "GO Brampton Local / Highway 27 and Highway 427 Express table 34, effective 1 September 2012, routes 34 / 35 / 36",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-north-york/2019-01-05-table-36-brampton-north-york.pdf",
+        "title": "GO Brampton / North York table 36, effective 5 January 2019",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Initial launch and all later short-turn change dates are unverified.",
+      "The shared booklet’s table 34 title does not make these buses route 34."
+    ]
+  },
+  {
+    "route": "37",
+    "name": "Orangeville / Brampton",
+    "status": "current",
+    "description": "A Highway 10/Hurontario train-feeder corridor, originally numbered 41, with a former midday Bramalea branch.",
+    "timeline": [
+      {
+        "date": "1999-01-04",
+        "event": "GO introduced Orangeville–Caledon–Victoria–Snelgrove–Brampton train connections.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2008-04-28",
+        "event": "Former 41 Orangeville was renumbered 37; an additional weekday trip each way was also introduced.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2009-10-31",
+        "event": "37 mainline serves Brampton GO; midday 37A serves Trinity Common and Bramalea.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+        ]
+      },
+      {
+        "date": "2011-12-31",
+        "event": "All six weekday trips each way in this issue use Brampton GO; the earlier Bramalea branch is absent.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2012-08-25-table-37-orangeville-brampton.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "37-2009-main",
+        "label": "Orangeville–Brampton GO",
+        "date": "2009-10-31",
+        "branch": "37",
+        "direction": "Southbound",
+        "stops": [
+          "Orangeville Mall",
+          "Orangeville, Broadway / Blind Line",
+          "Orangeville Park & Ride, Townline / Green",
+          "Orangeville Carpool Lot, Broadway / Highway 10",
+          "Caledon, Highway 10 / Charleston Sideroad",
+          "Victoria, Highway 10 / King Street",
+          "Snelgrove, Hurontario / Mayfield",
+          "Brampton GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "37-2009-bramalea",
+        "label": "Former midday Bramalea branch",
+        "date": "2009-10-31",
+        "branch": "37A",
+        "direction": "Southbound",
+        "stops": [
+          "Orangeville Mall",
+          "Orangeville, Broadway / Blind Line",
+          "Orangeville Park & Ride, Townline / Green",
+          "Orangeville Carpool Lot, Broadway / Highway 10",
+          "Caledon, Highway 10 / Charleston Sideroad",
+          "Victoria, Highway 10 / King Street",
+          "Snelgrove, Hurontario / Mayfield",
+          "Trinity Common Terminal",
+          "Bramalea City Centre Terminal",
+          "Bramalea GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. One midday trip each way is shown. Do not backdate these exact 2009 stops to the old 41 without another source."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto: GO Transit changes start April 26, published 22 April 2008",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf",
+        "title": "GO table 37, printed effective 31 October 2009 (filename dated 2 January 2010)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2012-08-25-table-37-orangeville-brampton.pdf",
+        "title": "GO table 37, printed effective 31 December 2011 (filename dated 25 August 2012)",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "See the separate 41 entry for the former number.",
+      "The old 37A withdrawal falls between the 2009 and December 2011 snapshots; the precise date is unverified.",
+      "Later weekend/local-branch chronology requires additional timetables."
+    ]
+  },
+  {
+    "route": "38",
+    "name": "Bolton / Malton; formerly Highway 27 / North York",
+    "status": "current",
+    "description": "The former 42 Bolton family had separate Highway 50–Malton and Highway 27–North York branches. The latter ended in 2019; a proposed total cancellation was revised to retain reduced Malton service.",
+    "timeline": [
+      {
+        "date": "1999-01-04",
+        "event": "GO introduced a Bolton–Nobleton–Kleinburg–Humber College–North York corridor.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2008-04-28",
+        "event": "Former 42 Bolton was renumbered 38.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2008-08-30",
+        "event": "The original 38A table shows the Highway 27 branch, two peak-direction trips each way.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+        ]
+      },
+      {
+        "date": "2008-12-01",
+        "event": "A separately dated table documents 38 via Highway 50 to Malton GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+        ]
+      },
+      {
+        "date": "2018-09-01",
+        "event": "Both 38 and 38A remain in the published booklet.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2018-09-01-table-38-bolton-malton.pdf"
+        ]
+      },
+      {
+        "date": "2019-06-29",
+        "event": "38A was eliminated. The planned total 38 cancellation was revised.",
+        "sources": [
+          "https://pub-caledon.escribemeetings.com/filestream.ashx?DocumentId=6648"
+        ]
+      },
+      {
+        "date": "2019-07-02",
+        "event": "Reduced 38 retained two morning and two afternoon/evening trips, initially as an interim arrangement.",
+        "sources": [
+          "https://pub-caledon.escribemeetings.com/filestream.ashx?DocumentId=6648"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "38-2008-highway27",
+        "label": "Bolton–North York via Highway 27",
+        "date": "2008-08-30",
+        "branch": "38A",
+        "direction": "Southbound",
+        "stops": [
+          "Bolton, Albion Vaughan / Industrial",
+          "Bolton, Queen / Allan",
+          "Bolton, King / Humber Lea",
+          "Nobleton, King / Highway 27",
+          "Kleinburg, Islington / Nashville",
+          "Woodbridge, Rutherford / Vaughan Mills",
+          "Highway 27 / Humber College Boulevard",
+          "Etobicoke North GO",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. "
+      },
+      {
+        "id": "38-2008-highway50",
+        "label": "Bolton–Malton via Highway 50",
+        "date": "2008-12-01",
+        "branch": "38",
+        "direction": "Southbound",
+        "stops": [
+          "Bolton, Highway 50 / Columbia Way",
+          "Bolton, Highway 50 / Wilton",
+          "Highway 50 / Nashville–Countryside",
+          "Highway 50 / Highway 7",
+          "Malton GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The Highway 50 and Highway 27 patterns are separate branches, not one circuit."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto: GO Transit changes start April 26, published 22 April 2008",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf",
+        "title": "GO table 38: Highway 27 branch effective 30 August 2008; Highway 50 branch effective 1 December 2008",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2018-09-01-table-38-bolton-malton.pdf",
+        "title": "GO Bolton / Malton table 38, effective 1 September 2018",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://pub-caledon.escribemeetings.com/filestream.ashx?DocumentId=6648",
+        "title": "Town of Caledon staff report on GO Transit service reductions and route 38, 24 September 2019",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "See the separate 42 entry for the former number.",
+      "Route 38 survived the 2019 changes; do not record a completed total cancellation.",
+      "The Highway 50 branch’s first introduction is unverified; December 2008 is a documented snapshot."
+    ]
+  },
+  {
+    "route": "39",
+    "name": "Guelph / Aberfoyle / Bramalea",
+    "status": "discontinued",
+    "description": "A former express Guelph–Bramalea train connection via Aberfoyle, distinct from Kitchener route 30 and local Georgetown route 33.",
+    "timeline": [
+      {
+        "date": "by 2013-04-06",
+        "event": "The original booklet identifies 39 with one weekday eastbound trip and three westbound train meets.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "39 was discontinued in the Kitchener corridor reorganization.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "39-2013",
+        "label": "Bramalea–Guelph express train connection",
+        "date": "2013-04-06",
+        "branch": "39",
+        "direction": "Westbound",
+        "stops": [
+          "Bramalea GO",
+          "Aberfoyle GO Park & Ride",
+          "University of Guelph",
+          "Guelph Central GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+        ],
+        "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Westbound trips connected with trains. The route did not travel through Georgetown or Rockwood."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+        "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The exact launch date is unverified.",
+      "This retired number must not be applied to the later 30 expansion."
+    ]
+  }
+]

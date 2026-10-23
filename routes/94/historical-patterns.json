@@ -1,0 +1,376 @@
+[
+  {
+    "id": "94-2007-hwy2",
+    "label": "Old 94: Oshawa–Yorkdale local",
+    "date": "2007-10-27",
+    "branch": "94",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Simcoe St / Bloor St — Oshawa",
+        "lat": 43.8804959,
+        "lon": -78.8558452,
+        "location_source": "https://www.openstreetmap.org/node/95317118",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining Simcoe Street South (way 486466828); Simcoe Street South (way 1414888736); Bloor Street West (way 455675560); Bloor Street East (way 1414888739), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+      },
+      {
+        "name": "Oshawa Bus Terminal",
+        "lat": 43.8978462,
+        "lon": -78.865593,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St / Brock St — Whitby",
+        "lat": 43.8796501,
+        "lon": -78.9427185,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00173, named Dundas St.  @  Brock St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Ajax GO Bus Terminal — Harwood Ave",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Ajax GO — Westney Rd / Fairall St",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00161, named Ajax GO Bus. Historical direction-specific platform has not been established. Ajax railway-station bus terminal reference. Distinct from the old GO bus terminal on Harwood Avenue."
+      },
+      {
+        "name": "Highway 2 / Liverpool Rd — Pickering",
+        "lat": 43.8356083,
+        "lon": -79.0905264,
+        "location_source": "https://www.openstreetmap.org/node/379765489",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining Kingston Road (way 86482412); Kingston Road (way 338072622); Liverpool Road (way 33412501); Liverpool Road (way 333203847), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+      },
+      {
+        "name": "Kingston Rd / Port Union Rd",
+        "lat": 43.7991524,
+        "lon": -79.145546,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Kingston Rd.  @ Port Union Rd.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2008-12-03-table-94-pickering-mississauga.pdf"
+    ],
+    "notes": "Archive folder name reflects the later route reuse; this PDF is the older Oshawa Highway 2 service. Numerous intermediate local stops are not printed as timing points.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.8558452,
+          43.8804959
+        ],
+        [
+          -78.865593,
+          43.8978462
+        ],
+        [
+          -78.9427185,
+          43.8796501
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.0905264,
+          43.8356083
+        ],
+        [
+          -79.145546,
+          43.7991524
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Archive folder name reflects the later route reuse; this PDF is the older Oshawa Highway 2 service. Numerous intermediate local stops are not printed as timing points. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "94-2023-before-airport",
+    "label": "Reused 94 before the Pearson diversion",
+    "date": "2023-01-07",
+    "branch": "94",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Pickering GO",
+        "lat": 43.830982,
+        "lon": -79.084571,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Pickering GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.77486,
+        "lon": -79.26088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St / Highway 401",
+        "lat": 43.7216759,
+        "lon": -79.4808273,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00022, named Keele St.  @ Hwy. 401. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-01-07-table-94-pickering-mississauga.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.084571,
+          43.830982
+        ],
+        [
+          -79.26088,
+          43.77486
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4808273,
+          43.7216759
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "94-2023-airport",
+    "label": "Reused 94 via Pearson and the Transitway",
+    "date": "2023-04-08",
+    "branch": "94",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Pickering GO",
+        "lat": 43.830982,
+        "lon": -79.084571,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Pickering GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.77486,
+        "lon": -79.26088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Poyntz Ave — Sheppard area",
+        "lat": 43.760053363685,
+        "lon": -79.4107512589806,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2023-05-05, stop 02821, named Yonge St. @ Poyntz Ave.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St / Highway 401",
+        "lat": 43.7216759,
+        "lon": -79.4808273,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00022, named Keele St.  @ Hwy. 401. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Renforth Transitway Station",
+        "lat": 43.662995090205,
+        "lon": -79.5911181123626,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Renforth Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dixie Transitway Station",
+        "lat": 43.6300128947218,
+        "lon": -79.6146254772841,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dixie Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-04-08-table-94-pickering-mississauga.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.084571,
+          43.830982
+        ],
+        [
+          -79.26088,
+          43.77486
+        ],
+        [
+          -79.4107512589806,
+          43.760053363685
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4808273,
+          43.7216759
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.5911181123626,
+          43.662995090205
+        ],
+        [
+          -79.6146254772841,
+          43.6300128947218
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  }
+]

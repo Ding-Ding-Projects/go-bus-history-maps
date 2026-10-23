@@ -1,0 +1,438 @@
+[
+  {
+    "id": "56A-2022",
+    "label": "Oakville–Oshawa via Winchester and Baldwin",
+    "date": "2022-04-02",
+    "branch": "56A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Oakville GO",
+        "lat": 43.455966,
+        "lon": -79.681676,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oakville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Sheridan College — Trafalgar Campus",
+        "lat": 43.4698067,
+        "lon": -79.6977158,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Sheridan College",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Erin Mills Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.7015110998905,
+        "lon": -79.6932467645138,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Brock Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.912596,
+        "lon": -79.097042,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Brock Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Winchester Rd. W. / Hwy. 7 @ Lake Ridge Rd.",
+        "lat": 43.9402527,
+        "lon": -79.0169233,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "Baldwin St. @ Hwy. 407 Park & Ride",
+        "lat": 43.9449147110778,
+        "lon": -78.9599680461866,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Baldwin St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Winchester Rd. @ Anderson St. / Watford St.",
+        "lat": 43.9565523,
+        "lon": -78.9471221,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "Ontario Tech University / Durham College",
+        "lat": 43.9433594,
+        "lon": -78.8949661,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Ontario Tech University/Durham College",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Downtown Oshawa — Centre St. S. @ Athol St. W.",
+        "lat": 43.89617,
+        "lon": -78.865335,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Centre St. S. @ Athol St. W.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oshawa GO",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+    ],
+    "notes": "Eastbound downtown timing point is Centre/Athol; westbound uses Simcoe/Athol. Lake Ridge is on the Winchester/Highway 7 corridor. Do not substitute the post-April-2023 highway geometry. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.681676,
+          43.455966
+        ],
+        [
+          -79.6977158,
+          43.4698067
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6932467645138,
+          43.7015110998905
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.097042,
+          43.912596
+        ],
+        [
+          -79.0169233,
+          43.9402527
+        ],
+        [
+          -78.9599680461866,
+          43.9449147110778
+        ],
+        [
+          -78.9471221,
+          43.9565523
+        ],
+        [
+          -78.8949661,
+          43.9433594
+        ],
+        [
+          -78.865335,
+          43.89617
+        ],
+        [
+          -78.88585,
+          43.870909
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Eastbound downtown timing point is Centre/Athol; westbound uses Simcoe/Athol. Lake Ridge is on the Winchester/Highway 7 corridor. Do not substitute the post-April-2023 highway geometry. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "56-2023",
+    "label": "Oakville–Oshawa via Cornell and Highway 407",
+    "date": "2023-04-08",
+    "branch": "56",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Oakville GO",
+        "lat": 43.455966,
+        "lon": -79.681676,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oakville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Sheridan College — Trafalgar Campus",
+        "lat": 43.4698067,
+        "lon": -79.6977158,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Sheridan College",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Erin Mills Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.7015110998905,
+        "lon": -79.6932467645138,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Cornell Bus Terminal",
+        "lat": 43.879742,
+        "lon": -79.232527,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Brock Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.912596,
+        "lon": -79.097042,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Brock Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Baldwin St. @ Hwy. 407 Park & Ride",
+        "lat": 43.9449147110778,
+        "lon": -78.9599680461866,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Baldwin St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ontario Tech University / Durham College",
+        "lat": 43.9433594,
+        "lon": -78.8949661,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Ontario Tech University/Durham College",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Downtown Oshawa — Centre St. S. @ Athol St. W.",
+        "lat": 43.89617,
+        "lon": -78.865335,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Centre St. S. @ Athol St. W.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oshawa GO",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+    ],
+    "notes": "Highway 407 replaces the old Durham street corridor; there is no Lake Ridge or Winchester/Anderson timing point in this pattern. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.681676,
+          43.455966
+        ],
+        [
+          -79.6977158,
+          43.4698067
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6932467645138,
+          43.7015110998905
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.232527,
+          43.879742
+        ],
+        [
+          -79.097042,
+          43.912596
+        ],
+        [
+          -78.9599680461866,
+          43.9449147110778
+        ],
+        [
+          -78.8949661,
+          43.9433594
+        ],
+        [
+          -78.865335,
+          43.89617
+        ],
+        [
+          -78.88585,
+          43.870909
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Highway 407 replaces the old Durham street corridor; there is no Lake Ridge or Winchester/Anderson timing point in this pattern. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

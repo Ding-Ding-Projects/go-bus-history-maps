@@ -1,0 +1,255 @@
+[
+  {
+    "id": "37-2009-main",
+    "label": "Orangeville–Brampton GO",
+    "date": "2009-10-31",
+    "branch": "37",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Orangeville Mall",
+        "lat": 43.930336,
+        "lon": -80.1022568,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00257 (Hansen Blvd. @ First St. (Orangeville Mall)); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hansen Blvd. @ First St. (Orangeville Mall)",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Orangeville, Broadway / Blind Line",
+        "lat": 43.9155502,
+        "lon": -80.1138382,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00258 (Broadway  @ Blind Line); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Broadway  @ Blind Line",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Orangeville Park & Ride, Townline / Green",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Orangeville Carpool Lot, Broadway / Highway 10",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Caledon, Highway 10 / Charleston Sideroad",
+        "lat": 43.8602753,
+        "lon": -79.99617,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00254 (Hurontario St.  @ Charleston Side Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Charleston Side Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Victoria, Highway 10 / King Street",
+        "lat": 43.7734947,
+        "lon": -79.8786621,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00252 (Hurontario St.  @ King St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ King St.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Snelgrove, Hurontario / Mayfield",
+        "lat": 43.7339287,
+        "lon": -79.8255081,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00250 (Hurontario St.  @ Mayfield Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Mayfield Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Brampton GO",
+        "lat": 43.6869087,
+        "lon": -79.7628632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brampton Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.1022568,
+          43.930336
+        ],
+        [
+          -80.1138382,
+          43.9155502
+        ],
+        [
+          -79.99617,
+          43.8602753
+        ],
+        [
+          -79.8786621,
+          43.7734947
+        ],
+        [
+          -79.8255081,
+          43.7339287
+        ],
+        [
+          -79.7628632,
+          43.6869087
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken.  2 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "37-2009-bramalea",
+    "label": "Former midday Bramalea branch",
+    "date": "2009-10-31",
+    "branch": "37A",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Orangeville Mall",
+        "lat": 43.930336,
+        "lon": -80.1022568,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00257 (Hansen Blvd. @ First St. (Orangeville Mall)); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hansen Blvd. @ First St. (Orangeville Mall)",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Orangeville, Broadway / Blind Line",
+        "lat": 43.9155502,
+        "lon": -80.1138382,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00258 (Broadway  @ Blind Line); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Broadway  @ Blind Line",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Orangeville Park & Ride, Townline / Green",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Orangeville Carpool Lot, Broadway / Highway 10",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Caledon, Highway 10 / Charleston Sideroad",
+        "lat": 43.8602753,
+        "lon": -79.99617,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00254 (Hurontario St.  @ Charleston Side Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Charleston Side Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Victoria, Highway 10 / King Street",
+        "lat": 43.7734947,
+        "lon": -79.8786621,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00252 (Hurontario St.  @ King St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ King St.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Snelgrove, Hurontario / Mayfield",
+        "lat": 43.7339287,
+        "lon": -79.8255081,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00250 (Hurontario St.  @ Mayfield Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Mayfield Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Trinity Common Terminal",
+        "lat": 43.7313271,
+        "lon": -79.7631531,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00231 (Trinity Common Mall); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Trinity Common Mall",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea City Centre Terminal",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. One midday trip each way is shown. Do not backdate these exact 2009 stops to the old 41 without another source.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.1022568,
+          43.930336
+        ],
+        [
+          -80.1138382,
+          43.9155502
+        ],
+        [
+          -79.99617,
+          43.8602753
+        ],
+        [
+          -79.8786621,
+          43.7734947
+        ],
+        [
+          -79.8255081,
+          43.7339287
+        ],
+        [
+          -79.7631531,
+          43.7313271
+        ],
+        [
+          -79.689512,
+          43.70215
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. One midday trip each way is shown. Do not backdate these exact 2009 stops to the old 41 without another source. 3 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  }
+]

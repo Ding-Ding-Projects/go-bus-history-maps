@@ -1,0 +1,85 @@
+{
+  "route": "31",
+  "name": "Guelph / Toronto",
+  "status": "current",
+  "description": "The Georgetown/Kitchener corridor’s Union bus family combines multiple local/express lengths, with coverage changing as trains expanded.",
+  "timeline": [
+    {
+      "date": "2007-09-01",
+      "event": "Route 31 trip series link Union, Brampton, Georgetown, Acton, Rockwood and Guelph in several patterns.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+      ]
+    },
+    {
+      "date": "2013-04-06",
+      "event": "The Kitchener booklet separates 30/31/33/39 and documents many 31 variants.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "Midday 31 train-bus service was removed as Kitchener midday trains expanded.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "Weekend 31 service was replaced by trains and local bus connections on other routes.",
+      "sources": [
+        "https://www.gotransit.com/en/blog/april-service-changes"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf",
+      "title": "GO Georgetown table 31, routes 31 / 33, pages dated 28 April and 1 September 2007 (archive family later renamed Kitchener)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+      "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://www.gotransit.com/en/blog/april-service-changes",
+      "title": "GO Transit: April service changes, published 14 April 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Number 31’s initial adoption date is unknown.",
+    "Train-connection columns must not be treated as bus stops.",
+    "A schedule-effective Saturday may differ from the first weekday of replacement trains.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

@@ -1,0 +1,1703 @@
+{
+  "Highway 407 Bus Terminal": {
+    "lat": 43.7830713234851,
+    "lon": -79.5244458372792,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Richmond Hill Centre": {
+    "lat": 43.8401451,
+    "lon": -79.4252853,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Unionville GO": {
+    "lat": 43.851935,
+    "lon": -79.313774,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Cornell Bus Terminal": {
+    "lat": 43.879742,
+    "lon": -79.232527,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Brock Rd / Hwy 407": {
+    "lat": 43.912596,
+    "lon": -79.097042,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Baldwin St / Hwy 407": {
+    "lat": 43.9449147110778,
+    "lon": -78.9599680461866,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Durham College / UOIT / Ontario Tech campus": {
+    "lat": 43.9433594,
+    "lon": -78.8949661,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Downtown Oshawa - Athol Street": {
+    "lat": 43.896376,
+    "lon": -78.862941,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Oshawa GO rail station": {
+    "lat": 43.870909,
+    "lon": -78.88585,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Yonge St / Langstaff Rd": {
+    "lat": 43.8323288,
+    "lon": -79.4280472,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Langstaff GO - south-lot service": {
+    "lat": 43.838546,
+    "lon": -79.423139,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Oshawa Bus Terminal - Bond / Centre": {
+    "lat": 43.89778,
+    "lon": -78.86556,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "Published coordinates, Oshawa Bus Terminal article; address 47 Bond Street West"
+  },
+  "Greenwood - Hwy 7 / Westney": {
+    "lat": 43.9334597,
+    "lon": -79.0681601,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Hwy 7 / Winchester at Lake Ridge": {
+    "lat": 43.9402527,
+    "lon": -79.0169233,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Winchester / Anderson-Watford": {
+    "lat": 43.9565523,
+    "lon": -78.9471221,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Keele / Great Gulf-Snidercroft": {
+    "lat": 43.7889893,
+    "lon": -79.4965002,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "York University campus": {
+    "lat": 43.7743538,
+    "lon": -79.4997952,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+  },
+  "Major Mackenzie West Terminal": {
+    "lat": 43.8473714,
+    "lon": -79.54164714999999,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "https://www.openstreetmap.org/way/1104846848"
+  },
+  "Major Mackenzie / Hwy 400 Park & Ride": {
+    "lat": 43.84618365,
+    "lon": -79.5501558,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "https://www.openstreetmap.org/way/151292599"
+  },
+  "Canada's Wonderland - approximate area": {
+    "lat": 43.84167,
+    "lon": -79.54306,
+    "accuracy": "reference stop area; old platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland"
+  },
+  "York University": "York University GO Bus",
+  "York University Bus Terminal": "York University GO Bus",
+  "Square One GO Bus Terminal": "Square One",
+  "Union Station Bus Terminal": "Union Station Bus Terminal",
+  "Oshawa Bus Terminal": "Oshawa Bus Terminal",
+  "Durham College / Ontario Tech": "Durham College / Ontario Tech",
+  "Unionville GO Station": "Unionville GO",
+  "Langstaff GO (south lot)": "Langstaff GO",
+  "Yorkdale Bus Terminal": "Yorkdale Bus Terminal",
+  "Finch GO Bus Terminal": "Finch Bus Terminal",
+  "York Mills GO Bus Terminal": "York Mills Bus Terminal",
+  "Pearson Airport Terminal 1": "Pearson Airport Terminal 1",
+  "Hamilton GO Centre": "Hamilton GO Centre",
+  "York University Bus Loop": {
+    "lat": 43.7743538,
+    "lon": -79.4997952,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+  },
+  "Keele St. @ Great Gulf Dr. / Snidercroft Rd.": {
+    "lat": 43.7889893,
+    "lon": -79.4965002,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Langstaff GO — Langstaff Rd. south lot": {
+    "lat": 43.838546,
+    "lon": -79.423139,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+  },
+  "Canada’s Wonderland — historic bus stop": {
+    "lat": 43.84167,
+    "lon": -79.54306,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland"
+  },
+  "Winchester Rd. W. / Hwy. 7 @ Lake Ridge Rd.": {
+    "lat": 43.9402527,
+    "lon": -79.0169233,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Winchester Rd. @ Anderson St. / Watford St.": {
+    "lat": 43.9565523,
+    "lon": -78.9471221,
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_source": "https://www.openstreetmap.org/",
+    "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+  },
+  "Downtown Oshawa — Centre St. S. @ Athol St. W.": "Centre St. S. @ Athol St. W.",
+  "Aquitaine Ave. @ Meadowvale Town Centre Cir.": "Aquitaine Ave. @ Meadowvale Town Centre Circle",
+  "Consumers Road Business Park": "Consumers Rd. @ William Sylvester Dr.",
+  "Yorkdale GO Bus Terminal": "Yorkdale Bus Terminal",
+  "Sheridan College — Trafalgar Campus": "Sheridan College",
+  "Centennial College — Progress Campus": "Centennial College",
+  "Centennial College — Progress Ct. Bus Stop": "Centennial College",
+  "Aberfoyle GO Park & Ride": {
+    "lat": 43.4609909,
+    "lon": -80.133667,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+    "location_reference_date": "2016-01-11"
+  },
+  "Centennial GO — Bullock Dr. @ McCowan Rd.": "Bullock Dr. @ McCowan Rd. (Centennial GO)",
+  "Markham GO — Main St. N. @ Ramona Blvd. / Station St.": "Main St. N. @ Station St. (Markham GO)",
+  "Islington Ave. @ Nashville Rd. — Kleinburg": "Islington Ave.  @ Nashville Rd.",
+  "King St. @ Humber Lea Rd. — Bolton": "King St. E. @ Humber Lea Rd.",
+  "Queen St. @ Queensgate Blvd. — Bolton": "Regional Rd. 50 @ Queensgate Blvd.",
+  "Bayview Ave. @ John St.": {
+    "lat": 43.81862625,
+    "lon": -79.40111365,
+    "location_source": "https://www.openstreetmap.org/node/446455831",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Bayview Ave. @ 16th Ave.": {
+    "lat": 43.857801925000004,
+    "lon": -79.4110183,
+    "location_source": "https://www.openstreetmap.org/node/7431146578",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Bayview Ave. @ Major Mackenzie Dr.": {
+    "lat": 43.87602385,
+    "lon": -79.4154386,
+    "location_source": "https://www.openstreetmap.org/node/441928821",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Yonge St. @ Royal Orchard Blvd.": {
+    "lat": 43.82280615,
+    "lon": -79.42596565,
+    "location_source": "https://www.openstreetmap.org/node/446426147",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Yonge St. @ Garden Ave.": {
+    "lat": 43.839191400000004,
+    "lon": -79.42979445,
+    "location_source": "https://www.openstreetmap.org/node/88576277",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Yonge St. @ Baif Blvd.": {
+    "lat": 43.8584281,
+    "lon": -79.4343842,
+    "location_source": "https://www.openstreetmap.org/node/304966148",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Yonge St. @ Steeles Ave.": {
+    "lat": 43.79805335,
+    "lon": -79.41996875,
+    "location_source": "https://www.openstreetmap.org/node/414435853",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Hwy. 2 @ Liverpool Rd.": {
+    "lat": 43.835706275,
+    "lon": -79.09049487499999,
+    "location_source": "https://www.openstreetmap.org/node/379765489",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Highway 2 / Liverpool Rd — Pickering": {
+    "lat": 43.8356083,
+    "lon": -79.0905264,
+    "location_source": "https://www.openstreetmap.org/node/379765489",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Kingston Road (way 86482412); Kingston Road (way 338072622); Liverpool Road (way 33412501); Liverpool Road (way 333203847), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "King Rd. @ Hwy. 27 — Nobleton": {
+    "lat": 43.902181,
+    "lon": -79.6527003,
+    "location_source": "https://www.openstreetmap.org/node/252357617",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Albion-Vaughan Rd. @ Industrial Rd. — Bolton": {
+    "lat": 43.8616011,
+    "lon": -79.7033731,
+    "location_source": "https://www.openstreetmap.org/node/391885340",
+    "accuracy": "published junction reference; historic platform unverified",
+    "location_note": "Mean of shared OpenStreetMap intersection nodes, retrieved2026-10-23. Other node IDs are in data/osm-reference-locations.json."
+  },
+  "Aberfoyle Park & Ride": {
+    "lat": 43.4609909,
+    "lon": -80.133667,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+    "location_reference_date": "2016-01-11"
+  },
+  "Aberfoyle Park & Ride, Brock / Highway 401": {
+    "lat": 43.4609909,
+    "lon": -80.133667,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+    "location_reference_date": "2016-01-11"
+  },
+  "Aberfoyle, Brock / McLean": {
+    "lat": 43.4609909,
+    "lon": -80.133667,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+    "location_reference_date": "2016-01-11"
+  },
+  "Acton, Main / Mill": {
+    "lat": 43.6300278,
+    "lon": -80.04216,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00205 (Main St. N.  @ Mill St. E.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Main St. N.  @ Mill St. E.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Beamsville": {
+    "lat": 43.1881676,
+    "lon": -79.4759598,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02621 (Ontario St. @ QEW (Beamsville) Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Ontario St. @ QEW (Beamsville) Park & Ride",
+    "location_reference_date": "2022-03-08"
+  },
+  "Bolton, Highway 50 / Columbia Way": {
+    "lat": 43.8914528,
+    "lon": -79.7542267,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00338 (Hwy. 50  @ Columbia Way); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hwy. 50  @ Columbia Way",
+    "location_reference_date": "2016-01-11"
+  },
+  "Bolton, Highway 50 / Wilton": {
+    "lat": 43.8719444,
+    "lon": -79.7277222,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00346 (Queen St. S.  @ Wilton Dr.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Queen St. S.  @ Wilton Dr.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Bolton, King / Humber Lea": {
+    "lat": 43.8823891,
+    "lon": -79.7349701,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00270 (King St. E.  @  Humber Lea Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "King St. E.  @  Humber Lea Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Bolton, Queen / Allan": {
+    "lat": 43.8719978,
+    "lon": -79.7272873,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00347 (Queen St. S.  @ Allan Dr.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Queen St. S.  @ Allan Dr.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Bramalea Transit Terminal, Central Park Drive": {
+    "lat": 43.7186356,
+    "lon": -79.7205734,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08032 (Bramalea Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Bramalea Bus Terminal",
+    "location_reference_date": "2016-01-11"
+  },
+  "Brampton GO": {
+    "lat": 43.6869087,
+    "lon": -79.7628632,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Brampton Bus Terminal",
+    "location_reference_date": "2016-01-11"
+  },
+  "Brampton, Hurontario / Bovaird": {
+    "lat": 43.7074814,
+    "lon": -79.7887878,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01258 (Hurontario St.  @ Bovaird Dr. W.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hurontario St.  @ Bovaird Dr. W.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Brampton, Steeles / Rutherford": {
+    "lat": 43.679863,
+    "lon": -79.7183075,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00227 (Steeles Ave. E.  @ Rutherford Rd. S.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Steeles Ave. E.  @ Rutherford Rd. S.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Brantford, Wayne Gretzky Parkway / Henry Street": {
+    "lat": 43.1544113,
+    "lon": -80.2391205,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02608 (Wayne Gretzky Pkwy. @ Henry St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Wayne Gretzky Pkwy. @ Henry St.",
+    "location_reference_date": "2022-03-08"
+  },
+  "Bronte Road / Highway 407 Park & Ride": {
+    "lat": 43.4457626,
+    "lon": -79.7920151,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08040 (Bronte Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Bronte Rd. @ Hwy. 407 GO Carpool Lot",
+    "location_reference_date": "2016-01-11"
+  },
+  "Caledon, Highway 10 / Charleston Sideroad": {
+    "lat": 43.8602753,
+    "lon": -79.99617,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00254 (Hurontario St.  @ Charleston Side Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hurontario St.  @ Charleston Side Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Cambridge SmartCentres, Hespeler / Highway 401": {
+    "lat": 43.4117165,
+    "lon": -80.3236008,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02150 (Cambridge Smart Centre); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Cambridge Smart Centre",
+    "location_reference_date": "2016-01-11"
+  },
+  "Cambridge, Hespeler / Pinebush": {
+    "lat": 43.4089508,
+    "lon": -80.3281174,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02605 (Hespeler Rd. @ Pinebush Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hespeler Rd. @ Pinebush Rd.",
+    "location_reference_date": "2022-03-08"
+  },
+  "Centennial Parkway North / QEW Park & Ride": {
+    "lat": 43.2425830614163,
+    "lon": -79.7599571072281,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02730 (Centennial Pkwy N. @ QEW Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Centennial Pkwy N. @ QEW Park & Ride",
+    "location_reference_date": "2022-03-08"
+  },
+  "Derry / Winston Churchill": {
+    "lat": 43.5877228,
+    "lon": -79.7712631,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01481 (Derry Rd. W.  @ Winston Churchill Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Derry Rd. W.  @ Winston Churchill Blvd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Dundas Street / Highway 407 Park & Ride, Burlington": {
+    "lat": 43.3892708,
+    "lon": -79.8287811,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 00139 (Dundas St. @ Hwy. 407 Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+    "location_reference_date": "2022-03-08"
+  },
+  "Grimsby Park & Ride": {
+    "lat": 43.2047997,
+    "lon": -79.5964279,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02406 (Casablanca Blvd. @ QEW Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Casablanca Blvd. @ QEW Park & Ride",
+    "location_reference_date": "2022-03-08"
+  },
+  "Guelph Bus Terminal, Macdonell / Carden": {
+    "lat": 43.5463142,
+    "lon": -80.2452316,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02518 (MacDonell St. @ Carden St. (Guelph Central GO)); used to locate the historical named place, not to assert its historic bay or curb position. Same published MacDonell/Carden area; the old bus terminal layout is not reconstructed.",
+    "location_reference_name": "MacDonell St. @ Carden St. (Guelph Central GO)",
+    "location_reference_date": "2016-01-11"
+  },
+  "Guelph, Gordon / Stone": {
+    "lat": 43.5271797,
+    "lon": -80.2259216,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01708 (Gordon St.  @ Stone Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Gordon St.  @ Stone Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Hamilton, King / Dundurn": {
+    "lat": 43.2622643,
+    "lon": -79.8875809,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00178 (King St. W.  @ Dundurn St. N.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "King St. W.  @ Dundurn St. N.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Hamilton, Main / Longwood": {
+    "lat": 43.2590866,
+    "lon": -79.901741,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00732 (Main St. W.  @ Longwood Rd. S.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Main St. W.  @ Longwood Rd. S.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Highway 27 / Humber College Boulevard": {
+    "lat": 43.7303085,
+    "lon": -79.6012726,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00246 (Hwy. 27  @ Humber College Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hwy. 27  @ Humber College Blvd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Highway 27 / Rexdale": {
+    "lat": 43.7168999,
+    "lon": -79.5952301,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00248 (Hwy. 27 @ Rexdale Blvd. (Woodbine Racetrack)); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hwy. 27 @ Rexdale Blvd. (Woodbine Racetrack)",
+    "location_reference_date": "2016-01-11"
+  },
+  "Highway 50 / Highway 7": {
+    "lat": 43.7673454,
+    "lon": -79.6489105,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00340 (Hwy. 50  @ Queen St. E.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hwy. 50  @ Queen St. E.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Highway 50 / Nashville–Countryside": {
+    "lat": 43.8360138,
+    "lon": -79.6881485,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00339 (Regional Rd. 50  @ Nashville Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Regional Rd. 50  @ Nashville Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Kipling GO": {
+    "lat": 43.635688,
+    "lon": -79.538441,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02778 (Kipling Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Kipling Bus Terminal",
+    "location_reference_date": "2022-03-08"
+  },
+  "Kitchener Bus Terminal, Charles / Ontario": {
+    "lat": 43.4519386,
+    "lon": -80.4876175,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02530 (Kitchener Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Kitchener Bus Terminal",
+    "location_reference_date": "2016-01-11"
+  },
+  "Kitchener GO, Weber / Victoria": {
+    "lat": 43.455573,
+    "lon": -80.492543,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08010 (Kitchener GO Bus); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Kitchener GO Bus",
+    "location_reference_date": "2016-01-11"
+  },
+  "Kitchener, Victoria / Frederick": {
+    "lat": 43.4661769073305,
+    "lon": -80.4573893890337,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2023-05-05 GO GTFS stop 02819 (Victoria St. N. @ Frederick St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Victoria St. N. @ Frederick St.",
+    "location_reference_date": "2023-05-05"
+  },
+  "Kleinburg, Islington / Nashville": {
+    "lat": 43.844368,
+    "lon": -79.6291428,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00267 (Islington Ave.  @ Nashville Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Islington Ave.  @ Nashville Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Langstaff Road / Yonge Street": {
+    "lat": 43.8326988,
+    "lon": -79.427536,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00131 (Langstaff Rd. E.  @  Yonge St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Langstaff Rd. E.  @  Yonge St.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Meadowvale Business Park, Syntex / Financial": {
+    "lat": 43.6098404,
+    "lon": -79.7476349,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00200 (Syntex Crt.  @ Financial Dr.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Syntex Crt.  @ Financial Dr.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Meadowvale Town Centre": {
+    "lat": 43.5847511,
+    "lon": -79.7606812,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00191 (Aquitaine Ave.  @ Meadowvale Town Centre Circle); used to locate the historical named place, not to assert its historic bay or curb position. Aquitaine-side terminal area; later platform reconfiguration is not implied for the old date.",
+    "location_reference_name": "Aquitaine Ave.  @ Meadowvale Town Centre Circle",
+    "location_reference_date": "2016-01-11"
+  },
+  "Meadowvale Town Centre, Aquitaine": {
+    "lat": 43.5847511,
+    "lon": -79.7606812,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00191 (Aquitaine Ave.  @ Meadowvale Town Centre Circle); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Aquitaine Ave.  @ Meadowvale Town Centre Circle",
+    "location_reference_date": "2016-01-11"
+  },
+  "Meadowvale, Derry / Winston Churchill": {
+    "lat": 43.5877228,
+    "lon": -79.7712631,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01481 (Derry Rd. W.  @ Winston Churchill Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Derry Rd. W.  @ Winston Churchill Blvd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Milton, Thompson / Derry": {
+    "lat": 43.517498,
+    "lon": -79.8523712,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01024 (Thompson Rd. S.  @ Derry Rd. W.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Thompson Rd. S.  @ Derry Rd. W.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Mississauga, Eglinton / Erin Mills Parkway": {
+    "lat": 43.556675,
+    "lon": -79.7092972,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00184 (Eglinton Ave. W. @ Erin Mills Pkwy. (Erin Mills Town Centre)); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Eglinton Ave. W. @ Erin Mills Pkwy. (Erin Mills Town Centre)",
+    "location_reference_date": "2016-01-11"
+  },
+  "Mississauga, Finch / Darcel": {
+    "lat": 43.7335091,
+    "lon": -79.6343002,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00242 (Finch Ave. W.  @ Darcel Ave.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Finch Ave. W.  @ Darcel Ave.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Niagara Falls VIA station, Bridge / Erie": {
+    "lat": 43.1085358,
+    "lon": -79.0636063,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02408 (Niagara Falls Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position. The GTFS point is the bus terminal across from the rail station; old VIA-station bus curb unverified.",
+    "location_reference_name": "Niagara Falls Bus Terminal",
+    "location_reference_date": "2016-01-11"
+  },
+  "Niagara Falls, Stanley / Highway 420": {
+    "lat": 43.0964737,
+    "lon": -79.0854797,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02405 (Stanley Ave.  @  Hwy. 420); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Stanley Ave.  @  Hwy. 420",
+    "location_reference_date": "2016-01-11"
+  },
+  "Nobleton, King / Highway 27": {
+    "lat": 43.902195,
+    "lon": -79.6534348,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00268 (King Rd.  @  Hwy. 27); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "King Rd.  @  Hwy. 27",
+    "location_reference_date": "2016-01-11"
+  },
+  "Norval": {
+    "lat": 43.6466408,
+    "lon": -79.8604736,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00213 (Guelph St.  @ King St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Guelph St.  @ King St.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Orangeville Mall": {
+    "lat": 43.930336,
+    "lon": -80.1022568,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00257 (Hansen Blvd. @ First St. (Orangeville Mall)); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hansen Blvd. @ First St. (Orangeville Mall)",
+    "location_reference_date": "2016-01-11"
+  },
+  "Orangeville, Broadway / Blind Line": {
+    "lat": 43.9155502,
+    "lon": -80.1138382,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00258 (Broadway  @ Blind Line); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Broadway  @ Blind Line",
+    "location_reference_date": "2016-01-11"
+  },
+  "Regional Road 25 / Highway 401 Park & Ride": {
+    "lat": 43.5274849,
+    "lon": -79.9038162,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02151 (Regional Rd. 25 @ Hwy. 401 Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Regional Rd. 25 @ Hwy. 401 Park & Ride",
+    "location_reference_date": "2022-03-08"
+  },
+  "Sheridan College, Oakville": {
+    "lat": 43.4698067,
+    "lon": -79.6977158,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00939 (Sheridan College); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Sheridan College",
+    "location_reference_date": "2016-01-11"
+  },
+  "Snelgrove, Hurontario / Mayfield": {
+    "lat": 43.7339287,
+    "lon": -79.8255081,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00250 (Hurontario St.  @ Mayfield Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hurontario St.  @ Mayfield Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "St. Catharines Fairview Mall, YMCA Drive": {
+    "lat": 43.178627,
+    "lon": -79.2452545,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02402 (St. Catharines Fairview Mall); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "St. Catharines Fairview Mall",
+    "location_reference_date": "2016-01-11"
+  },
+  "St. Catharines VIA / GO rail station": {
+    "lat": 43.147624,
+    "lon": -79.254912,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02401 (St. Catharines GO Bus); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "St. Catharines GO Bus",
+    "location_reference_date": "2022-03-08"
+  },
+  "Stoney Creek, Nash / Barton": {
+    "lat": 43.2398567,
+    "lon": -79.7700806,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00351 (Nash Rd. N. @ Barton St. E. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Nash Rd. N. @ Barton St. E. GO Park & Ride",
+    "location_reference_date": "2016-01-11"
+  },
+  "Toronto Premium Outlets": {
+    "lat": 43.5743597133588,
+    "lon": -79.8346358454101,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2023-05-05 GO GTFS stop 02812 (Steeles Ave. @ Trafalgar Rd. (Toronto Premium Outlets)); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Steeles Ave. @ Trafalgar Rd. (Toronto Premium Outlets)",
+    "location_reference_date": "2023-05-05"
+  },
+  "Toronto, Keele / Highway 401": {
+    "lat": 43.7216759,
+    "lon": -79.4808273,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00022 (Keele St.  @ Hwy. 401); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Keele St.  @ Hwy. 401",
+    "location_reference_date": "2016-01-11"
+  },
+  "Trafalgar Road / Highway 407 Park & Ride": {
+    "lat": 43.5061531,
+    "lon": -79.7453842,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08024 (Trafalgar Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Trafalgar Rd. @ Hwy. 407 GO Carpool Lot",
+    "location_reference_date": "2016-01-11"
+  },
+  "Trinity Common Terminal": {
+    "lat": 43.7313271,
+    "lon": -79.7631531,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00231 (Trinity Common Mall); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Trinity Common Mall",
+    "location_reference_date": "2016-01-11"
+  },
+  "University of Waterloo, Davis Centre": {
+    "lat": 43.4731293,
+    "lon": -80.541687,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02147 (University of Waterloo); used to locate the historical named place, not to assert its historic bay or curb position. Uses the 2016 campus stop, not the newer University of Waterloo Terminal.",
+    "location_reference_name": "University of Waterloo",
+    "location_reference_date": "2016-01-11"
+  },
+  "Victoria, Highway 10 / King Street": {
+    "lat": 43.7734947,
+    "lon": -79.8786621,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00252 (Hurontario St.  @ King St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Hurontario St.  @ King St.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Wilfrid Laurier University, University / Hazel": {
+    "lat": 43.4752655,
+    "lon": -80.5272827,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "station-area",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02153 (Wilfrid Laurier University); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Wilfrid Laurier University",
+    "location_reference_date": "2016-01-11"
+  },
+  "Woodbridge, Rutherford / Vaughan Mills": {
+    "lat": 43.8135452,
+    "lon": -79.6160278,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00261 (Rutherford Rd.  @  Vaughan Mills Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Rutherford Rd.  @  Vaughan Mills Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Yonge / Sheppard": {
+    "lat": 43.7615967,
+    "lon": -79.4111938,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00008 (Yonge St.  @ Sheppard Ave.); used to locate the historical named place, not to assert its historic bay or curb position.",
+    "location_reference_name": "Yonge St.  @ Sheppard Ave.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Humber College Boulevard, west of Highway 27": {
+    "lat": 43.730701,
+    "lon": -79.601634,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "approximate",
+    "location_note": "Intersection-area reference from 2016 GO GTFS parent stop h27hum-parent. The 2012 timetable specifies Humber College Boulevard west of Highway 27; its precise curb on the west approach is not established. This is not the modern stop inside Humber College North Campus."
+  },
+  "Erin Mills Parkway / Mississauga Road": {
+    "lat": 43.5983543,
+    "lon": -79.7387848,
+    "location_source": "https://www.gotransit.com/en/find-a-station/00197/station-details",
+    "accuracy": "approximate",
+    "location_note": "Same junction identified by official GO stop00197 as Mississauga Rd. @ Mississauga Rd., with Erin Mills Parkway as its address. Coordinates from the 2016 GO GTFS stop00197; historical curb position unverified.",
+    "location_reference_name": "Mississauga Rd.  @ Mississauga Rd.",
+    "location_reference_date": "2016-01-11"
+  },
+  "Cambridge Bus Terminal, Ainslie Street": {
+    "lat": 43.35736249139326,
+    "lon": -80.31368399301483,
+    "location_source": "https://utility.arcgis.com/usrsvcs/servers/f063d1fb147847f796ce8c024e117419/rest/services/OpenData/OpenData/MapServer/5/query?objectIds=28&outFields=*&outSR=4326&f=geojson",
+    "accuracy": "station-area",
+    "location_note": "Official municipal ION station point for the Ainslie terminal area; the exact former GO platform is unverified.",
+    "location_reference_name": "Ainslie St Terminal",
+    "location_reference_date": "2019-01-04"
+  },
+  "Cambridge Centre Bus Terminal": {
+    "lat": 43.39280222425052,
+    "lon": -80.32301812109701,
+    "location_source": "https://utility.arcgis.com/usrsvcs/servers/f063d1fb147847f796ce8c024e117419/rest/services/OpenData/OpenData/MapServer/5/query?objectIds=25&outFields=*&outSR=4326&f=geojson",
+    "accuracy": "station-area",
+    "location_note": "Official municipal ION northbound curb point on Hespeler Road. GRT’s April2017 Cambridge Centre map explicitly shows GO24 using Hespeler curb stops outside the new terminal, not the former terminal south of the mall; used as a station-area reference.",
+    "location_reference_name": "Cambridge Centre Mall",
+    "location_reference_date": "2019-01-04"
+  },
+  "Richmond Hill GO — Newkirk Rd / Major Mackenzie Dr": {
+    "lat": 43.875786,
+    "lon": -79.426228,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00062, named Richmond Hill GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Langstaff GO — south lot, Langstaff Rd": {
+    "lat": 43.836455,
+    "lon": -79.420243,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00060, named Langstaff Rd. E. @ Cedar Ave. (Langstaff GO). Historical direction-specific platform has not been established. Later GO bus reference point on Langstaff Road East at Cedar Avenue, at the south side of the station. The 2005 south-lot bus platform is not independently surveyed."
+  },
+  "Langstaff GO": {
+    "lat": 43.836455,
+    "lon": -79.420243,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00060, named Langstaff Rd. E. @ Cedar Ave. (Langstaff GO). Historical direction-specific platform has not been established. South-side bus reference point on Langstaff Road East at Cedar Avenue from the GTFS; this does not use the later Red Maple Road bus stop."
+  },
+  "Newmarket Bus Terminal": {
+    "lat": 44.0527344,
+    "lon": -79.4865799,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00001, named Newmarket GO Bus Terminal. Historical direction-specific platform has not been established. Original Newmarket GO Bus Terminal coordinate from the 2016 feed; distinct from Newmarket railway station and Davis Drive/Highway 404."
+  },
+  "Hillcrest Mall": {
+    "lat": 43.855507,
+    "lon": -79.433456,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop hilcrt-parent, named Hillcrest Mall. Historical direction-specific platform has not been established."
+  },
+  "King City GO — Keele St / Station Rd": {
+    "lat": 43.9203224,
+    "lon": -79.5260773,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00027, named Keele St.  @  Station Rd.. Historical direction-specific platform has not been established."
+  },
+  "King City GO": {
+    "lat": 43.9203224,
+    "lon": -79.5260773,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00027, named Keele St.  @  Station Rd.. Historical direction-specific platform has not been established."
+  },
+  "Keele St / Major Mackenzie Dr — Maple": {
+    "lat": 43.854216,
+    "lon": -79.512225,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop mapmaj-parent, named Major Mackenzie and Keele. Historical direction-specific platform has not been established."
+  },
+  "York University — Keele campus bus loop": {
+    "lat": 43.7730637,
+    "lon": -79.5009308,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00029, named York University. Historical direction-specific platform has not been established. Original pre-Highway-407-terminal GO bus stop from the January 2016 feed, not York University railway station or the later subway stations."
+  },
+  "Highway 9 / Highway 400 Park & Ride": {
+    "lat": 44.0275345,
+    "lon": -79.5959473,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00021, named Hwy. 9 @ Hwy. 400 GO Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Major Mackenzie Dr / Highway 400 Park & Ride": {
+    "lat": 43.8460693,
+    "lon": -79.5503922,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00334, named Major MacKenzie Dr. W. @ Hwy. 400 GO Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Keele St / Highway 401": {
+    "lat": 43.7216759,
+    "lon": -79.4808273,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00022, named Keele St.  @ Hwy. 401. Historical direction-specific platform has not been established."
+  },
+  "Davis Dr W / Eagle St W — Newmarket": {
+    "lat": 44.053617,
+    "lon": -79.485558,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2022-03-08, stop 02731, named Davis Dr. W. @ Eagle St. W.. Historical direction-specific platform has not been established."
+  },
+  "Woodbine Ave / Highway 404 Park & Ride": {
+    "lat": 44.1918488,
+    "lon": -79.4372101,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02522, named Woodbine Ave. @ Hwy. 404 GO Park and Ride. Historical direction-specific platform has not been established."
+  },
+  "Queensville Sdrd / Highway 404 Park & Ride": {
+    "lat": 44.1420212,
+    "lon": -79.4405518,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02523, named Queensville Side Rd. @ Hwy. 404 GO Park and Ride. Historical direction-specific platform has not been established."
+  },
+  "Davis Dr / Highway 404 Park & Ride": {
+    "lat": 44.0676956,
+    "lon": -79.4215164,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02538, named Davis Dr. @ Hwy. 404 GO Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Wellington St E / Highway 404 Park & Ride": {
+    "lat": 44.0128479,
+    "lon": -79.4081802,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00307, named Wellington St. E. @ Hwy. 404 GO Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Major Mackenzie Dr / Highway 404 Park & Ride": {
+    "lat": 43.8827741694863,
+    "lon": -79.3804406287544,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2022-03-08, stop 02710, named Major Mackenzie Dr. E. @ Hwy. 404. Historical direction-specific platform has not been established."
+  },
+  "Barrie Bus Terminal — Maple Ave / Simcoe St": {
+    "lat": 44.3881798,
+    "lon": -79.6908798,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00096, named Barrie Transit Terminal. Historical direction-specific platform has not been established. The historic downtown Barrie Transit Terminal from the 2016 feed, not Allandale Waterfront GO."
+  },
+  "Barrie South GO — Mapleview Dr / Highway 11": {
+    "lat": 44.351771,
+    "lon": -79.628335,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00345, named Barrie South GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Yonge St / Victoria St — Stroud": {
+    "lat": 44.3241806,
+    "lon": -79.6191483,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00090, named Yonge St.  @ Victoria St.. Historical direction-specific platform has not been established."
+  },
+  "Yonge St / Killarney Beach Rd — Churchill": {
+    "lat": 44.2514305,
+    "lon": -79.6007919,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00087, named Yonge St.  @ Killarney Beach Rd.. Historical direction-specific platform has not been established."
+  },
+  "Bradford GO — Bridge St / Dissette St": {
+    "lat": 44.116654,
+    "lon": -79.555752,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02160, named Bradford GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Yonge St / Mount Albert Rd — Holland Landing": {
+    "lat": 44.0952721,
+    "lon": -79.4899673,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00083, named Yonge St.  @ Mount Albert Rd.. Historical direction-specific platform has not been established."
+  },
+  "Barrie Bus Terminal": {
+    "lat": 44.3881798,
+    "lon": -79.6908798,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00096, named Barrie Transit Terminal. Historical direction-specific platform has not been established. The historic downtown Barrie Transit Terminal from the 2016 feed, not Allandale Waterfront GO."
+  },
+  "Yonge St / 4th Line — Churchill": {
+    "lat": 44.2516747,
+    "lon": -79.6010361,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00088, named Yonge St.  @ 4th Line. Historical direction-specific platform has not been established."
+  },
+  "Barrie St / Holland St W — Bradford": {
+    "lat": 44.1146889,
+    "lon": -79.565094,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00025, named Barrie St.  @ Holland St. W.. Historical direction-specific platform has not been established."
+  },
+  "Yonge St / Queen St — Holland Landing": {
+    "lat": 44.0951653,
+    "lon": -79.4901352,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00084, named Yonge St.  @ Queen St.. Historical direction-specific platform has not been established."
+  },
+  "Beaverton — Simcoe St / Mara Rd": {
+    "lat": 44.4297562,
+    "lon": -79.1545715,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00043, named Simcoe St.  @ Mara Rd.. Historical direction-specific platform has not been established."
+  },
+  "Newmarket GO — Davis Dr / Superior St": {
+    "lat": 44.0598602,
+    "lon": -79.4587479,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 01821, named Davis Dr. @ Superior St. (Newmarket GO).. Historical direction-specific platform has not been established."
+  },
+  "Centennial GO": {
+    "lat": 43.8720551,
+    "lon": -79.2881393,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00124, named Bullock Drive @ McCowan Road (Centennial GO). Historical direction-specific platform has not been established."
+  },
+  "Markham GO": {
+    "lat": 43.8828239,
+    "lon": -79.2618408,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00123, named Main St. N. @ Ramona Blvd. (Markham GO). Historical direction-specific platform has not been established."
+  },
+  "Stouffville GO": {
+    "lat": 43.9706841,
+    "lon": -79.2501831,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00117, named Main St.  @  Edward St. (Stouffville GO). Historical direction-specific platform has not been established."
+  },
+  "Lincolnville GO — original Bethesda Rd site": {
+    "lat": 43.994805,
+    "lon": -79.233773,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00352, named Lincolnville GO Bus. Historical direction-specific platform has not been established. Original Lincolnville GO bus location from the January 2016 feed; not the replacement Old Elm station opened in 2023."
+  },
+  "Goodwood": {
+    "lat": 44.0375214,
+    "lon": -79.1956329,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00115, named Hwy. 47  @ Front St.. Historical direction-specific platform has not been established. Goodwood timing-point reference at Highway 47/Front Street, present in the original GO stop feed. Not the separate Highway 47/Goodwood Road stop."
+  },
+  "Uxbridge — Railway St / Albert St": {
+    "lat": 44.1095467,
+    "lon": -79.125206,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00302, named Railway St.  @  Albert St.. Historical direction-specific platform has not been established."
+  },
+  "Goodwood — Highway 47 / Front St": {
+    "lat": 44.0375214,
+    "lon": -79.1956329,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00115, named Hwy. 47  @ Front St.. Historical direction-specific platform has not been established."
+  },
+  "Stouffville GO — Edward St / Main St": {
+    "lat": 43.9706841,
+    "lon": -79.2501831,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00117, named Main St.  @  Edward St. (Stouffville GO). Historical direction-specific platform has not been established."
+  },
+  "Dickson Hill — Highway 48 / 19th Ave": {
+    "lat": 43.945057,
+    "lon": -79.278046,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00737, named Hwy. 48 @ 19th Ave.. Historical direction-specific platform has not been established."
+  },
+  "Mount Joy GO — Bur Oak Ave / Highway 48": {
+    "lat": 43.900455,
+    "lon": -79.263649,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00121, named Mount Joy GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Markham GO — Main St / Ramona Blvd": {
+    "lat": 43.8828239,
+    "lon": -79.2618408,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00123, named Main St. N. @ Ramona Blvd. (Markham GO). Historical direction-specific platform has not been established."
+  },
+  "Centennial GO — Bullock Dr / McCowan Rd": {
+    "lat": 43.8720551,
+    "lon": -79.2881393,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00124, named Bullock Drive @ McCowan Road (Centennial GO). Historical direction-specific platform has not been established."
+  },
+  "Beaverton": {
+    "lat": 44.4297562,
+    "lon": -79.1545715,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00043, named Simcoe St.  @ Mara Rd.. Historical direction-specific platform has not been established. Municipal-area reference using the documented GO stop at Simcoe Street/Mara Road. The route 80 source establishes only the Beaverton endpoint, not its exact bus platform."
+  },
+  "Cannington — Cameron St / Ann St": {
+    "lat": 44.3495827,
+    "lon": -79.0402679,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00044, named Cameron St. W.  @ Ann St. S.. Historical direction-specific platform has not been established."
+  },
+  "Sunderland — Albert St / River St": {
+    "lat": 44.2626152,
+    "lon": -79.0662231,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00038, named Albert St. S.  @ River St.. Historical direction-specific platform has not been established."
+  },
+  "Greenbank — Highway 12 / Cragg Rd": {
+    "lat": 44.1518021,
+    "lon": -79.0146027,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00037, named Hwy 7 & 12  @ Cragg Rd.. Historical direction-specific platform has not been established."
+  },
+  "Port Perry — Reach St / Old Simcoe Rd": {
+    "lat": 44.1109772,
+    "lon": -78.9576492,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00036, named Reach St.  @ Old Simcoe Rd.. Historical direction-specific platform has not been established."
+  },
+  "Port Perry — Curts St / Water St": {
+    "lat": 44.102253,
+    "lon": -78.9384842,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00035, named Curt St.  @ Water St.. Historical direction-specific platform has not been established. Historical label uses Curts; original GO GTFS spells the same location Curt Street/Water Street."
+  },
+  "Myrtle — Highway 12 / Myrtle Rd": {
+    "lat": 44.009201,
+    "lon": -78.9660034,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00034, named Hwy 7 & 12  @ Myrtle Rd. E.. Historical direction-specific platform has not been established."
+  },
+  "Brooklin — Winchester Rd / Anderson St": {
+    "lat": 43.9564133,
+    "lon": -78.947403,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00050, named Winchester Rd.  @ Anderson St.. Historical direction-specific platform has not been established."
+  },
+  "Whitby — Brock St / Dundas St": {
+    "lat": 43.8796806,
+    "lon": -78.9420319,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00032, named Brock St.  @ Dundas St.. Historical direction-specific platform has not been established."
+  },
+  "Trent University — Peter Gzowski College": {
+    "lat": 44.3569412,
+    "lon": -78.2870331,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02501, named Trent University. Historical direction-specific platform has not been established."
+  },
+  "Peterborough Bus Terminal — Simcoe St / George St": {
+    "lat": 44.3045998,
+    "lon": -78.3224182,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02502, named Peterborough Bus Terminal. Historical direction-specific platform has not been established."
+  },
+  "County Rd 10 / Highway 115 Park & Ride": {
+    "lat": 44.1872025,
+    "lon": -78.4643936,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02504, named Syer Line @ County Rd. 10 GO Carpool Lot. Historical direction-specific platform has not been established. Original GO GTFS lot named Syer Line/County Road 10; later GO feeds use Peterborough Road 10/Highway 115 for the same coordinate."
+  },
+  "Highway 35 / Highway 115 Park & Ride": {
+    "lat": 44.064003,
+    "lon": -78.6258087,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02505, named Beaucage Rd. @ Hwy. 35 GO Park & Ride. Historical direction-specific platform has not been established. The original GTFS calls this carpool lot Beaucage Road/Highway 35; later GO feeds rename the same point Highway 35/Highway 115 Park & Ride."
+  },
+  "Highway 2 / Highway 35–115": {
+    "lat": 43.9128494,
+    "lon": -78.6129303,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 08020, named Hwy. 35 & 115 @ Durham Hwy. 2 GO Carpool Lot. Historical direction-specific platform has not been established."
+  },
+  "King St E / Liberty St — Bowmanville": {
+    "lat": 43.9107056,
+    "lon": -78.6806183,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00157, named King St. E.  @  Liberty St.. Historical direction-specific platform has not been established."
+  },
+  "Clarington Blvd / Highway 2 Park & Ride": {
+    "lat": 43.9078712,
+    "lon": -78.7046204,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00306, named Prince William Blvd. @ Clarington Blvd. GO Park & Ride. Historical direction-specific platform has not been established. GO carpool lot coordinate, labelled Prince William Boulevard/Clarington Boulevard in the 2016 feed and Clarington Boulevard/Durham Highway 2 in later feeds."
+  },
+  "First Ave / Front St Park & Ride — Oshawa": {
+    "lat": 43.885019,
+    "lon": -78.854257,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2022-03-08, stop 02714, named First Ave. @ Front St. Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Bowmanville — King St / Liberty St": {
+    "lat": 43.9107056,
+    "lon": -78.6806183,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00157, named King St. E.  @  Liberty St.. Historical direction-specific platform has not been established."
+  },
+  "Bowmanville GO Park & Ride — Prince William Blvd": {
+    "lat": 43.9078712,
+    "lon": -78.7046204,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00306, named Prince William Blvd. @ Clarington Blvd. GO Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Courtice — Highway 2 / Courtice Rd": {
+    "lat": 43.9120102,
+    "lon": -78.7776337,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00167, named Durham Hwy. 2  @ Courtice Rd.. Historical direction-specific platform has not been established."
+  },
+  "Oshawa Bus Terminal — Bond St / Centre St": {
+    "lat": 43.8978462,
+    "lon": -78.865593,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00154, named Oshawa Bus Terminal. Historical direction-specific platform has not been established."
+  },
+  "Oshawa GO — Thornton Rd / Bloor St": {
+    "lat": 43.870909,
+    "lon": -78.88585,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00159, named Oshawa GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Bowmanville — Waverley Rd / Baseline Rd": {
+    "lat": 43.8975792,
+    "lon": -78.6905899,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00155, named Waverly Rd.  @ Baseline Rd.. Historical direction-specific platform has not been established. Original 2016 GO stop spells Waverly. This is the Baseline Road intersection, not the different stop at Durham Road 57/Waverley Road."
+  },
+  "Kingston Rd / Harwood Ave — Ajax": {
+    "lat": 43.8612671,
+    "lon": -79.0265427,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00322, named Kingston Rd.  @ Harwood Ave.. Historical direction-specific platform has not been established."
+  },
+  "Kingston Rd / Westney Rd — Ajax": {
+    "lat": 43.8572845,
+    "lon": -79.0426102,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00366, named Kingston Rd.  @ Westney Rd.. Historical direction-specific platform has not been established."
+  },
+  "Kingston Rd / Church St — Ajax": {
+    "lat": 43.8541832,
+    "lon": -79.0567474,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00343, named Kingston Rd.  @  Church St.. Historical direction-specific platform has not been established."
+  },
+  "Kingston Rd / Brock Rd — Pickering": {
+    "lat": 43.8485184,
+    "lon": -79.0733795,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00364, named Kingston Rd.  @ Brock Rd.. Historical direction-specific platform has not been established."
+  },
+  "Kingston Rd / Glenanna Rd — Pickering": {
+    "lat": 43.8381004,
+    "lon": -79.087471,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00314, named Kingston Rd.  @  Glenanna Rd.. Historical direction-specific platform has not been established."
+  },
+  "Kingston Rd / Fairport Rd — Pickering": {
+    "lat": 43.8234673,
+    "lon": -79.1067047,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+  },
+  "Dundas St / Thickson Rd — Whitby": {
+    "lat": 43.8865662,
+    "lon": -78.9120483,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00331, named Dundas St.  @ Thickson Rd.. Historical direction-specific platform has not been established."
+  },
+  "Dundas St / Brock St — Whitby": {
+    "lat": 43.8796501,
+    "lon": -78.9427185,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00173, named Dundas St.  @  Brock St.. Historical direction-specific platform has not been established."
+  },
+  "Dundas St / Highway 412": {
+    "lat": 43.8769486590634,
+    "lon": -78.9812249498338,
+    "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2022-03-08, stop 02672, named Dundas St. @ Hwy. 412 Park & Ride. Historical direction-specific platform has not been established."
+  },
+  "Durham College / UOIT — north Oshawa campus": {
+    "lat": 43.9433594,
+    "lon": -78.8949661,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00153, named University of Ontario Institute of Technology. Historical direction-specific platform has not been established."
+  },
+  "Ajax GO — Westney Rd / Fairall St": {
+    "lat": 43.847547,
+    "lon": -79.041084,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00161, named Ajax GO Bus. Historical direction-specific platform has not been established. Ajax railway-station bus terminal reference. Distinct from the old GO bus terminal on Harwood Avenue."
+  },
+  "Yonge St / Poyntz Ave — Sheppard area": {
+    "lat": 43.760053363685,
+    "lon": -79.4107512589806,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2023-05-05, stop 02821, named Yonge St. @ Poyntz Ave.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Stevenson Rd — Oshawa": {
+    "lat": 43.8933334,
+    "lon": -78.8819885,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00333, named King  St. W.  @  Stevenson Rd.. Historical direction-specific platform has not been established. Reference point at King Street West/Stevenson Road. Westbound highway-service stops may use parallel Bond Street; this marker does not identify a direction-specific historic platform."
+  },
+  "Dundas St / Anderson St — Whitby": {
+    "lat": 43.8844604,
+    "lon": -78.9221268,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00328, named Dundas St.  @  Anderson St.. Historical direction-specific platform has not been established."
+  },
+  "Dundas St / Garden St — Whitby": {
+    "lat": 43.8823242,
+    "lon": -78.9318085,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00326, named Dundas St.  @  Garden St.. Historical direction-specific platform has not been established."
+  },
+  "Dundas St / McQuay Blvd — Whitby": {
+    "lat": 43.8750877,
+    "lon": -78.9639893,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop whtmcq-parent, named Dundas @ McQuay. Historical direction-specific platform has not been established. Published parent timing-point coordinate retained in the original 2016 stops.txt, even though it is absent from the extracted trip-stop catalog."
+  },
+  "Highway 2 / Harwood Ave — Ajax": {
+    "lat": 43.8612671,
+    "lon": -79.0265427,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00322, named Kingston Rd.  @ Harwood Ave.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Westney Rd — Ajax": {
+    "lat": 43.8572845,
+    "lon": -79.0426102,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00366, named Kingston Rd.  @ Westney Rd.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Church St — Ajax": {
+    "lat": 43.8541832,
+    "lon": -79.0567474,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00343, named Kingston Rd.  @  Church St.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Brock Rd — Pickering": {
+    "lat": 43.8485184,
+    "lon": -79.0733795,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00364, named Kingston Rd.  @ Brock Rd.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Glenanna Rd — Pickering": {
+    "lat": 43.8381004,
+    "lon": -79.087471,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00314, named Kingston Rd.  @  Glenanna Rd.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Fairport Rd — Pickering": {
+    "lat": 43.8234673,
+    "lon": -79.1067047,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+  },
+  "Pickering GO — Bayly St / Liverpool Rd": {
+    "lat": 43.830982,
+    "lon": -79.084571,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00147, named Pickering GO Bus. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Walnut Lane": {
+    "lat": 43.8308105,
+    "lon": -79.0965042,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00971, named Kingston Rd.  @ Walnut Ln.. Historical direction-specific platform has not been established."
+  },
+  "Highway 2 / Fairport Rd": {
+    "lat": 43.8234673,
+    "lon": -79.1067047,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+  },
+  "Leslie St / Old Cummer Ave": {
+    "lat": 43.7939487,
+    "lon": -79.3689029,
+    "location_source": "https://www.openstreetmap.org/node/90798328",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Leslie Street (way 955124910); Leslie Street (way 1416499598); Old Cummer Avenue (way 10533810); Old Cummer Avenue (way 27021796), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Yonge St / Murray Dr — Aurora": {
+    "lat": 43.9866759,
+    "lon": -79.4645053,
+    "location_source": "https://www.openstreetmap.org/node/699463493",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Yonge Street (way 55668763); Yonge Street (way 1014045223); Murray Drive (way 815740013), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Yonge St / King Rd — Oak Ridges": {
+    "lat": 43.9445781,
+    "lon": -79.4547671,
+    "location_source": "https://www.openstreetmap.org/node/699535647",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Yonge Street (way 55672574); Yonge Street (way 55672587); King Road (way 4794450); King Road (way 55672568), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Yonge St / Bernard Ave": {
+    "lat": 43.8949321,
+    "lon": -79.4425743,
+    "location_source": "https://www.openstreetmap.org/node/9498549716",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Yonge Street (way 55758833); Yonge Street (way 1535106282); Bernard Avenue (way 1030425479), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Yonge St / Bishop Ave — Finch area": {
+    "lat": 43.7816297,
+    "lon": -79.4160701,
+    "location_source": "https://www.openstreetmap.org/node/427541945",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Yonge Street (way 36772065); Yonge Street (way 36772066); Bishop Avenue (way 36772070), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Highway 7 / East Beaver Creek Rd": {
+    "lat": 43.8454839,
+    "lon": -79.3781328,
+    "location_source": "https://www.openstreetmap.org/node/31319701",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Highway 7 (way 163045288); Highway 7 (way 493155661); East Beaver Creek Road (way 38014002); East Beaver Creek Road (way 493155719), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Seneca College — Don Mills Rd / Finch Ave": {
+    "lat": 43.7927519,
+    "lon": -79.3546591,
+    "location_source": "https://www.openstreetmap.org/node/552597845",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Don Mills Road (way 43677416); Don Mills Road (way 43677423); Finch Avenue East (way 43677419); Finch Avenue East (way 43677421), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform. The historic table names the street intersection near the campus, so this marker is not a claim about a campus-interior terminal."
+  },
+  "Glenwoods Park & Ride — Woodbine Ave / Glenwoods Ave": {
+    "lat": 44.2187013,
+    "lon": -79.4447988,
+    "location_source": "https://www.openstreetmap.org/node/702896040",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Woodbine Avenue (way 281875160); Woodbine Avenue (way 281875161); Glenwoods Avenue (way 55996213); Glenwoods Avenue (way 304568691), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform. The road junction is shown only as a reference for the old Glenwoods carpool area; its parking-lot entrance and bus platform have not been independently located."
+  },
+  "Port Bolster — Lakeridge Rd / Highway 48": {
+    "lat": 44.3371981,
+    "lon": -79.1888531,
+    "location_source": "https://www.openstreetmap.org/node/68762074",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Lake Ridge Road (way 33933738); Lake Ridge Road (way 176688343); Highway 48 (way 176688339); Highway 48 (way 176688342), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Pefferlaw — Pefferlaw Rd / Station Rd": {
+    "lat": 44.3146686,
+    "lon": -79.2027297,
+    "location_source": "https://www.openstreetmap.org/node/388878004",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Pefferlaw Road (way 55901089); Station Road (way 55903068), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Sutton — High St / Burke St": {
+    "lat": 44.2995525,
+    "lon": -79.3525996,
+    "location_source": "https://www.openstreetmap.org/node/701933623",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining High Street (way 55900941); High Street (way 55901374); Burke Street (way 55901197); Burke Street (way 55901257), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Jackson’s Point — Dalton Rd / Metro Rd": {
+    "lat": 44.3213761,
+    "lon": -79.3701978,
+    "location_source": "https://www.openstreetmap.org/node/388855941",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Dalton Road (way 55901616); Dalton Road (way 55904484); Metro Road North (way 55902053), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Island Grove — Metro Rd / Woodbine Ave": {
+    "lat": 44.3016802,
+    "lon": -79.4659195,
+    "location_source": "https://www.openstreetmap.org/node/702896483",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Metro Road North (way 55996526); Metro Road North (way 395003223); Woodbine Avenue (way 55996113); Woodbine Avenue (way 55996272), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Roches Point — Metro Rd / Raines St": {
+    "lat": 44.2719783,
+    "lon": -79.497667,
+    "location_source": "https://www.openstreetmap.org/node/702903016",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Metro Road North (way 55996256); Raines Street (way 55995981), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Sharon — Leslie St / Mount Albert Rd": {
+    "lat": 44.10238,
+    "lon": -79.4412301,
+    "location_source": "https://www.openstreetmap.org/node/388871157",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Leslie Street (way 364440280); Leslie Street (way 1558056682); Mount Albert Road (way 33959890), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform. This is the western leg of the staggered Mount Albert Road/Leslie Street junction; the source timetable does not identify which leg held the stop."
+  },
+  "Uxbridge — Railway St / Spruce St": {
+    "lat": 44.1101149,
+    "lon": -79.124663,
+    "location_source": "https://www.openstreetmap.org/node/388785364",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Railway Street (way 33951156); Spruce Street (way 33946735), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Markville Mall — McCowan Rd / Highway 7": {
+    "lat": 43.8671397,
+    "lon": -79.2843888,
+    "location_source": "https://www.openstreetmap.org/node/436105871",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining McCowan Road (way 37357246); McCowan Road (way 37357249); Highway 7 (way 37444820); Highway 7 (way 37444822), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Newcastle — Highway 2 / Mill St": {
+    "lat": 43.9174702,
+    "lon": -78.5888287,
+    "location_source": "https://www.openstreetmap.org/node/392163460",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining King Avenue East (way 54118119); King Avenue West (way 319213021); Mill Street North (way 34191099); Mill Street South (way 34192991), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Simcoe St / Bloor St — Oshawa": {
+    "lat": 43.8804959,
+    "lon": -78.8558452,
+    "location_source": "https://www.openstreetmap.org/node/95317118",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM road-junction node joining Simcoe Street South (way 486466828); Simcoe Street South (way 1414888736); Bloor Street West (way 455675560); Bloor Street East (way 1414888739), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+  },
+  "Highway 404 / Aurora Rd Park & Ride": {
+    "lat": 44.0128479,
+    "lon": -79.4081802,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00307, named Wellington St. E. @ Hwy. 404 GO Park & Ride. Historical direction-specific platform has not been established. The historical Aurora Road/Highway 404 label is referenced to this same interchange: published OSM node 701907245 joins Aurora Road way 55902504 with Wellington Street East way 55901799 (https://www.openstreetmap.org/node/701907245). This establishes the named interchange, not the exact position of the earlier carpool lot or bus bay."
+  },
+  "Aurora Carpool — Highway 404 / Aurora Rd": {
+    "lat": 44.0128479,
+    "lon": -79.4081802,
+    "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00307, named Wellington St. E. @ Hwy. 404 GO Park & Ride. Historical direction-specific platform has not been established. The historical Aurora Road/Highway 404 label is referenced to this same interchange: published OSM node 701907245 joins Aurora Road way 55902504 with Wellington Street East way 55901799 (https://www.openstreetmap.org/node/701907245). This establishes the named interchange, not the exact position of the earlier carpool lot or bus bay."
+  },
+  "Canada’s Wonderland": {
+    "lat": 43.84167,
+    "lon": -79.54306,
+    "location_source": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published general park coordinate only. The historical GO bus bay has not been located; this is not the later Major Mackenzie West Bus Terminal and must not be described as the former terminal or south entrance. Use a park-area marker."
+  },
+  "Pefferlaw": {
+    "lat": 44.3146686,
+    "lon": -79.2027297,
+    "location_source": "https://www.openstreetmap.org/node/388878004",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Village-area reference at the published Pefferlaw Road/Station Road intersection. Route 80 evidence establishes the Pefferlaw endpoint only; this coordinate does not prove that route 80 used the same platform as historical route 69. Published OSM road-junction node joining Pefferlaw Road (way 55901089); Station Road (way 55903068), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+  },
+  "Keswick — Simcoe Ave": {
+    "lat": 44.2410931,
+    "lon": -79.4745885,
+    "location_source": "https://www.openstreetmap.org/node/702902532",
+    "accuracy": "reference stop area; historical platform unverified",
+    "location_note": "Published OSM node on Simcoe Avenue in Keswick, shared by ways 55996284 and 55996548. The historical timetable identifies only Simcoe Avenue; the marker is a street-area reference, not a located GO terminal or bus platform."
+  }
+}

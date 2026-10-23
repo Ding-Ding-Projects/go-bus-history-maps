@@ -1,0 +1,61 @@
+[
+  {
+    "id": "50-2008",
+    "label": "Unionville–Centennial–UTSC school service",
+    "date": "2008-11-01",
+    "branch": "50",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Centennial College — Progress Ct. Bus Stop",
+        "lat": 43.7854233,
+        "lon": -79.2290802,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Centennial College",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "University of Toronto Scarborough",
+        "lat": 43.7843628,
+        "lon": -79.1851273,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Toronto Scarborough",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": "Three AM southbound and three PM northbound trips are printed. This is an actual route-number entry, not a timetable-number inference. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.2290802,
+          43.7854233
+        ],
+        [
+          -79.1851273,
+          43.7843628
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Three AM southbound and three PM northbound trips are printed. This is an actual route-number entry, not a timetable-number inference. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

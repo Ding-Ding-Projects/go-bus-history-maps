@@ -1,0 +1,92 @@
+{
+  "route": "92",
+  "name": "Oshawa–Yorkdale",
+  "status": "current",
+  "description": "Limited-stop Highway 2 service linking Durham communities with Scarborough Centre and North York. The eastern terminal and the meaning of the 92A suffix have both changed.",
+  "timeline": [
+    {
+      "date": "2013-06-29",
+      "event": "Route 92 was introduced in the Highway 2 reorganization replacing the old 94/95 network.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+      ]
+    },
+    {
+      "date": "2014-09-02",
+      "event": "New 92A Ajax–Finch service replaced route 98.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2019-04-06",
+      "event": "The original timetable shows downtown Oshawa–Yorkdale service; by this edition 92A has become a Dundas/Highway 412–Yorkdale short working.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+      ]
+    },
+    {
+      "date": "2020-09-05",
+      "event": "The main route moved its eastern terminal from downtown Oshawa to Oshawa GO.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "by 2023-05",
+      "event": "The original GTFS retains the later 92A Dundas/Highway 412–Yorkdale short working.",
+      "sources": [
+        "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+      "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml",
+      "title": "GO revises services September 2, 2014, including 98 replacement by 92A — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf",
+      "title": "GO Oshawa–Yorkdale route 92, effective April 6, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+      "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "Original GO Transit GTFS archived May 5, 2023; use calendar validity, not retrieval date",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The 92A reassignment took place after the recovered 2016 Finch pattern and by the April 2019 timetable; its precise effective date has not been established.",
+    "Selected timing-point patterns omit local stops; use the feed snapshots for full dated stop sequences.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

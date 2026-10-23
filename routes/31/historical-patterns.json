@@ -1,0 +1,271 @@
+[
+  {
+    "id": "31-2013-brampton",
+    "label": "Union–Brampton local branch",
+    "date": "2013-04-06",
+    "branch": "31H",
+    "direction": "Westbound",
+    "stops": [
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Malton GO",
+        "lat": 43.705143,
+        "lon": -79.637825,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Malton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Brampton, Steeles / Rutherford",
+        "lat": 43.679863,
+        "lon": -79.7183075,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00227 (Steeles Ave. E.  @ Rutherford Rd. S.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Steeles Ave. E.  @ Rutherford Rd. S.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Shoppers World, Hurontario / Bartley Bull",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Brampton GO",
+        "lat": 43.6869087,
+        "lon": -79.7628632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brampton Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Example trip 31061. Bloor, Weston and EtobicokeNorth are rail columns skipped by this bus.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.3783951,
+          43.6456261
+        ],
+        [
+          -79.637825,
+          43.705143
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.7183075,
+          43.679863
+        ],
+        [
+          -79.7628632,
+          43.6869087
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Example trip 31061. Bloor, Weston and EtobicokeNorth are rail columns skipped by this bus. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "31-2007-corridor",
+    "label": "Union–Guelph evening through bus",
+    "date": "2007-04-28",
+    "branch": "31",
+    "direction": "Westbound",
+    "stops": [
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Brampton, Steeles / Rutherford",
+        "lat": 43.679863,
+        "lon": -79.7183075,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00227 (Steeles Ave. E.  @ Rutherford Rd. S.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Steeles Ave. E.  @ Rutherford Rd. S.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Shoppers World, Hurontario / Bartley Bull",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Brampton GO",
+        "lat": 43.6869087,
+        "lon": -79.7628632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brampton Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Brampton, Hurontario / Bovaird",
+        "lat": 43.7074814,
+        "lon": -79.7887878,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01258 (Hurontario St.  @ Bovaird Dr. W.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Bovaird Dr. W.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Mount Pleasant GO",
+        "lat": 43.674976,
+        "lon": -79.822181,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Pleasant GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Norval",
+        "lat": 43.6466408,
+        "lon": -79.8604736,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00213 (Guelph St.  @ King St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Guelph St.  @ King St.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Georgetown Market",
+        "lat": 43.6499481,
+        "lon": -79.8984299,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Georgetown Market",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Georgetown GO",
+        "lat": 43.6560287,
+        "lon": -79.9186783,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Georgetown GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Georgetown, Main / Wesleyan",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Acton, Main / Mill",
+        "lat": 43.6300278,
+        "lon": -80.04216,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00205 (Main St. N.  @ Mill St. E.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Main St. N.  @ Mill St. E.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Rockwood, Alma / Main",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Guelph Bus Terminal, Macdonell / Carden",
+        "lat": 43.5463142,
+        "lon": -80.2452316,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02518 (MacDonell St. @ Carden St. (Guelph Central GO)); used to locate the historical named place, not to assert its historic bay or curb position. Same published MacDonell/Carden area; the old bus terminal layout is not reconstructed.",
+        "location_reference_name": "MacDonell St. @ Carden St. (Guelph Central GO)",
+        "location_reference_date": "2016-01-11"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2007-11-07-table-31-kitchener.pdf"
+    ],
+    "notes": "Selected published timepoints, not an exhaustive curb-stop list. Schematic connectors do not establish roads taken. Actual weekday trip 31831 departed Union at 20:30 and reached Guelph at 22:25; it skipped Malton and Bramalea. Printed westbound page effective 28 April 2007.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.3783951,
+          43.6456261
+        ],
+        [
+          -79.7183075,
+          43.679863
+        ],
+        [
+          -79.7628632,
+          43.6869087
+        ],
+        [
+          -79.7887878,
+          43.7074814
+        ],
+        [
+          -79.822181,
+          43.674976
+        ],
+        [
+          -79.8604736,
+          43.6466408
+        ],
+        [
+          -79.8984299,
+          43.6499481
+        ],
+        [
+          -79.9186783,
+          43.6560287
+        ],
+        [
+          -80.04216,
+          43.6300278
+        ],
+        [
+          -80.2452316,
+          43.5463142
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints, not an exhaustive curb-stop list. Schematic connectors do not establish roads taken. Actual weekday trip 31831 departed Union at 20:30 and reached Guelph at 22:25; it skipped Malton and Bramalea. Printed westbound page effective 28 April 2007. 3 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  }
+]

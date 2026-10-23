@@ -1,0 +1,75 @@
+{
+  "route": "90",
+  "name": "Lakeshore East / former Newcastle–Oshawa local",
+  "status": "current",
+  "description": "Historically included the local Newcastle–Bowmanville–Courtice–Oshawa GO feeder. That local service ended in 2020, while 90B Union–Oshawa rail-replacement service continued. The number therefore remains current.",
+  "timeline": [
+    {
+      "date": "2008-08-30",
+      "event": "The Lakeshore East timetable includes the 90 Newcastle local, 90A Bowmanville short service, and 90B Union–Oshawa bus.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+      ]
+    },
+    {
+      "date": "by 2016-01",
+      "event": "The original GTFS contains 90, 90A, 90B, 90C and 90D patterns.",
+      "sources": [
+        "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+      ]
+    },
+    {
+      "date": "2020-12-05",
+      "event": "Local route 90 was withdrawn after Durham Region Transit introduced overlapping 902A service; Metrolinx explicitly retained 90B.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/go-bus-route-90-to-be-discontinued"
+      ]
+    },
+    {
+      "date": "by 2023-05",
+      "event": "The recovered original feed retains route 90B.",
+      "sources": [
+        "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf",
+      "title": "GO Lakeshore East Table 09, printed effective August 30, 2008; includes bus routes 90/91",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+      "type": "official"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/go-bus-route-90-to-be-discontinued",
+      "title": "Metrolinx: GO bus Route 90 to be discontinued, November 18, 2020",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "Original GO Transit GTFS archived May 5, 2023; use calendar validity, not retrieval date",
+      "type": "official"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The word “discontinued” in the 2020 announcement applies to the Durham local service, not the whole number 90 family.",
+    "Special construction shuttle suffixes are service-date-specific; see current GTFS validity rather than treating them as permanent routes.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

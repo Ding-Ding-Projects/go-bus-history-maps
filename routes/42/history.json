@@ -1,0 +1,51 @@
+{
+  "route": "42",
+  "name": "Bolton (renumbered 38 in 2008)",
+  "status": "discontinued",
+  "description": "The earlier Bolton GO bus number, linked to York Mills through Yorkdale, Etobicoke North, Woodbridge, Kleinburg and Nobleton. The contemporary 2008 notice explicitly establishes the 42-to-38 renumbering; this is stronger evidence than the older Table 42 label alone.",
+  "timeline": [
+    {
+      "date": "by 2003-06-28",
+      "event": "Original Table 42 documents the weekday York Mills–Yorkdale–Etobicoke North–Bolton service through Woodbridge, Kleinburg and Nobleton. Union Station times are connecting trains, not a through bus to Bolton.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2003-06-28-table-42-bolton-dir1-day1-page1.html"
+      ]
+    },
+    {
+      "date": "by 2004-09-04",
+      "event": "The original PDF shows two southbound morning and two northbound afternoon weekday bus trips, with rail connections at Etobicoke North. The archive filename says February 2008, but the timetable itself is dated September 4, 2004.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf"
+      ]
+    },
+    {
+      "date": "2008-04-28",
+      "event": "GO renumbers Bolton route 42 as route 38. The continuing corridor belongs to the route 38 history.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2003-06-28-table-42-bolton-dir1-day1-page1.html",
+      "title": "GO Bolton Table 42, effective June 28, 2003",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf",
+      "title": "GO Bolton Table 42, internally dated September 4, 2004 (archive filename February 5, 2008)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "The corridor’s earlier launch and detailed pre-2003 evolution are not established in these originals.",
+    "See route 38 for changes after the April 28, 2008 renumbering; the old number does not imply a separate contemporary service.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

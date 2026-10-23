@@ -1,0 +1,226 @@
+[
+  {
+    "id": "81-2008-main",
+    "label": "Beaverton–Port Perry–Whitby",
+    "date": "2008-11-01",
+    "branch": "81",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Beaverton — Simcoe St / Mara Rd",
+        "lat": 44.4297562,
+        "lon": -79.1545715,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00043, named Simcoe St.  @ Mara Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Cannington — Cameron St / Ann St",
+        "lat": 44.3495827,
+        "lon": -79.0402679,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00044, named Cameron St. W.  @ Ann St. S.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Sunderland — Albert St / River St",
+        "lat": 44.2626152,
+        "lon": -79.0662231,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00038, named Albert St. S.  @ River St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Greenbank — Highway 12 / Cragg Rd",
+        "lat": 44.1518021,
+        "lon": -79.0146027,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00037, named Hwy 7 & 12  @ Cragg Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Port Perry — Reach St / Old Simcoe Rd",
+        "lat": 44.1109772,
+        "lon": -78.9576492,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00036, named Reach St.  @ Old Simcoe Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Port Perry — Curts St / Water St",
+        "lat": 44.102253,
+        "lon": -78.9384842,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00035, named Curt St.  @ Water St.. Historical direction-specific platform has not been established. Historical label uses Curts; original GO GTFS spells the same location Curt Street/Water Street."
+      },
+      {
+        "name": "Myrtle — Highway 12 / Myrtle Rd",
+        "lat": 44.009201,
+        "lon": -78.9660034,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00034, named Hwy 7 & 12  @ Myrtle Rd. E.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Brooklin — Winchester Rd / Anderson St",
+        "lat": 43.9564133,
+        "lon": -78.947403,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00050, named Winchester Rd.  @ Anderson St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Whitby — Brock St / Dundas St",
+        "lat": 43.8796806,
+        "lon": -78.9420319,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00032, named Brock St.  @ Dundas St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf"
+    ],
+    "notes": "Major bus timing points; the Lakeshore train continuation shown in the table is excluded.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.1545715,
+          44.4297562
+        ],
+        [
+          -79.0402679,
+          44.3495827
+        ],
+        [
+          -79.0662231,
+          44.2626152
+        ],
+        [
+          -79.0146027,
+          44.1518021
+        ],
+        [
+          -78.9576492,
+          44.1109772
+        ],
+        [
+          -78.9384842,
+          44.102253
+        ],
+        [
+          -78.9660034,
+          44.009201
+        ],
+        [
+          -78.947403,
+          43.9564133
+        ],
+        [
+          -78.9420319,
+          43.8796806
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Major bus timing points; the Lakeshore train continuation shown in the table is excluded."
+  },
+  {
+    "id": "81-2008-a",
+    "label": "Port Perry–Whitby short service",
+    "date": "2008-11-01",
+    "branch": "81A",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Port Perry — Curts St / Water St",
+        "lat": 44.102253,
+        "lon": -78.9384842,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00035, named Curt St.  @ Water St.. Historical direction-specific platform has not been established. Historical label uses Curts; original GO GTFS spells the same location Curt Street/Water Street."
+      },
+      {
+        "name": "Myrtle — Highway 12 / Myrtle Rd",
+        "lat": 44.009201,
+        "lon": -78.9660034,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00034, named Hwy 7 & 12  @ Myrtle Rd. E.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Brooklin — Winchester Rd / Anderson St",
+        "lat": 43.9564133,
+        "lon": -78.947403,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00050, named Winchester Rd.  @ Anderson St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Whitby — Brock St / Dundas St",
+        "lat": 43.8796806,
+        "lon": -78.9420319,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00032, named Brock St.  @ Dundas St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.9384842,
+          44.102253
+        ],
+        [
+          -78.9660034,
+          44.009201
+        ],
+        [
+          -78.947403,
+          43.9564133
+        ],
+        [
+          -78.9420319,
+          43.8796806
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  }
+]

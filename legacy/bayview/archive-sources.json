@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir1-day1-page1.html",
+      "title": "Original GO Bayview Table 58, effective June 28, 2003, weekday northbound",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day6-page1.html",
+      "title": "Original GO Bayview Table 58, effective June 28, 2003, Saturday/Canada Day southbound",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bayview/2003-06-28-table-58-bayview-dir0-day7-page1.html",
+      "title": "Original GO Bayview Table 58, effective June 28, 2003, Sunday southbound",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "Toronto Transportation Society / Transit Toronto: 50 Years of GO Transit Bus Operations",
+      "type": "secondary"
+    },
+    {
+      "url": "https://transittoronto.ca/regional/2702.shtml",
+      "title": "Transit Toronto: A Brief History of Public Transit in York Region",
+      "type": "secondary"
+    }
+  ]
+}

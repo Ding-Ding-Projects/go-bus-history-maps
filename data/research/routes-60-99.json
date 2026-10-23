@@ -1,0 +1,2834 @@
+[
+  {
+    "route": "60",
+    "name": "Canada’s Wonderland",
+    "status": "discontinued",
+    "description": "Seasonal direct GO buses from York Mills and Yorkdale to Canada’s Wonderland. This was the renumbered successor to route 43; later Wonderland service using other route families is a separate service.",
+    "timeline": [
+      {
+        "date": "2008-05-04",
+        "event": "The seasonal Wonderland service returned under number 60, replacing number 43.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2010-05",
+        "event": "Weekend/holiday service resumed May 2; daily operation followed May 20.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2010/05/15-brampton_m.shtml"
+        ]
+      },
+      {
+        "date": "2013-05-01",
+        "event": "The original seasonal timetable shows 60 from York Mills via Yorkdale and 60A starting at Yorkdale.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+        ]
+      },
+      {
+        "date": "2019",
+        "event": "The 2019 service-change account states that route 60 would not return and directs riders to YRT route 20.",
+        "sources": [
+          "https://stevemunro.ca/2019/08/16/go-transit-service-changes-effective-september-3-2019/"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "60-2013-main",
+        "label": "York Mills–Yorkdale–Wonderland",
+        "date": "2013-05-01",
+        "branch": "60",
+        "direction": "northbound",
+        "stops": [
+          "York Mills Bus Terminal",
+          "Yorkdale Bus Terminal",
+          "Canada’s Wonderland"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+        ],
+        "notes": "Seasonal timetable; route map uses Highway 401, Highway 400 and Major Mackenzie Drive. The listed points are the complete terminal sequence."
+      },
+      {
+        "id": "60-2013-a",
+        "label": "Yorkdale–Wonderland short service",
+        "date": "2013-05-01",
+        "branch": "60A",
+        "direction": "northbound",
+        "stops": [
+          "Yorkdale Bus Terminal",
+          "Canada’s Wonderland"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+        ],
+        "notes": "Distinct Yorkdale short branch identified on the original route map."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "GO Transit revises services, April/May 2008 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2010/05/15-brampton_m.shtml",
+        "title": "Seasonal Canada’s Wonderland services, May 2010 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf",
+        "title": "GO Canada’s Wonderland route 60, printed effective May 1, 2013; archive filename June 12",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/2019/08/16/go-transit-service-changes-effective-september-3-2019/",
+        "title": "GO Transit Service Changes Effective September 3, 2019 — Steve Munro",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The exact final operating day of the last season has not been established. Route 43 has its own folder for the earlier number.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "61",
+    "name": "Richmond Hill",
+    "status": "current",
+    "description": "Bus complement to the Richmond Hill rail corridor. Earlier buses ended at Richmond Hill GO; later service reached Gormley and Bloomington. The 2005 table also contains shorter Leslie Street services.",
+    "timeline": [
+      {
+        "date": "2005-11-21",
+        "event": "The timetable documents Richmond Hill–Langstaff–Union buses, Richmond Hill–Union expresses, and Leslie/Old Cummer–Leslie/401–Union trips.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The route family had reached Gormley; the timetable displays branches 61 and 61A through 61F.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2019-01-05-table-61-richmond-hill.pdf"
+        ]
+      },
+      {
+        "date": "2020-09-05",
+        "event": "Branches 61A, 61B, 61C and 61F were withdrawn in the September restructuring.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2021-06-28",
+        "event": "Bloomington GO opened with weekday route 61 bus service.",
+        "sources": [
+          "https://news.ontario.ca/en/release/1000355/ontario-to-officially-open-new-bloomington-go-station"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "The timetable shows the Bloomington–Gormley–Richmond Hill–Langstaff–Union corridor and the Richmond Hill short service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "61-2005-langstaff",
+        "label": "Richmond Hill via Langstaff",
+        "date": "2005-11-21",
+        "branch": "61",
+        "direction": "southbound",
+        "stops": [
+          "Richmond Hill GO — Newkirk Rd / Major Mackenzie Dr",
+          "Langstaff GO — south lot, Langstaff Rd",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+        ],
+        "notes": "The bus columns bypass Old Cummer and Oriole; train station columns must not be mistaken for bus stops. No letter suffix is printed for this older pattern."
+      },
+      {
+        "id": "61-2005-express",
+        "label": "Richmond Hill express",
+        "date": "2005-11-21",
+        "branch": "61",
+        "direction": "southbound",
+        "stops": [
+          "Richmond Hill GO — Newkirk Rd / Major Mackenzie Dr",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+        ],
+        "notes": "Unlettered express rows in Table 61; not an assertion of a later branch designation."
+      },
+      {
+        "id": "61-2005-leslie",
+        "label": "Leslie Street short service",
+        "date": "2005-11-21",
+        "branch": "61",
+        "direction": "southbound",
+        "stops": [
+          "Leslie St / Old Cummer Ave",
+          "Leslie St / Highway 401",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+        ],
+        "notes": "Street stops associated with the Old Cummer and Oriole areas; not stops inside those rail stations."
+      },
+      {
+        "id": "61-2023-bloomington",
+        "label": "Bloomington–Union",
+        "date": "2023-01-07",
+        "branch": "61",
+        "direction": "southbound",
+        "stops": [
+          "Bloomington GO",
+          "Gormley GO",
+          "Richmond Hill GO",
+          "Langstaff GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf",
+        "title": "GO Richmond Hill Table 61, printed November 21, 2005; archive filename September 27, 2007",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2019-01-05-table-61-richmond-hill.pdf",
+        "title": "GO Richmond Hill route 61 schedule, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://news.ontario.ca/en/release/1000355/ontario-to-officially-open-new-bloomington-go-station",
+        "title": "Ontario to Officially Open New Bloomington GO Station, June 16, 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf",
+        "title": "GO Richmond Hill route 61 schedule, effective January 7, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Detailed Gormley-era lettered patterns should be read from the original 2019 timetable; a modern letter must not be assigned retroactively to a 2005 trip.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "62",
+    "name": "Newmarket B / Yonge Street",
+    "status": "discontinued",
+    "description": "The former Newmarket–Aurora–Richmond Hill–North York bus along Yonge Street. Older timetables call this Table 62 and Newmarket B; the final contemporary notice explicitly calls it route 62.",
+    "timeline": [
+      {
+        "date": "1970",
+        "event": "The Newmarket B corridor was among the early GO bus services; this does not establish that number 62 was publicly used in 1970.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2004-10-30",
+        "event": "Table 62 documents Newmarket Bus Terminal to York Mills, with some trips entering the north lot at Langstaff GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html"
+        ]
+      },
+      {
+        "date": "2006-10-28",
+        "event": "The documented Yonge Street service still ran to York Mills, via the Finch and Sheppard areas.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2006-10-28-table-62-newmarket-b-dir0-day1-page2.html"
+        ]
+      },
+      {
+        "date": "2010-06-25",
+        "event": "Last operating day of route 62. Viva Blue A began June 28 as its replacement between Newmarket and Finch.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2010/06/13-viva_buses.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "62-2004-langstaff",
+        "label": "Newmarket B via Langstaff GO north lot",
+        "date": "2004-10-30",
+        "branch": "62",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Yonge St / Murray Dr — Aurora",
+          "Yonge St / King Rd — Oak Ridges",
+          "Yonge St / Bernard Ave",
+          "Hillcrest Mall",
+          "Langstaff GO — north lot",
+          "Yonge St / Langstaff Rd",
+          "Yonge St / Bishop Ave — Finch area",
+          "Yonge St / Sheppard Ave",
+          "York Mills Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html"
+        ],
+        "notes": "The original HTML is Table 62. This sequence represents the trips with a Langstaff north-lot time, not every trip. Finch-area southbound stops are on Yonge Street."
+      },
+      {
+        "id": "62-2006-yonge",
+        "label": "Newmarket B Yonge Street service",
+        "date": "2006-10-28",
+        "branch": "62",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Yonge St / Murray Dr — Aurora",
+          "Yonge St / King Rd — Oak Ridges",
+          "Yonge St / Bernard Ave",
+          "Hillcrest Mall",
+          "Yonge St / Langstaff Rd",
+          "Yonge St / Bishop Ave — Finch area",
+          "Yonge St / Sheppard Ave",
+          "York Mills Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2006-10-28-table-62-newmarket-b-dir0-day1-page2.html"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html",
+        "title": "GO Newmarket B Table 62 original HTML timetable, effective October 30, 2004",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2006-10-28-table-62-newmarket-b-dir0-day1-page2.html",
+        "title": "GO Newmarket B Table 62 original HTML timetable, effective October 28, 2006",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2010/06/13-viva_buses.shtml",
+        "title": "Viva buses replace GO route 62 Newmarket B, June 28, 2010 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The 2004 table refers to Table 63 for Newmarket B express service. That reference is not evidence that the later King City route 63 was the former Yonge C route.",
+      "Intermediate Yonge Street stops are not all listed in these timing-point tables.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "63",
+    "name": "King City–Toronto",
+    "status": "discontinued",
+    "description": "The King City–Maple–Rutherford–Union branch of the Barrie bus network. Its remaining service was renumbered 65A in the April 2024 schedule.",
+    "timeline": [
+      {
+        "date": "2011-09-03",
+        "event": "The Barrie timetable explicitly identifies King City–Toronto buses as route 63.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2011-11-12-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "Route 63 remained in the Barrie schedule, serving King City, Maple, Rutherford and Union.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2024-01-06",
+        "event": "The January timetable still labels the early King City–Union trip 63.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-01-06-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "The corresponding King City–Union trip is labelled 65A in the April timetable, establishing the renumbering between these schedule editions.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "63-2011-king-city",
+        "label": "King City–Maple–Rutherford–Union",
+        "date": "2011-09-03",
+        "branch": "63",
+        "direction": "southbound",
+        "stops": [
+          "King City GO — Keele St / Station Rd",
+          "Maple GO",
+          "Rutherford GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2011-11-12-table-65-barrie.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "63-2023-main",
+        "label": "King City–Union final-number era",
+        "date": "2023-01-07",
+        "branch": "63",
+        "direction": "southbound",
+        "stops": [
+          "King City GO",
+          "Maple GO",
+          "Rutherford GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2011-11-12-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68, effective September 3, 2011; archive filename November 12",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-01-06-table-65-barrie.pdf",
+        "title": "GO Barrie schedule, effective January 6, 2024; King City bus still numbered 63",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf",
+        "title": "GO Barrie schedule, effective April 27, 2024; King City bus numbered 65A",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The date on which King City buses first acquired number 63 has not been established.",
+      "Earlier Table 63 references for Newmarket B express service are not automatically treated as this route or as proof of a different route 63.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "64",
+    "name": "Newmarket–York University",
+    "status": "discontinued",
+    "description": "Direct weekday bus from Newmarket to York University’s Keele campus through Aurora, Oak Ridges, King City and Maple. The shared timetable’s rail comparison columns are not bus stops.",
+    "timeline": [
+      {
+        "date": "2008-08-30",
+        "event": "The original timetable documents weekday Newmarket–York University service through King City and Rutherford.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf"
+        ]
+      },
+      {
+        "date": "by 2010-04-26",
+        "event": "The contemporary account quoted by York University reports that route 64 had permanently stopped operating.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2010/04/28/former-go-riders-push-for-better-plan/"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "64-2008-main",
+        "label": "Newmarket–King City–York University",
+        "date": "2008-08-30",
+        "branch": "64",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Yonge St / Murray Dr — Aurora",
+          "Yonge St / King Rd — Oak Ridges",
+          "King City GO — Keele St / Station Rd",
+          "Keele St / Major Mackenzie Dr — Maple",
+          "Rutherford GO",
+          "York University — Keele campus bus loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf"
+        ],
+        "notes": "The actual bus row bypasses Newmarket GO, Aurora GO, Maple GO and York University GO rail-station columns. The York University destination is the campus, not the former rail station."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf",
+        "title": "GO Newmarket–York University Table 64, printed effective August 30, 2008; archive filename December 3",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2010/04/28/former-go-riders-push-for-better-plan/",
+        "title": "York University YFile: Former GO riders push for better plan, April 28, 2010; quotes Aurora Banner April 26",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The exact final operating day and original launch date have not been confirmed from an operator timetable or notice.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "65",
+    "name": "Newmarket–Toronto / Barrie corridor",
+    "status": "current",
+    "description": "Union-bound and rail-connecting services in the Barrie corridor. Route 65 has repeatedly changed as train service expanded; suffixes describe a dated pattern rather than a permanent route identity.",
+    "timeline": [
+      {
+        "date": "2009-06-27",
+        "event": "The timetable documents East Gwillimbury/Newmarket–Aurora–Highway 404–Union buses, with other Barrie-corridor bus connections in the same table.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2012-09",
+        "event": "Additional weekday and weekend Union trips were introduced; the former 69 service between Union and East Gwillimbury became route 65.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+        ]
+      },
+      {
+        "date": "2018-01-02",
+        "event": "Expanded Barrie train service replaced much daytime bus service; the local Newmarket–Aurora portion gained route number 69.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "The timetable retains several Union branches serving East Gwillimbury, Newmarket and Aurora alongside routes 63 and 68.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2024-04-27",
+        "event": "The former King City route 63 appears as 65A.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "65-2009-main",
+        "label": "East Gwillimbury–Aurora–Union",
+        "date": "2009-06-27",
+        "branch": "65",
+        "direction": "southbound",
+        "stops": [
+          "East Gwillimbury GO",
+          "Newmarket Bus Terminal",
+          "Aurora GO",
+          "Highway 404 / Aurora Rd Park & Ride",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+        ],
+        "notes": "Representative timetable timing points. This older routing entered Newmarket Bus Terminal and reached Highway 404 via the Aurora area; it is not interchangeable with every later 65 branch."
+      },
+      {
+        "id": "65-2024-a",
+        "label": "King City service renumbered 65A",
+        "date": "2024-04-27",
+        "branch": "65A",
+        "direction": "southbound",
+        "stops": [
+          "King City GO",
+          "Maple GO",
+          "Rutherford GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf"
+        ],
+        "notes": "The 04:55 King City departure is explicitly 65A in this edition; corresponding January service was 63."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf",
+        "title": "GO Barrie Table 65, printed June 27, 2009; archive filename October 7",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+        "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml",
+        "title": "GO revises routes and services, December 30, 2017 / January 2018 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf",
+        "title": "GO Barrie schedule, effective April 27, 2024; King City bus numbered 65A",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Older Barrie-area trips printed in Table 65 without clear public route/suffix labels have not been assigned invented branches.",
+      "Use the separate 2016, 2022, 2023 and 2026 GTFS snapshots for their full stop and shape variants.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "66",
+    "name": "Newmarket Highway 400 / East Gwillimbury Express",
+    "status": "discontinued",
+    "description": "Highway 400 bus linking Newmarket, later East Gwillimbury, with North York. Its southern terminal changed from Yorkdale to Highway 407 Bus Terminal before the route was withdrawn.",
+    "timeline": [
+      {
+        "date": "by 2011-03-13",
+        "event": "The original timetable shows Newmarket Bus Terminal–Highway 9/400–Major Mackenzie/400–Yorkdale, with a Keele/401 branch.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2011-03-13-table-66-newmarket-hwy-400.pdf"
+        ]
+      },
+      {
+        "date": "2012-09",
+        "event": "Five weekday Newmarket–Yorkdale trips were added.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The documented northern terminus is East Gwillimbury GO; 66 and 66A still run to Yorkdale.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2019-01-05-table-66-newmarket-hwy-400.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "The documented route ends at Highway 407 Bus Terminal and uses the Davis/Eagle street stop in Newmarket.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2023-04-08-table-66-newmarket-hwy-400.pdf"
+        ]
+      },
+      {
+        "date": "2026-01-03",
+        "event": "Metrolinx discontinued route 66.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "66-2011-main",
+        "label": "Newmarket–Yorkdale",
+        "date": "by 2011-03-13",
+        "branch": "66",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Highway 9 / Highway 400 Park & Ride",
+          "Major Mackenzie Dr / Highway 400 Park & Ride",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2011-03-13-table-66-newmarket-hwy-400.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "66-2011-a",
+        "label": "Newmarket–Yorkdale via Keele",
+        "date": "by 2011-03-13",
+        "branch": "66A",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Highway 9 / Highway 400 Park & Ride",
+          "Major Mackenzie Dr / Highway 400 Park & Ride",
+          "Keele St / Highway 401",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2011-03-13-table-66-newmarket-hwy-400.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "66-2019-main",
+        "label": "East Gwillimbury–Yorkdale",
+        "date": "2019-01-05",
+        "branch": "66",
+        "direction": "southbound",
+        "stops": [
+          "East Gwillimbury GO",
+          "Newmarket Bus Terminal",
+          "Highway 9 / Highway 400 Park & Ride",
+          "Major Mackenzie Dr / Highway 400 Park & Ride",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2019-01-05-table-66-newmarket-hwy-400.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "66-2023-407",
+        "label": "East Gwillimbury–Highway 407",
+        "date": "2023-04-08",
+        "branch": "66",
+        "direction": "southbound",
+        "stops": [
+          "East Gwillimbury GO",
+          "Davis Dr W / Eagle St W — Newmarket",
+          "Highway 9 / Highway 400 Park & Ride",
+          "Major Mackenzie Dr / Highway 400 Park & Ride",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2023-04-08-table-66-newmarket-hwy-400.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2011-03-13-table-66-newmarket-hwy-400.pdf",
+        "title": "GO Newmarket Highway 400 route 66 timetable archived March 13, 2011",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+        "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2019-01-05-table-66-newmarket-hwy-400.pdf",
+        "title": "GO East Gwillimbury/North York Express route 66, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-hwy-400/2023-04-08-table-66-newmarket-hwy-400.pdf",
+        "title": "GO East Gwillimbury/North York Express route 66, effective April 8, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments",
+        "title": "Metrolinx holiday GO service adjustments; route 66 discontinued January 3, 2026",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The precise dates of the East Gwillimbury extension and Yorkdale-to-Highway-407 terminal change have not been pinned down; the dated timetables establish their presence.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "67",
+    "name": "Keswick–North York / earlier Newmarket Highway 404",
+    "status": "current",
+    "description": "The current route family connects the Keswick/Highway 404 corridor with Finch. An earlier Table 67 describes Newmarket Highway 404 service; it should not be mistaken for evidence of a Keswick route in 2003.",
+    "timeline": [
+      {
+        "date": "2003-01-04",
+        "event": "Table 67 is titled Newmarket Highway 404, running from Newmarket via Aurora and Highway 404 to Finch.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2003-01-04-table-67-keswick-north-york-dir0-day1-page1.html"
+        ]
+      },
+      {
+        "date": "2012-09-04",
+        "event": "First weekday operation of the new Keswick–Finch service from Glenwoods Park & Ride, via Aurora Carpool and Yonge/Sheppard.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The original schedule shows the Woodbine/404, Queensville/404, Davis/404, Wellington/404 and Major Mackenzie/404 park-and-ride chain.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2019-01-05-table-67-keswick-north-york.pdf"
+        ]
+      },
+      {
+        "date": "2023-09-02",
+        "event": "The Keswick–Finch corridor is documented in the September timetable.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2023-09-02-table-67-keswick-north-york.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "67-2003-table-predecessor",
+        "label": "Table 67 Newmarket Highway 404 predecessor",
+        "date": "2003-01-04",
+        "branch": "Table 67",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Aurora GO",
+          "Highway 404 / Aurora Rd Park & Ride",
+          "Highway 7 / East Beaver Creek Rd",
+          "Seneca College — Don Mills Rd / Finch Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2003-01-04-table-67-keswick-north-york-dir0-day1-page1.html"
+        ],
+        "notes": "Original document explicitly calls this Newmarket Highway 404. Table number is preserved rather than asserting modern public route branding."
+      },
+      {
+        "id": "67-2012-glenwoods",
+        "label": "Initial Keswick–Finch service",
+        "date": "2012-09-04",
+        "branch": "67",
+        "direction": "southbound",
+        "stops": [
+          "Glenwoods Park & Ride — Woodbine Ave / Glenwoods Ave",
+          "Aurora Carpool — Highway 404 / Aurora Rd",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml"
+        ],
+        "notes": "Major stops from the contemporary route description. Early alignment used Woodbine, Green Lane, Highways 404/401 and Yonge Street."
+      },
+      {
+        "id": "67-2019-carpools",
+        "label": "Keswick–Finch via Highway 404 park-and-rides",
+        "date": "2019-01-05",
+        "branch": "67",
+        "direction": "southbound",
+        "stops": [
+          "Woodbine Ave / Highway 404 Park & Ride",
+          "Queensville Sdrd / Highway 404 Park & Ride",
+          "Davis Dr / Highway 404 Park & Ride",
+          "Wellington St E / Highway 404 Park & Ride",
+          "Major Mackenzie Dr / Highway 404 Park & Ride",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2019-01-05-table-67-keswick-north-york.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2003-01-04-table-67-keswick-north-york-dir0-day1-page1.html",
+        "title": "GO Table 67 Newmarket Highway 404 original HTML timetable, effective January 4, 2003; archive folder later renamed Keswick",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml",
+        "title": "GO cancels Sutton service and introduces Keswick–North York buses, September 2012 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2019-01-05-table-67-keswick-north-york.pdf",
+        "title": "GO Keswick/North York route 67, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/keswick-north-york/2023-09-02-table-67-keswick-north-york.pdf",
+        "title": "GO Keswick/North York route 67, effective September 2, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Exact transition dates between the original Newmarket Table 67 and the later Keswick route, and dates of each Highway 404 park-and-ride addition, remain to be established.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "68",
+    "name": "Barrie–Newmarket / Barrie corridor",
+    "status": "current",
+    "description": "Local and connecting bus services through Barrie, Stroud, Churchill, Bradford, Holland Landing, East Gwillimbury, Newmarket and Aurora. Express and rail-connection variants differ substantially by year.",
+    "timeline": [
+      {
+        "date": "2009-06-27",
+        "event": "The original timetable shows Barrie Bus Terminal–Barrie South–Bradford–Holland Landing–Newmarket, including a Bradford short service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2012-06-23",
+        "event": "Allandale Waterfront appears in the route 68 timetable and corridor diagram.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2012-06-23-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2018-01-02",
+        "event": "Barrie train expansion was accompanied by reworked connecting buses, including Aurora connections.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The timetable documents the Barrie–Aurora corridor through East Gwillimbury and Newmarket GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "Branches serving Barrie and its rail connection points remain in the original Barrie schedule.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "68-2009-main",
+        "label": "Barrie–Bradford–Newmarket",
+        "date": "2009-06-27",
+        "branch": "68",
+        "direction": "southbound",
+        "stops": [
+          "Barrie Bus Terminal — Maple Ave / Simcoe St",
+          "Barrie South GO — Mapleview Dr / Highway 11",
+          "Yonge St / Victoria St — Stroud",
+          "Yonge St / Killarney Beach Rd — Churchill",
+          "Barrie St / John St — Bradford",
+          "Bradford GO — Bridge St / Dissette St",
+          "Yonge St / Mount Albert Rd — Holland Landing",
+          "Newmarket Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+        ],
+        "notes": "Bus rows bypass East Gwillimbury GO in this dated pattern; Barrie South is the station-area timing point stated in the timetable."
+      },
+      {
+        "id": "68-2009-a",
+        "label": "Bradford–Newmarket short service",
+        "date": "2009-06-27",
+        "branch": "68A",
+        "direction": "southbound",
+        "stops": [
+          "Barrie St / John St — Bradford",
+          "Bradford GO — Bridge St / Dissette St",
+          "Yonge St / Mount Albert Rd — Holland Landing",
+          "Newmarket Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "68-2019-aurora",
+        "label": "Barrie–Aurora via rail connection points",
+        "date": "2019-01-05",
+        "branch": "68",
+        "direction": "southbound",
+        "stops": [
+          "Barrie Bus Terminal",
+          "Allandale Waterfront GO",
+          "Barrie South GO",
+          "Yonge St / Victoria St — Stroud",
+          "Yonge St / 4th Line — Churchill",
+          "Barrie St / Holland St W — Bradford",
+          "Bradford GO",
+          "Yonge St / Queen St — Holland Landing",
+          "East Gwillimbury GO",
+          "Newmarket GO",
+          "Aurora GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+        ],
+        "notes": "Exact major timing-point order from the weekday 68 bus row. It bypasses Newmarket Bus Terminal. The Churchill and Holland Landing labels differ from the 2009 table."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf",
+        "title": "GO Barrie Table 65, printed June 27, 2009; archive filename October 7",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2012-06-23-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68, effective June 23, 2012",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml",
+        "title": "GO revises routes and services, December 30, 2017 / January 2018 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68/69, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68, effective January 7, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The historical road names Highway 11 and Yonge Street refer to the same older north–south corridor in several timetable labels.",
+      "Branch suffixes have changed and been reused. Do not apply present-day 68A/68B meanings to the 2009 table.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "69",
+    "name": "Sutton–Newmarket; later Aurora–Newmarket",
+    "status": "discontinued",
+    "description": "Number 69 has two distinct documented uses: the former Lake Simcoe/Sutton rural service and a later local Newmarket–Aurora rail connector. The two eras must be mapped separately.",
+    "timeline": [
+      {
+        "date": "2008-11-01",
+        "event": "The Sutton timetable shows full Beaverton–Newmarket route 69, Sutton short branch 69A, Keswick short branch 69B, and Keswick–East Gwillimbury–Union 69C.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+        ]
+      },
+      {
+        "date": "2011-12-31",
+        "event": "The last recovered full Sutton-era timetable retains these branches.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2012-08-29-table-69-sutton.pdf"
+        ]
+      },
+      {
+        "date": "2012-09-01",
+        "event": "Final day of the Sutton-era route; its replacement network included YRT 50 and GO routes 67 and 80.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+          "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml"
+        ]
+      },
+      {
+        "date": "2018-01-02",
+        "event": "Number 69 was reused for weekday Newmarket Bus Terminal–Aurora GO service formerly part of route 65.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The Barrie timetable explicitly lists the new Aurora–Newmarket route 69.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "69-2008-main",
+        "label": "Sutton era: Beaverton–Newmarket",
+        "date": "2008-11-01",
+        "branch": "69",
+        "direction": "southbound",
+        "stops": [
+          "Beaverton — Simcoe St / Mara Rd",
+          "Port Bolster — Lakeridge Rd / Highway 48",
+          "Pefferlaw — Pefferlaw Rd / Station Rd",
+          "Sutton — High St / Burke St",
+          "Jackson’s Point — Dalton Rd / Metro Rd",
+          "Island Grove — Metro Rd / Woodbine Ave",
+          "Roches Point — Metro Rd / Raines St",
+          "Keswick — Simcoe Ave",
+          "Queensville — Leslie St / Queensville Sdrd",
+          "Sharon — Leslie St / Mount Albert Rd",
+          "Newmarket GO — Davis Dr / Superior St",
+          "Newmarket Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+        ],
+        "notes": "Major timing points. Main route 69 bypasses East Gwillimbury GO; the station belongs to branch 69C in this edition."
+      },
+      {
+        "id": "69-2008-a",
+        "label": "Sutton era: Sutton–Newmarket",
+        "date": "2008-11-01",
+        "branch": "69A",
+        "direction": "southbound",
+        "stops": [
+          "Sutton — High St / Burke St",
+          "Jackson’s Point — Dalton Rd / Metro Rd",
+          "Island Grove — Metro Rd / Woodbine Ave",
+          "Roches Point — Metro Rd / Raines St",
+          "Keswick — Simcoe Ave",
+          "Queensville — Leslie St / Queensville Sdrd",
+          "Sharon — Leslie St / Mount Albert Rd",
+          "Newmarket GO — Davis Dr / Superior St",
+          "Newmarket Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "69-2008-b",
+        "label": "Sutton era: Keswick–Newmarket",
+        "date": "2008-11-01",
+        "branch": "69B",
+        "direction": "southbound",
+        "stops": [
+          "Keswick — Simcoe Ave",
+          "Queensville — Leslie St / Queensville Sdrd",
+          "Sharon — Leslie St / Mount Albert Rd",
+          "Newmarket GO — Davis Dr / Superior St",
+          "Newmarket Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "69-2008-c",
+        "label": "Sutton era: Keswick–Union express",
+        "date": "2008-11-01",
+        "branch": "69C",
+        "direction": "southbound",
+        "stops": [
+          "Keswick — Simcoe Ave",
+          "Queensville — Leslie St / Queensville Sdrd",
+          "Sharon — Leslie St / Mount Albert Rd",
+          "East Gwillimbury GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+        ],
+        "notes": "69C bypasses Newmarket GO and Newmarket Bus Terminal. It is a through bus to Union, unlike the main 69."
+      },
+      {
+        "id": "69-2019-reuse",
+        "label": "Reused number: Newmarket–Aurora",
+        "date": "2019-01-05",
+        "branch": "69",
+        "direction": "southbound",
+        "stops": [
+          "Newmarket Bus Terminal",
+          "Aurora GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+        ],
+        "notes": "Only principal timetable endpoints are shown. The contemporary 2018 notice describes Yonge Street and Wellington Street routing; this is not the former Sutton route."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf",
+        "title": "GO Sutton Table 69, printed effective November 1, 2008; archive filename February 19, 2009",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2012-08-29-table-69-sutton.pdf",
+        "title": "GO Sutton route 69, printed effective December 31, 2011; archive filename August 29, 2012",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+        "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml",
+        "title": "GO revises routes and services, December 30, 2017 / January 2018 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf",
+        "title": "GO Barrie routes 63/65/68/69, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml",
+        "title": "GO cancels Sutton service and introduces Keswick–North York buses, September 2012 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The exact final date of the second, Aurora–Newmarket use of number 69 has not been confirmed. It is absent from the later recovered 2022/2023 network snapshots.",
+      "The two eras are separated by more than five years and are not a continuous route with a minor extension.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "70",
+    "name": "Uxbridge–Stouffville rail connections",
+    "status": "current",
+    "description": "Train-connecting services north of Unionville/Mount Joy, including Uxbridge, Goodwood, Stouffville and the station first called Lincolnville and then Old Elm. Route 71 contains the associated Union-bound bus service.",
+    "timeline": [
+      {
+        "date": "by 2016-01",
+        "event": "The original archived GTFS contains route 70 and branches 70A, 70B and 70E.",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+        ]
+      },
+      {
+        "date": "2019-08-31",
+        "event": "The original timetable documents 70 Uxbridge–Stouffville–Unionville and shorter branches including 70B and 70D.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ]
+      },
+      {
+        "date": "2021-10-16",
+        "event": "Lincolnville GO was renamed Old Elm GO; the name change preceded the physical station relocation.",
+        "sources": [
+          "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "The timetable uses the Old Elm name while serving the original Bethesda Road station site.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf"
+        ]
+      },
+      {
+        "date": "2023-10-17",
+        "event": "Old Elm service moved to the replacement station southwest of the original site.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "70-2016-main",
+        "label": "Unionville–Uxbridge full northern connector",
+        "date": "by 2016-01",
+        "branch": "70",
+        "direction": "northbound",
+        "stops": [
+          "Unionville GO",
+          "Centennial GO",
+          "Markham GO",
+          "Mount Joy GO",
+          "Stouffville GO",
+          "Lincolnville GO — original Bethesda Rd site",
+          "Goodwood",
+          "Uxbridge — Railway St / Albert St"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+        ],
+        "notes": "Major points selected from the original route_variant 70 GTFS stop sequence. The 2019 cover map still depicts this corridor, but the recovered weekday table mainly lists 70B/70D; this full trip is therefore dated to the earlier feed."
+      },
+      {
+        "id": "70-2019-b",
+        "label": "Uxbridge–Lincolnville connector",
+        "date": "2019-08-31",
+        "branch": "70B",
+        "direction": "southbound",
+        "stops": [
+          "Uxbridge — Railway St / Albert St",
+          "Goodwood",
+          "Lincolnville GO — original Bethesda Rd site"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "70-2019-d",
+        "label": "Uxbridge–Mount Joy connector",
+        "date": "2019-08-31",
+        "branch": "70D",
+        "direction": "southbound",
+        "stops": [
+          "Uxbridge — Railway St / Albert St",
+          "Goodwood",
+          "Lincolnville GO — original Bethesda Rd site",
+          "Stouffville GO",
+          "Mount Joy GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf",
+        "title": "GO Stouffville routes 70/71, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf",
+        "title": "Town of Whitchurch-Stouffville 2021 Year in Review: Lincolnville renamed October 16, 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf",
+        "title": "GO Stouffville routes 70/71, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml",
+        "title": "GO relocates Old Elm station, October 17, 2023 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The first date the separate route 70 number was introduced has not been located. Earlier Uxbridge connecting buses in Table 71 should not automatically be relabelled 70.",
+      "The 2016 and later GTFS snapshots preserve additional exact branch and local-stop variants.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "71",
+    "name": "Stouffville–Toronto",
+    "status": "current",
+    "description": "The Stouffville corridor’s Union-bound bus family, historically extending to Uxbridge. Short workings, station bypasses and express variants changed with rail service, with route 70 providing many northern train connections.",
+    "timeline": [
+      {
+        "date": "2006-12-30",
+        "event": "The recovered timetable documents Uxbridge–Goodwood–Stouffville–Markham–Union bus trips and shorter train-connecting trips.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+        ]
+      },
+      {
+        "date": "2011-12-31",
+        "event": "Lincolnville is included in the original Stouffville timetable, replacing the earlier north-Stouffville street timing point for relevant services.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2012-02-14-table-71-stouffville.pdf"
+        ]
+      },
+      {
+        "date": "2019-08-31",
+        "event": "Routes 70 and 71 share the timetable; the 71 family includes multiple Union-bound and short variants.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ]
+      },
+      {
+        "date": "2021-10-16",
+        "event": "Lincolnville GO was renamed Old Elm GO.",
+        "sources": [
+          "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf"
+        ]
+      },
+      {
+        "date": "2023-10-17",
+        "event": "Buses and trains began serving the relocated Old Elm station.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "71-2006-main",
+        "label": "Uxbridge–Union through service",
+        "date": "2006-12-30",
+        "branch": "71",
+        "direction": "southbound",
+        "stops": [
+          "Uxbridge — Railway St / Spruce St",
+          "Goodwood — Highway 47 / Front St",
+          "Stouffville — Tenth Line / Bethesda Rd",
+          "Stouffville GO — Edward St / Main St",
+          "Dickson Hill — Highway 48 / 19th Ave",
+          "Mount Joy GO — Bur Oak Ave / Highway 48",
+          "Markham GO — Main St / Ramona Blvd",
+          "Centennial GO — Bullock Dr / McCowan Rd",
+          "Markville Mall — McCowan Rd / Highway 7",
+          "Unionville GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+        ],
+        "notes": "Representative stopping bus pattern from Table 71. Some other rows bypass Centennial or Unionville; the shared train columns must not be treated as bus stops. No modern suffix is assigned to this older row."
+      },
+      {
+        "id": "71-2006-uxbridge-connector",
+        "label": "Uxbridge–Stouffville train connection",
+        "date": "2006-12-30",
+        "branch": "71",
+        "direction": "southbound",
+        "stops": [
+          "Uxbridge — Railway St / Spruce St",
+          "Goodwood — Highway 47 / Front St",
+          "Stouffville — Tenth Line / Bethesda Rd",
+          "Stouffville GO — Edward St / Main St"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+        ],
+        "notes": "A northern short-working in the original Table 71. Route 70 had not yet been established by this evidence."
+      },
+      {
+        "id": "71-2019-main",
+        "label": "Uxbridge–Union via Lincolnville",
+        "date": "2019-08-31",
+        "branch": "71",
+        "direction": "southbound",
+        "stops": [
+          "Uxbridge — Railway St / Albert St",
+          "Goodwood",
+          "Lincolnville GO — original Bethesda Rd site",
+          "Stouffville GO",
+          "Mount Joy GO",
+          "Markham GO",
+          "Centennial GO",
+          "Unionville GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ],
+        "notes": "Major corridor timing points of the full through service. The original Lincolnville station site must be used."
+      },
+      {
+        "id": "71-2019-c",
+        "label": "Lincolnville–Union",
+        "date": "2019-08-31",
+        "branch": "71C",
+        "direction": "southbound",
+        "stops": [
+          "Lincolnville GO — original Bethesda Rd site",
+          "Stouffville GO",
+          "Mount Joy GO",
+          "Markham GO",
+          "Centennial GO",
+          "Unionville GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "71-2023-e",
+        "label": "Mount Joy–Union short service",
+        "date": "2023-01-07",
+        "branch": "71E",
+        "direction": "southbound",
+        "stops": [
+          "Mount Joy GO",
+          "Markham GO",
+          "Centennial GO",
+          "Unionville GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf"
+        ],
+        "notes": "Verified scheduled 71E bus row in January 2023. The older 2019 cover map displays 71E but the recovered service rows do not establish operation of that branch in that edition."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf",
+        "title": "GO Stouffville Table 71, printed effective December 30, 2006; archive filename March 3, 2008",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2012-02-14-table-71-stouffville.pdf",
+        "title": "GO Stouffville schedule, printed effective December 31, 2011; archive filename February 14, 2012",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf",
+        "title": "GO Stouffville routes 70/71, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf",
+        "title": "Town of Whitchurch-Stouffville 2021 Year in Review: Lincolnville renamed October 16, 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml",
+        "title": "GO relocates Old Elm station, October 17, 2023 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf",
+        "title": "GO Stouffville routes 70/71, effective January 7, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The 2006 table contains several express and short-working combinations without sufficiently clear public suffixes; only the explicitly supported patterns are diagrammed.",
+      "Earlier Uxbridge services to Scarborough Centre or downtown Toronto require separate historical timetables before assigning them a modern route number.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "80",
+    "name": "Pefferlaw–Beaverton",
+    "status": "discontinued",
+    "description": "Short-lived rural connector replacing the northern end of the former Sutton route 69. It later passed to York Region Transit as route 51.",
+    "timeline": [
+      {
+        "date": "2012-09-02",
+        "event": "GO introduced route 80 between Pefferlaw and Beaverton.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+        ]
+      },
+      {
+        "date": "2012-09-02",
+        "event": "The launch schedule offered nine weekday trips in each direction and three on weekend days.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html"
+        ]
+      },
+      {
+        "date": "2013-02-25",
+        "event": "The YRT service-change notice still refers to connections with GO route 80.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2013/02/23-yrt_revise.shtml"
+        ]
+      },
+      {
+        "date": "by 2013-09",
+        "event": "The original YRT system map shows route 51 Beaverton–Pefferlaw in the former GO corridor.",
+        "sources": [
+          "https://transittoronto.ca/archives/maps/YRT/YRT-system-map-201309.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "80-2012-endpoints",
+        "label": "Pefferlaw–Beaverton",
+        "date": "2012-09-02",
+        "branch": "80",
+        "direction": "northbound",
+        "stops": [
+          "Pefferlaw",
+          "Beaverton"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+        ],
+        "notes": "Endpoint-only schematic. No original full route 80 stop list has been recovered; intermediate stops or exact roadway geometry must not be inferred from the former route 69."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+        "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html",
+        "title": "GO Transit: New, adjusted bus service for Lakeshore East riders; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2013/02/23-yrt_revise.shtml",
+        "title": "YRT revises services, February 25, 2013 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/maps/YRT/YRT-system-map-201309.pdf",
+        "title": "Original York Region Transit system map, September 2013; route 51 Beaverton–Pefferlaw",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The transfer to YRT occurred in 2013, after the February connection notice and by the September system map; exact final GO service date remains unverified.",
+      "Only endpoints are securely documented for mapping.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "81",
+    "name": "Port Perry–Whitby / Beaverton",
+    "status": "discontinued",
+    "description": "Rural GO bus between Whitby GO, Port Perry and communities north to Beaverton. Timetables also show the short Port Perry–Whitby branch. Union times were connecting train times, not an 81 through bus.",
+    "timeline": [
+      {
+        "date": "2008-11-01",
+        "event": "The timetable documents Beaverton–Cannington–Sunderland–Port Perry–Whitby 81 and Port Perry–Whitby 81A.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf"
+        ]
+      },
+      {
+        "date": "2012-09",
+        "event": "GO added Beaverton weekday trips and provided three weekend trips in each direction.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The route continued in the original Port Perry timetable.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2019-01-05-table-81-port-perry.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Route 81 was discontinued.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "81-2008-main",
+        "label": "Beaverton–Port Perry–Whitby",
+        "date": "2008-11-01",
+        "branch": "81",
+        "direction": "southbound",
+        "stops": [
+          "Beaverton — Simcoe St / Mara Rd",
+          "Cannington — Cameron St / Ann St",
+          "Sunderland — Albert St / River St",
+          "Greenbank — Highway 12 / Cragg Rd",
+          "Port Perry — Reach St / Old Simcoe Rd",
+          "Port Perry — Curts St / Water St",
+          "Myrtle — Highway 12 / Myrtle Rd",
+          "Brooklin — Winchester Rd / Anderson St",
+          "Whitby — Brock St / Dundas St",
+          "Whitby GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf"
+        ],
+        "notes": "Major bus timing points; the Lakeshore train continuation shown in the table is excluded."
+      },
+      {
+        "id": "81-2008-a",
+        "label": "Port Perry–Whitby short service",
+        "date": "2008-11-01",
+        "branch": "81A",
+        "direction": "southbound",
+        "stops": [
+          "Port Perry — Curts St / Water St",
+          "Myrtle — Highway 12 / Myrtle Rd",
+          "Brooklin — Winchester Rd / Anderson St",
+          "Whitby — Brock St / Dundas St",
+          "Whitby GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2008-12-03-table-81-port-perry.pdf",
+        "title": "GO Port Perry Table 81, printed effective November 1, 2008; archive filename December 3",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html",
+        "title": "GO Transit: New, adjusted bus service for Lakeshore East riders; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/port-perry/2019-01-05-table-81-port-perry.pdf",
+        "title": "GO Port Perry route 81, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "title": "GO revises bus services, April 8, 2023 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The original launch date and every later local stop or road variation have not been recovered.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "88",
+    "name": "Peterborough–Oshawa",
+    "status": "current",
+    "description": "Express regional bus between Peterborough/Trent University and the Lakeshore East rail connection at Oshawa. Later branches added Bowmanville, Newcastle and additional park-and-ride stops.",
+    "timeline": [
+      {
+        "date": "2009-09",
+        "event": "Daily Peterborough–Oshawa GO bus service began in September 2009.",
+        "sources": [
+          "https://assets.metrolinx.com/image/upload/v1663232128/Documents/Metrolinx/5123-GT-Metrolinx-AR-EN.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-03-13",
+        "event": "The original table shows Trent University–Peterborough–Highway 115 park-and-rides–Oshawa GO.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2011-03-13-table-88-peterborough-oshawa.pdf"
+        ]
+      },
+      {
+        "date": "2020-09-05",
+        "event": "Main 88 trips were routed through Bowmanville; weekday 88A replaced the former Newcastle route 91.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "The timetable shows 88 and 88B through Bowmanville; 88B additionally serves Courtice/Baseline and First Avenue/Front park-and-rides.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "88-2011-main",
+        "label": "Peterborough–Oshawa express",
+        "date": "by 2011-03-13",
+        "branch": "88",
+        "direction": "southbound",
+        "stops": [
+          "Trent University — Peter Gzowski College",
+          "Peterborough Bus Terminal — Simcoe St / George St",
+          "Crawford Dr / Harper Rd Park & Ride",
+          "County Rd 10 / Highway 115 Park & Ride",
+          "Highway 35 / Highway 115 Park & Ride",
+          "Oshawa GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2011-03-13-table-88-peterborough-oshawa.pdf"
+        ],
+        "notes": "Only the bus portion is shown. Union times in the timetable are connecting Lakeshore East train service."
+      },
+      {
+        "id": "88-2023-main",
+        "label": "Peterborough–Oshawa via Bowmanville",
+        "date": "2023-04-08",
+        "branch": "88",
+        "direction": "southbound",
+        "stops": [
+          "Trent University — Peter Gzowski College",
+          "Peterborough Bus Terminal — Simcoe St / George St",
+          "Crawford Dr / Harper Rd Park & Ride",
+          "County Rd 10 / Highway 115 Park & Ride",
+          "Highway 35 / Highway 115 Park & Ride",
+          "Highway 2 / Highway 35–115",
+          "King St E / Liberty St — Bowmanville",
+          "Clarington Blvd / Highway 2 Park & Ride",
+          "Bowmanville Ave / Baseline Rd Park & Ride",
+          "Durham College Oshawa GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "88-2023-b",
+        "label": "Peterborough–Oshawa with added park-and-rides",
+        "date": "2023-04-08",
+        "branch": "88B",
+        "direction": "southbound",
+        "stops": [
+          "Trent University — Peter Gzowski College",
+          "Peterborough Bus Terminal — Simcoe St / George St",
+          "Crawford Dr / Harper Rd Park & Ride",
+          "County Rd 10 / Highway 115 Park & Ride",
+          "Highway 35 / Highway 115 Park & Ride",
+          "Highway 2 / Highway 35–115",
+          "King St E / Liberty St — Bowmanville",
+          "Clarington Blvd / Highway 2 Park & Ride",
+          "Bowmanville Ave / Baseline Rd Park & Ride",
+          "Courtice Rd / Baseline Rd Park & Ride",
+          "First Ave / Front St Park & Ride — Oshawa",
+          "Durham College Oshawa GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://assets.metrolinx.com/image/upload/v1663232128/Documents/Metrolinx/5123-GT-Metrolinx-AR-EN.pdf",
+        "title": "GO Transit / Metrolinx 2009–2010 Annual Report: Peterborough bus service launch",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2011-03-13-table-88-peterborough-oshawa.pdf",
+        "title": "GO Peterborough–Oshawa Table 88 archived March 13, 2011",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf",
+        "title": "GO Peterborough–Oshawa route 88, effective April 8, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Secondary accounts differ between September 4 and 5 for the 2009 opening; only the month is asserted here.",
+      "The archived 2022 GTFS supplies the exact 88A Newcastle pattern; later 88C is captured in the current feed.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "90",
+    "name": "Lakeshore East / former Newcastle–Oshawa local",
+    "status": "current",
+    "description": "Historically included the local Newcastle–Bowmanville–Courtice–Oshawa GO feeder. That local service ended in 2020, while 90B Union–Oshawa rail-replacement service continued. The number therefore remains current.",
+    "timeline": [
+      {
+        "date": "2008-08-30",
+        "event": "The Lakeshore East timetable includes the 90 Newcastle local, 90A Bowmanville short service, and 90B Union–Oshawa bus.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ]
+      },
+      {
+        "date": "by 2016-01",
+        "event": "The original GTFS contains 90, 90A, 90B, 90C and 90D patterns.",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+        ]
+      },
+      {
+        "date": "2020-12-05",
+        "event": "Local route 90 was withdrawn after Durham Region Transit introduced overlapping 902A service; Metrolinx explicitly retained 90B.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/go-bus-route-90-to-be-discontinued"
+        ]
+      },
+      {
+        "date": "by 2023-05",
+        "event": "The recovered original feed retains route 90B.",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "90-2008-local",
+        "label": "Newcastle–Oshawa local",
+        "date": "2008-08-30",
+        "branch": "90",
+        "direction": "westbound",
+        "stops": [
+          "Newcastle — Highway 2 / Mill St",
+          "Bowmanville — King St / Liberty St",
+          "Bowmanville GO Park & Ride — Prince William Blvd",
+          "Courtice — Highway 2 / Courtice Rd",
+          "Oshawa Bus Terminal — Bond St / Centre St",
+          "Oshawa GO — Thornton Rd / Bloor St"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "90-2008-a",
+        "label": "Bowmanville–Oshawa short service",
+        "date": "2008-08-30",
+        "branch": "90A",
+        "direction": "westbound",
+        "stops": [
+          "Bowmanville — Waverley Rd / Baseline Rd",
+          "Bowmanville — King St / Liberty St",
+          "Bowmanville GO Park & Ride — Prince William Blvd",
+          "Courtice — Highway 2 / Courtice Rd",
+          "Oshawa Bus Terminal — Bond St / Centre St",
+          "Oshawa GO — Thornton Rd / Bloor St"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "90-2008-b",
+        "label": "Oshawa–Union rail replacement",
+        "date": "2008-08-30",
+        "branch": "90B",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Ajax GO",
+          "Pickering GO",
+          "Union Station Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ],
+        "notes": "The early bus row stops at the four Durham rail stations and Union; it bypasses the intervening Toronto train stations."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf",
+        "title": "GO Lakeshore East Table 09, printed effective August 30, 2008; includes bus routes 90/91",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+        "type": "official"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/go-bus-route-90-to-be-discontinued",
+        "title": "Metrolinx: GO bus Route 90 to be discontinued, November 18, 2020",
+        "type": "official"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "title": "Original GO Transit GTFS archived May 5, 2023; use calendar validity, not retrieval date",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The word “discontinued” in the 2020 announcement applies to the Durham local service, not the whole number 90 family.",
+      "Special construction shuttle suffixes are service-date-specific; see current GTFS validity rather than treating them as permanent routes.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "91",
+    "name": "Newcastle–Oshawa express",
+    "status": "discontinued",
+    "description": "Express feeder from Newcastle and Bowmanville to Oshawa GO, complementing the slower route 90 local bus. It was replaced by route 88A in the 2020 restructuring.",
+    "timeline": [
+      {
+        "date": "2008-08-30",
+        "event": "The original timetable distinguishes Newcastle–Bowmanville–Oshawa express 91 from local route 90.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ]
+      },
+      {
+        "date": "by 2016-01",
+        "event": "The original GTFS still contains route 91 and its Newcastle pattern.",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+        ]
+      },
+      {
+        "date": "2020-09-04",
+        "event": "Last day of route 91. The replacement weekday 88A began with the September schedule changes.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "91-2008-main",
+        "label": "Newcastle–Bowmanville–Oshawa express",
+        "date": "2008-08-30",
+        "branch": "91",
+        "direction": "westbound",
+        "stops": [
+          "Newcastle — Highway 2 / Mill St",
+          "Bowmanville — King St / Liberty St",
+          "Bowmanville GO Park & Ride — Prince William Blvd",
+          "Bowmanville — Waverley Rd / Baseline Rd",
+          "Oshawa GO — Thornton Rd / Bloor St"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+        ],
+        "notes": "The bus bypasses Courtice and downtown Oshawa; the Lakeshore East train continuation is not part of route 91."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf",
+        "title": "GO Lakeshore East Table 09, printed effective August 30, 2008; includes bus routes 90/91",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "Later Newcastle local circulation differs from the simple 2008 timing-point diagram; the 2016 GTFS supplies its full stop sequence.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "92",
+    "name": "Oshawa–Yorkdale",
+    "status": "current",
+    "description": "Limited-stop Highway 2 service linking Durham communities with Scarborough Centre and North York. The eastern terminal and the meaning of the 92A suffix have both changed.",
+    "timeline": [
+      {
+        "date": "2013-06-29",
+        "event": "Route 92 was introduced in the Highway 2 reorganization replacing the old 94/95 network.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+        ]
+      },
+      {
+        "date": "2014-09-02",
+        "event": "New 92A Ajax–Finch service replaced route 98.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2019-04-06",
+        "event": "The original timetable shows downtown Oshawa–Yorkdale service; by this edition 92A has become a Dundas/Highway 412–Yorkdale short working.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+        ]
+      },
+      {
+        "date": "2020-09-05",
+        "event": "The main route moved its eastern terminal from downtown Oshawa to Oshawa GO.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "by 2023-05",
+        "event": "The original GTFS retains the later 92A Dundas/Highway 412–Yorkdale short working.",
+        "sources": [
+          "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "92-2014-a",
+        "label": "Original 92A Ajax–Finch branch",
+        "date": "2014-09-02",
+        "branch": "92A",
+        "direction": "westbound",
+        "stops": [
+          "Kingston Rd / Harwood Ave — Ajax",
+          "Kingston Rd / Westney Rd — Ajax",
+          "Kingston Rd / Church St — Ajax",
+          "Kingston Rd / Brock Rd — Pickering",
+          "Kingston Rd / Glenanna Rd — Pickering",
+          "Kingston Rd / Fairport Rd — Pickering",
+          "Kingston Rd / Sheppard Ave E",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml"
+        ],
+        "notes": "Selected principal stops from the contemporary route description. Full original 2016 GTFS additionally preserves the intermediate street stops."
+      },
+      {
+        "id": "92-2019-main",
+        "label": "Downtown Oshawa–Yorkdale via Highway 2",
+        "date": "2019-04-06",
+        "branch": "92",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa Bus Terminal",
+          "Dundas St / Thickson Rd — Whitby",
+          "Dundas St / Brock St — Whitby",
+          "Kingston Rd / Harwood Ave — Ajax",
+          "Kingston Rd / Glenanna Rd — Pickering",
+          "Kingston Rd / Fairport Rd — Pickering",
+          "Kingston Rd / Sheppard Ave E",
+          "Scarborough Centre Bus Terminal",
+          "York Mills Bus Terminal",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+        ],
+        "notes": "Printed timing points of the main 92 bus row. The Dundas/Highway 412 column belongs to the short 92A branch and is bypassed by main 92."
+      },
+      {
+        "id": "92-2019-a",
+        "label": "Later 92A Dundas/Highway 412–Yorkdale",
+        "date": "2019-04-06",
+        "branch": "92A",
+        "direction": "westbound",
+        "stops": [
+          "Dundas St / Highway 412",
+          "Kingston Rd / Harwood Ave — Ajax",
+          "Kingston Rd / Glenanna Rd — Pickering",
+          "Kingston Rd / Fairport Rd — Pickering",
+          "Kingston Rd / Sheppard Ave E",
+          "Scarborough Centre Bus Terminal",
+          "York Mills Bus Terminal",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+        ],
+        "notes": "This 92A is already different from the 2014 Ajax–Finch branch. It ends at Yorkdale via York Mills."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+        "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml",
+        "title": "GO revises services September 2, 2014, including 98 replacement by 92A — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf",
+        "title": "GO Oshawa–Yorkdale route 92, effective April 6, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "title": "Original GO Transit GTFS archived May 5, 2023; use calendar validity, not retrieval date",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The 92A reassignment took place after the recovered 2016 Finch pattern and by the April 2019 timetable; its precise effective date has not been established.",
+      "Selected timing-point patterns omit local stops; use the feed snapshots for full dated stop sequences.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "93",
+    "name": "Durham College / UOIT–Scarborough Centre",
+    "status": "discontinued",
+    "description": "School-oriented express bus between Scarborough Centre and the shared north Oshawa campus of Durham College and UOIT (now Ontario Tech). Some archive filenames incorrectly identify an original route 93 PDF as route 96.",
+    "timeline": [
+      {
+        "date": "2009-01-03",
+        "event": "The original timetable explicitly identifies the campus express as route 93.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2009-02-19-table-96-oshawa-finch-express.pdf"
+        ]
+      },
+      {
+        "date": "2012-09",
+        "event": "School service was restored with additional weekday eastbound trips.",
+        "sources": [
+          "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html"
+        ]
+      },
+      {
+        "date": "2019-08-31",
+        "event": "The route remained in the original school-year timetable.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/durham-college-uoit/2019-08-31-table-93-durham-college-uoit.pdf"
+        ]
+      },
+      {
+        "date": "2020-09",
+        "event": "The September service-change notice states that route 93 remained suspended.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "93-2009-main",
+        "label": "Scarborough Centre–Durham College/UOIT",
+        "date": "2009-01-03",
+        "branch": "93",
+        "direction": "eastbound",
+        "stops": [
+          "Scarborough Centre Bus Terminal",
+          "Durham College / UOIT — north Oshawa campus"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2009-02-19-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Original document is route 93 despite archive filename mentioning 96. Only terminal timing points are published."
+      },
+      {
+        "id": "93-2019-main",
+        "label": "Scarborough Centre–north Oshawa campus",
+        "date": "2019-08-31",
+        "branch": "93",
+        "direction": "eastbound",
+        "stops": [
+          "Scarborough Centre Bus Terminal",
+          "Durham College / UOIT — north Oshawa campus"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/durham-college-uoit/2019-08-31-table-93-durham-college-uoit.pdf"
+        ],
+        "notes": "Cover map follows Highway 401, Thickson Road, Taunton Road and Simcoe Street. The endpoint schematic does not imply a nonstop straight-road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2009-02-19-table-96-oshawa-finch-express.pdf",
+        "title": "Original GO Durham College–UOIT route 93, printed January 3, 2009; misleading archive filename says 96",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html",
+        "title": "GO Transit: New, adjusted bus service for Lakeshore East riders; August 15, 2012",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/durham-college-uoit/2019-08-31-table-93-durham-college-uoit.pdf",
+        "title": "GO Durham College/UOIT route 93, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The exact initial suspension day and formal permanent withdrawal date have not been verified. September 2020 evidence establishes continued suspension, not a newly effective cancellation.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "94",
+    "name": "Oshawa Highway 2; reused Pickering–Mississauga",
+    "status": "current",
+    "description": "Number 94 was reused for a different corridor: the old Oshawa–Yorkdale Highway 2 bus ended in 2013; a new Pickering–Mississauga service began in 2020 and later incorporated Pearson Airport service.",
+    "timeline": [
+      {
+        "date": "2007-10-27",
+        "event": "The original route 94 timetable is Oshawa Highway 2, serving Oshawa GO, downtown Oshawa, Whitby, Ajax, Pickering, Scarborough, York Mills and Yorkdale.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2008-12-03-table-94-pickering-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2013-06-28",
+        "event": "Final day of the old Highway 2 route 94 before the Durham service restructuring.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+        ]
+      },
+      {
+        "date": "2020-09-08",
+        "event": "First weekday service of the new route 94 Pickering–Square One, introduced in the September schedule changes.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2023-01-07",
+        "event": "The pre-airport timetable shows Pickering–Scarborough–Yorkdale–Keele/401–Square One.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-01-07-table-94-pickering-mississauga.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Routes 34 and 94 were combined; the revised 94 includes Pearson Terminal 1 and Transitway stops.",
+        "sources": [
+          "https://www.gotransit.com/en/blog/april-service-changes",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-04-08-table-94-pickering-mississauga.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "94-2007-hwy2",
+        "label": "Old 94: Oshawa–Yorkdale local",
+        "date": "2007-10-27",
+        "branch": "94",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Simcoe St / Bloor St — Oshawa",
+          "Oshawa Bus Terminal",
+          "Dundas St / Brock St — Whitby",
+          "Ajax GO Bus Terminal — Harwood Ave",
+          "Ajax GO — Westney Rd / Fairall St",
+          "Highway 2 / Liverpool Rd — Pickering",
+          "Kingston Rd / Port Union Rd",
+          "Scarborough Centre Bus Terminal",
+          "York Mills Bus Terminal",
+          "Yorkdale Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2008-12-03-table-94-pickering-mississauga.pdf"
+        ],
+        "notes": "Archive folder name reflects the later route reuse; this PDF is the older Oshawa Highway 2 service. Numerous intermediate local stops are not printed as timing points."
+      },
+      {
+        "id": "94-2023-before-airport",
+        "label": "Reused 94 before the Pearson diversion",
+        "date": "2023-01-07",
+        "branch": "94",
+        "direction": "westbound",
+        "stops": [
+          "Pickering GO",
+          "Scarborough Centre Bus Terminal",
+          "Yorkdale Bus Terminal",
+          "Keele St / Highway 401",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-01-07-table-94-pickering-mississauga.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "94-2023-airport",
+        "label": "Reused 94 via Pearson and the Transitway",
+        "date": "2023-04-08",
+        "branch": "94",
+        "direction": "westbound",
+        "stops": [
+          "Pickering GO",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Poyntz Ave — Sheppard area",
+          "Yorkdale Bus Terminal",
+          "Keele St / Highway 401",
+          "Pearson Airport Terminal 1",
+          "Renforth Transitway Station",
+          "Dixie Transitway Station",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-04-08-table-94-pickering-mississauga.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2008-12-03-table-94-pickering-mississauga.pdf",
+        "title": "GO Oshawa Highway 2 route 94, printed October 27, 2007; archive folder later renamed Pickering–Mississauga",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+        "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-01-07-table-94-pickering-mississauga.pdf",
+        "title": "GO Pickering–Mississauga route 94, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.gotransit.com/en/blog/april-service-changes",
+        "title": "GO Transit April 2023 service changes, including combined routes 34 and 94",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/pickering-mississauga/2023-04-08-table-94-pickering-mississauga.pdf",
+        "title": "GO Pickering–Mississauga route 94 via Pearson, effective April 8, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The 2007 and 2020 number uses are separated by seven years and serve different corridors; they must not be connected as one continuous route.",
+      "Street-stop locations at Sheppard differ by direction; the schematic follows the westbound Yonge/Poyntz label.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "95",
+    "name": "Oshawa Highway 2 Express–Finch",
+    "status": "discontinued",
+    "description": "Limited-stop bus through Durham on Highway 2, continuing by Highway 401 to Scarborough Centre and Finch. It complemented the older local 94 and the station-based Highway 401 express 96.",
+    "timeline": [
+      {
+        "date": "2007-04-28",
+        "event": "Routes 95 and 96 were introduced as the Oshawa–Finch express network.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2007-10-27",
+        "event": "The original route 95 schedule documents the Highway 2 stopping pattern and Finch destination.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-hwy-2-express/2008-12-03-table-95-oshawa-hwy-2-express.pdf"
+        ]
+      },
+      {
+        "date": "2013-06-28",
+        "event": "Last day of route 95 before the 92/96/98 reorganization.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "95-2007-main",
+        "label": "Oshawa–Finch Highway 2 limited-stop service",
+        "date": "2007-10-27",
+        "branch": "95",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa Bus Terminal",
+          "Highway 2 / Stevenson Rd — Oshawa",
+          "Dundas St / Thickson Rd — Whitby",
+          "Dundas St / Anderson St — Whitby",
+          "Dundas St / Garden St — Whitby",
+          "Dundas St / Brock St — Whitby",
+          "Dundas St / McQuay Blvd — Whitby",
+          "Highway 2 / Harwood Ave — Ajax",
+          "Highway 2 / Westney Rd — Ajax",
+          "Highway 2 / Church St — Ajax",
+          "Highway 2 / Brock Rd — Pickering",
+          "Highway 2 / Glenanna Rd — Pickering",
+          "Highway 2 / Fairport Rd — Pickering",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-hwy-2-express/2008-12-03-table-95-oshawa-hwy-2-express.pdf"
+        ],
+        "notes": "Westbound timing points. In the opposite direction the Whitby stop is labelled White Oaks rather than McQuay. The bus uses Highway 2 through Durham, then the Highway 401 corridor toward Toronto."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-hwy-2-express/2008-12-03-table-95-oshawa-hwy-2-express.pdf",
+        "title": "GO Oshawa Highway 2 Express route 95, printed effective October 27, 2007; archive filename December 3, 2008",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+        "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "No public lettered 95 branches have been established from the examined original timetable.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "96",
+    "name": "Oshawa–Finch Express",
+    "status": "current",
+    "description": "Highway 401 bus family linking Durham GO stations with North York. Multiple express and short branches were later consolidated as 96B; seasonal 96Z added the Toronto Zoo.",
+    "timeline": [
+      {
+        "date": "2007-04-28",
+        "event": "Routes 95 and 96 began as complementary Oshawa–Finch express services.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2013-06-29",
+        "event": "The original timetable documents 96 and branches A–D, with 96B serving Scarborough Centre between the Durham stations and Finch.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The original timetable contains the 96, 96A, 96B, 96C, 96D and 96E family.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2019-01-05-table-96-oshawa-finch-express.pdf"
+        ]
+      },
+      {
+        "date": "2020-09-05",
+        "event": "Service was consolidated on 96B; branches 96, 96A, 96C, 96D and 96E were withdrawn.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+        ]
+      },
+      {
+        "date": "2023-05-20",
+        "event": "Seasonal 96Z Toronto Zoo trips began alongside 96B.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "96-2013-main",
+        "label": "Oshawa–Finch bypassing Scarborough Centre",
+        "date": "2013-06-29",
+        "branch": "96",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Ajax GO",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "96-2013-a",
+        "label": "Oshawa–Scarborough Centre",
+        "date": "2013-06-29",
+        "branch": "96A",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Ajax GO",
+          "Scarborough Centre Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "96-2013-b",
+        "label": "Oshawa–Finch via Scarborough Centre",
+        "date": "2013-06-29",
+        "branch": "96B",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Ajax GO",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "96-2013-c",
+        "label": "Ajax–Finch express",
+        "date": "2013-06-29",
+        "branch": "96C",
+        "direction": "westbound",
+        "stops": [
+          "Ajax GO",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+      },
+      {
+        "id": "96-2013-d",
+        "label": "Oshawa–Whitby–Finch express",
+        "date": "2013-06-29",
+        "branch": "96D",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "The 2013 96D row bypasses both Ajax GO and Scarborough Centre."
+      },
+      {
+        "id": "96-2023-z",
+        "label": "Toronto Zoo seasonal branch",
+        "date": "2023-05-20",
+        "branch": "96Z",
+        "direction": "westbound",
+        "stops": [
+          "Oshawa GO",
+          "Whitby GO",
+          "Ajax GO",
+          "Toronto Zoo",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Seasonal summer branch. The sequence is the westbound order; service dates must be checked before treating it as available year-round."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf",
+        "title": "GO Oshawa/Pickering–Finch Express routes 96 and 98, effective June 29, 2013",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2019-01-05-table-96-oshawa-finch-express.pdf",
+        "title": "GO Oshawa–Finch Express route 96, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+        "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "title": "Metrolinx: GO buses to popular attractions back in time for summer, 2023",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf",
+        "title": "GO Oshawa–Finch Express including Toronto Zoo 96Z, effective May 20, 2023",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "An archive PDF named 2009-02-19-table-96 actually contains route 93. It has deliberately not been used as evidence for route 96.",
+      "Later seasonal operating periods and all short-turn details are not inferred from the 2023 Zoo timetable.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  },
+  {
+    "route": "98",
+    "name": "Pickering–Finch Express",
+    "status": "discontinued",
+    "description": "Weekday peak-direction express service between Pickering GO, western Pickering, Scarborough Centre and Finch, created in the 2013 Highway 2 restructuring and replaced by 92A in 2014.",
+    "timeline": [
+      {
+        "date": "2013-06-29",
+        "event": "The new route 98 appears in the June 29 timetable; its weekday-only service first operated Tuesday July 2 after the holiday weekend.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf",
+          "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+        ]
+      },
+      {
+        "date": "2014-08-29",
+        "event": "Last operating day of route 98; replacement route 92A began Tuesday September 2.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "98-2013-westbound",
+        "label": "Pickering–Finch morning express",
+        "date": "2013-06-29",
+        "branch": "98",
+        "direction": "westbound",
+        "stops": [
+          "Pickering GO — Bayly St / Liverpool Rd",
+          "Liverpool Rd / Pickering Pkwy",
+          "Highway 2 / Walnut Lane",
+          "Highway 2 / Fairport Rd",
+          "Scarborough Centre Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Finch Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Original printed timetable pages 6–7 provide these timing points. Westbound trips are in the morning; eastbound trips operate in the afternoon."
+      },
+      {
+        "id": "98-2013-eastbound",
+        "label": "Finch–Pickering afternoon express",
+        "date": "2013-06-29",
+        "branch": "98",
+        "direction": "eastbound",
+        "stops": [
+          "Finch Bus Terminal",
+          "Yonge St / Sheppard Ave",
+          "Scarborough Centre Bus Terminal",
+          "Highway 2 / Fairport Rd",
+          "Highway 2 / Walnut Lane",
+          "Liverpool Rd / Pickering Pkwy",
+          "Pickering GO — Bayly St / Liverpool Rd"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+        ],
+        "notes": "Same principal timing points in reverse order. The schematic does not claim all intermediate Kingston Road stops were timetable timing points."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf",
+        "title": "GO Oshawa/Pickering–Finch Express routes 96 and 98, effective June 29, 2013",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+        "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+        "type": "secondary"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml",
+        "title": "GO revises services September 2, 2014, including 98 replacement by 92A — Transit Toronto",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "Route 98 is absent from later GTFS snapshots because it ended in 2014; its original timetable is essential evidence.",
+      "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered."
+    ]
+  }
+]

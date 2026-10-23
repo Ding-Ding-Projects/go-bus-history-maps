@@ -1,0 +1,103 @@
+{
+  "route": "25",
+  "name": "Waterloo / Mississauga",
+  "status": "current",
+  "description": "The Waterloo–Kitchener–Cambridge corridor launched with Square One and Milton connections and later gained campus express, transitway and seasonal shopping variants.",
+  "timeline": [
+    {
+      "date": "2009-10-31",
+      "event": "GO began Waterloo / Kitchener / Cambridge service to Square One with a Milton train-connection branch.",
+      "sources": [
+        "https://news.ontario.ca/mto/en/2009/10/go-bus-service-coming-to-kitchener-waterloo-and-cambridge.html",
+        "https://news.ontario.ca/en/release/9607/go-buses-arrive-in-kitchener-waterloo-and-cambridge"
+      ]
+    },
+    {
+      "date": "2009-10-31",
+      "event": "The launch table identifies route 25 and Milton-bound 25A.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+      ]
+    },
+    {
+      "date": "2019-04-06",
+      "event": "The published family includes 25B,25C,25D and 25F as well as 25.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2019-04-06-table-25-waterloo-mississauga.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "Seasonal weekend/holiday outlet-shopping service on 25L returned.",
+      "sources": [
+        "https://www.gotransit.com/en/blog/april-service-changes"
+      ]
+    },
+    {
+      "date": "2025-04-05",
+      "event": "Seasonal weekend 25K began Toronto Premium Outlets–Kipling service via Square One, Dixie and Renforth, through 24 August.",
+      "sources": [
+        "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://news.ontario.ca/mto/en/2009/10/go-bus-service-coming-to-kitchener-waterloo-and-cambridge.html",
+      "title": "Ontario: GO bus service coming to Kitchener-Waterloo and Cambridge, 8 October 2009",
+      "type": "official"
+    },
+    {
+      "url": "https://news.ontario.ca/en/release/9607/go-buses-arrive-in-kitchener-waterloo-and-cambridge",
+      "title": "Ontario: GO buses arrive in Kitchener-Waterloo and Cambridge, 30 October 2009",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf",
+      "title": "GO table 25, printed effective 31 October 2009 (filename dated 22 November)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2019-04-06-table-25-waterloo-mississauga.pdf",
+      "title": "GO Waterloo / Mississauga table 25, effective 6 April 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.gotransit.com/en/blog/april-service-changes",
+      "title": "GO Transit: April service changes, published 14 April 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips",
+      "title": "Metrolinx: April GO service changes to include new Kitchener line trips, March 2025",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Complete branch introduction dates remain unverified.",
+    "Davis Centre, Charles Street and Cambridge SmartCentres are historical stop locations and should not be moved to newer terminals.",
+    "Seasonal variants may be absent from autumn GTFS.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

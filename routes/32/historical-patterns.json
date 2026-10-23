@@ -1,0 +1,111 @@
+[
+  {
+    "id": "32-2006",
+    "label": "Trinity Common–North York via Bramalea",
+    "date": "2006-10-28",
+    "branch": "32",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Brampton, Hurontario / Bovaird",
+        "lat": 43.7074814,
+        "lon": -79.7887878,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01258 (Hurontario St.  @ Bovaird Dr. W.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hurontario St.  @ Bovaird Dr. W.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Trinity Common Terminal",
+        "lat": 43.7313271,
+        "lon": -79.7631531,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00231 (Trinity Common Mall); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Trinity Common Mall",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea City Centre Terminal, Clark Boulevard",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Langstaff Road / Yonge Street",
+        "lat": 43.8326988,
+        "lon": -79.427536,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00131 (Langstaff Rd. E.  @  Yonge St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Langstaff Rd. E.  @  Yonge St.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Finch GO Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge / Sheppard",
+        "lat": 43.7615967,
+        "lon": -79.4111938,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00008 (Yonge St.  @ Sheppard Ave.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Yonge St.  @ Sheppard Ave.",
+        "location_reference_date": "2016-01-11"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The older Clark Boulevard and newer Central Park terminals need distinct historical coordinates. Langstaff / Yonge is an on-street stop, not Richmond Hill Centre.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.7887878,
+          43.7074814
+        ],
+        [
+          -79.7631531,
+          43.7313271
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.427536,
+          43.8326988
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ],
+        [
+          -79.4111938,
+          43.7615967
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The older Clark Boulevard and newer Central Park terminals need distinct historical coordinates. Langstaff / Yonge is an on-street stop, not Richmond Hill Centre. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  }
+]

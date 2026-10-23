@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2016-01-11",
+    "filename": "GO-GTFS-2016-01-11.zip",
+    "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "OpenMobilityData, migrated to Mobility Database",
+    "catalog_url": "https://mobilitydatabase.org/feeds/gtfs/mdb-727",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date, not a route change date"
+  },
+  {
+    "id": "2022-03-08",
+    "filename": "GO-GTFS-2022-03-08.zip",
+    "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "Internet Archive / Wayback Machine",
+    "catalog_url": "https://web.archive.org/web/20220308054107/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date; feed may include later service periods"
+  },
+  {
+    "id": "2023-05-05",
+    "filename": "GO-GTFS-2023-05-05.zip",
+    "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "OpenMobilityData, migrated to Mobility Database",
+    "catalog_url": "https://mobilitydatabase.org/feeds/gtfs/mdb-727",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date, not a route change date"
+  },
+  {
+    "id": "2026-10-23",
+    "filename": "GO-GTFS-2026-10-23.zip",
+    "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "Publisher download",
+    "catalog_url": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "retrieved": "2026-10-23",
+    "date_kind": "retrieval date; see original feed_info for the service window"
+  }
+]

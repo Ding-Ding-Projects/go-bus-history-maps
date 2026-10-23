@@ -1,0 +1,124 @@
+[
+  {
+    "id": "16-2004-east",
+    "label": "Hamilton–Union express eastbound",
+    "date": "2004-09-04",
+    "branch": "16",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hamilton, King / Dundurn",
+        "lat": 43.2622643,
+        "lon": -79.8875809,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00178 (King St. W.  @ Dundurn St. N.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "King St. W.  @ Dundurn St. N.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.8875809,
+          43.2622643
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken."
+  },
+  {
+    "id": "16-2004-west",
+    "label": "Hamilton–Union express westbound",
+    "date": "2004-09-04",
+    "branch": "16",
+    "direction": "Westbound",
+    "stops": [
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hamilton, Main / Longwood",
+        "lat": 43.2590866,
+        "lon": -79.901741,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00732 (Main St. W.  @ Longwood Rd. S.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Main St. W.  @ Longwood Rd. S.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-toronto-express/2007-05-13-table-16-hamilton-toronto-express.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. King / Dundurn and Main / Longwood are direction-specific timepoints.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.3783951,
+          43.6456261
+        ],
+        [
+          -79.901741,
+          43.2590866
+        ],
+        [
+          -79.869586,
+          43.252945
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. King / Dundurn and Main / Longwood are direction-specific timepoints."
+  }
+]

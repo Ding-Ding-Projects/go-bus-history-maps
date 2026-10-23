@@ -1,0 +1,64 @@
+{
+  "route": "62",
+  "name": "Newmarket B / Yonge Street",
+  "status": "discontinued",
+  "description": "The former Newmarket–Aurora–Richmond Hill–North York bus along Yonge Street. Older timetables call this Table 62 and Newmarket B; the final contemporary notice explicitly calls it route 62.",
+  "timeline": [
+    {
+      "date": "1970",
+      "event": "The Newmarket B corridor was among the early GO bus services; this does not establish that number 62 was publicly used in 1970.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2004-10-30",
+      "event": "Table 62 documents Newmarket Bus Terminal to York Mills, with some trips entering the north lot at Langstaff GO.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html"
+      ]
+    },
+    {
+      "date": "2006-10-28",
+      "event": "The documented Yonge Street service still ran to York Mills, via the Finch and Sheppard areas.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2006-10-28-table-62-newmarket-b-dir0-day1-page2.html"
+      ]
+    },
+    {
+      "date": "2010-06-25",
+      "event": "Last operating day of route 62. Viva Blue A began June 28 as its replacement between Newmarket and Finch.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2010/06/13-viva_buses.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2004-10-30-table-62-newmarket-b-dir0-day1-page1.html",
+      "title": "GO Newmarket B Table 62 original HTML timetable, effective October 30, 2004",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-b/2006-10-28-table-62-newmarket-b-dir0-day1-page2.html",
+      "title": "GO Newmarket B Table 62 original HTML timetable, effective October 28, 2006",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2010/06/13-viva_buses.shtml",
+      "title": "Viva buses replace GO route 62 Newmarket B, June 28, 2010 — Transit Toronto",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "The 2004 table refers to Table 63 for Newmarket B express service. That reference is not evidence that the later King City route 63 was the former Yonge C route.",
+    "Intermediate Yonge Street stops are not all listed in these timing-point tables.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

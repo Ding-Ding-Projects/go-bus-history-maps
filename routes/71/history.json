@@ -1,0 +1,102 @@
+{
+  "route": "71",
+  "name": "Stouffville–Toronto",
+  "status": "current",
+  "description": "The Stouffville corridor’s Union-bound bus family, historically extending to Uxbridge. Short workings, station bypasses and express variants changed with rail service, with route 70 providing many northern train connections.",
+  "timeline": [
+    {
+      "date": "2006-12-30",
+      "event": "The recovered timetable documents Uxbridge–Goodwood–Stouffville–Markham–Union bus trips and shorter train-connecting trips.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf"
+      ]
+    },
+    {
+      "date": "2011-12-31",
+      "event": "Lincolnville is included in the original Stouffville timetable, replacing the earlier north-Stouffville street timing point for relevant services.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2012-02-14-table-71-stouffville.pdf"
+      ]
+    },
+    {
+      "date": "2019-08-31",
+      "event": "Routes 70 and 71 share the timetable; the 71 family includes multiple Union-bound and short variants.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+      ]
+    },
+    {
+      "date": "2021-10-16",
+      "event": "Lincolnville GO was renamed Old Elm GO.",
+      "sources": [
+        "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf"
+      ]
+    },
+    {
+      "date": "2023-10-17",
+      "event": "Buses and trains began serving the relocated Old Elm station.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2008-03-03-table-71-stouffville.pdf",
+      "title": "GO Stouffville Table 71, printed effective December 30, 2006; archive filename March 3, 2008",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2012-02-14-table-71-stouffville.pdf",
+      "title": "GO Stouffville schedule, printed effective December 31, 2011; archive filename February 14, 2012",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf",
+      "title": "GO Stouffville routes 70/71, effective August 31, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf",
+      "title": "Town of Whitchurch-Stouffville 2021 Year in Review: Lincolnville renamed October 16, 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml",
+      "title": "GO relocates Old Elm station, October 17, 2023 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf",
+      "title": "GO Stouffville routes 70/71, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The 2006 table contains several express and short-working combinations without sufficiently clear public suffixes; only the explicitly supported patterns are diagrammed.",
+    "Earlier Uxbridge services to Scarborough Centre or downtown Toronto require separate historical timetables before assigning them a modern route number.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

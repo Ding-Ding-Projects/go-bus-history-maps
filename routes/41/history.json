@@ -1,0 +1,87 @@
+{
+  "route": "41",
+  "name": "Hamilton / Pickering; earlier Orangeville route number",
+  "status": "current",
+  "description": "The number has two unrelated eras. Before April 28, 2008, 41 identified Orangeville service, which became route 37. The new Hamilton–Pickering route 41 was created in 2021 by joining the former Highway 407 West and East services.",
+  "timeline": [
+    {
+      "date": "before 2008-04-28",
+      "event": "The contemporary April 2008 service notice identifies the then-existing Orangeville service as route 41.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2008-04-28",
+      "event": "Orangeville route 41 is renumbered 37. This earlier route is geographically and historically separate from the Hamilton–Pickering route introduced in 2021. See route 37 for the continuing Orangeville family.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "event": "New route 41 combines most weekday trips on routes 47 and 51. Metrolinx announces 38 weekday trips and a through ride without transferring at Highway 407 Bus Terminal.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+      ]
+    },
+    {
+      "date": "by 2022-06-25",
+      "event": "The original main-route pattern runs via McMaster, the western park-and-rides, Square One, Bramalea, Richmond Hill Centre, Consumers Road, Scarborough Centre and the two Scarborough campuses. It does not serve Unionville.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+      ]
+    },
+    {
+      "date": "by 2023-01-07",
+      "event": "41A appears as a school-oriented express pattern; an explicitly timed trip runs Square One–Bramalea–Highway 407–Consumers Road–Centennial–UTSC, bypassing Richmond Hill Centre and Scarborough Centre.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+      "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf",
+      "title": "GO Hamilton/Pickering timetable, effective June 25, 2022",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf",
+      "title": "GO Hamilton/Pickering timetable, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "Original GO Transit GTFS snapshot archived May 5, 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+      "type": "secondary"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The launch announcement says most weekday predecessor trips were merged, not that all route 47 service disappeared.",
+    "Other 41A through or short patterns should be read from their dated GTFS service periods rather than generalized from this one trip.",
+    "No original pre-renumbering Orangeville timetable has been recovered here; later route 37 stops are not silently assigned to old 41.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

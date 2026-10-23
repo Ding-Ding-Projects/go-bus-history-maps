@@ -1,0 +1,64 @@
+{
+  "route": "80",
+  "name": "Pefferlaw–Beaverton",
+  "status": "discontinued",
+  "description": "Short-lived rural connector replacing the northern end of the former Sutton route 69. It later passed to York Region Transit as route 51.",
+  "timeline": [
+    {
+      "date": "2012-09-02",
+      "event": "GO introduced route 80 between Pefferlaw and Beaverton.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+      ]
+    },
+    {
+      "date": "2012-09-02",
+      "event": "The launch schedule offered nine weekday trips in each direction and three on weekend days.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html"
+      ]
+    },
+    {
+      "date": "2013-02-25",
+      "event": "The YRT service-change notice still refers to connections with GO route 80.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2013/02/23-yrt_revise.shtml"
+      ]
+    },
+    {
+      "date": "by 2013-09",
+      "event": "The original YRT system map shows route 51 Beaverton–Pefferlaw in the former GO corridor.",
+      "sources": [
+        "https://transittoronto.ca/archives/maps/YRT/YRT-system-map-201309.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+      "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-lakeshore-east-riders-school-service-returns-510584891.html",
+      "title": "GO Transit: New, adjusted bus service for Lakeshore East riders; August 15, 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2013/02/23-yrt_revise.shtml",
+      "title": "YRT revises services, February 25, 2013 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/maps/YRT/YRT-system-map-201309.pdf",
+      "title": "Original York Region Transit system map, September 2013; route 51 Beaverton–Pefferlaw",
+      "type": "official"
+    }
+  ],
+  "gaps": [
+    "The transfer to YRT occurred in 2013, after the February connection notice and by the September system map; exact final GO service date remains unverified.",
+    "Only endpoints are securely documented for mapping.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "as_of": "2026-10-23",
+  "routes": [
+    {
+      "route": "11",
+      "folder": "11",
+      "name": "Brock University; formerly Niagara-on-the-Lake seasonal shuttle",
+      "status": "current",
+      "aliases": [
+        "Brock University"
+      ],
+      "pattern_count": 3,
+      "history_events": 6,
+      "snapshot_dates": [
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "12",
+      "folder": "12",
+      "name": "Niagara Falls / Burlington",
+      "status": "current",
+      "aliases": [
+        "Niagara Falls / Burlington",
+        "Niagara Falls / Toronto",
+        "Niagara Falls Train Meet Service"
+      ],
+      "pattern_count": 33,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "15",
+      "folder": "15",
+      "name": "Brantford / Aldershot; formerly McMaster / Burlington",
+      "status": "current",
+      "aliases": [
+        "Brantford / Aldershot",
+        "McMaster U Train Meet Service"
+      ],
+      "pattern_count": 18,
+      "history_events": 6,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "16",
+      "folder": "16",
+      "name": "Hamilton / Toronto Express",
+      "status": "current",
+      "aliases": [
+        "Hamilton / Toronto Express",
+        "Hamilton QEW Express Service"
+      ],
+      "pattern_count": 14,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "17",
+      "folder": "17",
+      "name": "Waterloo / Hamilton",
+      "status": "current",
+      "aliases": [
+        "Waterloo / Hamilton"
+      ],
+      "pattern_count": 6,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "18",
+      "folder": "18",
+      "name": "Lakeshore West",
+      "status": "current",
+      "aliases": [
+        "Hamilton Train Meet Service",
+        "Lakeshore West"
+      ],
+      "pattern_count": 86,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "19",
+      "folder": "19",
+      "name": "Mississauga / North York",
+      "status": "current",
+      "aliases": [
+        "Mississauga / North York",
+        "Oakville Hwy 403 Service"
+      ],
+      "pattern_count": 37,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "20",
+      "folder": "20",
+      "name": "Milton / Oakville",
+      "status": "discontinued",
+      "aliases": [
+        "Milton Lakeshore West Train Meet Service"
+      ],
+      "pattern_count": 6,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "21",
+      "folder": "21",
+      "name": "Milton",
+      "status": "current",
+      "aliases": [
+        "Milton",
+        "Milton Train-Bus Service"
+      ],
+      "pattern_count": 101,
+      "history_events": 6,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 2
+    },
+    {
+      "route": "22",
+      "folder": "22",
+      "name": "Milton / Oakville; formerly Hamilton / Meadowvale Business Park",
+      "status": "current",
+      "aliases": [
+        "Milton / Oakville"
+      ],
+      "pattern_count": 4,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "24",
+      "folder": "24",
+      "name": "Cambridge / Milton",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 4,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "25",
+      "folder": "25",
+      "name": "Waterloo / Mississauga",
+      "status": "current",
+      "aliases": [
+        "Waterloo / Mississauga",
+        "Waterloo Hwy 401 Service"
+      ],
+      "pattern_count": 40,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "27",
+      "folder": "27",
+      "name": "Milton / North York",
+      "status": "current",
+      "aliases": [
+        "Milton / North York",
+        "Milton Hwy 401 Service"
+      ],
+      "pattern_count": 44,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 2
+    },
+    {
+      "route": "29",
+      "folder": "29",
+      "name": "Guelph / Mississauga",
+      "status": "current",
+      "aliases": [
+        "Guelph / Mississauga",
+        "University of Guelph"
+      ],
+      "pattern_count": 19,
+      "history_events": 6,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "30",
+      "folder": "30",
+      "name": "Kitchener / Vaughan; formerly Kitchener / Bramalea",
+      "status": "current",
+      "aliases": [
+        "Kitchener / Bramalea",
+        "Kitchener / Vaughan"
+      ],
+      "pattern_count": 26,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "31",
+      "folder": "31",
+      "name": "Guelph / Toronto",
+      "status": "current",
+      "aliases": [
+        "Georgetown",
+        "Georgetown Train-Bus Service",
+        "Guelph / Toronto"
+      ],
+      "pattern_count": 94,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 4
+    },
+    {
+      "route": "32",
+      "folder": "32",
+      "name": "Brampton Trinity Common / North York",
+      "status": "current",
+      "aliases": [
+        "Brampton Hwy 407 Service",
+        "Brampton Trinity Common / North York"
+      ],
+      "pattern_count": 27,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "33",
+      "folder": "33",
+      "name": "Guelph / North York",
+      "status": "current",
+      "aliases": [
+        "Guelph / North York",
+        "Guelph Hwy 410 Service"
+      ],
+      "pattern_count": 69,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "34",
+      "folder": "34",
+      "name": "Pearson Airport / North York; formerly Brampton local",
+      "status": "discontinued",
+      "aliases": [
+        "Brampton via Airport Service",
+        "Pearson Airport / North York"
+      ],
+      "pattern_count": 9,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 2
+    },
+    {
+      "route": "35",
+      "folder": "35",
+      "name": "Union Pearson Express replacement; formerly Brampton / Highway 27",
+      "status": "special",
+      "aliases": [
+        "Union Pearson Express"
+      ],
+      "pattern_count": 3,
+      "history_events": 2,
+      "snapshot_dates": [
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "36",
+      "folder": "36",
+      "name": "Brampton / North York Express",
+      "status": "current",
+      "aliases": [
+        "Brampton / North York Express",
+        "Brampton via Hwy 427 Express Service"
+      ],
+      "pattern_count": 19,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "37",
+      "folder": "37",
+      "name": "Orangeville / Brampton",
+      "status": "current",
+      "aliases": [
+        "Orangeville / Brampton",
+        "Orangeville Train Meet Service"
+      ],
+      "pattern_count": 24,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 5
+    },
+    {
+      "route": "38",
+      "folder": "38",
+      "name": "Bolton / Malton; formerly Highway 27 / North York",
+      "status": "current",
+      "aliases": [
+        "Bolton / Malton",
+        "Bolton Service"
+      ],
+      "pattern_count": 18,
+      "history_events": 7,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "39",
+      "folder": "39",
+      "name": "Guelph / Aberfoyle / Bramalea",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 2,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "40",
+      "folder": "40",
+      "name": "Hamilton / Richmond Hill (formerly Pearson Airport Express)",
+      "status": "current",
+      "aliases": [
+        "Hamilton / Richmond Hill",
+        "Pearson Airport - Richmond Hill Service"
+      ],
+      "pattern_count": 26,
+      "history_events": 7,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 6,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "41",
+      "folder": "41",
+      "name": "Hamilton / Pickering; earlier Orangeville route number",
+      "status": "current",
+      "aliases": [
+        "Hamilton / Pickering"
+      ],
+      "pattern_count": 22,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "42",
+      "folder": "42",
+      "name": "Bolton (renumbered 38 in 2008)",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 3,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "43",
+      "folder": "43",
+      "name": "Mount Pleasant / McMaster University; earlier Wonderland route number",
+      "status": "current",
+      "aliases": [
+        "Mount Pleasant / McMaster"
+      ],
+      "pattern_count": 4,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "45",
+      "folder": "45",
+      "name": "Streetsville / York University; later Mississauga / Markham",
+      "status": "discontinued",
+      "aliases": [
+        "Mississauga / Hwy 407 Terminal",
+        "Streetsville Hwy 407 Service"
+      ],
+      "pattern_count": 18,
+      "history_events": 7,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08"
+      ],
+      "historical_patterns": 7,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "46",
+      "folder": "46",
+      "name": "Oakville / York University; later Oakville / Highway 407",
+      "status": "discontinued",
+      "aliases": [
+        "Oakville Hwy 407 Service"
+      ],
+      "pattern_count": 12,
+      "history_events": 6,
+      "snapshot_dates": [
+        "2016-01-11"
+      ],
+      "historical_patterns": 5,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "47",
+      "folder": "47",
+      "name": "Hamilton / Highway 407 (formerly York University and Yorkdale)",
+      "status": "current",
+      "aliases": [
+        "Hamilton / Hwy 407 Terminal",
+        "Hamilton Hwy 407 Service"
+      ],
+      "pattern_count": 74,
+      "history_events": 12,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 17,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "48",
+      "folder": "48",
+      "name": "Guelph / Highway 407 (formerly Meadowvale / York University)",
+      "status": "current",
+      "aliases": [
+        "Guelph / Hwy 407 Terminal",
+        "Guelph Hwy 407 Service"
+      ],
+      "pattern_count": 28,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 10,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "50",
+      "folder": "50",
+      "name": "Unionville / Centennial College / University of Toronto Scarborough",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 2,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "51",
+      "folder": "51",
+      "name": "Pickering / York University; later Pickering / Highway 407",
+      "status": "discontinued",
+      "aliases": [
+        "Pickering Hwy 407 Service"
+      ],
+      "pattern_count": 28,
+      "history_events": 7,
+      "snapshot_dates": [
+        "2016-01-11"
+      ],
+      "historical_patterns": 11,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "52",
+      "folder": "52",
+      "name": "Oshawa / Highway 407 (formerly Oshawa / York University)",
+      "status": "current",
+      "aliases": [
+        "Oshawa / Hwy 407 Terminal",
+        "Oshawa Hwy 407 Service"
+      ],
+      "pattern_count": 40,
+      "history_events": 15,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 20,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "54",
+      "folder": "54",
+      "name": "Mount Joy / York University; later Mount Joy / Highway 407",
+      "status": "discontinued",
+      "aliases": [
+        "Markham / Hwy 407 Terminal",
+        "Mount Joy Hwy 407 Service"
+      ],
+      "pattern_count": 24,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05"
+      ],
+      "historical_patterns": 7,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "56",
+      "folder": "56",
+      "name": "Oshawa / Oakville",
+      "status": "current",
+      "aliases": [
+        "Oshawa / Oakville"
+      ],
+      "pattern_count": 15,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "60",
+      "folder": "60",
+      "name": "Canada’s Wonderland",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 2,
+      "history_events": 4,
+      "snapshot_dates": [],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "61",
+      "folder": "61",
+      "name": "Richmond Hill",
+      "status": "current",
+      "aliases": [
+        "Richmond Hill",
+        "Richmond Hill Train-Bus Service"
+      ],
+      "pattern_count": 21,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 4,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "62",
+      "folder": "62",
+      "name": "Newmarket B / Yonge Street",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 2,
+      "history_events": 4,
+      "snapshot_dates": [],
+      "historical_patterns": 2,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "63",
+      "folder": "63",
+      "name": "King City–Toronto",
+      "status": "discontinued",
+      "aliases": [
+        "King City / Toronto",
+        "King City Train-Bus Service"
+      ],
+      "pattern_count": 9,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "64",
+      "folder": "64",
+      "name": "Newmarket–York University",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 2,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "65",
+      "folder": "65",
+      "name": "Newmarket–Toronto / Barrie corridor",
+      "status": "current",
+      "aliases": [
+        "Newmarket / Toronto",
+        "Newmarket Train-Bus Service"
+      ],
+      "pattern_count": 71,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "66",
+      "folder": "66",
+      "name": "Newmarket Highway 400 / East Gwillimbury Express",
+      "status": "discontinued",
+      "aliases": [
+        "East Gwillimbury / Newmarket / North York",
+        "Newmarket Hwy 400 Service"
+      ],
+      "pattern_count": 22,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05"
+      ],
+      "historical_patterns": 4,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "67",
+      "folder": "67",
+      "name": "Keswick–North York / earlier Newmarket Highway 404",
+      "status": "current",
+      "aliases": [
+        "Finch GO / Glenwoods",
+        "Keswick / North York"
+      ],
+      "pattern_count": 16,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "68",
+      "folder": "68",
+      "name": "Barrie–Newmarket / Barrie corridor",
+      "status": "current",
+      "aliases": [
+        "Barrie / Newmarket",
+        "Barrie Yonge St Service"
+      ],
+      "pattern_count": 41,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 2
+    },
+    {
+      "route": "69",
+      "folder": "69",
+      "name": "Sutton–Newmarket; later Aurora–Newmarket",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 5,
+      "history_events": 5,
+      "snapshot_dates": [],
+      "historical_patterns": 5,
+      "unlocated_stops": 4
+    },
+    {
+      "route": "70",
+      "folder": "70",
+      "name": "Uxbridge–Stouffville rail connections",
+      "status": "current",
+      "aliases": [
+        "Stouffville Train Meet Bus Service",
+        "Uxbridge / Mount Joy"
+      ],
+      "pattern_count": 32,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "71",
+      "folder": "71",
+      "name": "Stouffville–Toronto",
+      "status": "current",
+      "aliases": [
+        "Stouffville",
+        "Stouffville Train-Bus Service"
+      ],
+      "pattern_count": 56,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 5,
+      "unlocated_stops": 2
+    },
+    {
+      "route": "80",
+      "folder": "80",
+      "name": "Pefferlaw–Beaverton",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 4,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "81",
+      "folder": "81",
+      "name": "Port Perry–Whitby / Beaverton",
+      "status": "discontinued",
+      "aliases": [
+        "Beaverton / Port Perry / Whitby",
+        "Beaverton Hwy 12 Train Meet Service"
+      ],
+      "pattern_count": 13,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "88",
+      "folder": "88",
+      "name": "Peterborough–Oshawa",
+      "status": "current",
+      "aliases": [
+        "Peterborough / Oshawa",
+        "Peterborough Hwy 115 Train Meet Service"
+      ],
+      "pattern_count": 25,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "90",
+      "folder": "90",
+      "name": "Lakeshore East / former Newcastle–Oshawa local",
+      "status": "current",
+      "aliases": [
+        "Lakeshore East",
+        "Newcastle Hwy 2 Train Meet Service"
+      ],
+      "pattern_count": 32,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "91",
+      "folder": "91",
+      "name": "Newcastle–Oshawa express",
+      "status": "discontinued",
+      "aliases": [
+        "Newcastle Hwy 401 Express Train Meet Service"
+      ],
+      "pattern_count": 5,
+      "history_events": 3,
+      "snapshot_dates": [
+        "2016-01-11"
+      ],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "92",
+      "folder": "92",
+      "name": "Oshawa–Yorkdale",
+      "status": "current",
+      "aliases": [
+        "Oshawa / Yorkdale"
+      ],
+      "pattern_count": 27,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "93",
+      "folder": "93",
+      "name": "Durham College / UOIT–Scarborough Centre",
+      "status": "discontinued",
+      "aliases": [
+        "UOIT/Durham College Hwy 401 Express Ser"
+      ],
+      "pattern_count": 6,
+      "history_events": 4,
+      "snapshot_dates": [
+        "2016-01-11"
+      ],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "94",
+      "folder": "94",
+      "name": "Oshawa Highway 2; reused Pickering–Mississauga",
+      "status": "current",
+      "aliases": [
+        "Pickering / Square One"
+      ],
+      "pattern_count": 11,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 3,
+      "unlocated_stops": 1
+    },
+    {
+      "route": "95",
+      "folder": "95",
+      "name": "Oshawa Highway 2 Express–Finch",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 1,
+      "history_events": 3,
+      "snapshot_dates": [],
+      "historical_patterns": 1,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "96",
+      "folder": "96",
+      "name": "Oshawa–Finch Express",
+      "status": "current",
+      "aliases": [
+        "Oshawa / Finch Express",
+        "Oshawa Hwy 401 Service"
+      ],
+      "pattern_count": 32,
+      "history_events": 5,
+      "snapshot_dates": [
+        "2016-01-11",
+        "2022-03-08",
+        "2023-05-05",
+        "2026-10-23"
+      ],
+      "historical_patterns": 6,
+      "unlocated_stops": 0
+    },
+    {
+      "route": "98",
+      "folder": "98",
+      "name": "Pickering–Finch Express",
+      "status": "discontinued",
+      "aliases": [],
+      "pattern_count": 2,
+      "history_events": 2,
+      "snapshot_dates": [],
+      "historical_patterns": 2,
+      "unlocated_stops": 0
+    }
+  ],
+  "legacy": [
+    {
+      "id": "bayview",
+      "name": "Bayview GO Bus Service",
+      "patterns": 2,
+      "history_events": 5,
+      "unlocated_stops": 3,
+      "url": "legacy/bayview/index.html"
+    },
+    {
+      "id": "yonge-c",
+      "name": "Yonge C / North Yonge Local GO Bus Service",
+      "patterns": 3,
+      "history_events": 4,
+      "unlocated_stops": 5,
+      "url": "legacy/yonge-c/index.html"
+    }
+  ],
+  "pattern_count": 1428,
+  "archive_document_count": 2128
+}

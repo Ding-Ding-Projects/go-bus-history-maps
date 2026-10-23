@@ -1,0 +1,242 @@
+[
+  {
+    "id": "38-2008-highway27",
+    "label": "Bolton–North York via Highway 27",
+    "date": "2008-08-30",
+    "branch": "38A",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Bolton, Albion Vaughan / Industrial",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Bolton, Queen / Allan",
+        "lat": 43.8719978,
+        "lon": -79.7272873,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00347 (Queen St. S.  @ Allan Dr.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Queen St. S.  @ Allan Dr.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bolton, King / Humber Lea",
+        "lat": 43.8823891,
+        "lon": -79.7349701,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00270 (King St. E.  @  Humber Lea Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "King St. E.  @  Humber Lea Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Nobleton, King / Highway 27",
+        "lat": 43.902195,
+        "lon": -79.6534348,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00268 (King Rd.  @  Hwy. 27); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "King Rd.  @  Hwy. 27",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Kleinburg, Islington / Nashville",
+        "lat": 43.844368,
+        "lon": -79.6291428,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00267 (Islington Ave.  @ Nashville Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Islington Ave.  @ Nashville Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Woodbridge, Rutherford / Vaughan Mills",
+        "lat": 43.8135452,
+        "lon": -79.6160278,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00261 (Rutherford Rd.  @  Vaughan Mills Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Rutherford Rd.  @  Vaughan Mills Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Highway 27 / Humber College Boulevard",
+        "lat": 43.7303085,
+        "lon": -79.6012726,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00246 (Hwy. 27  @ Humber College Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hwy. 27  @ Humber College Blvd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Etobicoke North GO",
+        "lat": 43.7066917,
+        "lon": -79.565712,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Etobicoke North GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills GO Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.7272873,
+          43.8719978
+        ],
+        [
+          -79.7349701,
+          43.8823891
+        ],
+        [
+          -79.6534348,
+          43.902195
+        ],
+        [
+          -79.6291428,
+          43.844368
+        ],
+        [
+          -79.6160278,
+          43.8135452
+        ],
+        [
+          -79.6012726,
+          43.7303085
+        ],
+        [
+          -79.565712,
+          43.7066917
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken.  1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "38-2008-highway50",
+    "label": "Bolton–Malton via Highway 50",
+    "date": "2008-12-01",
+    "branch": "38",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Bolton, Highway 50 / Columbia Way",
+        "lat": 43.8914528,
+        "lon": -79.7542267,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00338 (Hwy. 50  @ Columbia Way); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hwy. 50  @ Columbia Way",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bolton, Highway 50 / Wilton",
+        "lat": 43.8719444,
+        "lon": -79.7277222,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00346 (Queen St. S.  @ Wilton Dr.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Queen St. S.  @ Wilton Dr.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Highway 50 / Nashville–Countryside",
+        "lat": 43.8360138,
+        "lon": -79.6881485,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00339 (Regional Rd. 50  @ Nashville Rd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Regional Rd. 50  @ Nashville Rd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Highway 50 / Highway 7",
+        "lat": 43.7673454,
+        "lon": -79.6489105,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00340 (Hwy. 50  @ Queen St. E.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hwy. 50  @ Queen St. E.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Malton GO",
+        "lat": 43.705143,
+        "lon": -79.637825,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Malton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton-malton/2008-12-03-table-38-bolton-malton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The Highway 50 and Highway 27 patterns are separate branches, not one circuit.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.7542267,
+          43.8914528
+        ],
+        [
+          -79.7277222,
+          43.8719444
+        ],
+        [
+          -79.6881485,
+          43.8360138
+        ],
+        [
+          -79.6489105,
+          43.7673454
+        ],
+        [
+          -79.637825,
+          43.705143
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The Highway 50 and Highway 27 patterns are separate branches, not one circuit."
+  }
+]

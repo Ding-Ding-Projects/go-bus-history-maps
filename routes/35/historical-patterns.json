@@ -1,0 +1,130 @@
+[
+  {
+    "id": "35-2012-humber",
+    "label": "Former Brampton–Humber College–North York",
+    "date": "2012-09-01",
+    "branch": "35",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Brampton GO",
+        "lat": 43.6869087,
+        "lon": -79.7628632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brampton Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea Transit Terminal, Central Park Drive",
+        "lat": 43.7186356,
+        "lon": -79.7205734,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08032 (Bramalea Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Bramalea Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Mississauga, Finch / Darcel",
+        "lat": 43.7335091,
+        "lon": -79.6343002,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00242 (Finch Ave. W.  @ Darcel Ave.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Finch Ave. W.  @ Darcel Ave.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Humber College Boulevard, west of Highway 27",
+        "lat": 43.730701,
+        "lon": -79.601634,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Intersection-area reference from 2016 GO GTFS parent stop h27hum-parent. The 2012 timetable specifies Humber College Boulevard west of Highway 27; its precise curb on the west approach is not established. This is not the modern stop inside Humber College North Campus."
+      },
+      {
+        "name": "Highway 27 / Rexdale",
+        "lat": 43.7168999,
+        "lon": -79.5952301,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00248 (Hwy. 27 @ Rexdale Blvd. (Woodbine Racetrack)); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Hwy. 27 @ Rexdale Blvd. (Woodbine Racetrack)",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills GO Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. This old route is unrelated to the later UP Express replacement patterns.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.7628632,
+          43.6869087
+        ],
+        [
+          -79.7205734,
+          43.7186356
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.6343002,
+          43.7335091
+        ],
+        [
+          -79.601634,
+          43.730701
+        ],
+        [
+          -79.5952301,
+          43.7168999
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. This old route is unrelated to the later UP Express replacement patterns."
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "98-2013-westbound",
+    "label": "Pickering–Finch morning express",
+    "date": "2013-06-29",
+    "branch": "98",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Pickering GO — Bayly St / Liverpool Rd",
+        "lat": 43.830982,
+        "lon": -79.084571,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00147, named Pickering GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Liverpool Rd / Pickering Pkwy",
+        "lat": 43.8333702,
+        "lon": -79.0896378,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Liverpool Rd.  @ Pickering Pkwy.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 2 / Walnut Lane",
+        "lat": 43.8308105,
+        "lon": -79.0965042,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00971, named Kingston Rd.  @ Walnut Ln.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Highway 2 / Fairport Rd",
+        "lat": 43.8234673,
+        "lon": -79.1067047,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Original printed timetable pages 6–7 provide these timing points. Westbound trips are in the morning; eastbound trips operate in the afternoon.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.084571,
+          43.830982
+        ],
+        [
+          -79.0896378,
+          43.8333702
+        ],
+        [
+          -79.0965042,
+          43.8308105
+        ],
+        [
+          -79.1067047,
+          43.8234673
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Original printed timetable pages 6–7 provide these timing points. Westbound trips are in the morning; eastbound trips operate in the afternoon."
+  },
+  {
+    "id": "98-2013-eastbound",
+    "label": "Finch–Pickering afternoon express",
+    "date": "2013-06-29",
+    "branch": "98",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 2 / Fairport Rd",
+        "lat": 43.8234673,
+        "lon": -79.1067047,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Highway 2 / Walnut Lane",
+        "lat": 43.8308105,
+        "lon": -79.0965042,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00971, named Kingston Rd.  @ Walnut Ln.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Liverpool Rd / Pickering Pkwy",
+        "lat": 43.8333702,
+        "lon": -79.0896378,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Liverpool Rd.  @ Pickering Pkwy.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Pickering GO — Bayly St / Liverpool Rd",
+        "lat": 43.830982,
+        "lon": -79.084571,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00147, named Pickering GO Bus. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Same principal timing points in reverse order. The schematic does not claim all intermediate Kingston Road stops were timetable timing points.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4159088,
+          43.7819481
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.1067047,
+          43.8234673
+        ],
+        [
+          -79.0965042,
+          43.8308105
+        ],
+        [
+          -79.0896378,
+          43.8333702
+        ],
+        [
+          -79.084571,
+          43.830982
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Same principal timing points in reverse order. The schematic does not claim all intermediate Kingston Road stops were timetable timing points."
+  }
+]

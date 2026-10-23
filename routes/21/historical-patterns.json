@@ -1,0 +1,330 @@
+[
+  {
+    "id": "21-2007-local",
+    "label": "Milton–Union local pattern",
+    "date": "2007-09-01",
+    "branch": "21",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Milton, Main / Martin",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Derry / Winston Churchill",
+        "lat": 43.5877228,
+        "lon": -79.7712631,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01481 (Derry Rd. W.  @ Winston Churchill Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Derry Rd. W.  @ Winston Churchill Blvd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale Town Centre",
+        "lat": 43.5847511,
+        "lon": -79.7606812,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00191 (Aquitaine Ave.  @ Meadowvale Town Centre Circle); used to locate the historical named place, not to assert its historic bay or curb position. Aquitaine-side terminal area; later platform reconfiguration is not implied for the old date.",
+        "location_reference_name": "Aquitaine Ave.  @ Meadowvale Town Centre Circle",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erindale GO",
+        "lat": 43.567861,
+        "lon": -79.667632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Erindale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Cooksville GO",
+        "lat": 43.58207,
+        "lon": -79.623563,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Cooksville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dixie GO",
+        "lat": 43.608022,
+        "lon": -79.578347,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Dixie GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21930. Lisgar and Kipling are table columns but are not served by this trip.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.867178,
+          43.523803
+        ],
+        [
+          -79.7712631,
+          43.5877228
+        ],
+        [
+          -79.7606812,
+          43.5847511
+        ],
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.667632,
+          43.567861
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.623563,
+          43.58207
+        ],
+        [
+          -79.578347,
+          43.608022
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21930. Lisgar and Kipling are table columns but are not served by this trip. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "21-2007-express",
+    "label": "Milton–Meadowvale–Union express",
+    "date": "2007-09-01",
+    "branch": "21",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Milton, Main / Martin",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Derry / Winston Churchill",
+        "lat": 43.5877228,
+        "lon": -79.7712631,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 01481 (Derry Rd. W.  @ Winston Churchill Blvd.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Derry Rd. W.  @ Winston Churchill Blvd.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale Town Centre",
+        "lat": 43.5847511,
+        "lon": -79.7606812,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00191 (Aquitaine Ave.  @ Meadowvale Town Centre Circle); used to locate the historical named place, not to assert its historic bay or curb position. Aquitaine-side terminal area; later platform reconfiguration is not implied for the old date.",
+        "location_reference_name": "Aquitaine Ave.  @ Meadowvale Town Centre Circle",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Union Station bus terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21320; this table prints no branch letter.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.867178,
+          43.523803
+        ],
+        [
+          -79.7712631,
+          43.5877228
+        ],
+        [
+          -79.7606812,
+          43.5847511
+        ],
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected trip 21320; this table prints no branch letter. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "21-2023-oakville",
+    "label": "Daytime Milton–Oakville connection",
+    "date": "2023-04-08",
+    "branch": "21A",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Road / Highway 407 Park & Ride",
+        "lat": 43.5061531,
+        "lon": -79.7453842,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08024 (Trafalgar Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 GO Carpool Lot",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Sheridan College, Oakville",
+        "lat": 43.4698067,
+        "lon": -79.6977158,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00939 (Sheridan College); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Sheridan College",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Oakville GO",
+        "lat": 43.455966,
+        "lon": -79.681676,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oakville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Replaced by route 22 in April 2024. Direct Union buses elsewhere in this booklet are separate patterns.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.867178,
+          43.523803
+        ],
+        [
+          -79.7453842,
+          43.5061531
+        ],
+        [
+          -79.6977158,
+          43.4698067
+        ],
+        [
+          -79.681676,
+          43.455966
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Replaced by route 22 in April 2024. Direct Union buses elsewhere in this booklet are separate patterns."
+  }
+]

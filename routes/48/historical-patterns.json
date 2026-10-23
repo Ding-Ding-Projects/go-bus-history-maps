@@ -1,0 +1,782 @@
+[
+  {
+    "id": "48-pre-2007",
+    "label": "Meadowvale–York predecessor",
+    "date": "2006-12-30",
+    "branch": "pre-48",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48-pre-2007-express",
+    "label": "Meadowvale–York predecessor express",
+    "date": "2006-12-30",
+    "branch": "pre-48 express",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48-2011",
+    "label": "Guelph–York stopping route",
+    "date": "2011-12-31",
+    "branch": "48",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "University of Guelph",
+        "lat": 43.5293732,
+        "lon": -80.2252502,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Guelph",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Aberfoyle GO Park & Ride",
+        "lat": 43.4609909,
+        "lon": -80.133667,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "lat": 43.6521416,
+        "lon": -79.7108765,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2252502,
+          43.5293732
+        ],
+        [
+          -80.133667,
+          43.4609909
+        ],
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.7108765,
+          43.6521416
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48A-2011",
+    "label": "Meadowvale–York express",
+    "date": "2011-12-31",
+    "branch": "48A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48B-2011",
+    "label": "Meadowvale–York stopping short route",
+    "date": "2011-12-31",
+    "branch": "48B",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "lat": 43.6521416,
+        "lon": -79.7108765,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.7108765,
+          43.6521416
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48-2018",
+    "label": "Guelph–York via Highway 407 terminal",
+    "date": "2018-09-01",
+    "branch": "48",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "University of Guelph",
+        "lat": 43.5293732,
+        "lon": -80.2252502,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Guelph",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Aberfoyle GO Park & Ride",
+        "lat": 43.4609909,
+        "lon": -80.133667,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "lat": 43.6521416,
+        "lon": -79.7108765,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2252502,
+          43.5293732
+        ],
+        [
+          -80.133667,
+          43.4609909
+        ],
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.7108765,
+          43.6521416
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48A-2018",
+    "label": "Meadowvale–York express bypassing Highway 407 terminal",
+    "date": "2018-09-01",
+    "branch": "48A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48F-2018",
+    "label": "Guelph–York limited express",
+    "date": "2018-09-01",
+    "branch": "48F",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "University of Guelph",
+        "lat": 43.5293732,
+        "lon": -80.2252502,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Guelph",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "Limited school/Friday pattern; Aberfoyle, Meadowvale and Hurontario are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2252502,
+          43.5293732
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Limited school/Friday pattern; Aberfoyle, Meadowvale and Hurontario are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48-2019",
+    "label": "Guelph–Highway 407 stopping route",
+    "date": "2019-08-31",
+    "branch": "48",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "University of Guelph",
+        "lat": 43.5293732,
+        "lon": -80.2252502,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Guelph",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Aberfoyle GO Park & Ride",
+        "lat": 43.4609909,
+        "lon": -80.133667,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Meadowvale GO",
+        "lat": 43.597499,
+        "lon": -79.754517,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Meadowvale GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "lat": 43.6521416,
+        "lon": -79.7108765,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Hurontario St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2252502,
+          43.5293732
+        ],
+        [
+          -80.133667,
+          43.4609909
+        ],
+        [
+          -79.754517,
+          43.597499
+        ],
+        [
+          -79.7108765,
+          43.6521416
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "48F-2019",
+    "label": "Guelph–Highway 407 limited express",
+    "date": "2019-08-31",
+    "branch": "48F",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "University of Guelph",
+        "lat": 43.5293732,
+        "lon": -80.2252502,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "University of Guelph",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2252502,
+          43.5293732
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

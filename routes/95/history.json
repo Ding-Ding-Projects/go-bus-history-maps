@@ -1,0 +1,51 @@
+{
+  "route": "95",
+  "name": "Oshawa Highway 2 Express–Finch",
+  "status": "discontinued",
+  "description": "Limited-stop bus through Durham on Highway 2, continuing by Highway 401 to Scarborough Centre and Finch. It complemented the older local 94 and the station-based Highway 401 express 96.",
+  "timeline": [
+    {
+      "date": "2007-04-28",
+      "event": "Routes 95 and 96 were introduced as the Oshawa–Finch express network.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2007-10-27",
+      "event": "The original route 95 schedule documents the Highway 2 stopping pattern and Finch destination.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-hwy-2-express/2008-12-03-table-95-oshawa-hwy-2-express.pdf"
+      ]
+    },
+    {
+      "date": "2013-06-28",
+      "event": "Last day of route 95 before the 92/96/98 reorganization.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-hwy-2-express/2008-12-03-table-95-oshawa-hwy-2-express.pdf",
+      "title": "GO Oshawa Highway 2 Express route 95, printed effective October 27, 2007; archive filename December 3, 2008",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2013/06/15-major_chan.shtml",
+      "title": "Major changes to GO bus service along Highway 2, June 29, 2013 — Transit Toronto",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "No public lettered 95 branches have been established from the examined original timetable.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

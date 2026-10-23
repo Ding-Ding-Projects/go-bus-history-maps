@@ -1,0 +1,84 @@
+{
+  "route": "27",
+  "name": "Milton / North York",
+  "status": "current",
+  "description": "A Milton/Meadowvale–North York family with historical Finch and York Mills variants and selected Meadowvale Business Park trips.",
+  "timeline": [
+    {
+      "date": "1977-01-05",
+      "event": "GO added a Milton / Streetsville–York Mills service, an early corridor predecessor.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2008-06-28",
+      "event": "The table documents 27 and 27A/B/D/E/F serving distinct Finch, York Mills and Meadowvale patterns.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf"
+      ]
+    },
+    {
+      "date": "2016-04-02",
+      "event": "Weekend service was added.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The table uses Milton GO and Derry / Ninth Line in place of the older Main / Martin and Derry / Winston Churchill timepoints.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2019-01-05-table-27-milton-north-york.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2008-12-03-table-27-milton-north-york.pdf",
+      "title": "GO table 27, printed effective 28 June 2008 (filename dated 3 December)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-north-york/2019-01-05-table-27-milton-north-york.pdf",
+      "title": "GO Milton / North York table 27, effective 5 January 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The number 27 adoption date is unknown.",
+    "The 2008 business-park variants 27A/E/F are documented but not individually reconstructed here; dated GTFS can supplement them.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

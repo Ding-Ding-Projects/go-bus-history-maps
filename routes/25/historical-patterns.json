@@ -1,0 +1,326 @@
+[
+  {
+    "id": "25-2009-main",
+    "label": "Launch route to Square One",
+    "date": "2009-10-31",
+    "branch": "25",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "University of Waterloo, Davis Centre",
+        "lat": 43.4731293,
+        "lon": -80.541687,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02147 (University of Waterloo); used to locate the historical named place, not to assert its historic bay or curb position. Uses the 2016 campus stop, not the newer University of Waterloo Terminal.",
+        "location_reference_name": "University of Waterloo",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Wilfrid Laurier University, University / Hazel",
+        "lat": 43.4752655,
+        "lon": -80.5272827,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02153 (Wilfrid Laurier University); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Wilfrid Laurier University",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Kitchener Bus Terminal, Charles / Ontario",
+        "lat": 43.4519386,
+        "lon": -80.4876175,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02530 (Kitchener Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Kitchener Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Cambridge SmartCentres, Hespeler / Highway 401",
+        "lat": 43.4117165,
+        "lon": -80.3236008,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02150 (Cambridge Smart Centre); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Cambridge Smart Centre",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Aberfoyle Park & Ride, Brock / Highway 401",
+        "lat": 43.4609909,
+        "lon": -80.133667,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Regional Road 25 / Highway 401 Park & Ride",
+        "lat": 43.5274849,
+        "lon": -79.9038162,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02151 (Regional Rd. 25 @ Hwy. 401 Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Regional Rd. 25 @ Hwy. 401 Park & Ride",
+        "location_reference_date": "2022-03-08"
+      },
+      {
+        "name": "Square One",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.541687,
+          43.4731293
+        ],
+        [
+          -80.5272827,
+          43.4752655
+        ],
+        [
+          -80.4876175,
+          43.4519386
+        ],
+        [
+          -80.3236008,
+          43.4117165
+        ],
+        [
+          -80.133667,
+          43.4609909
+        ],
+        [
+          -79.9038162,
+          43.5274849
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken."
+  },
+  {
+    "id": "25-2009-milton",
+    "label": "Launch Milton train connection",
+    "date": "2009-10-31",
+    "branch": "25A",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "University of Waterloo, Davis Centre",
+        "lat": 43.4731293,
+        "lon": -80.541687,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02147 (University of Waterloo); used to locate the historical named place, not to assert its historic bay or curb position. Uses the 2016 campus stop, not the newer University of Waterloo Terminal.",
+        "location_reference_name": "University of Waterloo",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Wilfrid Laurier University, University / Hazel",
+        "lat": 43.4752655,
+        "lon": -80.5272827,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02153 (Wilfrid Laurier University); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Wilfrid Laurier University",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Kitchener Bus Terminal, Charles / Ontario",
+        "lat": 43.4519386,
+        "lon": -80.4876175,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02530 (Kitchener Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Kitchener Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Cambridge SmartCentres, Hespeler / Highway 401",
+        "lat": 43.4117165,
+        "lon": -80.3236008,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02150 (Cambridge Smart Centre); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Cambridge Smart Centre",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Aberfoyle Park & Ride, Brock / Highway 401",
+        "lat": 43.4609909,
+        "lon": -80.133667,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00337 (Brock Rd. S. @ McLean Rd. GO Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brock Rd. S. @ McLean Rd. GO Park & Ride",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Regional Road 25 / Highway 401 Park & Ride",
+        "lat": 43.5274849,
+        "lon": -79.9038162,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02151 (Regional Rd. 25 @ Hwy. 401 Park & Ride); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Regional Rd. 25 @ Hwy. 401 Park & Ride",
+        "location_reference_date": "2022-03-08"
+      },
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/waterloo-mississauga/2009-11-22-table-25-waterloo-mississauga.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.541687,
+          43.4731293
+        ],
+        [
+          -80.5272827,
+          43.4752655
+        ],
+        [
+          -80.4876175,
+          43.4519386
+        ],
+        [
+          -80.3236008,
+          43.4117165
+        ],
+        [
+          -80.133667,
+          43.4609909
+        ],
+        [
+          -79.9038162,
+          43.5274849
+        ],
+        [
+          -79.867178,
+          43.523803
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken."
+  },
+  {
+    "id": "25-2025-seasonal-kipling",
+    "label": "Seasonal shopping branch to Kipling",
+    "date": "2025-04-05 to 2025-08-24",
+    "branch": "25K",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Toronto Premium Outlets",
+        "lat": 43.5743597133588,
+        "lon": -79.8346358454101,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2023-05-05 GO GTFS stop 02812 (Steeles Ave. @ Trafalgar Rd. (Toronto Premium Outlets)); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Steeles Ave. @ Trafalgar Rd. (Toronto Premium Outlets)",
+        "location_reference_date": "2023-05-05"
+      },
+      {
+        "name": "Square One",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dixie Transitway Station",
+        "lat": 43.6300128947218,
+        "lon": -79.6146254772841,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Dixie Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Renforth Transitway Station",
+        "lat": 43.662995090205,
+        "lon": -79.5911181123626,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Renforth Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Kipling GO",
+        "lat": 43.635688,
+        "lon": -79.538441,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02778 (Kipling Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Kipling Bus Terminal",
+        "location_reference_date": "2022-03-08"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://www.metrolinx.com/en/news/april-go-service-changes-to-include-new-kitchener-line-trips"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Seasonal weekend operation, not a Waterloo through trip without separate evidence.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.8346358454101,
+          43.5743597133588
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6146254772841,
+          43.6300128947218
+        ],
+        [
+          -79.5911181123626,
+          43.662995090205
+        ],
+        [
+          -79.538441,
+          43.635688
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Seasonal weekend operation, not a Waterloo through trip without separate evidence."
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "90-2008-local",
+    "label": "Newcastle–Oshawa local",
+    "date": "2008-08-30",
+    "branch": "90",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Newcastle — Highway 2 / Mill St",
+        "lat": 43.9174702,
+        "lon": -78.5888287,
+        "location_source": "https://www.openstreetmap.org/node/392163460",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining King Avenue East (way 54118119); King Avenue West (way 319213021); Mill Street North (way 34191099); Mill Street South (way 34192991), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+      },
+      {
+        "name": "Bowmanville — King St / Liberty St",
+        "lat": 43.9107056,
+        "lon": -78.6806183,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00157, named King St. E.  @  Liberty St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Bowmanville GO Park & Ride — Prince William Blvd",
+        "lat": 43.9078712,
+        "lon": -78.7046204,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00306, named Prince William Blvd. @ Clarington Blvd. GO Park & Ride. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Courtice — Highway 2 / Courtice Rd",
+        "lat": 43.9120102,
+        "lon": -78.7776337,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00167, named Durham Hwy. 2  @ Courtice Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Oshawa Bus Terminal — Bond St / Centre St",
+        "lat": 43.8978462,
+        "lon": -78.865593,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00154, named Oshawa Bus Terminal. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Oshawa GO — Thornton Rd / Bloor St",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00159, named Oshawa GO Bus. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.5888287,
+          43.9174702
+        ],
+        [
+          -78.6806183,
+          43.9107056
+        ],
+        [
+          -78.7046204,
+          43.9078712
+        ],
+        [
+          -78.7776337,
+          43.9120102
+        ],
+        [
+          -78.865593,
+          43.8978462
+        ],
+        [
+          -78.88585,
+          43.870909
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "90-2008-a",
+    "label": "Bowmanville–Oshawa short service",
+    "date": "2008-08-30",
+    "branch": "90A",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Bowmanville — Waverley Rd / Baseline Rd",
+        "lat": 43.8975792,
+        "lon": -78.6905899,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00155, named Waverly Rd.  @ Baseline Rd.. Historical direction-specific platform has not been established. Original 2016 GO stop spells Waverly. This is the Baseline Road intersection, not the different stop at Durham Road 57/Waverley Road."
+      },
+      {
+        "name": "Bowmanville — King St / Liberty St",
+        "lat": 43.9107056,
+        "lon": -78.6806183,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00157, named King St. E.  @  Liberty St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Bowmanville GO Park & Ride — Prince William Blvd",
+        "lat": 43.9078712,
+        "lon": -78.7046204,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00306, named Prince William Blvd. @ Clarington Blvd. GO Park & Ride. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Courtice — Highway 2 / Courtice Rd",
+        "lat": 43.9120102,
+        "lon": -78.7776337,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00167, named Durham Hwy. 2  @ Courtice Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Oshawa Bus Terminal — Bond St / Centre St",
+        "lat": 43.8978462,
+        "lon": -78.865593,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00154, named Oshawa Bus Terminal. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Oshawa GO — Thornton Rd / Bloor St",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00159, named Oshawa GO Bus. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.6905899,
+          43.8975792
+        ],
+        [
+          -78.6806183,
+          43.9107056
+        ],
+        [
+          -78.7046204,
+          43.9078712
+        ],
+        [
+          -78.7776337,
+          43.9120102
+        ],
+        [
+          -78.865593,
+          43.8978462
+        ],
+        [
+          -78.88585,
+          43.870909
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "90-2008-b",
+    "label": "Oshawa–Union rail replacement",
+    "date": "2008-08-30",
+    "branch": "90B",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Pickering GO",
+        "lat": 43.830982,
+        "lon": -79.084571,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pickering GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-east/2008-12-03-table-09-lakeshore-east.pdf"
+    ],
+    "notes": "The early bus row stops at the four Durham rail stations and Union; it bypasses the intervening Toronto train stations.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.084571,
+          43.830982
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The early bus row stops at the four Durham rail stations and Union; it bypasses the intervening Toronto train stations."
+  }
+]

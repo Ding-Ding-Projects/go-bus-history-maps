@@ -1,0 +1,136 @@
+[
+  {
+    "id": "15-2006-mcmaster",
+    "label": "McMaster–Burlington feeder",
+    "date": "2006-12-30",
+    "branch": "15",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Burlington GO",
+        "lat": 43.3406448,
+        "lon": -79.8111801,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Burlington GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2007-05-13-table-01-lakeshore-west.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The old Burlington endpoint must not be silently replaced by Aldershot.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8111801,
+          43.3406448
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The old Burlington endpoint must not be silently replaced by Aldershot."
+  },
+  {
+    "id": "15-2020-brantford",
+    "label": "Brantford–Aldershot corridor",
+    "date": "by 2020-07-19",
+    "branch": "15",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Brantford Bus Terminal",
+        "lat": 43.1403084,
+        "lon": -80.2649918,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Brantford Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Brantford, Wayne Gretzky Parkway / Henry Street",
+        "lat": 43.1544113,
+        "lon": -80.2391205,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2022-03-08 GO GTFS stop 02608 (Wayne Gretzky Pkwy. @ Henry St.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Wayne Gretzky Pkwy. @ Henry St.",
+        "location_reference_date": "2022-03-08"
+      },
+      {
+        "name": "McMaster Innovation Park",
+        "lat": 43.2564278,
+        "lon": -79.9013138,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "McMaster Innovation Park",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Aldershot GO",
+        "lat": 43.313036,
+        "lon": -79.855903,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Aldershot GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brantford-burlington/2020-07-19-table-15-brantford-burlington.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Archive snapshot date used because the extracted copy does not establish a printed effective cover date.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -80.2649918,
+          43.1403084
+        ],
+        [
+          -80.2391205,
+          43.1544113
+        ],
+        [
+          -79.9013138,
+          43.2564278
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.855903,
+          43.313036
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Archive snapshot date used because the extracted copy does not establish a printed effective cover date."
+  }
+]

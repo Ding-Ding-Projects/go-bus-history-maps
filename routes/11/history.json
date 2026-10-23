@@ -1,0 +1,94 @@
+{
+  "route": "11",
+  "name": "Brock University; formerly Niagara-on-the-Lake seasonal shuttle",
+  "status": "current",
+  "description": "The number has two distinct documented uses: a seasonal St. Catharines–Niagara-on-the-Lake train shuttle in the 2010 s, and the Brock University corridor renumbered from 18K in 2024.",
+  "timeline": [
+    {
+      "date": "2012-06-23",
+      "event": "The new St. Catharines rail station–Niagara-on-the-Lake shuttle began its first summer season, running through 3 September.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html"
+      ]
+    },
+    {
+      "date": "2012-09-04",
+      "event": "GO identified the seasonal Niagara-on-the-Lake shuttle as route 11 when announcing the end of its 2012 season.",
+      "sources": [
+        "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html"
+      ]
+    },
+    {
+      "date": "2016",
+      "event": "Seasonal route 11 Niagara-on-the-Lake train-meet service remained documented.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2021-09-07",
+      "event": "Predecessor 18K began weekday service to Brock University from the Hamilton corridor.",
+      "sources": [
+        "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/"
+      ]
+    },
+    {
+      "date": "2024-04-27",
+      "event": "Brock University branch 18K was renumbered 11 in the April reorganization.",
+      "sources": [
+        "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/"
+      ]
+    },
+    {
+      "date": "2024-08-31",
+      "event": "The original Lakeshore West booklet confirms the new route 11 number.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2024-08-31-table-01-lakeshore-west.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.newswire.ca/news-releases/take-the-go-train-to-niagara-this-victoria-day-weekend-510184221.html",
+      "title": "GO Transit release: Take the GO Train to Niagara this Victoria Day weekend, 4 May 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://www.newswire.ca/fr/news-releases/reprise-du-service-dautobus-go-transit-de-luniversite-mcmaster-fin-du-service-de-train-de-niagara-pour-la-saison-estivale-510584911.html",
+      "title": "GO Transit release: McMaster service resumes and summer Niagara service ends, August 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://brocku.ca/brock-news/2021/08/go-transit-bus-service-coming-to-brock/",
+      "title": "Brock University: GO Transit bus service coming to Brock, August 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://seanmarshall.ca/2024/04/15/a-review-of-metrolinxs-april-2024-service-changes/",
+      "title": "Sean Marshall: A review of Metrolinx’s April 2024 service changes",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/lakeshore-west/2024-08-31-table-01-lakeshore-west.pdf",
+      "title": "GO Lakeshore West table 01, effective 31 August 2024, including route 11",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The last season and withdrawal date of the old Niagara-on-the-Lake shuttle are unknown.",
+    "The old shuttle and the later Brock route are separate eras, not one continuous alignment.",
+    "The April 2024 renumbering date is from a contemporary secondary account; the new number is independently confirmed in the original August timetable.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

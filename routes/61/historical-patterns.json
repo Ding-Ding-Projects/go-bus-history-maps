@@ -1,0 +1,243 @@
+[
+  {
+    "id": "61-2005-langstaff",
+    "label": "Richmond Hill via Langstaff",
+    "date": "2005-11-21",
+    "branch": "61",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Richmond Hill GO — Newkirk Rd / Major Mackenzie Dr",
+        "lat": 43.875786,
+        "lon": -79.426228,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00062, named Richmond Hill GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Langstaff GO — south lot, Langstaff Rd",
+        "lat": 43.836455,
+        "lon": -79.420243,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00060, named Langstaff Rd. E. @ Cedar Ave. (Langstaff GO). Historical direction-specific platform has not been established. Later GO bus reference point on Langstaff Road East at Cedar Avenue, at the south side of the station. The 2005 south-lot bus platform is not independently surveyed."
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+    ],
+    "notes": "The bus columns bypass Old Cummer and Oriole; train station columns must not be mistaken for bus stops. No letter suffix is printed for this older pattern.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.426228,
+          43.875786
+        ],
+        [
+          -79.420243,
+          43.836455
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The bus columns bypass Old Cummer and Oriole; train station columns must not be mistaken for bus stops. No letter suffix is printed for this older pattern."
+  },
+  {
+    "id": "61-2005-express",
+    "label": "Richmond Hill express",
+    "date": "2005-11-21",
+    "branch": "61",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Richmond Hill GO — Newkirk Rd / Major Mackenzie Dr",
+        "lat": 43.875786,
+        "lon": -79.426228,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00062, named Richmond Hill GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+    ],
+    "notes": "Unlettered express rows in Table 61; not an assertion of a later branch designation.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.426228,
+          43.875786
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Unlettered express rows in Table 61; not an assertion of a later branch designation."
+  },
+  {
+    "id": "61-2005-leslie",
+    "label": "Leslie Street short service",
+    "date": "2005-11-21",
+    "branch": "61",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Leslie St / Old Cummer Ave",
+        "lat": 43.7939487,
+        "lon": -79.3689029,
+        "location_source": "https://www.openstreetmap.org/node/90798328",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining Leslie Street (way 955124910); Leslie Street (way 1416499598); Old Cummer Avenue (way 10533810); Old Cummer Avenue (way 27021796), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+      },
+      {
+        "name": "Leslie St / Highway 401",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+    ],
+    "notes": "Street stops associated with the Old Cummer and Oriole areas; not stops inside those rail stations.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.3689029,
+          43.7939487
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Street stops associated with the Old Cummer and Oriole areas; not stops inside those rail stations. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "61-2023-bloomington",
+    "label": "Bloomington–Union",
+    "date": "2023-01-07",
+    "branch": "61",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Bloomington GO",
+        "lat": 43.975523,
+        "lon": -79.396884,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bloomington GO",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Gormley GO",
+        "lat": 43.9409103,
+        "lon": -79.3985214,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Gormley GO",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Richmond Hill GO",
+        "lat": 43.875786,
+        "lon": -79.426228,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Richmond Hill GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Langstaff GO",
+        "lat": 43.836455,
+        "lon": -79.420243,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00060, named Langstaff Rd. E. @ Cedar Ave. (Langstaff GO). Historical direction-specific platform has not been established. South-side bus reference point on Langstaff Road East at Cedar Avenue from the GTFS; this does not use the later Red Maple Road bus stop."
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.644042,
+        "lon": -79.376939,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.396884,
+          43.975523
+        ],
+        [
+          -79.3985214,
+          43.9409103
+        ],
+        [
+          -79.426228,
+          43.875786
+        ],
+        [
+          -79.420243,
+          43.836455
+        ],
+        [
+          -79.376939,
+          43.644042
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  }
+]

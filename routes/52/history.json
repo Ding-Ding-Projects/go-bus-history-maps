@@ -1,0 +1,257 @@
+{
+  "route": "52",
+  "name": "Oshawa / Highway 407 (formerly Oshawa / York University)",
+  "status": "current",
+  "description": "The Oshawa arm of Highway 407 East, with multiple campus expresses, a move from Langstaff to Richmond Hill Centre, terminal changes in Vaughan and Oshawa, and later use of Highway 407 across Durham. Twenty documentary corridor reconstructions cover the predecessor service and changing branches.",
+  "timeline": [
+    {
+      "date": "2004-09-07",
+      "event": "Oshawa–York service begins, with nine weekday trips each way. The contemporary newspaper report and York University article establish the original corridor before public route numbering.",
+      "sources": [
+        "https://corporate.pickering.ca/PLHCWebLink/0/edoc/175252/NA2004_07_30.pdf",
+        "https://www.yorku.ca/yfile/2004/07/23/york-hub-for-transit-solutions-to-urban-sprawl/"
+      ]
+    },
+    {
+      "date": "by 2008-11-01",
+      "event": "Numbered 52 runs York–Langstaff–Unionville–Brock/407–Greenwood–Brooklin–Durham College/UOIT–Oshawa terminal. 52A is a Unionville–campus short route via the Durham roadside stops.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-12-31",
+      "event": "The original replaces Langstaff with Richmond Hill Centre and explicitly serves Keele at Great Gulf Dr. westbound / Snidercroft eastbound. Example: 06:05 Oshawa, 07:07 Richmond Hill Centre, 07:18 Keele, 07:25 York.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2017-09-02",
+      "event": "The Durham route uses the Lake Ridge/Highway 7 timing point instead of Greenwood. The timetable includes an express Unionville–campus 52A and a campus–Richmond Hill–Keele–York 52B.",
+      "sources": [
+        "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf"
+      ]
+    },
+    {
+      "date": "2017-12-30",
+      "event": "Highway 407 Bus Terminal opens.",
+      "sources": [
+        "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "GO leaves York campus. Route 52 terminates at Highway 407; the timetable includes Unionville express 52D and campus express 52B.",
+      "sources": [
+        "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2020-09-05",
+      "event": "The original timetable replaces the former Oshawa Bus Terminal terminus with downtown street stops and an extension to Oshawa GO.",
+      "sources": [
+        "https://transittoronto.ca/archives/flyers/go-407-east-51-54-20200905.pdf"
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "event": "Most weekday 52 trips join route 46 as new route 56; 52 remains a separate route, especially for weekend and special patterns.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+      ]
+    },
+    {
+      "date": "by 2022-04-02",
+      "event": "The 52A suffix now marks the stopping route with Baldwin/407 added; this differs from its earlier campus-express meaning.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2022-06-25",
+      "event": "Seasonal 52X runs to Canada’s Wonderland and Major Mackenzie/Hwy. 400 Park & Ride.",
+      "sources": [
+        "https://transittoronto.ca/archives/flyers/go-52-54-56-oshawa-oakville-20220625.pdf"
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "event": "Cornell Bus Terminal is added to routes 52 and 56.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "52 and 56 move from the Highway 7/Winchester corridor to Highway 407 between the Brock and Simcoe areas, removing the Lake Ridge and Winchester/Anderson stops from the main route.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2023-05-06",
+      "event": "Seasonal 52X uses Major Mackenzie West Terminal for Wonderland access.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+      ]
+    },
+    {
+      "date": "by 2024-08-31",
+      "event": "A campus express version skips Brock, Baldwin, downtown Oshawa and Oshawa GO, while serving Cornell, Unionville, Richmond Hill and Highway 407.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2024-11-18-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2025-08-30",
+      "event": "The researched 52A express pattern serves Highway 407, Richmond Hill, Unionville, Cornell, the campus, downtown Oshawa and Oshawa GO while bypassing Brock and Baldwin.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2025-08-30-table-56-oshawa-oakville.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+      "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective September 2, 2017",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+      "title": "Metrolinx Capital Projects quarterly report, March 8, 2018: Highway 407 Bus Terminal opening",
+      "type": "official"
+    },
+    {
+      "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+      "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+      "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective April 2, 2022",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+      "title": "Transit Toronto, October 1, 2022: GO revises services and adds Cornell stops",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective April 8, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+      "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+      "type": "secondary"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+      "title": "Metrolinx, May 17, 2023: GO buses to popular attractions back in time for summer",
+      "type": "official"
+    },
+    {
+      "url": "https://corporate.pickering.ca/PLHCWebLink/0/edoc/175252/NA2004_07_30.pdf",
+      "title": "News Advertiser, July 30, 2004: Oshawa–York University GO bus announcement",
+      "type": "contemporary-newspaper"
+    },
+    {
+      "url": "https://www.yorku.ca/yfile/2004/07/23/york-hub-for-transit-solutions-to-urban-sprawl/",
+      "title": "York University YFile, July 23, 2004: York hub for transit solutions to urban sprawl",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/flyers/go-407-east-51-54-20200905.pdf",
+      "title": "go-407-east-51-54-20200905.pdf",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/flyers/go-52-54-56-oshawa-oakville-20220625.pdf",
+      "title": "go-52-54-56-oshawa-oakville-20220625.pdf",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2024-11-18-table-56-oshawa-oakville.pdf",
+      "title": "2024-11-18-table-56-oshawa-oakville.pdf",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2025-08-30-table-56-oshawa-oakville.pdf",
+      "title": "2025-08-30-table-56-oshawa-oakville.pdf",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2004-10-30-table-52-oshawa-oakville-dir0-day1-page1.html",
+      "title": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2004-10-30-table-52-oshawa-oakville-dir0-day1-page1.html"
+    },
+    {
+      "url": "https://web.archive.org/web/20150319070213id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/01150415/Table52.pdf",
+      "title": "https://web.archive.org/web/20150319070213id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/01150415/Table52.pdf"
+    },
+    {
+      "url": "https://web.archive.org/web/20160916213825id_/http://www.gotransit.com/timetables/en/PDF/Timetables/09161216/Table52.pdf",
+      "title": "https://web.archive.org/web/20160916213825id_/http://www.gotransit.com/timetables/en/PDF/Timetables/09161216/Table52.pdf"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/flyers/go-51-52-54-407east-20190105.pdf",
+      "title": "https://transittoronto.ca/archives/flyers/go-51-52-54-407east-20190105.pdf"
+    }
+  ],
+  "gaps": [
+    "Suffixes were reused; a 52A in 2008, 2017, 2022 or 2025 does not imply the same route.",
+    "The exact first dates of several branch changes are bounded only by surviving original snapshots.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "63-2011-king-city",
+    "label": "King City–Maple–Rutherford–Union",
+    "date": "2011-09-03",
+    "branch": "63",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "King City GO — Keele St / Station Rd",
+        "lat": 43.9203224,
+        "lon": -79.5260773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00027, named Keele St.  @  Station Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Maple GO",
+        "lat": 43.859853,
+        "lon": -79.505926,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Maple GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Rutherford GO",
+        "lat": 43.838582,
+        "lon": -79.498945,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Rutherford GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.6456261,
+        "lon": -79.3783951,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2011-11-12-table-65-barrie.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.5260773,
+          43.9203224
+        ],
+        [
+          -79.505926,
+          43.859853
+        ],
+        [
+          -79.498945,
+          43.838582
+        ],
+        [
+          -79.3783951,
+          43.6456261
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "63-2023-main",
+    "label": "King City–Union final-number era",
+    "date": "2023-01-07",
+    "branch": "63",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "King City GO",
+        "lat": 43.9203224,
+        "lon": -79.5260773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00027, named Keele St.  @  Station Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Maple GO",
+        "lat": 43.859853,
+        "lon": -79.505926,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Maple GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Rutherford GO",
+        "lat": 43.838582,
+        "lon": -79.498945,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Rutherford GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Union Station Bus Terminal",
+        "lat": 43.644042,
+        "lon": -79.376939,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Union Station Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.5260773,
+          43.9203224
+        ],
+        [
+          -79.505926,
+          43.859853
+        ],
+        [
+          -79.498945,
+          43.838582
+        ],
+        [
+          -79.376939,
+          43.644042
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  }
+]

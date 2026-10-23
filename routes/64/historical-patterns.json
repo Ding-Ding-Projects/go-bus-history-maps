@@ -1,0 +1,108 @@
+[
+  {
+    "id": "64-2008-main",
+    "label": "Newmarket–King City–York University",
+    "date": "2008-08-30",
+    "branch": "64",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Newmarket Bus Terminal",
+        "lat": 44.0527344,
+        "lon": -79.4865799,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00001, named Newmarket GO Bus Terminal. Historical direction-specific platform has not been established. Original Newmarket GO Bus Terminal coordinate from the 2016 feed; distinct from Newmarket railway station and Davis Drive/Highway 404."
+      },
+      {
+        "name": "Yonge St / Murray Dr — Aurora",
+        "lat": 43.9866759,
+        "lon": -79.4645053,
+        "location_source": "https://www.openstreetmap.org/node/699463493",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining Yonge Street (way 55668763); Yonge Street (way 1014045223); Murray Drive (way 815740013), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+      },
+      {
+        "name": "Yonge St / King Rd — Oak Ridges",
+        "lat": 43.9445781,
+        "lon": -79.4547671,
+        "location_source": "https://www.openstreetmap.org/node/699535647",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published OSM road-junction node joining Yonge Street (way 55672574); Yonge Street (way 55672587); King Road (way 4794450); King Road (way 55672568), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road. One published node of the divided or staggered junction is used; the marker does not establish the historic platform."
+      },
+      {
+        "name": "King City GO — Keele St / Station Rd",
+        "lat": 43.9203224,
+        "lon": -79.5260773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00027, named Keele St.  @  Station Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Keele St / Major Mackenzie Dr — Maple",
+        "lat": 43.854216,
+        "lon": -79.512225,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop mapmaj-parent, named Major Mackenzie and Keele. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Rutherford GO",
+        "lat": 43.838582,
+        "lon": -79.498945,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Rutherford GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York University — Keele campus bus loop",
+        "lat": 43.7730637,
+        "lon": -79.5009308,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00029, named York University. Historical direction-specific platform has not been established. Original pre-Highway-407-terminal GO bus stop from the January 2016 feed, not York University railway station or the later subway stations."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf"
+    ],
+    "notes": "The actual bus row bypasses Newmarket GO, Aurora GO, Maple GO and York University GO rail-station columns. The York University destination is the campus, not the former rail station.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4865799,
+          44.0527344
+        ],
+        [
+          -79.4645053,
+          43.9866759
+        ],
+        [
+          -79.4547671,
+          43.9445781
+        ],
+        [
+          -79.5260773,
+          43.9203224
+        ],
+        [
+          -79.512225,
+          43.854216
+        ],
+        [
+          -79.498945,
+          43.838582
+        ],
+        [
+          -79.5009308,
+          43.7730637
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The actual bus row bypasses Newmarket GO, Aurora GO, Maple GO and York University GO rail-station columns. The York University destination is the campus, not the former rail station."
+  }
+]

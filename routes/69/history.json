@@ -1,0 +1,82 @@
+{
+  "route": "69",
+  "name": "Sutton–Newmarket; later Aurora–Newmarket",
+  "status": "discontinued",
+  "description": "Number 69 has two distinct documented uses: the former Lake Simcoe/Sutton rural service and a later local Newmarket–Aurora rail connector. The two eras must be mapped separately.",
+  "timeline": [
+    {
+      "date": "2008-11-01",
+      "event": "The Sutton timetable shows full Beaverton–Newmarket route 69, Sutton short branch 69A, Keswick short branch 69B, and Keswick–East Gwillimbury–Union 69C.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf"
+      ]
+    },
+    {
+      "date": "2011-12-31",
+      "event": "The last recovered full Sutton-era timetable retains these branches.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2012-08-29-table-69-sutton.pdf"
+      ]
+    },
+    {
+      "date": "2012-09-01",
+      "event": "Final day of the Sutton-era route; its replacement network included YRT 50 and GO routes 67 and 80.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+        "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml"
+      ]
+    },
+    {
+      "date": "2018-01-02",
+      "event": "Number 69 was reused for weekday Newmarket Bus Terminal–Aurora GO service formerly part of route 65.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The Barrie timetable explicitly lists the new Aurora–Newmarket route 69.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2009-02-19-table-69-sutton.pdf",
+      "title": "GO Sutton Table 69, printed effective November 1, 2008; archive filename February 19, 2009",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/sutton/2012-08-29-table-69-sutton.pdf",
+      "title": "GO Sutton route 69, printed effective December 31, 2011; archive filename August 29, 2012",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+      "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml",
+      "title": "GO revises routes and services, December 30, 2017 / January 2018 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf",
+      "title": "GO Barrie routes 63/65/68/69, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2012/08/13-go_canceli.shtml",
+      "title": "GO cancels Sutton service and introduces Keswick–North York buses, September 2012 — Transit Toronto",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "The exact final date of the second, Aurora–Newmarket use of number 69 has not been confirmed. It is absent from the later recovered 2022/2023 network snapshots.",
+    "The two eras are separated by more than five years and are not a continuous route with a minor extension.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

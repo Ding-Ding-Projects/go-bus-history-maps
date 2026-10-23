@@ -1,0 +1,39 @@
+{
+  "route": "39",
+  "name": "Guelph / Aberfoyle / Bramalea",
+  "status": "discontinued",
+  "description": "A former express Guelph–Bramalea train connection via Aberfoyle, distinct from Kitchener route 30 and local Georgetown route 33.",
+  "timeline": [
+    {
+      "date": "by 2013-04-06",
+      "event": "The original booklet identifies 39 with one weekday eastbound trip and three westbound train meets.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "39 was discontinued in the Kitchener corridor reorganization.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf",
+      "title": "GO Kitchener table 31, effective 6 April 2013, routes 30 / 31 / 33 / 39",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    }
+  ],
+  "gaps": [
+    "The exact launch date is unverified.",
+    "This retired number must not be applied to the later 30 expansion.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

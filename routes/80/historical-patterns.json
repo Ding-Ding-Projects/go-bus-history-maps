@@ -1,0 +1,47 @@
+[
+  {
+    "id": "80-2012-endpoints",
+    "label": "Pefferlaw–Beaverton",
+    "date": "2012-09-02",
+    "branch": "80",
+    "direction": "northbound",
+    "stops": [
+      {
+        "name": "Pefferlaw",
+        "lat": 44.3146686,
+        "lon": -79.2027297,
+        "location_source": "https://www.openstreetmap.org/node/388878004",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Village-area reference at the published Pefferlaw Road/Station Road intersection. Route 80 evidence establishes the Pefferlaw endpoint only; this coordinate does not prove that route 80 used the same platform as historical route 69. Published OSM road-junction node joining Pefferlaw Road (way 55901089); Station Road (way 55903068), retrieved 2026-10-23. This locates the named intersection area, not the historical bus bay or side of the road."
+      },
+      {
+        "name": "Beaverton",
+        "lat": 44.4297562,
+        "lon": -79.1545715,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00043, named Simcoe St.  @ Mara Rd.. Historical direction-specific platform has not been established. Municipal-area reference using the documented GO stop at Simcoe Street/Mara Road. The route 80 source establishes only the Beaverton endpoint, not its exact bus platform."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+    ],
+    "notes": "Endpoint-only schematic. No original full route 80 stop list has been recovered; intermediate stops or exact roadway geometry must not be inferred from the former route 69.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.2027297,
+          44.3146686
+        ],
+        [
+          -79.1545715,
+          44.4297562
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Endpoint-only schematic. No original full route 80 stop list has been recovered; intermediate stops or exact roadway geometry must not be inferred from the former route 69."
+  }
+]

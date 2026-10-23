@@ -1,0 +1,59 @@
+{
+  "route": "22",
+  "name": "Milton / Oakville; formerly Hamilton / Meadowvale Business Park",
+  "status": "current",
+  "description": "Two unrelated uses are documented: a Hamilton–Meadowvale commuter bus in 2009 and the Milton–Oakville service introduced in 2024 from 21A.",
+  "timeline": [
+    {
+      "date": "2009-01-03",
+      "event": "Route 22 links Hamilton GO with Meadowvale Business Park via Aldershot and Burlington’s Dundas / Highway 407 lot, one weekday trip each way.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2009-02-19-table-22-milton-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2024-04-27",
+      "event": "Number 22 was introduced for the Milton–Oakville corridor formerly 21A.",
+      "sources": [
+        "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2024-04-29",
+      "event": "The new timetable’s first weekday lists seven trips each way, generally two-hourly outside the morning.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2009-02-19-table-22-milton-oakville.pdf",
+      "title": "GO routes 22 Hamilton / Meadowvale Business Park and 29 Guelph / Mississauga; 22 printed effective 3 January 2009 (archive filename mislabels family and date)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+      "title": "GO Transit: Route 21 service updates — return to Union and introduction of route 22",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf",
+      "title": "GO table 22, printed effective 27 and 28 April 2024 (filename dated 22 April)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The old Hamilton–Meadowvale route’s introduction and withdrawal dates are unknown.",
+    "Numerical reuse is not evidence of continuous service.",
+    "The later extension to Regional Road 25 / Highway 401 needs a contemporary date.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

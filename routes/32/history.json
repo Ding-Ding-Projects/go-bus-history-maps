@@ -1,0 +1,73 @@
+{
+  "route": "32",
+  "name": "Brampton Trinity Common / North York",
+  "status": "current",
+  "description": "The Trinity Common–North York family joined Brampton terminals to the Yonge Street corridor using Highway 407. Its Richmond Hill-area stop was Langstaff / Yonge, not Richmond Hill Centre.",
+  "timeline": [
+    {
+      "date": "2006-10-28",
+      "event": "The table connects Hurontario / Bovaird and Trinity Common through Bramalea to Langstaff / Yonge, Finch and Sheppard.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "Service moved from Dixie Road to Highway 410, removing the local Dixie stops.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The table includes Williams Parkway/Highway 410 and York Mills, plus a Bramalea Transit Terminal branch.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2019-01-05-table-32-brampton-trinity-common-north-york.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2008-02-05-table-32-brampton-trinity-common-north-york.pdf",
+      "title": "GO table 32, printed effective 28 October 2006 (filename dated 5 February 2008)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-trinity-common-north-york/2019-01-05-table-32-brampton-trinity-common-north-york.pdf",
+      "title": "GO Brampton Trinity Common / North York table 32, effective 5 January 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The initial launch date is unknown.",
+    "Dates when York Mills was added and later removed need contemporary notices.",
+    "The 2019 cover’s Highway 401 typo must not relocate the actual Williams Parkway/Highway 410 interchange.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "45-pre-2007",
+    "label": "Streetsville predecessor in Table 46",
+    "date": "2006-12-30",
+    "branch": "pre-45",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "The original has trip numbers but no public route-number column. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The original has trip numbers but no public route-number column. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45-2011",
+    "label": "Streetsville–York main route",
+    "date": "2011-12-31",
+    "branch": "45",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45A-2011",
+    "label": "Square One–York short route",
+    "date": "2011-12-31",
+    "branch": "45A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45-2018",
+    "label": "Streetsville–York via Erin Mills",
+    "date": "2018-09-01",
+    "branch": "45",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Erin Mills Transitway",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "Bramalea and Highway 407 Bus Terminal have no timing entries for this route. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Bramalea and Highway 407 Bus Terminal have no timing entries for this route. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45-2019",
+    "label": "Streetsville–Highway 407",
+    "date": "2019-08-31",
+    "branch": "45",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Erin Mills Transitway",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45A-2019",
+    "label": "Square One–Highway 407 short route",
+    "date": "2019-08-31",
+    "branch": "45A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "45B-2022",
+    "label": "Streetsville–Unionville through branch",
+    "date": "2022-06-25",
+    "branch": "45B",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Streetsville GO",
+        "lat": 43.575378,
+        "lon": -79.709271,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Streetsville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Erin Mills Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.709271,
+          43.575378
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.313774,
+          43.851935
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

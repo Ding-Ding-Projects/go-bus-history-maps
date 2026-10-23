@@ -1,0 +1,58 @@
+{
+  "route": "43",
+  "name": "Mount Pleasant / McMaster University; earlier Wonderland route number",
+  "status": "current",
+  "description": "The number has two unrelated eras: a seasonal Wonderland service, renumbered 60 in 2008, and a new Mount Pleasant–McMaster service introduced in 2026. The earlier service must not be joined into a continuous geography with the new route.",
+  "timeline": [
+    {
+      "date": "by 2003-06-28",
+      "event": "Original Wonderland Table 43 shows a seasonal service between Canada’s Wonderland, Yorkdale Subway and York Mills Subway, with separate seasonal fares. The surviving page displays July 1, 2003 service.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/wonderland/2003-06-28-table-43-wonderland.html"
+      ]
+    },
+    {
+      "date": "2008-05-04",
+      "event": "The Wonderland service resumes under number 60, replacing number 43, according to the contemporary April 22 service notice.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "event": "A new, unrelated route 43 appears in the effective September 5 timetable: Mount Pleasant GO to McMaster via Mississauga Road, Meadowvale, Trafalgar/407 and Dundas/407. It operates weekdays excluding holidays.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mount-pleasant-mcmaster-university/2026-09-05-table-43-mount-pleasant-mcmaster-university.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/wonderland/2003-06-28-table-43-wonderland.html",
+      "title": "GO Wonderland Table 43, effective June 28, 2003; displayed service for July 1",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto, April 22, 2008: GO Transit changes May schedules and Wonderland route number",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mount-pleasant-mcmaster-university/2026-09-05-table-43-mount-pleasant-mcmaster-university.pdf",
+      "title": "GO route 43 timetable, effective September 5, 2026",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The first launch year of the earlier Wonderland service and its full earlier seasonal branch history remain unverified.",
+    "The 2003 original has only table identification; no claim is made that modern public headsign numbering existed in the same form in 2003.",
+    "Do not copy route 60A’s 2013 short branch into route 43 without an earlier original source.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

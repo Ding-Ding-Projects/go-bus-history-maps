@@ -1,0 +1,46 @@
+{
+  "route": "35",
+  "name": "Union Pearson Express replacement; formerly Brampton / Highway 27",
+  "status": "special",
+  "description": "The old regular 35 ran Brampton–Humber College–North York until 2015. Contemporary 35B/35C feed entries are UP Express replacement services, a separate reuse.",
+  "timeline": [
+    {
+      "date": "2012-09-01",
+      "event": "The Brampton table identifies 35 via Humber College toward North York.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "The regular Brampton/Highway 27 route 35 was discontinued.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+      "title": "GO Brampton Local / Highway 27 and Highway 427 Express table 34, effective 1 September 2012, routes 34 / 35 / 36",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The old 35 introduction date is unknown.",
+    "Modern 35B/35C patterns belong to dated GTFS; their presence does not establish a permanent conventional daily route.",
+    "The first date of number 35’s modern reuse remains unverified.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

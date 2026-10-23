@@ -1,0 +1,122 @@
+{
+  "route": "21",
+  "name": "Milton",
+  "status": "current",
+  "description": "The Milton rail corridor’s bus family has included local and express Union services, many short turns, and a 2023–2024 daytime network connecting to Lakeshore trains.",
+  "timeline": [
+    {
+      "date": "1976-02-15",
+      "event": "GO took over the Milton–Streetsville–Union corridor from Gray Coach.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "1981-10-26",
+      "event": "Milton trains began, changing the role of parallel buses.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2007-09-01",
+      "event": "The route-21 series includes both local Milton–Union buses and faster Meadowvale–Union patterns.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf"
+      ]
+    },
+    {
+      "date": "2014-04-05",
+      "event": "The map documents branches 21A/B/C/D/E/F/G/H/J/K/L/M/N/P/R/T/V.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2014-04-05-table-21-milton.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "Daytime 21A/B/C were reorganized toward Oakville, Clarkson and Port Credit; some early and late route 21 buses still served Union.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf",
+        "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-"
+      ]
+    },
+    {
+      "date": "2024-04-27",
+      "event": "Regular Union service returned; the Milton–Oakville branch became route 22.",
+      "sources": [
+        "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2024-04-27-table-21-milton.pdf",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2007-09-11-table-21-milton.pdf",
+      "title": "GO Milton table 21, printed effective 1 September 2007 (filename dated 11 September)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2014-04-05-table-21-milton.pdf",
+      "title": "GO Milton table 21, effective 5 April 2014",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2023-04-08-table-21-milton.pdf",
+      "title": "GO Milton table 21, effective 8 April 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+      "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+      "type": "official"
+    },
+    {
+      "url": "https://www.gotransit.com/en/service-updates/route-21-service-updates",
+      "title": "GO Transit: Route 21 service updates — return to Union and introduction of route 22",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton/2024-04-27-table-21-milton.pdf",
+      "title": "GO Milton table 21, effective 27 April 2024",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2024-04-22-table-22-milton-oakville.pdf",
+      "title": "GO table 22, printed effective 27 and 28 April 2024 (filename dated 22 April)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The 1976 takeover does not establish when number 21 was adopted.",
+    "A map must not combine every short turn into one imagined through trip.",
+    "Dates for all intervening branch introductions and withdrawals are not established.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

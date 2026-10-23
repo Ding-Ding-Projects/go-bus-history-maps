@@ -1,0 +1,39 @@
+{
+  "route": "50",
+  "name": "Unionville / Centennial College / University of Toronto Scarborough",
+  "status": "discontinued",
+  "description": "A documented school-period GO route, distinct from its surrounding Table 52 corridor. The original explicitly prints route number 50, with three morning southbound and three afternoon northbound trips.",
+  "timeline": [
+    {
+      "date": "by 2008-11-01",
+      "event": "The original combined timetable identifies route 50 between Unionville GO, Centennial College Progress Court and UTSC; trips are excluded during the listed December 2008–January 2009 school holiday.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-12-31",
+      "event": "Route 50 is absent from the later combined Highway 407 East timetable; this establishes an archive boundary, not an exact withdrawal date.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+      "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+      "type": "original-timetable"
+    }
+  ],
+  "gaps": [
+    "The route’s exact introduction and final operating dates have not been established.",
+    "No full all-stop GTFS or original geographic route map has yet been recovered for 50; the pattern records its three published timing points.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

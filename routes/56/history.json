@@ -1,0 +1,91 @@
+{
+  "route": "56",
+  "name": "Oshawa / Oakville",
+  "status": "current",
+  "description": "A long through route created in 2021 by joining the Oakville and Oshawa arms of the Highway 407 network. It inherited both the western college/park-and-ride stops and the eastern campus/downtown corridor.",
+  "timeline": [
+    {
+      "date": "2021-02-13",
+      "event": "Metrolinx creates route 56 by combining most weekday trips on routes 46 and 52, with 38 weekday through trips announced.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+      ]
+    },
+    {
+      "date": "by 2022-04-02",
+      "event": "The original labels the principal route 56A and includes the Baldwin/407 detour together with Lake Ridge and Winchester/Anderson. It links Oakville GO and Oshawa GO through Sheridan, Square One, Bramalea, Highway 407 and Richmond Hill Centre.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "event": "Cornell Bus Terminal is added. The January 2023 original confirms it.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "The Durham part moves onto Highway 407, replacing the Lake Ridge/Winchester street section while retaining Brock/407, Baldwin/407, Ontario Tech/Durham College and Oshawa stops.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+      "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective April 2, 2022",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+      "title": "Transit Toronto, October 1, 2022: GO revises services and adds Cornell stops",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+      "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf",
+      "title": "GO routes 52, 54 and 56 timetable, effective April 8, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "Original GO Transit GTFS snapshot archived May 5, 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The February 2021 announcement establishes the through-route launch but does not enumerate every trip-level branch.",
+    "Historical and current GTFS patterns should be used for the full intermediate stop lists and any later short or express variants.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

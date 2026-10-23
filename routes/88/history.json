@@ -1,0 +1,85 @@
+{
+  "route": "88",
+  "name": "Peterborough–Oshawa",
+  "status": "current",
+  "description": "Express regional bus between Peterborough/Trent University and the Lakeshore East rail connection at Oshawa. Later branches added Bowmanville, Newcastle and additional park-and-ride stops.",
+  "timeline": [
+    {
+      "date": "2009-09",
+      "event": "Daily Peterborough–Oshawa GO bus service began in September 2009.",
+      "sources": [
+        "https://assets.metrolinx.com/image/upload/v1663232128/Documents/Metrolinx/5123-GT-Metrolinx-AR-EN.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-03-13",
+      "event": "The original table shows Trent University–Peterborough–Highway 115 park-and-rides–Oshawa GO.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2011-03-13-table-88-peterborough-oshawa.pdf"
+      ]
+    },
+    {
+      "date": "2020-09-05",
+      "event": "Main 88 trips were routed through Bowmanville; weekday 88A replaced the former Newcastle route 91.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "The timetable shows 88 and 88B through Bowmanville; 88B additionally serves Courtice/Baseline and First Avenue/Front park-and-rides.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://assets.metrolinx.com/image/upload/v1663232128/Documents/Metrolinx/5123-GT-Metrolinx-AR-EN.pdf",
+      "title": "GO Transit / Metrolinx 2009–2010 Annual Report: Peterborough bus service launch",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2011-03-13-table-88-peterborough-oshawa.pdf",
+      "title": "GO Peterborough–Oshawa Table 88 archived March 13, 2011",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+      "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/peterborough-oshawa/2023-04-08-table-88-peterborough-oshawa.pdf",
+      "title": "GO Peterborough–Oshawa route 88, effective April 8, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Secondary accounts differ between September 4 and 5 for the 2009 opening; only the month is asserted here.",
+    "The archived 2022 GTFS supplies the exact 88A Newcastle pattern; later 88C is captured in the current feed.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

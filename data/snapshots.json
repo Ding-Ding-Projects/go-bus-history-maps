@@ -1,0 +1,867 @@
+[
+  {
+    "id": "2016-01-11",
+    "filename": "GO-GTFS-2016-01-11.zip",
+    "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "OpenMobilityData, migrated to Mobility Database",
+    "catalog_url": "https://mobilitydatabase.org/feeds/gtfs/mdb-727",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date, not a route change date",
+    "sha256": "451628e055cede815fa5bdd519ea8e94b95afb54b7bf4edbf78cab502df8b9ca",
+    "bytes": 8196083,
+    "feed_info": {
+      "feed_publisher_name": "Metrolinx",
+      "feed_publisher_url": "http://metrolinx.com",
+      "feed_lang": "en",
+      "feed_version": "2016-01-08-10-52-36"
+    },
+    "route_counts": [
+      {
+        "route": "12",
+        "patterns": 9,
+        "stops": 11
+      },
+      {
+        "route": "15",
+        "patterns": 4,
+        "stops": 3
+      },
+      {
+        "route": "16",
+        "patterns": 4,
+        "stops": 18
+      },
+      {
+        "route": "18",
+        "patterns": 21,
+        "stops": 51
+      },
+      {
+        "route": "19",
+        "patterns": 15,
+        "stops": 52
+      },
+      {
+        "route": "20",
+        "patterns": 4,
+        "stops": 39
+      },
+      {
+        "route": "21",
+        "patterns": 47,
+        "stops": 100
+      },
+      {
+        "route": "25",
+        "patterns": 17,
+        "stops": 28
+      },
+      {
+        "route": "27",
+        "patterns": 17,
+        "stops": 79
+      },
+      {
+        "route": "29",
+        "patterns": 7,
+        "stops": 29
+      },
+      {
+        "route": "30",
+        "patterns": 4,
+        "stops": 4
+      },
+      {
+        "route": "31",
+        "patterns": 29,
+        "stops": 110
+      },
+      {
+        "route": "32",
+        "patterns": 10,
+        "stops": 55
+      },
+      {
+        "route": "33",
+        "patterns": 20,
+        "stops": 106
+      },
+      {
+        "route": "34",
+        "patterns": 3,
+        "stops": 21
+      },
+      {
+        "route": "36",
+        "patterns": 8,
+        "stops": 25
+      },
+      {
+        "route": "37",
+        "patterns": 4,
+        "stops": 54
+      },
+      {
+        "route": "38",
+        "patterns": 8,
+        "stops": 143
+      },
+      {
+        "route": "40",
+        "patterns": 6,
+        "stops": 26
+      },
+      {
+        "route": "45",
+        "patterns": 7,
+        "stops": 19
+      },
+      {
+        "route": "46",
+        "patterns": 7,
+        "stops": 30
+      },
+      {
+        "route": "47",
+        "patterns": 33,
+        "stops": 34
+      },
+      {
+        "route": "48",
+        "patterns": 10,
+        "stops": 53
+      },
+      {
+        "route": "51",
+        "patterns": 17,
+        "stops": 27
+      },
+      {
+        "route": "52",
+        "patterns": 10,
+        "stops": 35
+      },
+      {
+        "route": "54",
+        "patterns": 11,
+        "stops": 30
+      },
+      {
+        "route": "61",
+        "patterns": 6,
+        "stops": 36
+      },
+      {
+        "route": "63",
+        "patterns": 4,
+        "stops": 18
+      },
+      {
+        "route": "65",
+        "patterns": 23,
+        "stops": 65
+      },
+      {
+        "route": "66",
+        "patterns": 8,
+        "stops": 6
+      },
+      {
+        "route": "67",
+        "patterns": 4,
+        "stops": 23
+      },
+      {
+        "route": "68",
+        "patterns": 8,
+        "stops": 67
+      },
+      {
+        "route": "70",
+        "patterns": 8,
+        "stops": 68
+      },
+      {
+        "route": "71",
+        "patterns": 22,
+        "stops": 70
+      },
+      {
+        "route": "81",
+        "patterns": 7,
+        "stops": 111
+      },
+      {
+        "route": "88",
+        "patterns": 4,
+        "stops": 7
+      },
+      {
+        "route": "90",
+        "patterns": 14,
+        "stops": 104
+      },
+      {
+        "route": "91",
+        "patterns": 4,
+        "stops": 43
+      },
+      {
+        "route": "92",
+        "patterns": 8,
+        "stops": 63
+      },
+      {
+        "route": "93",
+        "patterns": 4,
+        "stops": 5
+      },
+      {
+        "route": "96",
+        "patterns": 16,
+        "stops": 28
+      }
+    ],
+    "pattern_count": 472
+  },
+  {
+    "id": "2022-03-08",
+    "filename": "GO-GTFS-2022-03-08.zip",
+    "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "Internet Archive / Wayback Machine",
+    "catalog_url": "https://web.archive.org/web/20220308054107/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date; feed may include later service periods",
+    "sha256": "9cbaa7f2be1d516283df19e86b073b6a298c26e08a51d2a11db2133a14770969",
+    "bytes": 17385231,
+    "feed_info": {
+      "feed_publisher_name": "Metrolinx",
+      "feed_publisher_url": "http://metrolinx.com",
+      "feed_lang": "en",
+      "feed_start_date": "20220127",
+      "feed_end_date": "20220401",
+      "feed_version": "20220127075952"
+    },
+    "route_counts": [
+      {
+        "route": "12",
+        "patterns": 7,
+        "stops": 16
+      },
+      {
+        "route": "15",
+        "patterns": 4,
+        "stops": 17
+      },
+      {
+        "route": "16",
+        "patterns": 4,
+        "stops": 18
+      },
+      {
+        "route": "18",
+        "patterns": 27,
+        "stops": 47
+      },
+      {
+        "route": "19",
+        "patterns": 11,
+        "stops": 37
+      },
+      {
+        "route": "21",
+        "patterns": 29,
+        "stops": 109
+      },
+      {
+        "route": "25",
+        "patterns": 6,
+        "stops": 21
+      },
+      {
+        "route": "27",
+        "patterns": 12,
+        "stops": 86
+      },
+      {
+        "route": "29",
+        "patterns": 4,
+        "stops": 32
+      },
+      {
+        "route": "30",
+        "patterns": 4,
+        "stops": 15
+      },
+      {
+        "route": "31",
+        "patterns": 30,
+        "stops": 108
+      },
+      {
+        "route": "32",
+        "patterns": 8,
+        "stops": 55
+      },
+      {
+        "route": "33",
+        "patterns": 24,
+        "stops": 110
+      },
+      {
+        "route": "34",
+        "patterns": 4,
+        "stops": 21
+      },
+      {
+        "route": "36",
+        "patterns": 6,
+        "stops": 25
+      },
+      {
+        "route": "37",
+        "patterns": 8,
+        "stops": 54
+      },
+      {
+        "route": "38",
+        "patterns": 4,
+        "stops": 37
+      },
+      {
+        "route": "40",
+        "patterns": 4,
+        "stops": 32
+      },
+      {
+        "route": "41",
+        "patterns": 4,
+        "stops": 52
+      },
+      {
+        "route": "45",
+        "patterns": 4,
+        "stops": 22
+      },
+      {
+        "route": "47",
+        "patterns": 4,
+        "stops": 30
+      },
+      {
+        "route": "48",
+        "patterns": 4,
+        "stops": 57
+      },
+      {
+        "route": "52",
+        "patterns": 2,
+        "stops": 37
+      },
+      {
+        "route": "54",
+        "patterns": 4,
+        "stops": 27
+      },
+      {
+        "route": "56",
+        "patterns": 4,
+        "stops": 63
+      },
+      {
+        "route": "61",
+        "patterns": 6,
+        "stops": 42
+      },
+      {
+        "route": "63",
+        "patterns": 2,
+        "stops": 9
+      },
+      {
+        "route": "65",
+        "patterns": 16,
+        "stops": 39
+      },
+      {
+        "route": "66",
+        "patterns": 8,
+        "stops": 21
+      },
+      {
+        "route": "67",
+        "patterns": 4,
+        "stops": 25
+      },
+      {
+        "route": "68",
+        "patterns": 10,
+        "stops": 79
+      },
+      {
+        "route": "70",
+        "patterns": 10,
+        "stops": 52
+      },
+      {
+        "route": "71",
+        "patterns": 12,
+        "stops": 74
+      },
+      {
+        "route": "81",
+        "patterns": 4,
+        "stops": 117
+      },
+      {
+        "route": "88",
+        "patterns": 8,
+        "stops": 51
+      },
+      {
+        "route": "90",
+        "patterns": 6,
+        "stops": 9
+      },
+      {
+        "route": "92",
+        "patterns": 8,
+        "stops": 50
+      },
+      {
+        "route": "94",
+        "patterns": 4,
+        "stops": 10
+      },
+      {
+        "route": "96",
+        "patterns": 4,
+        "stops": 28
+      }
+    ],
+    "pattern_count": 324
+  },
+  {
+    "id": "2023-05-05",
+    "filename": "GO-GTFS-2023-05-05.zip",
+    "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "OpenMobilityData, migrated to Mobility Database",
+    "catalog_url": "https://mobilitydatabase.org/feeds/gtfs/mdb-727",
+    "retrieved": "2026-10-23",
+    "date_kind": "archive snapshot date, not a route change date",
+    "sha256": "82fa082df9c9ca2adab600d5f28933a02f0e31e355201c05850034a399fd86e8",
+    "bytes": 15566925,
+    "feed_info": {
+      "feed_publisher_name": "Metrolinx",
+      "feed_publisher_url": "http://metrolinx.com",
+      "feed_lang": "en",
+      "feed_start_date": "20230504",
+      "feed_end_date": "20230623",
+      "feed_version": "20230504102028"
+    },
+    "route_counts": [
+      {
+        "route": "12",
+        "patterns": 7,
+        "stops": 12
+      },
+      {
+        "route": "15",
+        "patterns": 2,
+        "stops": 17
+      },
+      {
+        "route": "16",
+        "patterns": 2,
+        "stops": 18
+      },
+      {
+        "route": "17",
+        "patterns": 2,
+        "stops": 45
+      },
+      {
+        "route": "18",
+        "patterns": 16,
+        "stops": 48
+      },
+      {
+        "route": "19",
+        "patterns": 5,
+        "stops": 33
+      },
+      {
+        "route": "21",
+        "patterns": 8,
+        "stops": 114
+      },
+      {
+        "route": "25",
+        "patterns": 6,
+        "stops": 17
+      },
+      {
+        "route": "27",
+        "patterns": 5,
+        "stops": 82
+      },
+      {
+        "route": "29",
+        "patterns": 2,
+        "stops": 31
+      },
+      {
+        "route": "30",
+        "patterns": 3,
+        "stops": 15
+      },
+      {
+        "route": "31",
+        "patterns": 16,
+        "stops": 107
+      },
+      {
+        "route": "32",
+        "patterns": 4,
+        "stops": 58
+      },
+      {
+        "route": "33",
+        "patterns": 12,
+        "stops": 109
+      },
+      {
+        "route": "36",
+        "patterns": 2,
+        "stops": 15
+      },
+      {
+        "route": "37",
+        "patterns": 4,
+        "stops": 54
+      },
+      {
+        "route": "38",
+        "patterns": 2,
+        "stops": 36
+      },
+      {
+        "route": "40",
+        "patterns": 2,
+        "stops": 32
+      },
+      {
+        "route": "41",
+        "patterns": 4,
+        "stops": 50
+      },
+      {
+        "route": "47",
+        "patterns": 8,
+        "stops": 31
+      },
+      {
+        "route": "48",
+        "patterns": 2,
+        "stops": 57
+      },
+      {
+        "route": "52",
+        "patterns": 4,
+        "stops": 23
+      },
+      {
+        "route": "54",
+        "patterns": 2,
+        "stops": 27
+      },
+      {
+        "route": "56",
+        "patterns": 2,
+        "stops": 47
+      },
+      {
+        "route": "61",
+        "patterns": 3,
+        "stops": 42
+      },
+      {
+        "route": "63",
+        "patterns": 1,
+        "stops": 9
+      },
+      {
+        "route": "65",
+        "patterns": 9,
+        "stops": 39
+      },
+      {
+        "route": "66",
+        "patterns": 2,
+        "stops": 20
+      },
+      {
+        "route": "67",
+        "patterns": 2,
+        "stops": 26
+      },
+      {
+        "route": "68",
+        "patterns": 8,
+        "stops": 78
+      },
+      {
+        "route": "70",
+        "patterns": 6,
+        "stops": 52
+      },
+      {
+        "route": "71",
+        "patterns": 8,
+        "stops": 74
+      },
+      {
+        "route": "88",
+        "patterns": 4,
+        "stops": 43
+      },
+      {
+        "route": "90",
+        "patterns": 2,
+        "stops": 9
+      },
+      {
+        "route": "92",
+        "patterns": 4,
+        "stops": 48
+      },
+      {
+        "route": "94",
+        "patterns": 2,
+        "stops": 17
+      },
+      {
+        "route": "96",
+        "patterns": 4,
+        "stops": 28
+      }
+    ],
+    "pattern_count": 177
+  },
+  {
+    "id": "2026-10-23",
+    "filename": "GO-GTFS-2026-10-23.zip",
+    "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+    "publisher": "GO Transit / Metrolinx",
+    "archive": "Publisher download",
+    "catalog_url": "https://www.gotransit.com/en/partner-with-us/software-developers",
+    "retrieved": "2026-10-23",
+    "date_kind": "retrieval date; see original feed_info for the service window",
+    "sha256": "177b6ec68a80a20a8b784c56526b1cb91570f68924c531f4f5a53c16c3b1874d",
+    "bytes": 13730091,
+    "feed_info": {
+      "feed_publisher_name": "Metrolinx",
+      "feed_publisher_url": "https://www.metrolinx.com",
+      "feed_lang": "en",
+      "feed_start_date": "20261022",
+      "feed_end_date": "20261127",
+      "feed_version": "20261022232055"
+    },
+    "route_counts": [
+      {
+        "route": "11",
+        "patterns": 2,
+        "stops": 22
+      },
+      {
+        "route": "12",
+        "patterns": 7,
+        "stops": 12
+      },
+      {
+        "route": "15",
+        "patterns": 6,
+        "stops": 28
+      },
+      {
+        "route": "16",
+        "patterns": 2,
+        "stops": 16
+      },
+      {
+        "route": "17",
+        "patterns": 2,
+        "stops": 49
+      },
+      {
+        "route": "18",
+        "patterns": 19,
+        "stops": 28
+      },
+      {
+        "route": "19",
+        "patterns": 5,
+        "stops": 30
+      },
+      {
+        "route": "21",
+        "patterns": 14,
+        "stops": 95
+      },
+      {
+        "route": "22",
+        "patterns": 2,
+        "stops": 43
+      },
+      {
+        "route": "25",
+        "patterns": 8,
+        "stops": 19
+      },
+      {
+        "route": "27",
+        "patterns": 8,
+        "stops": 83
+      },
+      {
+        "route": "29",
+        "patterns": 4,
+        "stops": 31
+      },
+      {
+        "route": "30",
+        "patterns": 14,
+        "stops": 20
+      },
+      {
+        "route": "31",
+        "patterns": 17,
+        "stops": 115
+      },
+      {
+        "route": "32",
+        "patterns": 4,
+        "stops": 28
+      },
+      {
+        "route": "33",
+        "patterns": 12,
+        "stops": 111
+      },
+      {
+        "route": "35",
+        "patterns": 2,
+        "stops": 2
+      },
+      {
+        "route": "36",
+        "patterns": 2,
+        "stops": 15
+      },
+      {
+        "route": "37",
+        "patterns": 6,
+        "stops": 55
+      },
+      {
+        "route": "38",
+        "patterns": 2,
+        "stops": 36
+      },
+      {
+        "route": "40",
+        "patterns": 8,
+        "stops": 35
+      },
+      {
+        "route": "41",
+        "patterns": 12,
+        "stops": 50
+      },
+      {
+        "route": "43",
+        "patterns": 2,
+        "stops": 44
+      },
+      {
+        "route": "47",
+        "patterns": 12,
+        "stops": 28
+      },
+      {
+        "route": "48",
+        "patterns": 2,
+        "stops": 58
+      },
+      {
+        "route": "52",
+        "patterns": 4,
+        "stops": 25
+      },
+      {
+        "route": "56",
+        "patterns": 7,
+        "stops": 50
+      },
+      {
+        "route": "61",
+        "patterns": 2,
+        "stops": 35
+      },
+      {
+        "route": "65",
+        "patterns": 21,
+        "stops": 41
+      },
+      {
+        "route": "67",
+        "patterns": 3,
+        "stops": 27
+      },
+      {
+        "route": "68",
+        "patterns": 12,
+        "stops": 89
+      },
+      {
+        "route": "70",
+        "patterns": 5,
+        "stops": 64
+      },
+      {
+        "route": "71",
+        "patterns": 9,
+        "stops": 75
+      },
+      {
+        "route": "88",
+        "patterns": 6,
+        "stops": 43
+      },
+      {
+        "route": "90",
+        "patterns": 7,
+        "stops": 7
+      },
+      {
+        "route": "92",
+        "patterns": 4,
+        "stops": 49
+      },
+      {
+        "route": "94",
+        "patterns": 2,
+        "stops": 23
+      },
+      {
+        "route": "96",
+        "patterns": 2,
+        "stops": 25
+      }
+    ],
+    "pattern_count": 258
+  }
+]

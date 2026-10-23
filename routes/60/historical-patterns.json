@@ -1,0 +1,107 @@
+[
+  {
+    "id": "60-2013-main",
+    "label": "York Mills–Yorkdale–Wonderland",
+    "date": "2013-05-01",
+    "branch": "60",
+    "direction": "northbound",
+    "stops": [
+      {
+        "name": "York Mills Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Canada’s Wonderland",
+        "lat": 43.84167,
+        "lon": -79.54306,
+        "location_source": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published general park coordinate only. The historical GO bus bay has not been located; this is not the later Major Mackenzie West Bus Terminal and must not be described as the former terminal or south entrance. Use a park-area marker."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+    ],
+    "notes": "Seasonal timetable; route map uses Highway 401, Highway 400 and Major Mackenzie Drive. The listed points are the complete terminal sequence.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4064636,
+          43.745079
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.54306,
+          43.84167
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Seasonal timetable; route map uses Highway 401, Highway 400 and Major Mackenzie Drive. The listed points are the complete terminal sequence."
+  },
+  {
+    "id": "60-2013-a",
+    "label": "Yorkdale–Wonderland short service",
+    "date": "2013-05-01",
+    "branch": "60A",
+    "direction": "northbound",
+    "stops": [
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Canada’s Wonderland",
+        "lat": 43.84167,
+        "lon": -79.54306,
+        "location_source": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Published general park coordinate only. The historical GO bus bay has not been located; this is not the later Major Mackenzie West Bus Terminal and must not be described as the former terminal or south entrance. Use a park-area marker."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+    ],
+    "notes": "Distinct Yorkdale short branch identified on the original route map.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.54306,
+          43.84167
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Distinct Yorkdale short branch identified on the original route map."
+  }
+]

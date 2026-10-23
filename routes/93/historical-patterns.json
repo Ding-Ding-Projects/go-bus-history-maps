@@ -1,0 +1,94 @@
+[
+  {
+    "id": "93-2009-main",
+    "label": "Scarborough Centre–Durham College/UOIT",
+    "date": "2009-01-03",
+    "branch": "93",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Durham College / UOIT — north Oshawa campus",
+        "lat": 43.9433594,
+        "lon": -78.8949661,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00153, named University of Ontario Institute of Technology. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2009-02-19-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Original document is route 93 despite archive filename mentioning 96. Only terminal timing points are published.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -78.8949661,
+          43.9433594
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Original document is route 93 despite archive filename mentioning 96. Only terminal timing points are published."
+  },
+  {
+    "id": "93-2019-main",
+    "label": "Scarborough Centre–north Oshawa campus",
+    "date": "2019-08-31",
+    "branch": "93",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Durham College / UOIT — north Oshawa campus",
+        "lat": 43.9433594,
+        "lon": -78.8949661,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00153, named University of Ontario Institute of Technology. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/durham-college-uoit/2019-08-31-table-93-durham-college-uoit.pdf"
+    ],
+    "notes": "Cover map follows Highway 401, Thickson Road, Taunton Road and Simcoe Street. The endpoint schematic does not imply a nonstop straight-road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -78.8949661,
+          43.9433594
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Cover map follows Highway 401, Thickson Road, Taunton Road and Simcoe Street. The endpoint schematic does not imply a nonstop straight-road alignment."
+  }
+]

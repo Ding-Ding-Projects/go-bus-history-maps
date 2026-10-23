@@ -1,0 +1,79 @@
+{
+  "route": "19",
+  "name": "Mississauga / North York",
+  "status": "current",
+  "description": "The former Oakville–Square One–North York through service was shortened at Square One in 2016. Its historical North York branches include Finch and York Mills.",
+  "timeline": [
+    {
+      "date": "2006-02-04",
+      "event": "The timetable shows weekday Oakville–Square One–North York buses including Finch-bound service.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2007-05-13-table-19-mississauga-north-york.pdf"
+      ]
+    },
+    {
+      "date": "2011-12-31",
+      "event": "The printed table still includes the Oakville extension.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2012-06-14-table-19-mississauga-north-york.pdf"
+      ]
+    },
+    {
+      "date": "2016-04-02",
+      "event": "Weekend service was introduced.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2016-09-06",
+      "event": "The Square One–Oakville portion was discontinued.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2007-05-13-table-19-mississauga-north-york.pdf",
+      "title": "GO table 19, printed effective 4 February 2006 (filename dated 13 May 2007)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mississauga-north-york/2012-06-14-table-19-mississauga-north-york.pdf",
+      "title": "GO table 19, printed effective 31 December 2011 (filename dated 14 June 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Individual branch dates and later Transitway stop changes need more contemporary notices.",
+    "Do not project the later Square One terminus backward into the Oakville era.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

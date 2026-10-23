@@ -1,0 +1,106 @@
+{
+  "route": "51",
+  "name": "Pickering / York University; later Pickering / Highway 407",
+  "status": "discontinued",
+  "description": "The Scarborough and Pickering arm of Highway 407 East, with a stopping main line and direct school expresses to Scarborough Centre, Pickering and the Scarborough campuses. Most weekday trips were joined to Hamilton service as route 41 in 2021.",
+  "timeline": [
+    {
+      "date": "2002-01",
+      "event": "The original 407 corridor is extended to Scarborough Town Centre, a predecessor of route 51.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2002-04-29",
+      "event": "The eastern service is extended to Pickering via Centennial College and UTSC.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "by 2008-11-01",
+      "event": "The public route column documents 51, Scarborough Centre express 51A and Pickering express 51B. Main 51 uses Langstaff’s south lot and bypasses Unionville.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-12-31",
+      "event": "Richmond Hill Centre replaces Langstaff in the timetable. Keele/Great Gulf is now listed, and 51C directly connects the Scarborough campuses with Keele and York.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "by 2017-09-02",
+      "event": "51D is a Richmond Hill Centre–Centennial–UTSC short express. Main 51 serves Kingston/Fairport rather than the earlier Highway 2/Liverpool timing point.",
+      "sources": [
+        "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "Routes end at Highway 407 Bus Terminal instead of York. The 51B express calls at Brock/407 between Pickering and the terminal; 51C serves the Scarborough campuses, and 51D still starts at Richmond Hill Centre.",
+      "sources": [
+        "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "event": "Most weekday 51 trips combine with route 47 to create route 41.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+      "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective September 2, 2017",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+      "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf",
+      "title": "GO routes 51, 52 and 54 timetable, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+      "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The exact final day of every remaining route 51 trip is not established by the launch notice, which says most weekday trips were combined.",
+    "Timetable 52 before public route numbering covered several separate corridors; references to the old table must not turn all of them into route 52.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

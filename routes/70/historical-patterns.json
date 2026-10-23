@@ -1,0 +1,259 @@
+[
+  {
+    "id": "70-2016-main",
+    "label": "Unionville–Uxbridge full northern connector",
+    "date": "by 2016-01",
+    "branch": "70",
+    "direction": "northbound",
+    "stops": [
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Centennial GO",
+        "lat": 43.8720551,
+        "lon": -79.2881393,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00124, named Bullock Drive @ McCowan Road (Centennial GO). Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Markham GO",
+        "lat": 43.8828239,
+        "lon": -79.2618408,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00123, named Main St. N. @ Ramona Blvd. (Markham GO). Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Stouffville GO",
+        "lat": 43.9706841,
+        "lon": -79.2501831,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00117, named Main St.  @  Edward St. (Stouffville GO). Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Lincolnville GO — original Bethesda Rd site",
+        "lat": 43.994805,
+        "lon": -79.233773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00352, named Lincolnville GO Bus. Historical direction-specific platform has not been established. Original Lincolnville GO bus location from the January 2016 feed; not the replacement Old Elm station opened in 2023."
+      },
+      {
+        "name": "Goodwood",
+        "lat": 44.0375214,
+        "lon": -79.1956329,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00115, named Hwy. 47  @ Front St.. Historical direction-specific platform has not been established. Goodwood timing-point reference at Highway 47/Front Street, present in the original GO stop feed. Not the separate Highway 47/Goodwood Road stop."
+      },
+      {
+        "name": "Uxbridge — Railway St / Albert St",
+        "lat": 44.1095467,
+        "lon": -79.125206,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00302, named Railway St.  @  Albert St.. Historical direction-specific platform has not been established."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+    ],
+    "notes": "Major points selected from the original route_variant 70 GTFS stop sequence. The 2019 cover map still depicts this corridor, but the recovered weekday table mainly lists 70B/70D; this full trip is therefore dated to the earlier feed.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.2881393,
+          43.8720551
+        ],
+        [
+          -79.2618408,
+          43.8828239
+        ],
+        [
+          -79.263649,
+          43.900455
+        ],
+        [
+          -79.2501831,
+          43.9706841
+        ],
+        [
+          -79.233773,
+          43.994805
+        ],
+        [
+          -79.1956329,
+          44.0375214
+        ],
+        [
+          -79.125206,
+          44.1095467
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Major points selected from the original route_variant 70 GTFS stop sequence. The 2019 cover map still depicts this corridor, but the recovered weekday table mainly lists 70B/70D; this full trip is therefore dated to the earlier feed."
+  },
+  {
+    "id": "70-2019-b",
+    "label": "Uxbridge–Lincolnville connector",
+    "date": "2019-08-31",
+    "branch": "70B",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Uxbridge — Railway St / Albert St",
+        "lat": 44.1095467,
+        "lon": -79.125206,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00302, named Railway St.  @  Albert St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Goodwood",
+        "lat": 44.0375214,
+        "lon": -79.1956329,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00115, named Hwy. 47  @ Front St.. Historical direction-specific platform has not been established. Goodwood timing-point reference at Highway 47/Front Street, present in the original GO stop feed. Not the separate Highway 47/Goodwood Road stop."
+      },
+      {
+        "name": "Lincolnville GO — original Bethesda Rd site",
+        "lat": 43.994805,
+        "lon": -79.233773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00352, named Lincolnville GO Bus. Historical direction-specific platform has not been established. Original Lincolnville GO bus location from the January 2016 feed; not the replacement Old Elm station opened in 2023."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.125206,
+          44.1095467
+        ],
+        [
+          -79.1956329,
+          44.0375214
+        ],
+        [
+          -79.233773,
+          43.994805
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "70-2019-d",
+    "label": "Uxbridge–Mount Joy connector",
+    "date": "2019-08-31",
+    "branch": "70D",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Uxbridge — Railway St / Albert St",
+        "lat": 44.1095467,
+        "lon": -79.125206,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00302, named Railway St.  @  Albert St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Goodwood",
+        "lat": 44.0375214,
+        "lon": -79.1956329,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00115, named Hwy. 47  @ Front St.. Historical direction-specific platform has not been established. Goodwood timing-point reference at Highway 47/Front Street, present in the original GO stop feed. Not the separate Highway 47/Goodwood Road stop."
+      },
+      {
+        "name": "Lincolnville GO — original Bethesda Rd site",
+        "lat": 43.994805,
+        "lon": -79.233773,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00352, named Lincolnville GO Bus. Historical direction-specific platform has not been established. Original Lincolnville GO bus location from the January 2016 feed; not the replacement Old Elm station opened in 2023."
+      },
+      {
+        "name": "Stouffville GO",
+        "lat": 43.9706841,
+        "lon": -79.2501831,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00117, named Main St.  @  Edward St. (Stouffville GO). Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.125206,
+          44.1095467
+        ],
+        [
+          -79.1956329,
+          44.0375214
+        ],
+        [
+          -79.233773,
+          43.994805
+        ],
+        [
+          -79.2501831,
+          43.9706841
+        ],
+        [
+          -79.263649,
+          43.900455
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  }
+]

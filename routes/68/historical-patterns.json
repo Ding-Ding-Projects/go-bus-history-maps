@@ -1,0 +1,335 @@
+[
+  {
+    "id": "68-2009-main",
+    "label": "Barrie–Bradford–Newmarket",
+    "date": "2009-06-27",
+    "branch": "68",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Barrie Bus Terminal — Maple Ave / Simcoe St",
+        "lat": 44.3881798,
+        "lon": -79.6908798,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00096, named Barrie Transit Terminal. Historical direction-specific platform has not been established. The historic downtown Barrie Transit Terminal from the 2016 feed, not Allandale Waterfront GO."
+      },
+      {
+        "name": "Barrie South GO — Mapleview Dr / Highway 11",
+        "lat": 44.351771,
+        "lon": -79.628335,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00345, named Barrie South GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yonge St / Victoria St — Stroud",
+        "lat": 44.3241806,
+        "lon": -79.6191483,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00090, named Yonge St.  @ Victoria St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yonge St / Killarney Beach Rd — Churchill",
+        "lat": 44.2514305,
+        "lon": -79.6007919,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00087, named Yonge St.  @ Killarney Beach Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Barrie St / John St — Bradford",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Bradford GO — Bridge St / Dissette St",
+        "lat": 44.116654,
+        "lon": -79.555752,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02160, named Bradford GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yonge St / Mount Albert Rd — Holland Landing",
+        "lat": 44.0952721,
+        "lon": -79.4899673,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00083, named Yonge St.  @ Mount Albert Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Newmarket Bus Terminal",
+        "lat": 44.0527344,
+        "lon": -79.4865799,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00001, named Newmarket GO Bus Terminal. Historical direction-specific platform has not been established. Original Newmarket GO Bus Terminal coordinate from the 2016 feed; distinct from Newmarket railway station and Davis Drive/Highway 404."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+    ],
+    "notes": "Bus rows bypass East Gwillimbury GO in this dated pattern; Barrie South is the station-area timing point stated in the timetable.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6908798,
+          44.3881798
+        ],
+        [
+          -79.628335,
+          44.351771
+        ],
+        [
+          -79.6191483,
+          44.3241806
+        ],
+        [
+          -79.6007919,
+          44.2514305
+        ],
+        [
+          -79.555752,
+          44.116654
+        ],
+        [
+          -79.4899673,
+          44.0952721
+        ],
+        [
+          -79.4865799,
+          44.0527344
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Bus rows bypass East Gwillimbury GO in this dated pattern; Barrie South is the station-area timing point stated in the timetable. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "68-2009-a",
+    "label": "Bradford–Newmarket short service",
+    "date": "2009-06-27",
+    "branch": "68A",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Barrie St / John St — Bradford",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Bradford GO — Bridge St / Dissette St",
+        "lat": 44.116654,
+        "lon": -79.555752,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 02160, named Bradford GO Bus. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yonge St / Mount Albert Rd — Holland Landing",
+        "lat": 44.0952721,
+        "lon": -79.4899673,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00083, named Yonge St.  @ Mount Albert Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Newmarket Bus Terminal",
+        "lat": 44.0527344,
+        "lon": -79.4865799,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00001, named Newmarket GO Bus Terminal. Historical direction-specific platform has not been established. Original Newmarket GO Bus Terminal coordinate from the 2016 feed; distinct from Newmarket railway station and Davis Drive/Highway 404."
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.555752,
+          44.116654
+        ],
+        [
+          -79.4899673,
+          44.0952721
+        ],
+        [
+          -79.4865799,
+          44.0527344
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment. 1 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "68-2019-aurora",
+    "label": "Barrie–Aurora via rail connection points",
+    "date": "2019-01-05",
+    "branch": "68",
+    "direction": "southbound",
+    "stops": [
+      {
+        "name": "Barrie Bus Terminal",
+        "lat": 44.3881798,
+        "lon": -79.6908798,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00096, named Barrie Transit Terminal. Historical direction-specific platform has not been established. The historic downtown Barrie Transit Terminal from the 2016 feed, not Allandale Waterfront GO."
+      },
+      {
+        "name": "Allandale Waterfront GO",
+        "lat": 44.373817,
+        "lon": -79.689441,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Allandale Waterfront GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Barrie South GO",
+        "lat": 44.351771,
+        "lon": -79.628335,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Barrie South GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Victoria St — Stroud",
+        "lat": 44.3241806,
+        "lon": -79.6191483,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00090, named Yonge St.  @ Victoria St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Yonge St / 4th Line — Churchill",
+        "lat": 44.2516747,
+        "lon": -79.6010361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00088, named Yonge St.  @ 4th Line. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Barrie St / Holland St W — Bradford",
+        "lat": 44.1146889,
+        "lon": -79.565094,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00025, named Barrie St.  @ Holland St. W.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Bradford GO",
+        "lat": 44.116654,
+        "lon": -79.555752,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bradford GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Queen St — Holland Landing",
+        "lat": 44.0951653,
+        "lon": -79.4901352,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00084, named Yonge St.  @ Queen St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "East Gwillimbury GO",
+        "lat": 44.078506,
+        "lon": -79.456539,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "East Gwillimbury GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Newmarket GO",
+        "lat": 44.0527344,
+        "lon": -79.4865799,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Newmarket GO Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Aurora GO",
+        "lat": 43.999846,
+        "lon": -79.459435,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Aurora GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2019-01-05-table-65-barrie.pdf"
+    ],
+    "notes": "Exact major timing-point order from the weekday 68 bus row. It bypasses Newmarket Bus Terminal. The Churchill and Holland Landing labels differ from the 2009 table.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6908798,
+          44.3881798
+        ],
+        [
+          -79.689441,
+          44.373817
+        ],
+        [
+          -79.628335,
+          44.351771
+        ],
+        [
+          -79.6191483,
+          44.3241806
+        ],
+        [
+          -79.6010361,
+          44.2516747
+        ],
+        [
+          -79.565094,
+          44.1146889
+        ],
+        [
+          -79.555752,
+          44.116654
+        ],
+        [
+          -79.4901352,
+          44.0951653
+        ],
+        [
+          -79.456539,
+          44.078506
+        ],
+        [
+          -79.4865799,
+          44.0527344
+        ],
+        [
+          -79.459435,
+          43.999846
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Exact major timing-point order from the weekday 68 bus row. It bypasses Newmarket Bus Terminal. The Churchill and Holland Landing labels differ from the 2009 table."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "route": "64",
+  "name": "Newmarket–York University",
+  "status": "discontinued",
+  "description": "Direct weekday bus from Newmarket to York University’s Keele campus through Aurora, Oak Ridges, King City and Maple. The shared timetable’s rail comparison columns are not bus stops.",
+  "timeline": [
+    {
+      "date": "2008-08-30",
+      "event": "The original timetable documents weekday Newmarket–York University service through King City and Rutherford.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf"
+      ]
+    },
+    {
+      "date": "by 2010-04-26",
+      "event": "The contemporary account quoted by York University reports that route 64 had permanently stopped operating.",
+      "sources": [
+        "https://www.yorku.ca/yfile/2010/04/28/former-go-riders-push-for-better-plan/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/newmarket-york-u/2008-12-03-table-64-newmarket-york-u.pdf",
+      "title": "GO Newmarket–York University Table 64, printed effective August 30, 2008; archive filename December 3",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.yorku.ca/yfile/2010/04/28/former-go-riders-push-for-better-plan/",
+      "title": "York University YFile: Former GO riders push for better plan, April 28, 2010; quotes Aurora Banner April 26",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "The exact final operating day and original launch date have not been confirmed from an operator timetable or notice.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

@@ -1,0 +1,505 @@
+[
+  {
+    "id": "96-2013-main",
+    "label": "Oshawa–Finch bypassing Scarborough Centre",
+    "date": "2013-06-29",
+    "branch": "96",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "96-2013-a",
+    "label": "Oshawa–Scarborough Centre",
+    "date": "2013-06-29",
+    "branch": "96A",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "96-2013-b",
+    "label": "Oshawa–Finch via Scarborough Centre",
+    "date": "2013-06-29",
+    "branch": "96B",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "96-2013-c",
+    "label": "Ajax–Finch express",
+    "date": "2013-06-29",
+    "branch": "96C",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Ordered major timetable timing points, not an exhaustive list of intermediate stops. Lines are schematic, not a surveyed road alignment."
+  },
+  {
+    "id": "96-2013-d",
+    "label": "Oshawa–Whitby–Finch express",
+    "date": "2013-06-29",
+    "branch": "96D",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "The 2013 96D row bypasses both Ajax GO and Scarborough Centre.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The 2013 96D row bypasses both Ajax GO and Scarborough Centre."
+  },
+  {
+    "id": "96-2023-z",
+    "label": "Toronto Zoo seasonal branch",
+    "date": "2023-05-20",
+    "branch": "96Z",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa GO",
+        "lat": 43.870909,
+        "lon": -78.88585,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Oshawa GO",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Whitby GO",
+        "lat": 43.8653526,
+        "lon": -78.9379272,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Whitby GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Ajax GO",
+        "lat": 43.847547,
+        "lon": -79.041084,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Ajax GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Toronto Zoo",
+        "lat": 43.8196889741776,
+        "lon": -79.1796790788481,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Toronto Zoo",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.77486,
+        "lon": -79.26088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.762187996328,
+        "lon": -79.4109345055581,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "location_reference_date": "2023-05-05",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf"
+    ],
+    "notes": "Seasonal summer branch. The sequence is the westbound order; service dates must be checked before treating it as available year-round.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.88585,
+          43.870909
+        ],
+        [
+          -78.9379272,
+          43.8653526
+        ],
+        [
+          -79.041084,
+          43.847547
+        ],
+        [
+          -79.1796790788481,
+          43.8196889741776
+        ],
+        [
+          -79.26088,
+          43.77486
+        ],
+        [
+          -79.4109345055581,
+          43.762187996328
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Seasonal summer branch. The sequence is the westbound order; service dates must be checked before treating it as available year-round."
+  }
+]

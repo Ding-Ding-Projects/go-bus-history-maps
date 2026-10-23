@@ -1,0 +1,535 @@
+[
+  {
+    "id": "54-2008",
+    "label": "York–Mount Joy via Langstaff",
+    "date": "2008-11-01",
+    "branch": "54",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      },
+      {
+        "name": "Langstaff GO — Langstaff Rd. south lot",
+        "lat": 43.838546,
+        "lon": -79.423139,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Centennial GO — Bullock Dr. @ McCowan Rd.",
+        "lat": 43.8720551,
+        "lon": -79.2881393,
+        "location_source": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "location_reference_date": "2026-10-23",
+        "location_reference_name": "Bullock Dr. @ McCowan Rd. (Centennial GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+        "lat": 43.882359,
+        "lon": -79.261906,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Main St. N. @ Station St. (Markham GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4997952,
+          43.7743538
+        ],
+        [
+          -79.423139,
+          43.838546
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.2881393,
+          43.8720551
+        ],
+        [
+          -79.261906,
+          43.882359
+        ],
+        [
+          -79.263649,
+          43.900455
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54A-2008",
+    "label": "Unionville–York express",
+    "date": "2008-11-01",
+    "branch": "54A",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54B-2008",
+    "label": "Centennial–Unionville–York express",
+    "date": "2008-11-01",
+    "branch": "54B",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Centennial GO — Bullock Dr. @ McCowan Rd.",
+        "lat": 43.8720551,
+        "lon": -79.2881393,
+        "location_source": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "location_reference_date": "2026-10-23",
+        "location_reference_name": "Bullock Dr. @ McCowan Rd. (Centennial GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.2881393,
+          43.8720551
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54-2011",
+    "label": "York–Mount Joy via Richmond Hill Centre",
+    "date": "2011-12-31",
+    "branch": "54",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Centennial GO — Bullock Dr. @ McCowan Rd.",
+        "lat": 43.8720551,
+        "lon": -79.2881393,
+        "location_source": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "location_reference_date": "2026-10-23",
+        "location_reference_name": "Bullock Dr. @ McCowan Rd. (Centennial GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+        "lat": 43.882359,
+        "lon": -79.261906,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Main St. N. @ Station St. (Markham GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4997952,
+          43.7743538
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.2881393,
+          43.8720551
+        ],
+        [
+          -79.261906,
+          43.882359
+        ],
+        [
+          -79.263649,
+          43.900455
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54C-2011",
+    "label": "Mount Joy–Markham–York express",
+    "date": "2011-12-31",
+    "branch": "54C",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+        "lat": 43.882359,
+        "lon": -79.261906,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Main St. N. @ Station St. (Markham GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.263649,
+          43.900455
+        ],
+        [
+          -79.261906,
+          43.882359
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54-2019",
+    "label": "Highway 407–Mount Joy main route",
+    "date": "2019-01-05",
+    "branch": "54",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Unionville GO",
+        "lat": 43.851935,
+        "lon": -79.313774,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Centennial GO — Bullock Dr. @ McCowan Rd.",
+        "lat": 43.8720551,
+        "lon": -79.2881393,
+        "location_source": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "location_reference_date": "2026-10-23",
+        "location_reference_name": "Bullock Dr. @ McCowan Rd. (Centennial GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+        "lat": 43.882359,
+        "lon": -79.261906,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Main St. N. @ Station St. (Markham GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.313774,
+          43.851935
+        ],
+        [
+          -79.2881393,
+          43.8720551
+        ],
+        [
+          -79.261906,
+          43.882359
+        ],
+        [
+          -79.263649,
+          43.900455
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "54C-2019",
+    "label": "Mount Joy–Markham–Highway 407 express",
+    "date": "2019-01-05",
+    "branch": "54C",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Mount Joy GO",
+        "lat": 43.900455,
+        "lon": -79.263649,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Mount Joy GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+        "lat": 43.882359,
+        "lon": -79.261906,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Main St. N. @ Station St. (Markham GO)",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.263649,
+          43.900455
+        ],
+        [
+          -79.261906,
+          43.882359
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

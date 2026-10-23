@@ -1,0 +1,2681 @@
+[
+  {
+    "route": "40",
+    "name": "Hamilton / Richmond Hill (formerly Pearson Airport Express)",
+    "status": "current",
+    "description": "An airport express that began between Square One, Pearson and Richmond Hill Centre, became a two-terminal Pearson–Richmond Hill shuttle, and later expanded west to Hamilton. Its history includes short express branches and, in 2026, Humber and Unionville service.",
+    "timeline": [
+      {
+        "date": "2008-04-26",
+        "event": "Route 40 begins with half-hourly Square One–Pearson service; alternate trips continue to Richmond Hill Centre, giving that segment hourly service.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "by 2010-02-01",
+        "event": "The original timetable documents an hourly Square One–Pearson–Richmond Hill pattern seven days a week.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-01-01",
+        "event": "The route has been shortened to Pearson Terminal 1–Richmond Hill Centre; Square One is absent from the effective January 1 timetable.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "Route 40 expands to Hamilton and takes over the former 47J Hamilton–Square One express service; GO’s ridership report gives this exact date.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "2017-12-30",
+        "event": "Highway 407 Bus Terminal opens. The January 2019 route 40 timetable confirms the new terminal, Dixie and Renforth as main-route stops.",
+        "sources": [
+          "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ]
+      },
+      {
+        "date": "by 2019-01-05",
+        "event": "40A runs Hamilton–Square One express, bypassing Trafalgar/407; 40B provides a Richmond Hill Centre–Pearson short express that bypasses Highway 407 terminal.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ]
+      },
+      {
+        "date": "2026-01-03",
+        "event": "The timetable includes 40H and 40M via Humber Polytechnic North Campus, with 40M continuing to Unionville. Dundas/407 is also on the main route by this snapshot. This change accompanies the withdrawal of routes 54 and 66.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf",
+          "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "40-2008-pearson-short",
+        "label": "Launch-era Square One–Pearson short working",
+        "date": "2008-04-26",
+        "branch": "40 (short working; suffix unverified)",
+        "direction": "eastbound",
+        "stops": [
+          "Square One GO Bus Terminal",
+          "Pearson Airport Terminal 1"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ],
+        "notes": "The contemporary notice says alternate half-hourly buses continue to Richmond Hill Centre. It does not give a suffix for the short workings. No intermediate stop is described."
+      },
+      {
+        "id": "40-2010",
+        "label": "Square One–Pearson–Richmond Hill",
+        "date": "2010-02-01",
+        "branch": "40",
+        "direction": "eastbound",
+        "stops": [
+          "Square One GO Bus Terminal",
+          "Pearson Airport Terminal 1",
+          "Richmond Hill Centre"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ],
+        "notes": "Effective date is printed inside the original, not the archive filename. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "40-2011",
+        "label": "Pearson–Richmond Hill shuttle",
+        "date": "2011-01-01",
+        "branch": "40",
+        "direction": "eastbound",
+        "stops": [
+          "Pearson Airport Terminal 1",
+          "Richmond Hill Centre"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "40-2019",
+        "label": "Hamilton–Richmond Hill main route",
+        "date": "2019-01-05",
+        "branch": "40",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Dixie Transitway Station",
+          "Renforth Transitway Station",
+          "Pearson Airport Terminal 1",
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "40A-2019",
+        "label": "Hamilton–Square One express",
+        "date": "2019-01-05",
+        "branch": "40A",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ],
+        "notes": "Trafalgar is explicitly passed without stopping. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "40B-2019",
+        "label": "Richmond Hill–Pearson express short trip",
+        "date": "2019-01-05",
+        "branch": "40B",
+        "direction": "westbound",
+        "stops": [
+          "Richmond Hill Centre",
+          "Pearson Airport Terminal 1"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ],
+        "notes": "The westbound row has no Highway 407 terminal stop; this is not the stopping main 40. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "title": "GO route 40 timetable, internally effective February 1, 2010 (archived February 5)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "title": "GO route 40 timetable, internally effective January 1, 2011 (archived October 27)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "GO Transit ridership report, September 2016, footnote 9 (agency original mirrored by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+        "title": "Metrolinx Capital Projects quarterly report, March 8, 2018: Highway 407 Bus Terminal opening",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "title": "GO route 40 timetable, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "title": "GO route 40 timetable, effective January 3, 2026",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments",
+        "title": "Metrolinx: Holiday GO Transit service adjustments; January 3, 2026 changes",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The exact date of the initial Square One withdrawal has not been located; January 1, 2011 is the verified timetable snapshot.",
+      "The exact first dates of Dixie, Renforth, Dundas/407 and each express suffix require additional change notices. Current and historical GTFS snapshots supply additional full-stop patterns."
+    ]
+  },
+  {
+    "route": "41",
+    "name": "Hamilton / Pickering; earlier Orangeville route number",
+    "status": "current",
+    "description": "The number has two unrelated eras. Before April 28, 2008, 41 identified Orangeville service, which became route 37. The new Hamilton–Pickering route 41 was created in 2021 by joining the former Highway 407 West and East services.",
+    "timeline": [
+      {
+        "date": "before 2008-04-28",
+        "event": "The contemporary April 2008 service notice identifies the then-existing Orangeville service as route 41.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2008-04-28",
+        "event": "Orangeville route 41 is renumbered 37. This earlier route is geographically and historically separate from the Hamilton–Pickering route introduced in 2021. See route 37 for the continuing Orangeville family.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2021-02-13",
+        "event": "New route 41 combines most weekday trips on routes 47 and 51. Metrolinx announces 38 weekday trips and a through ride without transferring at Highway 407 Bus Terminal.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      },
+      {
+        "date": "by 2022-06-25",
+        "event": "The original main-route pattern runs via McMaster, the western park-and-rides, Square One, Bramalea, Richmond Hill Centre, Consumers Road, Scarborough Centre and the two Scarborough campuses. It does not serve Unionville.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ]
+      },
+      {
+        "date": "by 2023-01-07",
+        "event": "41A appears as a school-oriented express pattern; an explicitly timed trip runs Square One–Bramalea–Highway 407–Consumers Road–Centennial–UTSC, bypassing Richmond Hill Centre and Scarborough Centre.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "41-2022",
+        "label": "Hamilton–Pickering through route",
+        "date": "2022-06-25",
+        "branch": "41",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Consumers Road Business Park",
+          "Scarborough Centre Bus Terminal",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough",
+          "Kingston Rd. @ Fairport Rd.",
+          "Pickering GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "41A-2023-utsc",
+        "label": "Square One–UTSC express short pattern",
+        "date": "2023-01-07",
+        "branch": "41A",
+        "direction": "eastbound",
+        "stops": [
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Consumers Road Business Park",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": "Documents trip 41042, ending at UTSC; do not assume every 41A trip has this terminus. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf",
+        "title": "GO Hamilton/Pickering timetable, effective June 25, 2022",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf",
+        "title": "GO Hamilton/Pickering timetable, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "title": "Original GO Transit GTFS snapshot archived May 5, 2023",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The launch announcement says most weekday predecessor trips were merged, not that all route 47 service disappeared.",
+      "Other 41A through or short patterns should be read from their dated GTFS service periods rather than generalized from this one trip.",
+      "No original pre-renumbering Orangeville timetable has been recovered here; later route 37 stops are not silently assigned to old 41."
+    ]
+  },
+  {
+    "route": "42",
+    "name": "Bolton (renumbered 38 in 2008)",
+    "status": "discontinued",
+    "description": "The earlier Bolton GO bus number, linked to York Mills through Yorkdale, Etobicoke North, Woodbridge, Kleinburg and Nobleton. The contemporary 2008 notice explicitly establishes the 42-to-38 renumbering; this is stronger evidence than the older Table 42 label alone.",
+    "timeline": [
+      {
+        "date": "by 2003-06-28",
+        "event": "Original Table 42 documents the weekday York Mills–Yorkdale–Etobicoke North–Bolton service through Woodbridge, Kleinburg and Nobleton. Union Station times are connecting trains, not a through bus to Bolton.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2003-06-28-table-42-bolton-dir1-day1-page1.html"
+        ]
+      },
+      {
+        "date": "by 2004-09-04",
+        "event": "The original PDF shows two southbound morning and two northbound afternoon weekday bus trips, with rail connections at Etobicoke North. The archive filename says February 2008, but the timetable itself is dated September 4, 2004.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf"
+        ]
+      },
+      {
+        "date": "2008-04-28",
+        "event": "GO renumbers Bolton route 42 as route 38. The continuing corridor belongs to the route 38 history.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "42-2004-bolton",
+        "label": "York Mills–Bolton weekday route",
+        "date": "2004-09-04",
+        "branch": "42 (Bolton)",
+        "direction": "northbound",
+        "stops": [
+          "York Mills GO Bus Terminal",
+          "Yorkdale GO Bus Terminal",
+          "Etobicoke North GO",
+          "Hwy. 27 @ Humber College Blvd.",
+          "Rutherford Rd. @ Vaughan Mills Rd.",
+          "Islington Ave. @ Nashville Rd. — Kleinburg",
+          "King Rd. @ Hwy. 27 — Nobleton",
+          "King St. @ Humber Lea Rd. — Bolton",
+          "Queen St. @ Queensgate Blvd. — Bolton",
+          "Albion-Vaughan Rd. @ Industrial Rd. — Bolton"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf"
+        ],
+        "notes": "Ordered major bus timing points from the original. Excludes Union Station, which is a train connection shown in the shared table. Route identity is corroborated by the April 2008 renumbering notice."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2003-06-28-table-42-bolton-dir1-day1-page1.html",
+        "title": "GO Bolton Table 42, effective June 28, 2003",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/bolton/2008-02-05-table-42-bolton.pdf",
+        "title": "GO Bolton Table 42, internally dated September 4, 2004 (archive filename February 5, 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto, April 22, 2008: GO Transit changes start April 26; renumbering effective April 28 / May 4",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The corridor’s earlier launch and detailed pre-2003 evolution are not established in these originals.",
+      "See route 38 for changes after the April 28, 2008 renumbering; the old number does not imply a separate contemporary service."
+    ]
+  },
+  {
+    "route": "43",
+    "name": "Mount Pleasant / McMaster University; earlier Wonderland route number",
+    "status": "current",
+    "description": "The number has two unrelated eras: a seasonal Wonderland service, renumbered 60 in 2008, and a new Mount Pleasant–McMaster service introduced in 2026. The earlier service must not be joined into a continuous geography with the new route.",
+    "timeline": [
+      {
+        "date": "by 2003-06-28",
+        "event": "Original Wonderland Table 43 shows a seasonal service between Canada’s Wonderland, Yorkdale Subway and York Mills Subway, with separate seasonal fares. The surviving page displays July 1, 2003 service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/wonderland/2003-06-28-table-43-wonderland.html"
+        ]
+      },
+      {
+        "date": "2008-05-04",
+        "event": "The Wonderland service resumes under number 60, replacing number 43, according to the contemporary April 22 service notice.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "event": "A new, unrelated route 43 appears in the effective September 5 timetable: Mount Pleasant GO to McMaster via Mississauga Road, Meadowvale, Trafalgar/407 and Dundas/407. It operates weekdays excluding holidays.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mount-pleasant-mcmaster-university/2026-09-05-table-43-mount-pleasant-mcmaster-university.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "43-wonderland-2003",
+        "label": "Earlier Wonderland service (Table 43)",
+        "date": "2003-06-28",
+        "branch": "43 (historical Wonderland)",
+        "direction": "southbound",
+        "stops": [
+          "Canada’s Wonderland — historic bus stop",
+          "Yorkdale GO Bus Terminal",
+          "York Mills GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/wonderland/2003-06-28-table-43-wonderland.html"
+        ],
+        "notes": "This source labels Table 43; the contemporary 2008 renumbering notice establishes the former service number. The historical Wonderland bus bay has not been located; use a clearly approximate park-area marker. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "43-2026-launch",
+        "label": "Mount Pleasant–McMaster launch pattern",
+        "date": "2026-09-05",
+        "branch": "43",
+        "direction": "westbound",
+        "stops": [
+          "Mount Pleasant GO",
+          "Mississauga Rd. @ Williams Pkwy.",
+          "Mississauga Rd. @ Steeles Ave. W.",
+          "Mississauga Rd. @ Royal Bank Dr.",
+          "Meadowvale GO",
+          "Aquitaine Ave. @ Meadowvale Town Centre Cir.",
+          "Derry Rd. W. @ Ninth Line",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "McMaster University"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mount-pleasant-mcmaster-university/2026-09-05-table-43-mount-pleasant-mcmaster-university.pdf"
+        ],
+        "notes": "This is a new route using the old number. September 5 is the timetable effective date, not necessarily its first weekday operating day. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/wonderland/2003-06-28-table-43-wonderland.html",
+        "title": "GO Wonderland Table 43, effective June 28, 2003; displayed service for July 1",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+        "title": "Transit Toronto, April 22, 2008: GO Transit changes May schedules and Wonderland route number",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/mount-pleasant-mcmaster-university/2026-09-05-table-43-mount-pleasant-mcmaster-university.pdf",
+        "title": "GO route 43 timetable, effective September 5, 2026",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The first launch year of the earlier Wonderland service and its full earlier seasonal branch history remain unverified.",
+      "The 2003 original has only table identification; no claim is made that modern public headsign numbering existed in the same form in 2003.",
+      "Do not copy route 60A’s 2013 short branch into route 43 without an earlier original source."
+    ]
+  },
+  {
+    "route": "45",
+    "name": "Streetsville / York University; later Mississauga / Markham",
+    "status": "discontinued",
+    "description": "A direct Mississauga–York service that bypassed Bramalea on its principal patterns. It later terminated at Highway 407 and gained a Unionville branch before being discontinued in 2023.",
+    "timeline": [
+      {
+        "date": "by 2006-12-30",
+        "event": "The unnumbered route-column predecessor in Table 46 connects Streetsville, Square One and York University; 53xxx trip identifiers in this timetable are not evidence of a separate public route 53.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "Public routes 45 and 45A are printed explicitly: Streetsville–Square One–Keele–York and a Square One short working. Both bypass Bramalea.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "Erin Mills Transitway Station opens to GO service; it is included on route 45 in the September 2018 original.",
+        "sources": [
+          "https://www7.mississauga.ca/documents/committees/general/2017/2017_12_06_General_Committee_Agenda_online.pdf",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2018-09-01",
+        "event": "Main 45 serves Erin Mills and continues to York via Keele. Unlike the stopping 46/47/48 patterns, 45 and 45A bypass the newly opened Highway 407 Bus Terminal.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "GO leaves York University campus; later 2019 route 45 timetables terminate at Highway 407 Bus Terminal.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2022-06-25",
+        "event": "45B is a Streetsville–Erin Mills–Square One–Highway 407–Richmond Hill Centre–Unionville through branch, bypassing Bramalea.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Route 45 is discontinued in the spring service revision.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "45-pre-2007",
+        "label": "Streetsville predecessor in Table 46",
+        "date": "2006-12-30",
+        "branch": "pre-45",
+        "direction": "eastbound",
+        "stops": [
+          "Streetsville GO",
+          "Square One GO Bus Terminal",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "The original has trip numbers but no public route-number column. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45-2011",
+        "label": "Streetsville–York main route",
+        "date": "2011-12-31",
+        "branch": "45",
+        "direction": "eastbound",
+        "stops": [
+          "Streetsville GO",
+          "Square One GO Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45A-2011",
+        "label": "Square One–York short route",
+        "date": "2011-12-31",
+        "branch": "45A",
+        "direction": "eastbound",
+        "stops": [
+          "Square One GO Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45-2018",
+        "label": "Streetsville–York via Erin Mills",
+        "date": "2018-09-01",
+        "branch": "45",
+        "direction": "eastbound",
+        "stops": [
+          "Streetsville GO",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "Bramalea and Highway 407 Bus Terminal have no timing entries for this route. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45-2019",
+        "label": "Streetsville–Highway 407",
+        "date": "2019-08-31",
+        "branch": "45",
+        "direction": "eastbound",
+        "stops": [
+          "Streetsville GO",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45A-2019",
+        "label": "Square One–Highway 407 short route",
+        "date": "2019-08-31",
+        "branch": "45A",
+        "direction": "eastbound",
+        "stops": [
+          "Square One GO Bus Terminal",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "45B-2022",
+        "label": "Streetsville–Unionville through branch",
+        "date": "2022-06-25",
+        "branch": "45B",
+        "direction": "eastbound",
+        "stops": [
+          "Streetsville GO",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Unionville GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf",
+        "title": "GO Highway 407 West timetable, internally effective December 30, 2006 (archive filename January 4, 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective December 31, 2011 (archived August 25, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www7.mississauga.ca/documents/committees/general/2017/2017_12_06_General_Committee_Agenda_online.pdf",
+        "title": "City of Mississauga General Committee agenda, December 6, 2017: Transitway implementation dates",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective September 1, 2018",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf",
+        "title": "GO Hamilton/Pickering timetable, effective June 25, 2022",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+        "type": "secondary"
+      }
+    ],
+    "gaps": [
+      "The original start date of the Streetsville service and the exact introduction date of public route number 45 have not been established.",
+      "A secondary account places the Unionville extension in September 2020, but this dataset uses the directly verified June 2022 original instead of assigning an unconfirmed launch day."
+    ]
+  },
+  {
+    "route": "46",
+    "name": "Oakville / York University; later Oakville / Highway 407",
+    "status": "discontinued",
+    "description": "The Oakville and Sheridan College arm of the Highway 407 network, linked to Square One, Bramalea and York University, then Highway 407 Bus Terminal. Most weekday trips became the western half of route 56 in 2021.",
+    "timeline": [
+      {
+        "date": "2000-09",
+        "event": "The original Highway 407 corridor links Oakville GO, Square One, Bramalea, York University and Unionville. York University’s contemporary article documents the launch month.",
+        "sources": [
+          "https://www.yorku.ca/yul/profiles/past/aug00/current/cover/cover2.htm"
+        ]
+      },
+      {
+        "date": "by 2006-12-30",
+        "event": "The Oakville–Sheridan–Trafalgar/407–Square One–Bramalea–York pattern is in the original Table 46.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "The route-number column explicitly identifies route 46, including the Keele/Snidercroft stop.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2018-09-01",
+        "event": "Route 46 serves Erin Mills and Highway 407 Bus Terminal, then continues via Keele to York University. The terminal opening did not immediately remove campus service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "York University service ends. The August 2019 original shows 46 ending at Highway 407 and 46A linking Sheridan College with Square One.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2021-02-13",
+        "event": "Most weekday route 46 trips combine with route 52 to create through route 56.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "46-pre-2007",
+        "label": "Oakville–York predecessor",
+        "date": "2006-12-30",
+        "branch": "pre-46",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "46-2011",
+        "label": "Oakville–York via Keele",
+        "date": "2011-12-31",
+        "branch": "46",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "46-2018",
+        "label": "Oakville–York via Highway 407 terminal",
+        "date": "2018-09-01",
+        "branch": "46",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "46-2019",
+        "label": "Oakville–Highway 407",
+        "date": "2019-08-31",
+        "branch": "46",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "46A-2019",
+        "label": "Sheridan–Square One short route",
+        "date": "2019-08-31",
+        "branch": "46A",
+        "direction": "eastbound",
+        "stops": [
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.yorku.ca/yul/profiles/past/aug00/current/cover/cover2.htm",
+        "title": "York University, August 2000: new Highway 407 GO service",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf",
+        "title": "GO Highway 407 West timetable, internally effective December 30, 2006 (archive filename January 4, 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective December 31, 2011 (archived August 25, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective September 1, 2018",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective April 2, 2022",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The 2021 announcement specifies most weekday trips, so it is not used to assert the exact final date of every residual route 46 trip. Route 46 is absent from the April 2022 eastern combined table.",
+      "Launch of the corridor predates the public numbering system; early Table 46 must not be read as a single modern route."
+    ]
+  },
+  {
+    "route": "47",
+    "name": "Hamilton / Highway 407 (formerly York University and Yorkdale)",
+    "status": "current",
+    "description": "The Hamilton and McMaster arm of the 407 network has had numerous express, short and weekend branches. Suffixes have been reused: the older 47D was a Bramalea–York short route, while the 2023 47D is a McMaster express; the older 47G extended to Yorkdale.",
+    "timeline": [
+      {
+        "date": "2002-04-29",
+        "event": "The Highway 407 network expands to Hamilton and McMaster University, the predecessor of numbered route 47.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "by 2006-12-30",
+        "event": "The original Hamilton–McMaster–407 park-and-rides–Square One–Bramalea–York pattern is documented.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "The original has branches 47A/B/C/D/E/F/G/H. Weekend 47G runs beyond York University to Yorkdale; 47D is a short Bramalea–Keele–York service.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2014-04-05",
+        "event": "47J provides Hamilton–Trafalgar/407–Square One service, bypassing McMaster and the western 407 park-and-rides.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2015-09-05",
+        "event": "47J is absorbed into the extended route 40.",
+        "sources": [
+          "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+        ]
+      },
+      {
+        "date": "by 2018-09-01",
+        "event": "The main route serves Erin Mills and Highway 407 terminal before Keele and York. Express McMaster variants remain.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "The York University terminus is replaced by Highway 407 Bus Terminal.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2021-02-13",
+        "event": "Most weekday 47 trips combine with 51 into new through route 41; route 47 remains as a separate family.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      },
+      {
+        "date": "by 2022-06-25",
+        "event": "Seasonal 47W extends via Canada’s Wonderland to Major Mackenzie/Hwy. 400 Park & Ride.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ]
+      },
+      {
+        "date": "by 2023-01-07",
+        "event": "The timetable uses 47D for McMaster–Square One–Bramalea–Highway 407 express service and 47G for a McMaster–Erin Mills stopping short route. These differ from the 2011 suffix meanings.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "Weekday route 47 service is increased to roughly half-hourly in the spring revision.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+        ]
+      },
+      {
+        "date": "2023-05-06",
+        "event": "Seasonal Wonderland service uses the new Major Mackenzie West Terminal in 2023.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "47-pre-2007",
+        "label": "Hamilton–York predecessor",
+        "date": "2006-12-30",
+        "branch": "pre-47",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47-2011",
+        "label": "Hamilton–York main route",
+        "date": "2011-12-31",
+        "branch": "47",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47A-2011",
+        "label": "McMaster–Square One–Bramalea express",
+        "date": "2011-12-31",
+        "branch": "47A",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Square One GO Bus Terminal",
+          "Bramalea GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47B-2011",
+        "label": "McMaster–Square One express",
+        "date": "2011-12-31",
+        "branch": "47B",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47C-2014",
+        "label": "McMaster–Trafalgar express",
+        "date": "2014-04-05",
+        "branch": "47C",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47D-2011",
+        "label": "Bramalea–York short route",
+        "date": "2011-12-31",
+        "branch": "47D",
+        "direction": "eastbound",
+        "stops": [
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "Historical suffix meaning; differs from the 2023 McMaster express. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47E-2011",
+        "label": "McMaster–Trafalgar via 407 park-and-rides",
+        "date": "2011-12-31",
+        "branch": "47E",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47F-2014",
+        "label": "McMaster–Bramalea–York express",
+        "date": "2014-04-05",
+        "branch": "47F",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "The main 47’s intermediate stops between McMaster and Bramalea are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47G-2011",
+        "label": "Weekend Hamilton–Yorkdale extension",
+        "date": "2011-12-31",
+        "branch": "47G",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop",
+          "Yorkdale GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "Historical suffix meaning; not the later McMaster–Erin Mills 47G. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47H-2011",
+        "label": "McMaster–Bronte short route",
+        "date": "2011-12-31",
+        "branch": "47H",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47J-2014",
+        "label": "Hamilton–Square One via Trafalgar",
+        "date": "2014-04-05",
+        "branch": "47J",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Square One GO Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "Despite the express description, the original has a scheduled stop at Trafalgar/407. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47-2018",
+        "label": "Hamilton–York via Highway 407 terminal",
+        "date": "2018-09-01",
+        "branch": "47",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47-2019",
+        "label": "Hamilton–Highway 407 main route",
+        "date": "2019-08-31",
+        "branch": "47",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47F-2019",
+        "label": "McMaster–Highway 407 express via Bramalea",
+        "date": "2019-08-31",
+        "branch": "47F",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47W-2022",
+        "label": "Summer Wonderland / Major Mackenzie extension",
+        "date": "2022-06-25",
+        "branch": "47W",
+        "direction": "eastbound",
+        "stops": [
+          "Hamilton GO Centre",
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Canada’s Wonderland — historic bus stop",
+          "Major Mackenzie Dr. @ Hwy. 400 Park & Ride"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": "The old Wonderland bus stop is not the later Major Mackenzie West Terminal; map only an approximate park area if no bay source is available. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47D-2023",
+        "label": "McMaster–Highway 407 via Square One express",
+        "date": "2023-01-07",
+        "branch": "47D",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "47G-2023",
+        "label": "McMaster–Erin Mills short route",
+        "date": "2023-01-07",
+        "branch": "47G",
+        "direction": "eastbound",
+        "stops": [
+          "McMaster University",
+          "Dundas St. @ Hwy. 407 Park & Ride",
+          "Bronte Rd. @ Hwy. 407 Park & Ride",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf",
+        "title": "GO Highway 407 West timetable, internally effective December 30, 2006 (archive filename January 4, 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective December 31, 2011 (archived August 25, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective April 5, 2014",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+        "title": "GO Transit ridership report, September 2016, footnote 9 (agency original mirrored by Steve Munro)",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective September 1, 2018",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective August 31, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf",
+        "title": "GO Hamilton/Pickering timetable, effective June 25, 2022",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf",
+        "title": "GO Hamilton/Pickering timetable, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+        "type": "secondary"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "title": "Metrolinx, May 17, 2023: GO buses to popular attractions back in time for summer",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "Dates are snapshots for branch patterns unless a launch or withdrawal notice is cited.",
+      "The exact introduction/retirement dates of every 47 suffix are not established; suffixes must always be paired with a date.",
+      "This inventory describes ordered timing points, not all possible trip-level short turns; original GTFS patterns provide a more detailed view in available years."
+    ]
+  },
+  {
+    "route": "48",
+    "name": "Guelph / Highway 407 (formerly Meadowvale / York University)",
+    "status": "current",
+    "description": "A Meadowvale–Bramalea–York corridor expanded west to the University of Guelph through Aberfoyle. It retained direct student expresses and short Meadowvale workings alongside the stopping route.",
+    "timeline": [
+      {
+        "date": "by 2006-12-30",
+        "event": "Table 46 shows Meadowvale–Bramalea–York and a direct Meadowvale–York predecessor express.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2007-09",
+        "event": "Government releases document the Guelph–Aberfoyle–Meadowvale expansion. The August announcement gave September 3, while the November retrospective says service began September 4.",
+        "sources": [
+          "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html",
+          "https://www.canada.ca/en/news/archive/2007/11/go-transit-announces-union-station-signalling-contract.html"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "Main 48 runs Guelph–Aberfoyle–Meadowvale–Hurontario/407–Bramalea–Keele–York. 48A bypasses Hurontario and Bramalea, while 48B is the stopping Meadowvale short route.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "by 2018-09-01",
+        "event": "Main 48 and 48B call at Highway 407 terminal before York, while 48A bypasses it. 48F is a limited Guelph–Bramalea–Highway 407–Keele–York express.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "GO leaves York campus and the route’s eastern end becomes Highway 407 Bus Terminal.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "48-pre-2007",
+        "label": "Meadowvale–York predecessor",
+        "date": "2006-12-30",
+        "branch": "pre-48",
+        "direction": "eastbound",
+        "stops": [
+          "Meadowvale GO",
+          "Bramalea GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48-pre-2007-express",
+        "label": "Meadowvale–York predecessor express",
+        "date": "2006-12-30",
+        "branch": "pre-48 express",
+        "direction": "eastbound",
+        "stops": [
+          "Meadowvale GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48-2011",
+        "label": "Guelph–York stopping route",
+        "date": "2011-12-31",
+        "branch": "48",
+        "direction": "eastbound",
+        "stops": [
+          "University of Guelph",
+          "Aberfoyle GO Park & Ride",
+          "Meadowvale GO",
+          "Hurontario St. @ Hwy. 407 Park & Ride",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48A-2011",
+        "label": "Meadowvale–York express",
+        "date": "2011-12-31",
+        "branch": "48A",
+        "direction": "eastbound",
+        "stops": [
+          "Meadowvale GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48B-2011",
+        "label": "Meadowvale–York stopping short route",
+        "date": "2011-12-31",
+        "branch": "48B",
+        "direction": "eastbound",
+        "stops": [
+          "Meadowvale GO",
+          "Hurontario St. @ Hwy. 407 Park & Ride",
+          "Bramalea GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48-2018",
+        "label": "Guelph–York via Highway 407 terminal",
+        "date": "2018-09-01",
+        "branch": "48",
+        "direction": "eastbound",
+        "stops": [
+          "University of Guelph",
+          "Aberfoyle GO Park & Ride",
+          "Meadowvale GO",
+          "Hurontario St. @ Hwy. 407 Park & Ride",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48A-2018",
+        "label": "Meadowvale–York express bypassing Highway 407 terminal",
+        "date": "2018-09-01",
+        "branch": "48A",
+        "direction": "eastbound",
+        "stops": [
+          "Meadowvale GO",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48F-2018",
+        "label": "Guelph–York limited express",
+        "date": "2018-09-01",
+        "branch": "48F",
+        "direction": "eastbound",
+        "stops": [
+          "University of Guelph",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+        ],
+        "notes": "Limited school/Friday pattern; Aberfoyle, Meadowvale and Hurontario are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48-2019",
+        "label": "Guelph–Highway 407 stopping route",
+        "date": "2019-08-31",
+        "branch": "48",
+        "direction": "eastbound",
+        "stops": [
+          "University of Guelph",
+          "Aberfoyle GO Park & Ride",
+          "Meadowvale GO",
+          "Hurontario St. @ Hwy. 407 Park & Ride",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "48F-2019",
+        "label": "Guelph–Highway 407 limited express",
+        "date": "2019-08-31",
+        "branch": "48F",
+        "direction": "eastbound",
+        "stops": [
+          "University of Guelph",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf",
+        "title": "GO Highway 407 West timetable, internally effective December 30, 2006 (archive filename January 4, 2008)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.canada.ca/en/news/archive/2007/08/go-transit-expands-bus-service-university-guelph.html",
+        "title": "Government of Canada: GO Transit expands bus service to the University of Guelph, August 2007",
+        "type": "official"
+      },
+      {
+        "url": "https://www.canada.ca/en/news/archive/2007/11/go-transit-announces-union-station-signalling-contract.html",
+        "title": "Government of Canada: GO Transit announces Union Station signalling contract, November 2007, project backgrounder",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective December 31, 2011 (archived August 25, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective September 1, 2018",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf",
+        "title": "GO routes 45–48 timetable, effective August 31, 2019",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Official 2007 announcements differ by one day on Guelph’s start; this dataset states September 2007 rather than silently choosing one.",
+      "The exact launch dates of the original Meadowvale service, 48A, 48B and 48F were not located."
+    ]
+  },
+  {
+    "route": "50",
+    "name": "Unionville / Centennial College / University of Toronto Scarborough",
+    "status": "discontinued",
+    "description": "A documented school-period GO route, distinct from its surrounding Table 52 corridor. The original explicitly prints route number 50, with three morning southbound and three afternoon northbound trips.",
+    "timeline": [
+      {
+        "date": "by 2008-11-01",
+        "event": "The original combined timetable identifies route 50 between Unionville GO, Centennial College Progress Court and UTSC; trips are excluded during the listed December 2008–January 2009 school holiday.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "Route 50 is absent from the later combined Highway 407 East timetable; this establishes an archive boundary, not an exact withdrawal date.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "50-2008",
+        "label": "Unionville–Centennial–UTSC school service",
+        "date": "2008-11-01",
+        "branch": "50",
+        "direction": "southbound",
+        "stops": [
+          "Unionville GO",
+          "Centennial College — Progress Ct. Bus Stop",
+          "University of Toronto Scarborough"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": "Three AM southbound and three PM northbound trips are printed. This is an actual route-number entry, not a timetable-number inference. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+        "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "The route’s exact introduction and final operating dates have not been established.",
+      "No full all-stop GTFS or original geographic route map has yet been recovered for 50; the pattern records its three published timing points."
+    ]
+  },
+  {
+    "route": "51",
+    "name": "Pickering / York University; later Pickering / Highway 407",
+    "status": "discontinued",
+    "description": "The Scarborough and Pickering arm of Highway 407 East, with a stopping main line and direct school expresses to Scarborough Centre, Pickering and the Scarborough campuses. Most weekday trips were joined to Hamilton service as route 41 in 2021.",
+    "timeline": [
+      {
+        "date": "2002-01",
+        "event": "The original 407 corridor is extended to Scarborough Town Centre, a predecessor of route 51.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "2002-04-29",
+        "event": "The eastern service is extended to Pickering via Centennial College and UTSC.",
+        "sources": [
+          "https://transittoronto.ca/regional/2115.shtml"
+        ]
+      },
+      {
+        "date": "by 2008-11-01",
+        "event": "The public route column documents 51, Scarborough Centre express 51A and Pickering express 51B. Main 51 uses Langstaff’s south lot and bypasses Unionville.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "Richmond Hill Centre replaces Langstaff in the timetable. Keele/Great Gulf is now listed, and 51C directly connects the Scarborough campuses with Keele and York.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2017-09-02",
+        "event": "51D is a Richmond Hill Centre–Centennial–UTSC short express. Main 51 serves Kingston/Fairport rather than the earlier Highway 2/Liverpool timing point.",
+        "sources": [
+          "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "Routes end at Highway 407 Bus Terminal instead of York. The 51B express calls at Brock/407 between Pickering and the terminal; 51C serves the Scarborough campuses, and 51D still starts at Richmond Hill Centre.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2021-02-13",
+        "event": "Most weekday 51 trips combine with route 47 to create route 41.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "51-2008",
+        "label": "York–Pickering main route via Langstaff",
+        "date": "2008-11-01",
+        "branch": "51",
+        "direction": "eastbound",
+        "stops": [
+          "York University Bus Loop",
+          "Langstaff GO — Langstaff Rd. south lot",
+          "Scarborough Centre Bus Terminal",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough",
+          "Hwy. 2 @ Liverpool Rd.",
+          "Pickering GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51A-2008",
+        "label": "Scarborough Centre–York express",
+        "date": "2008-11-01",
+        "branch": "51A",
+        "direction": "westbound",
+        "stops": [
+          "Scarborough Centre Bus Terminal",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51B-2008",
+        "label": "Pickering–York express",
+        "date": "2008-11-01",
+        "branch": "51B",
+        "direction": "westbound",
+        "stops": [
+          "Pickering GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51-2011",
+        "label": "York–Pickering via Richmond Hill Centre",
+        "date": "2011-12-31",
+        "branch": "51",
+        "direction": "eastbound",
+        "stops": [
+          "York University Bus Loop",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "Richmond Hill Centre",
+          "Scarborough Centre Bus Terminal",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough",
+          "Hwy. 2 @ Liverpool Rd.",
+          "Pickering GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51C-2011",
+        "label": "UTSC–Centennial–York express",
+        "date": "2011-12-31",
+        "branch": "51C",
+        "direction": "westbound",
+        "stops": [
+          "University of Toronto Scarborough",
+          "Centennial College — Progress Campus",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": "Scarborough Centre and Richmond Hill Centre are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51D-2017",
+        "label": "Richmond Hill–Scarborough campuses express",
+        "date": "2017-09-02",
+        "branch": "51D",
+        "direction": "eastbound",
+        "stops": [
+          "Richmond Hill Centre",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51-2019",
+        "label": "Highway 407–Pickering main route",
+        "date": "2019-01-05",
+        "branch": "51",
+        "direction": "eastbound",
+        "stops": [
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Scarborough Centre Bus Terminal",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough",
+          "Kingston Rd. @ Fairport Rd.",
+          "Pickering GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": "Consumers Road is not a timing point in this original; do not insert the later route 41 stop. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51A-2019",
+        "label": "Scarborough Centre–Highway 407 express",
+        "date": "2019-01-05",
+        "branch": "51A",
+        "direction": "westbound",
+        "stops": [
+          "Scarborough Centre Bus Terminal",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51B-2019",
+        "label": "Pickering–Highway 407 via Brock express",
+        "date": "2019-01-05",
+        "branch": "51B",
+        "direction": "westbound",
+        "stops": [
+          "Pickering GO",
+          "Brock Rd. @ Hwy. 407 Park & Ride",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51C-2019",
+        "label": "Highway 407–Scarborough campuses express",
+        "date": "2019-01-05",
+        "branch": "51C",
+        "direction": "eastbound",
+        "stops": [
+          "Highway 407 Bus Terminal",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "51D-2019",
+        "label": "Richmond Hill–Scarborough campuses short express",
+        "date": "2019-01-05",
+        "branch": "51D",
+        "direction": "eastbound",
+        "stops": [
+          "Richmond Hill Centre",
+          "Centennial College — Progress Campus",
+          "University of Toronto Scarborough"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://transittoronto.ca/regional/2115.shtml",
+        "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+        "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective September 2, 2017",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The exact final day of every remaining route 51 trip is not established by the launch notice, which says most weekday trips were combined.",
+      "Timetable 52 before public route numbering covered several separate corridors; references to the old table must not turn all of them into route 52."
+    ]
+  },
+  {
+    "route": "52",
+    "name": "Oshawa / Highway 407 (formerly Oshawa / York University)",
+    "status": "current",
+    "description": "The Oshawa arm of Highway 407 East, with multiple campus expresses, a move from Langstaff to Richmond Hill Centre, terminal changes in Vaughan and Oshawa, and later use of Highway 407 across Durham. Twenty documentary corridor reconstructions cover the predecessor service and changing branches.",
+    "timeline": [
+      {
+        "date": "2004-09-07",
+        "event": "Oshawa–York service begins, with nine weekday trips each way. The contemporary newspaper report and York University article establish the original corridor before public route numbering.",
+        "sources": [
+          "https://corporate.pickering.ca/PLHCWebLink/0/edoc/175252/NA2004_07_30.pdf",
+          "https://www.yorku.ca/yfile/2004/07/23/york-hub-for-transit-solutions-to-urban-sprawl/"
+        ]
+      },
+      {
+        "date": "by 2008-11-01",
+        "event": "Numbered 52 runs York–Langstaff–Unionville–Brock/407–Greenwood–Brooklin–Durham College/UOIT–Oshawa terminal. 52A is a Unionville–campus short route via the Durham roadside stops.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "The original replaces Langstaff with Richmond Hill Centre and explicitly serves Keele at Great Gulf Dr. westbound / Snidercroft eastbound. Example: 06:05 Oshawa, 07:07 Richmond Hill Centre, 07:18 Keele, 07:25 York.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2017-09-02",
+        "event": "The Durham route uses the Lake Ridge/Highway 7 timing point instead of Greenwood. The timetable includes an express Unionville–campus 52A and a campus–Richmond Hill–Keele–York 52B.",
+        "sources": [
+          "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf"
+        ]
+      },
+      {
+        "date": "2017-12-30",
+        "event": "Highway 407 Bus Terminal opens.",
+        "sources": [
+          "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "GO leaves York campus. Route 52 terminates at Highway 407; the timetable includes Unionville express 52D and campus express 52B.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2020-09-05",
+        "event": "The original timetable replaces the former Oshawa Bus Terminal terminus with downtown street stops and an extension to Oshawa GO.",
+        "sources": [
+          "https://transittoronto.ca/archives/flyers/go-407-east-51-54-20200905.pdf"
+        ]
+      },
+      {
+        "date": "2021-02-13",
+        "event": "Most weekday 52 trips join route 46 as new route 56; 52 remains a separate route, especially for weekend and special patterns.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      },
+      {
+        "date": "by 2022-04-02",
+        "event": "The 52A suffix now marks the stopping route with Baldwin/407 added; this differs from its earlier campus-express meaning.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2022-06-25",
+        "event": "Seasonal 52X runs to Canada’s Wonderland and Major Mackenzie/Hwy. 400 Park & Ride.",
+        "sources": [
+          "https://transittoronto.ca/archives/flyers/go-52-54-56-oshawa-oakville-20220625.pdf"
+        ]
+      },
+      {
+        "date": "2022-10-01",
+        "event": "Cornell Bus Terminal is added to routes 52 and 56.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "52 and 56 move from the Highway 7/Winchester corridor to Highway 407 between the Brock and Simcoe areas, removing the Lake Ridge and Winchester/Anderson stops from the main route.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2023-05-06",
+        "event": "Seasonal 52X uses Major Mackenzie West Terminal for Wonderland access.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+        ]
+      },
+      {
+        "date": "by 2024-08-31",
+        "event": "A campus express version skips Brock, Baldwin, downtown Oshawa and Oshawa GO, while serving Cornell, Unionville, Richmond Hill and Highway 407.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2024-11-18-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2025-08-30",
+        "event": "The researched 52A express pattern serves Highway 407, Richmond Hill, Unionville, Cornell, the campus, downtown Oshawa and Oshawa GO while bypassing Brock and Baldwin.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2025-08-30-table-56-oshawa-oakville.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [],
+    "sources": [
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+        "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://web.archive.org/web/20171208211455id_/http://www.gotransit.com:80/timetables/en/PDF/Timetables/09171217/Table52.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective September 2, 2017",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://assets.metrolinx.com/image/upload/v1663237688/Documents/Metrolinx/20180308_BoardMtg_CP_Quarterly_EN.pdf",
+        "title": "Metrolinx Capital Projects quarterly report, March 8, 2018: Highway 407 Bus Terminal opening",
+        "type": "official"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective April 2, 2022",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+        "title": "Transit Toronto, October 1, 2022: GO revises services and adds Cornell stops",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective April 8, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+        "type": "secondary"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "title": "Metrolinx, May 17, 2023: GO buses to popular attractions back in time for summer",
+        "type": "official"
+      },
+      {
+        "url": "https://corporate.pickering.ca/PLHCWebLink/0/edoc/175252/NA2004_07_30.pdf",
+        "title": "News Advertiser, July 30, 2004: Oshawa–York University GO bus announcement",
+        "type": "contemporary-newspaper"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2004/07/23/york-hub-for-transit-solutions-to-urban-sprawl/",
+        "title": "York University YFile, July 23, 2004: York hub for transit solutions to urban sprawl",
+        "type": "official"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/flyers/go-407-east-51-54-20200905.pdf",
+        "title": "go-407-east-51-54-20200905.pdf",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/flyers/go-52-54-56-oshawa-oakville-20220625.pdf",
+        "title": "go-52-54-56-oshawa-oakville-20220625.pdf",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2024-11-18-table-56-oshawa-oakville.pdf",
+        "title": "2024-11-18-table-56-oshawa-oakville.pdf",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2025-08-30-table-56-oshawa-oakville.pdf",
+        "title": "2025-08-30-table-56-oshawa-oakville.pdf",
+        "type": "original-timetable"
+      }
+    ],
+    "gaps": [
+      "Suffixes were reused; a 52A in 2008, 2017, 2022 or 2025 does not imply the same route.",
+      "The exact first dates of several branch changes are bounded only by surviving original snapshots."
+    ],
+    "pattern_model": "data/research/route52-corridor-patterns.json",
+    "pattern_model_correction": {
+      "pattern_id": "p2011",
+      "stop_order": [
+        "YU",
+        "KE",
+        "RH",
+        "UN",
+        "BR",
+        "GR",
+        "AN",
+        "OT",
+        "OB"
+      ],
+      "source": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+      "reason": "Original route 52 rows explicitly include Keele at Great Gulf Dr. / Snidercroft."
+    }
+  },
+  {
+    "route": "54",
+    "name": "Mount Joy / York University; later Mount Joy / Highway 407",
+    "status": "discontinued",
+    "description": "The Markham arm of the Highway 407 network connected Mount Joy, Markham, Centennial and Unionville with Langstaff or Richmond Hill Centre and York University. Expresses served different portions of the Markham corridor. It later terminated at Highway 407 and ended in January 2026.",
+    "timeline": [
+      {
+        "date": "2000-09",
+        "event": "The original Highway 407 launch reaches Unionville through York University, a predecessor corridor of 54.",
+        "sources": [
+          "https://www.yorku.ca/yul/profiles/past/aug00/current/cover/cover2.htm"
+        ]
+      },
+      {
+        "date": "by 2008-11-01",
+        "event": "The timetable explicitly identifies 54 Mount Joy–Markham–Centennial–Unionville–Langstaff–York; 54A starts at Unionville and 54B at Centennial, both bypassing Langstaff.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "by 2011-12-31",
+        "event": "Richmond Hill Centre replaces Langstaff and the Keele stop is added. 54C connects Mount Joy and Markham directly with Keele and York, bypassing Centennial, Unionville and Richmond Hill Centre.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2019-01-05",
+        "event": "GO’s York University service ends. The main 54 and its express variants terminate at Highway 407 Bus Terminal.",
+        "sources": [
+          "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2026-01-03",
+        "event": "Route 54 is discontinued as part of the January service changes, with replacement services described in Metrolinx’s announcement and the revised route 40 timetable.",
+        "sources": [
+          "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "54-2008",
+        "label": "York–Mount Joy via Langstaff",
+        "date": "2008-11-01",
+        "branch": "54",
+        "direction": "eastbound",
+        "stops": [
+          "York University Bus Loop",
+          "Langstaff GO — Langstaff Rd. south lot",
+          "Unionville GO",
+          "Centennial GO — Bullock Dr. @ McCowan Rd.",
+          "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+          "Mount Joy GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54A-2008",
+        "label": "Unionville–York express",
+        "date": "2008-11-01",
+        "branch": "54A",
+        "direction": "westbound",
+        "stops": [
+          "Unionville GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54B-2008",
+        "label": "Centennial–Unionville–York express",
+        "date": "2008-11-01",
+        "branch": "54B",
+        "direction": "westbound",
+        "stops": [
+          "Centennial GO — Bullock Dr. @ McCowan Rd.",
+          "Unionville GO",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54-2011",
+        "label": "York–Mount Joy via Richmond Hill Centre",
+        "date": "2011-12-31",
+        "branch": "54",
+        "direction": "eastbound",
+        "stops": [
+          "York University Bus Loop",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "Richmond Hill Centre",
+          "Unionville GO",
+          "Centennial GO — Bullock Dr. @ McCowan Rd.",
+          "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+          "Mount Joy GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54C-2011",
+        "label": "Mount Joy–Markham–York express",
+        "date": "2011-12-31",
+        "branch": "54C",
+        "direction": "westbound",
+        "stops": [
+          "Mount Joy GO",
+          "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+          "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+          "York University Bus Loop"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54-2019",
+        "label": "Highway 407–Mount Joy main route",
+        "date": "2019-01-05",
+        "branch": "54",
+        "direction": "eastbound",
+        "stops": [
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Unionville GO",
+          "Centennial GO — Bullock Dr. @ McCowan Rd.",
+          "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+          "Mount Joy GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "54C-2019",
+        "label": "Mount Joy–Markham–Highway 407 express",
+        "date": "2019-01-05",
+        "branch": "54C",
+        "direction": "westbound",
+        "stops": [
+          "Mount Joy GO",
+          "Markham GO — Main St. N. @ Ramona Blvd. / Station St.",
+          "Highway 407 Bus Terminal"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf"
+        ],
+        "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.yorku.ca/yul/profiles/past/aug00/current/cover/cover2.htm",
+        "title": "York University, August 2000: new Highway 407 GO service",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2009-02-19-table-52-oshawa-oakville.pdf",
+        "title": "GO Highway 407 East timetable, internally dated November 1, 2008 (archived February 19, 2009)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2012-08-23-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective December 31, 2011 (archived August 23, 2012)",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2019-01-05-table-52-oshawa-oakville.pdf",
+        "title": "GO routes 51, 52 and 54 timetable, effective January 5, 2019",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://www.metrolinx.com/en/news/holiday-go-transit-service-adjustments",
+        "title": "Metrolinx: Holiday GO Transit service adjustments; January 3, 2026 changes",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2026-01-03-table-40-hamilton-richmond-hill-pearson-express.pdf",
+        "title": "GO route 40 timetable, effective January 3, 2026",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "title": "Original GO Transit GTFS snapshot archived January 11, 2016",
+        "type": "official"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "title": "Original GO Transit GTFS snapshot archived May 5, 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The exact extension dates from Unionville into Markham and Mount Joy have not been established.",
+      "54A/B/C introduction and withdrawal dates are represented by original timetable snapshots; later full-stop patterns come from dated GTFS."
+    ]
+  },
+  {
+    "route": "56",
+    "name": "Oshawa / Oakville",
+    "status": "current",
+    "description": "A long through route created in 2021 by joining the Oakville and Oshawa arms of the Highway 407 network. It inherited both the western college/park-and-ride stops and the eastern campus/downtown corridor.",
+    "timeline": [
+      {
+        "date": "2021-02-13",
+        "event": "Metrolinx creates route 56 by combining most weekday trips on routes 46 and 52, with 38 weekday through trips announced.",
+        "sources": [
+          "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+        ]
+      },
+      {
+        "date": "by 2022-04-02",
+        "event": "The original labels the principal route 56A and includes the Baldwin/407 detour together with Lake Ridge and Winchester/Anderson. It links Oakville GO and Oshawa GO through Sheridan, Square One, Bramalea, Highway 407 and Richmond Hill Centre.",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2022-10-01",
+        "event": "Cornell Bus Terminal is added. The January 2023 original confirms it.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf"
+        ]
+      },
+      {
+        "date": "2023-04-08",
+        "event": "The Durham part moves onto Highway 407, replacing the Lake Ridge/Winchester street section while retaining Brock/407, Baldwin/407, Ontario Tech/Durham College and Oshawa stops.",
+        "sources": [
+          "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+        ]
+      }
+    ],
+    "historic_patterns": [
+      {
+        "id": "56A-2022",
+        "label": "Oakville–Oshawa via Winchester and Baldwin",
+        "date": "2022-04-02",
+        "branch": "56A",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Unionville GO",
+          "Brock Rd. @ Hwy. 407 Park & Ride",
+          "Winchester Rd. W. / Hwy. 7 @ Lake Ridge Rd.",
+          "Baldwin St. @ Hwy. 407 Park & Ride",
+          "Winchester Rd. @ Anderson St. / Watford St.",
+          "Ontario Tech University / Durham College",
+          "Downtown Oshawa — Centre St. S. @ Athol St. W.",
+          "Oshawa GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf"
+        ],
+        "notes": "Eastbound downtown timing point is Centre/Athol; westbound uses Simcoe/Athol. Lake Ridge is on the Winchester/Highway 7 corridor. Do not substitute the post-April-2023 highway geometry. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      },
+      {
+        "id": "56-2023",
+        "label": "Oakville–Oshawa via Cornell and Highway 407",
+        "date": "2023-04-08",
+        "branch": "56",
+        "direction": "eastbound",
+        "stops": [
+          "Oakville GO",
+          "Sheridan College — Trafalgar Campus",
+          "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+          "Erin Mills Transitway Station",
+          "Square One GO Bus Terminal",
+          "Bramalea GO",
+          "Highway 407 Bus Terminal",
+          "Richmond Hill Centre",
+          "Unionville GO",
+          "Cornell Bus Terminal",
+          "Brock Rd. @ Hwy. 407 Park & Ride",
+          "Baldwin St. @ Hwy. 407 Park & Ride",
+          "Ontario Tech University / Durham College",
+          "Downtown Oshawa — Centre St. S. @ Athol St. W.",
+          "Oshawa GO"
+        ],
+        "geometry_kind": "schematic",
+        "sources": [
+          "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf"
+        ],
+        "notes": "Highway 407 replaces the old Durham street corridor; there is no Lake Ridge or Winchester/Anderson timing point in this pattern. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+        "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+        "type": "official"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2022-04-02-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective April 2, 2022",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2022/10/01-go_revises.shtml",
+        "title": "Transit Toronto, October 1, 2022: GO revises services and adds Cornell stops",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-01-07-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective January 7, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+        "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+        "type": "secondary"
+      },
+      {
+        "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-oakville/2023-04-08-table-56-oshawa-oakville.pdf",
+        "title": "GO routes 52, 54 and 56 timetable, effective April 8, 2023",
+        "type": "original-timetable"
+      },
+      {
+        "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+        "title": "Original GO Transit GTFS snapshot archived May 5, 2023",
+        "type": "official"
+      }
+    ],
+    "gaps": [
+      "The February 2021 announcement establishes the through-route launch but does not enumerate every trip-level branch.",
+      "Historical and current GTFS patterns should be used for the full intermediate stop lists and any later short or express variants."
+    ]
+  }
+]

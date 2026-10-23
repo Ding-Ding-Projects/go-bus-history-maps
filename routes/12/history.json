@@ -1,0 +1,108 @@
+{
+  "route": "12",
+  "name": "Niagara Falls / Burlington",
+  "status": "current",
+  "description": "A Niagara–Lakeshore rail feeder developed from Burlington–Stoney Creek service, subsequently extended to Niagara Falls with express and short-turn variants.",
+  "timeline": [
+    {
+      "date": "2008-06-28",
+      "event": "Route 12 began between Burlington GO and Stoney Creek; Ontario later confirmed the June 2008 launch.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml",
+        "https://news.ontario.ca/m/5355"
+      ]
+    },
+    {
+      "date": "2009-09-05",
+      "event": "Year-round Niagara Falls–Burlington service began via St. Catharines, Grimsby and Stoney Creek.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/go-looks-at-new-niagara-rail-service-expansion-538999061.html"
+      ]
+    },
+    {
+      "date": "2009-10-31",
+      "event": "The original table shows the full Niagara Falls VIA–Burlington route via Fairview Mall and Nash / Barton.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2010-01-02-table-12-niagara-falls-toronto.pdf"
+      ]
+    },
+    {
+      "date": "2011-09-03",
+      "event": "The timetable documents Friday express 12B toward Niagara Falls and 12D from St. Catharines toward Burlington.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "The table serves Niagara College’s Niagara-on-the-Lake campus, Beamsville and Confederation GO; 12C trips were also increased.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2023-04-08-table-12-niagara-falls-toronto.pdf",
+        "https://www.gotransit.com/en/blog/april-service-changes"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+      "type": "secondary"
+    },
+    {
+      "url": "https://news.ontario.ca/m/5355",
+      "title": "Ontario: GO Transit service expansions, 3 April 2009; records June 2008 Stoney Creek bus launch",
+      "type": "official"
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/go-looks-at-new-niagara-rail-service-expansion-538999061.html",
+      "title": "GO Transit release: GO looks at new Niagara rail service expansion, 17 December 2009",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2010-01-02-table-12-niagara-falls-toronto.pdf",
+      "title": "GO table 12, printed effective 31 October 2009 (filename dated 2 January 2010)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2012-06-03-table-12-niagara-falls-toronto.pdf",
+      "title": "GO table 12, printed effective 3 September 2011 (filename dated 3 June 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/niagara-falls-toronto/2023-04-08-table-12-niagara-falls-toronto.pdf",
+      "title": "GO Niagara Falls / Toronto table 12, effective 8 April 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.gotransit.com/en/blog/april-service-changes",
+      "title": "GO Transit: April service changes, published 14 April 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The archive’s 2011 table 13 Niagara Falls / Toronto document is train-only, not evidence of a separate bus route 13.",
+    "Dates of every park-and-ride relocation and lettered-branch introduction remain incomplete.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

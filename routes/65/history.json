@@ -1,0 +1,97 @@
+{
+  "route": "65",
+  "name": "Newmarket–Toronto / Barrie corridor",
+  "status": "current",
+  "description": "Union-bound and rail-connecting services in the Barrie corridor. Route 65 has repeatedly changed as train service expanded; suffixes describe a dated pattern rather than a permanent route identity.",
+  "timeline": [
+    {
+      "date": "2009-06-27",
+      "event": "The timetable documents East Gwillimbury/Newmarket–Aurora–Highway 404–Union buses, with other Barrie-corridor bus connections in the same table.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf"
+      ]
+    },
+    {
+      "date": "2012-09",
+      "event": "Additional weekday and weekend Union trips were introduced; the former 69 service between Union and East Gwillimbury became route 65.",
+      "sources": [
+        "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html"
+      ]
+    },
+    {
+      "date": "2018-01-02",
+      "event": "Expanded Barrie train service replaced much daytime bus service; the local Newmarket–Aurora portion gained route number 69.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2023-01-07",
+      "event": "The timetable retains several Union branches serving East Gwillimbury, Newmarket and Aurora alongside routes 63 and 68.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf"
+      ]
+    },
+    {
+      "date": "2024-04-27",
+      "event": "The former King City route 63 appears as 65A.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2009-10-07-table-65-barrie.pdf",
+      "title": "GO Barrie Table 65, printed June 27, 2009; archive filename October 7",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/new-adjusted-go-bus-service-for-richmond-hill-keswick-barrie-riders-school-service-returns-510584921.html",
+      "title": "GO Transit: New, adjusted bus service for Richmond Hill, Keswick and Barrie; August 15, 2012",
+      "type": "official"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2017/12/29-go_revises.shtml",
+      "title": "GO revises routes and services, December 30, 2017 / January 2018 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2023-01-07-table-65-barrie.pdf",
+      "title": "GO Barrie routes 63/65/68, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/barrie/2024-04-27-table-65-barrie.pdf",
+      "title": "GO Barrie schedule, effective April 27, 2024; King City bus numbered 65A",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Older Barrie-area trips printed in Table 65 without clear public route/suffix labels have not been assigned invented branches.",
+    "Use the separate 2016, 2022, 2023 and 2026 GTFS snapshots for their full stop and shape variants.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

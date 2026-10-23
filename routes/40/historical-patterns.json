@@ -1,0 +1,370 @@
+[
+  {
+    "id": "40-2008-pearson-short",
+    "label": "Launch-era Square One–Pearson short working",
+    "date": "2008-04-26",
+    "branch": "40 (short working; suffix unverified)",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+    ],
+    "notes": "The contemporary notice says alternate half-hourly buses continue to Richmond Hill Centre. It does not give a suffix for the short workings. No intermediate stop is described.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The contemporary notice says alternate half-hourly buses continue to Richmond Hill Centre. It does not give a suffix for the short workings. No intermediate stop is described."
+  },
+  {
+    "id": "40-2010",
+    "label": "Square One–Pearson–Richmond Hill",
+    "date": "2010-02-01",
+    "branch": "40",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2010-02-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+    ],
+    "notes": "Effective date is printed inside the original, not the archive filename. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Effective date is printed inside the original, not the archive filename. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "40-2011",
+    "label": "Pearson–Richmond Hill shuttle",
+    "date": "2011-01-01",
+    "branch": "40",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2011-10-27-table-40-hamilton-richmond-hill-pearson-express.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "40-2019",
+    "label": "Hamilton–Richmond Hill main route",
+    "date": "2019-01-05",
+    "branch": "40",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dixie Transitway Station",
+        "lat": 43.6300128947218,
+        "lon": -79.6146254772841,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dixie Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Renforth Transitway Station",
+        "lat": 43.662995090205,
+        "lon": -79.5911181123626,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Renforth Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6146254772841,
+          43.6300128947218
+        ],
+        [
+          -79.5911181123626,
+          43.662995090205
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4252853,
+          43.8401451
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "40A-2019",
+    "label": "Hamilton–Square One express",
+    "date": "2019-01-05",
+    "branch": "40A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+    ],
+    "notes": "Trafalgar is explicitly passed without stopping. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Trafalgar is explicitly passed without stopping. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "40B-2019",
+    "label": "Richmond Hill–Pearson express short trip",
+    "date": "2019-01-05",
+    "branch": "40B",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Richmond Hill Centre",
+        "lat": 43.8401451,
+        "lon": -79.4252853,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-richmond-hill-pearson-express/2019-01-05-table-40-hamilton-richmond-hill-pearson-express.pdf"
+    ],
+    "notes": "The westbound row has no Highway 407 terminal stop; this is not the stopping main 40. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.4252853,
+          43.8401451
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The westbound row has no Highway 407 terminal stop; this is not the stopping main 40. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

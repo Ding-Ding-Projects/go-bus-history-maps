@@ -1,0 +1,64 @@
+[
+  {
+    "id": "30-2013-west",
+    "label": "Early Bramalea–Kitchener train connection",
+    "date": "2013-04-06",
+    "branch": "30",
+    "direction": "Westbound",
+    "stops": [
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Kitchener GO, Weber / Victoria",
+        "lat": 43.455573,
+        "lon": -80.492543,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08010 (Kitchener GO Bus); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Kitchener GO Bus",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Kitchener Bus Terminal, Charles / Ontario",
+        "lat": 43.4519386,
+        "lon": -80.4876175,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 02530 (Kitchener Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Kitchener Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/kitchener/2013-04-06-table-31-kitchener.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Visually verified westbound sequence: Bramalea 15:00, Kitchener GO16:10, Charles Street 16:15. The morning eastbound trip starts at Kitchener GO; do not infer a Charles Street pickup.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -80.492543,
+          43.455573
+        ],
+        [
+          -80.4876175,
+          43.4519386
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Visually verified westbound sequence: Bramalea 15:00, Kitchener GO16:10, Charles Street 16:15. The morning eastbound trip starts at Kitchener GO; do not infer a Charles Street pickup."
+  }
+]

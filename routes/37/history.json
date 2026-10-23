@@ -1,0 +1,85 @@
+{
+  "route": "37",
+  "name": "Orangeville / Brampton",
+  "status": "current",
+  "description": "A Highway 10/Hurontario train-feeder corridor, originally numbered 41, with a former midday Bramalea branch.",
+  "timeline": [
+    {
+      "date": "1999-01-04",
+      "event": "GO introduced Orangeville–Caledon–Victoria–Snelgrove–Brampton train connections.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2008-04-28",
+      "event": "Former 41 Orangeville was renumbered 37; an additional weekday trip each way was also introduced.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2009-10-31",
+      "event": "37 mainline serves Brampton GO; midday 37A serves Trinity Common and Bramalea.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf"
+      ]
+    },
+    {
+      "date": "2011-12-31",
+      "event": "All six weekday trips each way in this issue use Brampton GO; the earlier Bramalea branch is absent.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2012-08-25-table-37-orangeville-brampton.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+      "type": "secondary"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "Transit Toronto: GO Transit changes start April 26, published 22 April 2008",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2010-01-02-table-37-orangeville-brampton.pdf",
+      "title": "GO table 37, printed effective 31 October 2009 (filename dated 2 January 2010)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/orangeville-brampton/2012-08-25-table-37-orangeville-brampton.pdf",
+      "title": "GO table 37, printed effective 31 December 2011 (filename dated 25 August 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "See the separate 41 entry for the former number.",
+    "The old 37A withdrawal falls between the 2009 and December 2011 snapshots; the precise date is unverified.",
+    "Later weekend/local-branch chronology requires additional timetables.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

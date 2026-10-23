@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "47-pre-2007",
+    "label": "Hamilton–York predecessor",
+    "date": "2006-12-30",
+    "branch": "pre-47",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47-2011",
+    "label": "Hamilton–York main route",
+    "date": "2011-12-31",
+    "branch": "47",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47A-2011",
+    "label": "McMaster–Square One–Bramalea express",
+    "date": "2011-12-31",
+    "branch": "47A",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47B-2011",
+    "label": "McMaster–Square One express",
+    "date": "2011-12-31",
+    "branch": "47B",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47C-2014",
+    "label": "McMaster–Trafalgar express",
+    "date": "2014-04-05",
+    "branch": "47C",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.74487,
+          43.505837
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47D-2011",
+    "label": "Bramalea–York short route",
+    "date": "2011-12-31",
+    "branch": "47D",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "Historical suffix meaning; differs from the 2023 McMaster express. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Historical suffix meaning; differs from the 2023 McMaster express. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47E-2011",
+    "label": "McMaster–Trafalgar via 407 park-and-rides",
+    "date": "2011-12-31",
+    "branch": "47E",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47F-2014",
+    "label": "McMaster–Bramalea–York express",
+    "date": "2014-04-05",
+    "branch": "47F",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "The main 47’s intermediate stops between McMaster and Bramalea are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The main 47’s intermediate stops between McMaster and Bramalea are bypassed. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47G-2011",
+    "label": "Weekend Hamilton–Yorkdale extension",
+    "date": "2011-12-31",
+    "branch": "47G",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "Historical suffix meaning; not the later McMaster–Erin Mills 47G. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Historical suffix meaning; not the later McMaster–Erin Mills 47G. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47H-2011",
+    "label": "McMaster–Bronte short route",
+    "date": "2011-12-31",
+    "branch": "47H",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47J-2014",
+    "label": "Hamilton–Square One via Trafalgar",
+    "date": "2014-04-05",
+    "branch": "47J",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+    ],
+    "notes": "Despite the express description, the original has a scheduled stop at Trafalgar/407. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Despite the express description, the original has a scheduled stop at Trafalgar/407. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47-2018",
+    "label": "Hamilton–York via Highway 407 terminal",
+    "date": "2018-09-01",
+    "branch": "47",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Erin Mills Transitway",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Keele St. @ Great Gulf Dr. / Snidercroft Rd.",
+        "lat": 43.7889893,
+        "lon": -79.4965002,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Road intersection location; historic platform position not established"
+      },
+      {
+        "name": "York University Bus Loop",
+        "lat": 43.7743538,
+        "lon": -79.4997952,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "OpenStreetMap; Approximate historic terminal-area marker; not a verified old GO bay position"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.4965002,
+          43.7889893
+        ],
+        [
+          -79.4997952,
+          43.7743538
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47-2019",
+    "label": "Hamilton–Highway 407 main route",
+    "date": "2019-08-31",
+    "branch": "47",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Erin Mills Transitway",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47F-2019",
+    "label": "McMaster–Highway 407 express via Bramalea",
+    "date": "2019-08-31",
+    "branch": "47F",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47W-2022",
+    "label": "Summer Wonderland / Major Mackenzie extension",
+    "date": "2022-06-25",
+    "branch": "47W",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "Hamilton GO Centre",
+        "lat": 43.252945,
+        "lon": -79.869586,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Hamilton GO Centre Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Erin Mills Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.7015110998905,
+        "lon": -79.6932467645138,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      },
+      {
+        "name": "Canada’s Wonderland — historic bus stop",
+        "lat": 43.84167,
+        "lon": -79.54306,
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_source": "https://www.openstreetmap.org/",
+        "location_note": "https://en.wikipedia.org/wiki/Canada%27s_Wonderland"
+      },
+      {
+        "name": "Major Mackenzie Dr. @ Hwy. 400 Park & Ride",
+        "lat": 43.8460693,
+        "lon": -79.5503922,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Major Mackenzie Dr. @ Hwy. 400 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+    ],
+    "notes": "The old Wonderland bus stop is not the later Major Mackenzie West Terminal; map only an approximate park area if no bay source is available. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.869586,
+          43.252945
+        ],
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6932467645138,
+          43.7015110998905
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ],
+        [
+          -79.54306,
+          43.84167
+        ],
+        [
+          -79.5503922,
+          43.8460693
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. The old Wonderland bus stop is not the later Major Mackenzie West Terminal; map only an approximate park area if no bay source is available. These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47D-2023",
+    "label": "McMaster–Highway 407 via Square One express",
+    "date": "2023-01-07",
+    "branch": "47D",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Square One GO Bus Terminal",
+        "lat": 43.5945549,
+        "lon": -79.6475983,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Square One",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.7015110998905,
+        "lon": -79.6932467645138,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Highway 407 Bus Terminal",
+        "lat": 43.7830713234851,
+        "lon": -79.5244458372792,
+        "accuracy": "reference stop area; old platform unverified",
+        "location_source": "https://www.gotransit.com/en/partner-with-us/software-developers",
+        "location_note": "GO GTFS, 20 October 2026; location, not historic service proof"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.6475983,
+          43.5945549
+        ],
+        [
+          -79.6932467645138,
+          43.7015110998905
+        ],
+        [
+          -79.5244458372792,
+          43.7830713234851
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  },
+  {
+    "id": "47G-2023",
+    "label": "McMaster–Erin Mills short route",
+    "date": "2023-01-07",
+    "branch": "47G",
+    "direction": "eastbound",
+    "stops": [
+      {
+        "name": "McMaster University",
+        "lat": 43.2617264,
+        "lon": -79.9225693,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "McMaster University",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "lat": 43.3892708,
+        "lon": -79.8287811,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Dundas St. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "lat": 43.505837,
+        "lon": -79.74487,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 Park & Ride",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Erin Mills Transitway Station",
+        "lat": 43.5520363,
+        "lon": -79.7003021,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "location_reference_date": "2022-03-08",
+        "location_reference_name": "Erin Mills Transitway Station",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+    ],
+    "notes": " These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.9225693,
+          43.2617264
+        ],
+        [
+          -79.8287811,
+          43.3892708
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.74487,
+          43.505837
+        ],
+        [
+          -79.7003021,
+          43.5520363
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction.  These are the timetable’s ordered major timing points; intermediate roadside stops are not asserted."
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "route": "34",
+  "name": "Pearson Airport / North York; formerly Brampton local",
+  "status": "discontinued",
+  "description": "Before 2015,34 joined Brampton, Malton and Pearson with North York. It became Pearson–Finch before being absorbed into 94.",
+  "timeline": [
+    {
+      "date": "2012-09-01",
+      "event": "The combined timetable identifies 34 as Brampton–Bramalea–Malton–Pearson–North York.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "34 became Pearson–Yorkdale–Finch, dropping Brampton, Malton and York Mills.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The original 34 table confirms its Pearson–Finch configuration.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "34 and 94 merged into expanded 94, ending the separate 34 number.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+        "https://www.gotransit.com/en/blog/april-service-changes"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+      "title": "GO Brampton Local / Highway 27 and Highway 427 Express table 34, effective 1 September 2012, routes 34 / 35 / 36",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "Metrolinx GO Transit Ridership Report, September 2016 (original report, archived by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf",
+      "title": "GO Pearson Airport / North York table 34, effective 5 January 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/new-waterloo-to-hamilton-route-among-april-go-bus-service-changes-",
+      "title": "Metrolinx: New Waterloo to Hamilton route among April GO bus service changes",
+      "type": "official"
+    },
+    {
+      "url": "https://www.gotransit.com/en/blog/april-service-changes",
+      "title": "GO Transit: April service changes, published 14 April 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The initial 34 launch date is unknown.",
+    "The 2015 change removed the Brampton section; it was not merely a name change.",
+    "Use full original tables or GTFS for minor/direction-specific stops.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

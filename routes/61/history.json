@@ -1,0 +1,96 @@
+{
+  "route": "61",
+  "name": "Richmond Hill",
+  "status": "current",
+  "description": "Bus complement to the Richmond Hill rail corridor. Earlier buses ended at Richmond Hill GO; later service reached Gormley and Bloomington. The 2005 table also contains shorter Leslie Street services.",
+  "timeline": [
+    {
+      "date": "2005-11-21",
+      "event": "The timetable documents Richmond Hill–Langstaff–Union buses, Richmond Hill–Union expresses, and Leslie/Old Cummer–Leslie/401–Union trips.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The route family had reached Gormley; the timetable displays branches 61 and 61A through 61F.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2019-01-05-table-61-richmond-hill.pdf"
+      ]
+    },
+    {
+      "date": "2020-09-05",
+      "event": "Branches 61A, 61B, 61C and 61F were withdrawn in the September restructuring.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2021-06-28",
+      "event": "Bloomington GO opened with weekday route 61 bus service.",
+      "sources": [
+        "https://news.ontario.ca/en/release/1000355/ontario-to-officially-open-new-bloomington-go-station"
+      ]
+    },
+    {
+      "date": "2023-01-07",
+      "event": "The timetable shows the Bloomington–Gormley–Richmond Hill–Langstaff–Union corridor and the Richmond Hill short service.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2007-09-27-table-61-richmond-hill.pdf",
+      "title": "GO Richmond Hill Table 61, printed November 21, 2005; archive filename September 27, 2007",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2019-01-05-table-61-richmond-hill.pdf",
+      "title": "GO Richmond Hill route 61 schedule, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+      "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://news.ontario.ca/en/release/1000355/ontario-to-officially-open-new-bloomington-go-station",
+      "title": "Ontario to Officially Open New Bloomington GO Station, June 16, 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/richmond-hill/2023-01-07-table-61-richmond-hill.pdf",
+      "title": "GO Richmond Hill route 61 schedule, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Detailed Gormley-era lettered patterns should be read from the original 2019 timetable; a modern letter must not be assigned retroactively to a 2005 trip.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

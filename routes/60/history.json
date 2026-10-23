@@ -1,0 +1,63 @@
+{
+  "route": "60",
+  "name": "Canada’s Wonderland",
+  "status": "discontinued",
+  "description": "Seasonal direct GO buses from York Mills and Yorkdale to Canada’s Wonderland. This was the renumbered successor to route 43; later Wonderland service using other route families is a separate service.",
+  "timeline": [
+    {
+      "date": "2008-05-04",
+      "event": "The seasonal Wonderland service returned under number 60, replacing number 43.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml"
+      ]
+    },
+    {
+      "date": "2010-05",
+      "event": "Weekend/holiday service resumed May 2; daily operation followed May 20.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2010/05/15-brampton_m.shtml"
+      ]
+    },
+    {
+      "date": "2013-05-01",
+      "event": "The original seasonal timetable shows 60 from York Mills via Yorkdale and 60A starting at Yorkdale.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "The 2019 service-change account states that route 60 would not return and directs riders to YRT route 20.",
+      "sources": [
+        "https://stevemunro.ca/2019/08/16/go-transit-service-changes-effective-september-3-2019/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2008/04/22-go_transit.shtml",
+      "title": "GO Transit revises services, April/May 2008 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2010/05/15-brampton_m.shtml",
+      "title": "Seasonal Canada’s Wonderland services, May 2010 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/canadas-wonderland/2013-06-12-table-60-canadas-wonderland.pdf",
+      "title": "GO Canada’s Wonderland route 60, printed effective May 1, 2013; archive filename June 12",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/2019/08/16/go-transit-service-changes-effective-september-3-2019/",
+      "title": "GO Transit Service Changes Effective September 3, 2019 — Steve Munro",
+      "type": "secondary"
+    }
+  ],
+  "gaps": [
+    "The exact final operating day of the last season has not been established. Route 43 has its own folder for the earlier number.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

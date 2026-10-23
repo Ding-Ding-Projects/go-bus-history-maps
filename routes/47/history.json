@@ -1,0 +1,188 @@
+{
+  "route": "47",
+  "name": "Hamilton / Highway 407 (formerly York University and Yorkdale)",
+  "status": "current",
+  "description": "The Hamilton and McMaster arm of the 407 network has had numerous express, short and weekend branches. Suffixes have been reused: the older 47D was a Bramalea–York short route, while the 2023 47D is a McMaster express; the older 47G extended to Yorkdale.",
+  "timeline": [
+    {
+      "date": "2002-04-29",
+      "event": "The Highway 407 network expands to Hamilton and McMaster University, the predecessor of numbered route 47.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "by 2006-12-30",
+      "event": "The original Hamilton–McMaster–407 park-and-rides–Square One–Bramalea–York pattern is documented.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf"
+      ]
+    },
+    {
+      "date": "by 2011-12-31",
+      "event": "The original has branches 47A/B/C/D/E/F/G/H. Weekend 47G runs beyond York University to Yorkdale; 47D is a short Bramalea–Keele–York service.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf"
+      ]
+    },
+    {
+      "date": "by 2014-04-05",
+      "event": "47J provides Hamilton–Trafalgar/407–Square One service, bypassing McMaster and the western 407 park-and-rides.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf"
+      ]
+    },
+    {
+      "date": "2015-09-05",
+      "event": "47J is absorbed into the extended route 40.",
+      "sources": [
+        "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf"
+      ]
+    },
+    {
+      "date": "by 2018-09-01",
+      "event": "The main route serves Erin Mills and Highway 407 terminal before Keele and York. Express McMaster variants remain.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The York University terminus is replaced by Highway 407 Bus Terminal.",
+      "sources": [
+        "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf"
+      ]
+    },
+    {
+      "date": "2021-02-13",
+      "event": "Most weekday 47 trips combine with 51 into new through route 41; route 47 remains as a separate family.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes"
+      ]
+    },
+    {
+      "date": "by 2022-06-25",
+      "event": "Seasonal 47W extends via Canada’s Wonderland to Major Mackenzie/Hwy. 400 Park & Ride.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf"
+      ]
+    },
+    {
+      "date": "by 2023-01-07",
+      "event": "The timetable uses 47D for McMaster–Square One–Bramalea–Highway 407 express service and 47G for a McMaster–Erin Mills stopping short route. These differ from the 2011 suffix meanings.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf"
+      ]
+    },
+    {
+      "date": "2023-04-08",
+      "event": "Weekday route 47 service is increased to roughly half-hourly in the spring revision.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+      ]
+    },
+    {
+      "date": "2023-05-06",
+      "event": "Seasonal Wonderland service uses the new Major Mackenzie West Terminal in 2023.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "Toronto Transportation Society / Transit Toronto: GO Transit celebrates 50 years of bus service",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2008-01-04-table-46-hwy-407-west.pdf",
+      "title": "GO Highway 407 West timetable, internally effective December 30, 2006 (archive filename January 4, 2008)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2012-08-25-table-46-hwy-407-west.pdf",
+      "title": "GO routes 45–48 timetable, effective December 31, 2011 (archived August 25, 2012)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2014-04-05-table-46-hwy-407-west.pdf",
+      "title": "GO routes 45–48 timetable, effective April 5, 2014",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://stevemunro.ca/wp-content/uploads/2017/03/ridership-report-september2016.pdf",
+      "title": "GO Transit ridership report, September 2016, footnote 9 (agency original mirrored by Steve Munro)",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2018-09-01-table-46-hwy-407-west.pdf",
+      "title": "GO routes 45–48 timetable, effective September 1, 2018",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.yorku.ca/yfile/2018/11/06/go-transit-announces-changes-to-go-bus-services-on-keele-campus/",
+      "title": "York University: GO Transit announces changes to GO bus services on Keele campus, November 6, 2018",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hwy-407-west/2019-08-31-table-46-hwy-407-west.pdf",
+      "title": "GO routes 45–48 timetable, effective August 31, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/changes-coming-to-some-go-transit-bus-routes",
+      "title": "Metrolinx: Changes coming to some GO Transit bus routes, February 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2022-06-25-table-41-hamilton-pickering.pdf",
+      "title": "GO Hamilton/Pickering timetable, effective June 25, 2022",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/hamilton-pickering/2023-01-07-table-41-hamilton-pickering.pdf",
+      "title": "GO Hamilton/Pickering timetable, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2023/04/08-go_revisin.shtml",
+      "title": "Transit Toronto, April 8, 2023: GO revising routes and services",
+      "type": "secondary"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+      "title": "Metrolinx, May 17, 2023: GO buses to popular attractions back in time for summer",
+      "type": "official"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "Dates are snapshots for branch patterns unless a launch or withdrawal notice is cited.",
+    "The exact introduction/retirement dates of every 47 suffix are not established; suffixes must always be paired with a date.",
+    "This inventory describes ordered timing points, not all possible trip-level short turns; original GTFS patterns provide a more detailed view in available years.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

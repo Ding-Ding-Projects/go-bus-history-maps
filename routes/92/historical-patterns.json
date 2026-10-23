@@ -1,0 +1,414 @@
+[
+  {
+    "id": "92-2014-a",
+    "label": "Original 92A Ajax–Finch branch",
+    "date": "2014-09-02",
+    "branch": "92A",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Kingston Rd / Harwood Ave — Ajax",
+        "lat": 43.8612671,
+        "lon": -79.0265427,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00322, named Kingston Rd.  @ Harwood Ave.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Westney Rd — Ajax",
+        "lat": 43.8572845,
+        "lon": -79.0426102,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00366, named Kingston Rd.  @ Westney Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Church St — Ajax",
+        "lat": 43.8541832,
+        "lon": -79.0567474,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00343, named Kingston Rd.  @  Church St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Brock Rd — Pickering",
+        "lat": 43.8485184,
+        "lon": -79.0733795,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00364, named Kingston Rd.  @ Brock Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Glenanna Rd — Pickering",
+        "lat": 43.8381004,
+        "lon": -79.087471,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00314, named Kingston Rd.  @  Glenanna Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Fairport Rd — Pickering",
+        "lat": 43.8234673,
+        "lon": -79.1067047,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Sheppard Ave E",
+        "lat": 43.7995529,
+        "lon": -79.1456985,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Kingston Rd.  @ Sheppard Ave. E.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge St / Sheppard Ave",
+        "lat": 43.7613983,
+        "lon": -79.4107361,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yonge St. @ Sheppard Ave.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Finch Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://transittoronto.ca/archives/weblog/2014/08/28-go_revises.shtml"
+    ],
+    "notes": "Selected principal stops from the contemporary route description. Full original 2016 GTFS additionally preserves the intermediate street stops.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.0265427,
+          43.8612671
+        ],
+        [
+          -79.0426102,
+          43.8572845
+        ],
+        [
+          -79.0567474,
+          43.8541832
+        ],
+        [
+          -79.0733795,
+          43.8485184
+        ],
+        [
+          -79.087471,
+          43.8381004
+        ],
+        [
+          -79.1067047,
+          43.8234673
+        ],
+        [
+          -79.1456985,
+          43.7995529
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4107361,
+          43.7613983
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected principal stops from the contemporary route description. Full original 2016 GTFS additionally preserves the intermediate street stops."
+  },
+  {
+    "id": "92-2019-main",
+    "label": "Downtown Oshawa–Yorkdale via Highway 2",
+    "date": "2019-04-06",
+    "branch": "92",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Oshawa Bus Terminal",
+        "lat": 43.8978462,
+        "lon": -78.865593,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oshawa Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Dundas St / Thickson Rd — Whitby",
+        "lat": 43.8865662,
+        "lon": -78.9120483,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00331, named Dundas St.  @ Thickson Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Dundas St / Brock St — Whitby",
+        "lat": 43.8796501,
+        "lon": -78.9427185,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00173, named Dundas St.  @  Brock St.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Harwood Ave — Ajax",
+        "lat": 43.8612671,
+        "lon": -79.0265427,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00322, named Kingston Rd.  @ Harwood Ave.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Glenanna Rd — Pickering",
+        "lat": 43.8381004,
+        "lon": -79.087471,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00314, named Kingston Rd.  @  Glenanna Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Fairport Rd — Pickering",
+        "lat": 43.8234673,
+        "lon": -79.1067047,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Sheppard Ave E",
+        "lat": 43.7995529,
+        "lon": -79.1456985,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Kingston Rd.  @ Sheppard Ave. E.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+    ],
+    "notes": "Printed timing points of the main 92 bus row. The Dundas/Highway 412 column belongs to the short 92A branch and is bypassed by main 92.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.865593,
+          43.8978462
+        ],
+        [
+          -78.9120483,
+          43.8865662
+        ],
+        [
+          -78.9427185,
+          43.8796501
+        ],
+        [
+          -79.0265427,
+          43.8612671
+        ],
+        [
+          -79.087471,
+          43.8381004
+        ],
+        [
+          -79.1067047,
+          43.8234673
+        ],
+        [
+          -79.1456985,
+          43.7995529
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Printed timing points of the main 92 bus row. The Dundas/Highway 412 column belongs to the short 92A branch and is bypassed by main 92."
+  },
+  {
+    "id": "92-2019-a",
+    "label": "Later 92A Dundas/Highway 412–Yorkdale",
+    "date": "2019-04-06",
+    "branch": "92A",
+    "direction": "westbound",
+    "stops": [
+      {
+        "name": "Dundas St / Highway 412",
+        "lat": 43.8769486590634,
+        "lon": -78.9812249498338,
+        "location_source": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2022-03-08, stop 02672, named Dundas St. @ Hwy. 412 Park & Ride. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Harwood Ave — Ajax",
+        "lat": 43.8612671,
+        "lon": -79.0265427,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00322, named Kingston Rd.  @ Harwood Ave.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Glenanna Rd — Pickering",
+        "lat": 43.8381004,
+        "lon": -79.087471,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00314, named Kingston Rd.  @  Glenanna Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Fairport Rd — Pickering",
+        "lat": 43.8234673,
+        "lon": -79.1067047,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "reference stop area; historical platform unverified",
+        "location_note": "Reference coordinate from GO GTFS 2016-01-11, stop 00312, named Kingston Rd.  @  Fairport Rd.. Historical direction-specific platform has not been established."
+      },
+      {
+        "name": "Kingston Rd / Sheppard Ave E",
+        "lat": 43.7995529,
+        "lon": -79.1456985,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Kingston Rd.  @ Sheppard Ave. E.",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Scarborough Centre Bus Terminal",
+        "lat": 43.7748413,
+        "lon": -79.2563171,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Scarborough Centre Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-yorkdale/2019-04-06-table-92-oshawa-yorkdale.pdf"
+    ],
+    "notes": "This 92A is already different from the 2014 Ajax–Finch branch. It ends at Yorkdale via York Mills.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -78.9812249498338,
+          43.8769486590634
+        ],
+        [
+          -79.0265427,
+          43.8612671
+        ],
+        [
+          -79.087471,
+          43.8381004
+        ],
+        [
+          -79.1067047,
+          43.8234673
+        ],
+        [
+          -79.1456985,
+          43.7995529
+        ],
+        [
+          -79.2563171,
+          43.7748413
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. This 92A is already different from the 2014 Ajax–Finch branch. It ends at Yorkdale via York Mills."
+  }
+]

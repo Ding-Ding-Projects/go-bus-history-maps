@@ -1,0 +1,103 @@
+{
+  "route": "96",
+  "name": "Oshawa–Finch Express",
+  "status": "current",
+  "description": "Highway 401 bus family linking Durham GO stations with North York. Multiple express and short branches were later consolidated as 96B; seasonal 96Z added the Toronto Zoo.",
+  "timeline": [
+    {
+      "date": "2007-04-28",
+      "event": "Routes 95 and 96 began as complementary Oshawa–Finch express services.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2013-06-29",
+      "event": "The original timetable documents 96 and branches A–D, with 96B serving Scarborough Centre between the Durham stations and Finch.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The original timetable contains the 96, 96A, 96B, 96C, 96D and 96E family.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2019-01-05-table-96-oshawa-finch-express.pdf"
+      ]
+    },
+    {
+      "date": "2020-09-05",
+      "event": "Service was consolidated on 96B; branches 96, 96A, 96C, 96D and 96E were withdrawn.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml"
+      ]
+    },
+    {
+      "date": "2023-05-20",
+      "event": "Seasonal 96Z Toronto Zoo trips began alongside 96B.",
+      "sources": [
+        "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — Adam Zhelka / Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2013-06-29-table-96-oshawa-finch-express.pdf",
+      "title": "GO Oshawa/Pickering–Finch Express routes 96 and 98, effective June 29, 2013",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2019-01-05-table-96-oshawa-finch-express.pdf",
+      "title": "GO Oshawa–Finch Express route 96, effective January 5, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2020/09/04-go_revises.shtml",
+      "title": "GO revises routes and services, September 5, 2020 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://www.metrolinx.com/en/discover/go-buses-to-popular-attractions-back-in-time-for-summer",
+      "title": "Metrolinx: GO buses to popular attractions back in time for summer, 2023",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/oshawa-finch-express/2023-05-20-table-96-oshawa-finch-express.pdf",
+      "title": "GO Oshawa–Finch Express including Toronto Zoo 96Z, effective May 20, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "An archive PDF named 2009-02-19-table-96 actually contains route 93. It has deliberately not been used as evidence for route 96.",
+    "Later seasonal operating periods and all short-turn details are not inferred from the 2023 Zoo timetable.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

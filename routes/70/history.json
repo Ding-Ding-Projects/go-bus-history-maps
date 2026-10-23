@@ -1,0 +1,92 @@
+{
+  "route": "70",
+  "name": "Uxbridge–Stouffville rail connections",
+  "status": "current",
+  "description": "Train-connecting services north of Unionville/Mount Joy, including Uxbridge, Goodwood, Stouffville and the station first called Lincolnville and then Old Elm. Route 71 contains the associated Union-bound bus service.",
+  "timeline": [
+    {
+      "date": "by 2016-01",
+      "event": "The original archived GTFS contains route 70 and branches 70A, 70B and 70E.",
+      "sources": [
+        "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip"
+      ]
+    },
+    {
+      "date": "2019-08-31",
+      "event": "The original timetable documents 70 Uxbridge–Stouffville–Unionville and shorter branches including 70B and 70D.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf"
+      ]
+    },
+    {
+      "date": "2021-10-16",
+      "event": "Lincolnville GO was renamed Old Elm GO; the name change preceded the physical station relocation.",
+      "sources": [
+        "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf"
+      ]
+    },
+    {
+      "date": "2023-01-07",
+      "event": "The timetable uses the Old Elm name while serving the original Bethesda Road station site.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf"
+      ]
+    },
+    {
+      "date": "2023-10-17",
+      "event": "Old Elm service moved to the replacement station southwest of the original site.",
+      "sources": [
+        "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "Original GO Transit GTFS archived January 11, 2016; use calendar validity, not retrieval date",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2019-08-31-table-71-stouffville.pdf",
+      "title": "GO Stouffville routes 70/71, effective August 31, 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.townofws.ca/media/vfmhpfrw/stouffville_year-in-review_2021.pdf",
+      "title": "Town of Whitchurch-Stouffville 2021 Year in Review: Lincolnville renamed October 16, 2021",
+      "type": "official"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/stouffville/2023-01-07-table-71-stouffville.pdf",
+      "title": "GO Stouffville routes 70/71, effective January 7, 2023",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://transittoronto.ca/archives/weblog/2023/10/16-go_relocat.shtml",
+      "title": "GO relocates Old Elm station, October 17, 2023 — Transit Toronto",
+      "type": "secondary"
+    },
+    {
+      "url": "https://web.archive.org/web/20220308054107id_/https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2022-03-08",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20230505/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2023-05-05",
+      "type": "original-gtfs"
+    },
+    {
+      "url": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+      "title": "GO Transit original GTFS snapshot 2026-10-23",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The first date the separate route 70 number was introduced has not been located. Earlier Uxbridge connecting buses in Table 71 should not automatically be relabelled 70.",
+    "The 2016 and later GTFS snapshots preserve additional exact branch and local-stop variants.",
+    "These are documented dated snapshots. Changes between snapshots, temporary diversions and every historical local stop have not all been recovered.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

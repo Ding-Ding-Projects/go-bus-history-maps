@@ -1,0 +1,166 @@
+[
+  {
+    "id": "20-2009",
+    "label": "Milton–Oakville via Bronte Road",
+    "date": "2009-09-05",
+    "branch": "20",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Road / Highway 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08040 (Bronte Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 GO Carpool Lot",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Sheridan College, Oakville",
+        "lat": 43.4698067,
+        "lon": -79.6977158,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00939 (Sheridan College); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Sheridan College",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Oakville GO",
+        "lat": 43.455966,
+        "lon": -79.681676,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oakville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.867178,
+          43.523803
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.6977158,
+          43.4698067
+        ],
+        [
+          -79.681676,
+          43.455966
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken."
+  },
+  {
+    "id": "20-2019",
+    "label": "Milton–Oakville with Trafalgar park-and-ride",
+    "date": "2019-01-05",
+    "branch": "20",
+    "direction": "Southbound",
+    "stops": [
+      {
+        "name": "Milton GO",
+        "lat": 43.523803,
+        "lon": -79.867178,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Milton GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Bronte Road / Highway 407 Park & Ride",
+        "lat": 43.4457626,
+        "lon": -79.7920151,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08040 (Bronte Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Bronte Rd. @ Hwy. 407 GO Carpool Lot",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Trafalgar Road / Highway 407 Park & Ride",
+        "lat": 43.5061531,
+        "lon": -79.7453842,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08024 (Trafalgar Rd. @ Hwy. 407 GO Carpool Lot); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Trafalgar Rd. @ Hwy. 407 GO Carpool Lot",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Sheridan College, Oakville",
+        "lat": 43.4698067,
+        "lon": -79.6977158,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00939 (Sheridan College); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Sheridan College",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Oakville GO",
+        "lat": 43.455966,
+        "lon": -79.681676,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Oakville GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The bus rows are weekday-only; a generic Daily cover is not proof of weekend route 20 service.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.867178,
+          43.523803
+        ],
+        [
+          -79.7920151,
+          43.4457626
+        ],
+        [
+          -79.7453842,
+          43.5061531
+        ],
+        [
+          -79.6977158,
+          43.4698067
+        ],
+        [
+          -79.681676,
+          43.455966
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. The bus rows are weekday-only; a generic Daily cover is not proof of weekend route 20 service."
+  }
+]

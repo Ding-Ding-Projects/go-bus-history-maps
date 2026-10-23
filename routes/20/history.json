@@ -1,0 +1,69 @@
+{
+  "route": "20",
+  "name": "Milton / Oakville",
+  "status": "discontinued",
+  "description": "A former weekday Milton–Oakville Lakeshore connection, distinct from the old Hamilton route 22 and the route 22 introduced in 2024.",
+  "timeline": [
+    {
+      "date": "2008-06-28",
+      "event": "GO introduced a Milton–Bronte GO connection, an earlier corridor configuration.",
+      "sources": [
+        "https://transittoronto.ca/regional/2115.shtml"
+      ]
+    },
+    {
+      "date": "2009-09-05",
+      "event": "Route 20 connects Milton GO with Oakville GO via Bronte Road / Highway 407 and Sheridan College.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2019-01-05",
+      "event": "The table also includes Trafalgar Road / Highway 407 and lists ten weekday trips each way.",
+      "sources": [
+        "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf"
+      ]
+    },
+    {
+      "date": "2019-06-29",
+      "event": "Route 20 was withdrawn in the June changes.",
+      "sources": [
+        "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://transittoronto.ca/regional/2115.shtml",
+      "title": "50 Years of GO Transit Bus Operations — historical chronology by Adam Zhelka / Toronto Transportation Society",
+      "type": "secondary"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2010-02-05-table-20-milton-oakville.pdf",
+      "title": "GO table 20, printed effective 5 September 2009 (filename dated 5 February 2010)",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://go-schedule-archive.s3.us-east-1.amazonaws.com/milton-oakville/2019-01-05-table-20-milton-oakville.pdf",
+      "title": "GO Milton / Oakville table 20, effective 5 January 2019",
+      "type": "original-timetable"
+    },
+    {
+      "url": "https://www.ontariondp.ca/news/ontario-ndp-transit-critic-condemns-cuts-go-bus-service",
+      "title": "Ontario NDP statement reproducing June 2019 route-withdrawal information; used only for service dates",
+      "type": "secondary"
+    },
+    {
+      "url": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+      "title": "GO Transit original GTFS snapshot 2016-01-11",
+      "type": "original-gtfs"
+    }
+  ],
+  "gaps": [
+    "The number used at the June 2008 Milton–Bronte launch is not established.",
+    "The June 2019 withdrawal date is from contemporary secondary reporting; an archived original GO notice would improve the record.",
+    "GTFS dates identify captured feeds, not necessarily the first or last day of a route. Open a pattern to see its exact scheduled service dates. Temporary rail replacement and special-service patterns are included when present in the source.",
+    "Manually reconstructed versions generally contain published timetable timing points / major stops. They must not be read as complete roadside stop inventories."
+  ]
+}

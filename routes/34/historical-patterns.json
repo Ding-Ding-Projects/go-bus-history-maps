@@ -1,0 +1,189 @@
+[
+  {
+    "id": "34-2012-brampton",
+    "label": "Brampton–Pearson–York Mills local",
+    "date": "2012-09-01",
+    "branch": "34",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Brampton GO",
+        "lat": 43.6869087,
+        "lon": -79.7628632,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00221 (Brampton Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Brampton Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea Transit Terminal, Central Park Drive",
+        "lat": 43.7186356,
+        "lon": -79.7205734,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "station-area",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 08032 (Bramalea Bus Terminal); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Bramalea Bus Terminal",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Bramalea GO",
+        "lat": 43.70215,
+        "lon": -79.689512,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Bramalea GO Bus",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Malton, Airport / Derry",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Toronto, Dixon / Martin Grove",
+        "lat": null,
+        "lon": null,
+        "accuracy": "unlocated"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "York Mills GO Bus Terminal",
+        "lat": 43.745079,
+        "lon": -79.4064636,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "York Mills Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2012-09-01-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected main-route timepoints, not every short turn.",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.7628632,
+          43.6869087
+        ],
+        [
+          -79.7205734,
+          43.7186356
+        ],
+        [
+          -79.689512,
+          43.70215
+        ],
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4064636,
+          43.745079
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. Selected main-route timepoints, not every short turn. 2 stop locations remain unestablished; the full ordered sequence is preserved in the list."
+  },
+  {
+    "id": "34-2019-finch",
+    "label": "Pearson–Finch after 2015",
+    "date": "2019-01-05",
+    "branch": "34",
+    "direction": "Eastbound",
+    "stops": [
+      {
+        "name": "Pearson Airport Terminal 1",
+        "lat": 43.6821671,
+        "lon": -79.6132584,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Pearson Airport Terminal 1",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yorkdale GO Bus Terminal",
+        "lat": 43.7249374,
+        "lon": -79.4488754,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Yorkdale Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      },
+      {
+        "name": "Yonge / Sheppard",
+        "lat": 43.7615967,
+        "lon": -79.4111938,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "accuracy": "approximate",
+        "location_note": "Reference stop area from 2016-01-11 GO GTFS stop 00008 (Yonge St.  @ Sheppard Ave.); used to locate the historical named place, not to assert its historic bay or curb position.",
+        "location_reference_name": "Yonge St.  @ Sheppard Ave.",
+        "location_reference_date": "2016-01-11"
+      },
+      {
+        "name": "Finch GO Bus Terminal",
+        "lat": 43.7819481,
+        "lon": -79.4159088,
+        "location_source": "https://openmobilitydata-data.s3.us-west-1.amazonaws.com/public/feeds/go-transit/32/20160111/gtfs.zip",
+        "location_reference_date": "2016-01-11",
+        "location_reference_name": "Finch Bus Terminal",
+        "accuracy": "reference stop area; historical platform unverified"
+      }
+    ],
+    "geometry_kind": "stop-connections",
+    "sources": [
+      "https://go-schedule-archive.s3.us-east-1.amazonaws.com/brampton-local-hwy-27-and-hwy-427-express/2019-01-05-table-34-brampton-local-hwy-27-and-hwy-427-express.pdf"
+    ],
+    "notes": "Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken. ",
+    "stop_scope": "major-stops",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -79.6132584,
+          43.6821671
+        ],
+        [
+          -79.4488754,
+          43.7249374
+        ],
+        [
+          -79.4111938,
+          43.7615967
+        ],
+        [
+          -79.4159088,
+          43.7819481
+        ]
+      ]
+    },
+    "geometry_note": "Schematic straight connections between established stop areas, not a street-by-street reconstruction. Selected published timepoints or named stops, not an exhaustive curb-stop list. Connectors are schematic and do not establish the roads taken."
+  }
+]
